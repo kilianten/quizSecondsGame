@@ -27,10 +27,13 @@ class Main:
     def loadImages(self):
         img_folder = path.join(self.game_folder, 'images')
         self.img_folder = path.join(self.game_folder, 'images')
-        self.starPanel = pg.image.load(path.join(img_folder, STAR_PANEL_IMAGE)).convert_alpha()
+        self.panel_star = pg.image.load(path.join(img_folder, PANEL_STAR_IMAGE)).convert_alpha()
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)
+        self.all_sprites = pg.sprite.LayeredUpdates()
+        self.game = StandardGame(self)
+
 
     def run(self):
         self.playing = True
@@ -58,6 +61,9 @@ class Main:
     def draw(self):
         self.screen.fill(BGCOLOR)
         self.draw_grid()
+        self.game.draw()
+        for sprite in self.all_sprites:
+            self.screen.blit(sprite.image, (sprite.x, sprite.y))
         pg.display.flip()
 
     def show_start_screen(self):

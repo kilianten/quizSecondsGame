@@ -10,4 +10,6 @@ TILESIZE = 64
 
 
 #Images
-STAR_PANEL_IMAGE =  "starPanel.png"
+PANEL_STAR_IMAGE =  "panelStar.png"
+
+PALETTE_1 = [(231, 111, 81, 0), (244, 162, 97), (233, 196, 106), (42, 157, 143), (38, 70, 83)]
