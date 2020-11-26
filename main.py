@@ -3,7 +3,10 @@ import pygame as pg
 import sys
 from os import path
 from os import listdir
+from game import *
 from settings import *
+from game import *
+from sprites import *
 
 class Main:
     def __init__(self):
@@ -19,6 +22,12 @@ class Main:
     def load_data(self):
         self.game_folder = path.dirname(__file__)
         self.baseFont = pg.font.SysFont("Roman", 20)
+        self.loadImages()
+
+    def loadImages(self):
+        img_folder = path.join(self.game_folder, 'images')
+        self.img_folder = path.join(self.game_folder, 'images')
+        self.starPanel = pg.image.load(path.join(img_folder, STAR_PANEL_IMAGE)).convert_alpha()
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)
