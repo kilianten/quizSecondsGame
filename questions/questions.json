@@ -1,0 +1,16 @@
+[
+{
+    "question":"What is the capital of Ireland?",
+    "answers":["Dublin"],
+    "options":["Belfast", "Cork", "London", "Edinburgh"],
+    "difficulty":1,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of England?",
+    "answers":["London"],
+    "options":["Belfast", "York", "London", "Edinburgh"],
+    "difficulty":1,
+    "categories":["geography"]
+}
+]
