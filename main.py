@@ -32,6 +32,7 @@ class Main:
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)
         self.all_sprites = pg.sprite.LayeredUpdates()
+        self.collidables = pg.sprite.Group()
         self.game = StandardGame(self)
 
     def run(self):
@@ -50,6 +51,7 @@ class Main:
         # update portion of the game loop
         self.mouse.rect.x, self.mouse.rect.y = pg.mouse.get_pos()
         self.mouse.x, self.mouse.y =  pg.mouse.get_pos()
+        self.game.update()
 
     def draw_grid(self):
         for x in range(0, WIDTH, TILESIZE):
@@ -60,10 +62,9 @@ class Main:
     def draw(self):
         self.screen.fill(BGCOLOR)
         self.draw_grid()
-        self.game.draw()
         for sprite in self.all_sprites:
             self.screen.blit(sprite.image, (sprite.x, sprite.y))
-        self.game.drawText()
+        self.game.draw()
         pg.display.flip()
 
     def show_start_screen(self):
@@ -89,8 +90,9 @@ class Main:
                         self.screen = pg.display.set_mode((WIDTH, HEIGHT), pg.FULLSCREEN)
                         self.isFullScreen = True
             if event.type == pg.MOUSEBUTTONUP:
-                pass
-                #if pg.sprite.collide_rect(sprite, self.mouse):
+                for sprite in self.collidables:
+                    if pg.sprite.collide_rect(sprite, self.mouse):
+                        sprite.clicked = True
 
 class Sprite_Mouse_Location(pg.sprite.Sprite):
     def __init__(self,x,y, game):

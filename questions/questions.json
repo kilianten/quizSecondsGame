@@ -19,5 +19,19 @@
     "options":["True"],
     "difficulty":4,
     "categories":["entertainment", "film"]
+},
+{
+    "question":"Idina Menzel sings 'let it go' 20 times in 'Let It Go' from Frozen",
+    "answers":["1"],
+    "options":["2"],
+    "difficulty":4,
+    "categories":["entertainment", "film"]
+},
+{
+    "question":"What is the capital of Turkey?",
+    "answers":["Ankara"],
+    "options":["Antalya", "Istanbul", "Konya", "Islamabad"],
+    "difficulty":2,
+    "categories":["geography"]
 }
 ]

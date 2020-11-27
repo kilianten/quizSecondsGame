@@ -20,12 +20,16 @@ def splitTextIntoLines(space, text, font):
 class Panel(pg.sprite.Sprite):
     def __init__(self, main, x, y, text):
         self.main = main
-        self.groups = self.main.all_sprites
+        self.groups = self.main.collidables
         pg.sprite.Sprite.__init__(self, self.groups)
         self.image = pg.transform.scale(self.main.panel_star, (512, 128))
         self.x = x
         self.y = y
         self.text = text
+        self.rect = self.image.get_rect()
+        self.rect.x = self.x
+        self.rect.y = self.y
+        self.clicked = False
 
     def drawRect(self):
         pg.draw.rect(self.main.screen, PALETTE_1[0], (self.x, self.y, self.image.get_width(), self.image.get_height()))
@@ -33,8 +37,7 @@ class Panel(pg.sprite.Sprite):
     def drawText(self):
         textWidthSpace = self.image.get_width() - (MIN_PADDING_OF_PANELS * 2)
         textHeightSpace = self.image.get_height() - (MIN_PADDING_OF_PANELS * 2)
-        text = str(self.text)
-        text = splitTextIntoLines(textWidthSpace, text, self.main.baseFont)
+        text = splitTextIntoLines(textWidthSpace, str(self.text), self.main.baseFont)
         lineSpace = len(text) * BASE_FONT_HEIGHT
         yOffset = textHeightSpace / len(text)
         emptySpace = textHeightSpace - BASE_FONT_HEIGHT * len(text)
