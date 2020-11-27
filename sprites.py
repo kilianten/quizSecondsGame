@@ -29,19 +29,26 @@ class Panel(pg.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.rect.x = self.x
         self.rect.y = self.y
-        self.clicked = False
+        self.clicked = self.isHoveredOn = False
 
     def drawRect(self):
         pg.draw.rect(self.main.screen, PALETTE_1[0], (self.x, self.y, self.image.get_width(), self.image.get_height()))
+        if self.isHoveredOn == True:
+            pg.draw.rect(self.main.screen, WHITE, (self.x, self.y, self.image.get_width(), self.image.get_height()), PANEL_BORDER_RADIUS)
 
     def drawText(self):
+        if self.isHoveredOn:
+            font = self.main.baseFontUnderline
+        else:
+            font = self.main.baseFont
+
         textWidthSpace = self.image.get_width() - (MIN_PADDING_OF_PANELS * 2)
         textHeightSpace = self.image.get_height() - (MIN_PADDING_OF_PANELS * 2)
-        text = splitTextIntoLines(textWidthSpace, str(self.text), self.main.baseFont)
+        text = splitTextIntoLines(textWidthSpace, str(self.text), font)
         lineSpace = len(text) * BASE_FONT_HEIGHT
         yOffset = textHeightSpace / len(text)
         emptySpace = textHeightSpace - BASE_FONT_HEIGHT * len(text)
         for x in range(0, len(text)):
-            emptyXSpace = textWidthSpace - self.main.baseFont.size(text[x])[0]
-            levelText = self.main.baseFont.render("{}".format(text[x]), False, WHITE)
+            emptyXSpace = textWidthSpace - font.size(text[x])[0]
+            levelText = font.render("{}".format(text[x]), False, WHITE)
             self.main.screen.blit(levelText, (self.x  + (emptyXSpace / 2) + MIN_PADDING_OF_PANELS, self.y + (x * BASE_FONT_HEIGHT) + (emptySpace / 2) + (MIN_PADDING_OF_PANELS)))

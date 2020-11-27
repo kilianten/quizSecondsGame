@@ -35,8 +35,6 @@ class Game():
 
     def getQuesiton(self):
         question = self.questions[randint(0, (len(self.questions) - 1))].copy()
-        while self.question is question["question"]:
-            question = self.questions[randint(0, (len(self.questions) - 1))].copy()
         self.question = question.copy()
         options = list(self.removeExtraOptionsAnswers(question))
         panelx = 0

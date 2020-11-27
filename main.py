@@ -22,6 +22,8 @@ class Main:
     def load_data(self):
         self.game_folder = path.dirname(__file__)
         self.baseFont = pg.font.SysFont("Roman", BASE_FONT_SIZE)
+        self.baseFontUnderline = pg.font.SysFont("Roman", BASE_FONT_SIZE)
+        self.baseFontUnderline.set_underline(True)
         self.loadImages()
 
     def loadImages(self):
@@ -76,6 +78,10 @@ class Main:
     def events(self):
         #if pg.sprite.collide_rect(sprite, self.mouse):
         for event in pg.event.get():
+            for sprite in self.collidables:
+                sprite.isHoveredOn = False
+                if pg.sprite.collide_rect(sprite, self.mouse):
+                    sprite.isHoveredOn = True
             if event.type == pg.QUIT:
                 self.quit()
             if event.type == pg.KEYDOWN:

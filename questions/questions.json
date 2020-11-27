@@ -21,17 +21,115 @@
     "categories":["entertainment", "film"]
 },
 {
-    "question":"Idina Menzel sings 'let it go' 20 times in 'Let It Go' from Frozen",
-    "answers":["1"],
-    "options":["2"],
-    "difficulty":4,
-    "categories":["entertainment", "film"]
-},
-{
     "question":"What is the capital of Turkey?",
     "answers":["Ankara"],
     "options":["Antalya", "Istanbul", "Konya", "Islamabad"],
     "difficulty":2,
     "categories":["geography"]
+},
+{
+    "question":"In what country is Catalhoyuk located?",
+    "answers":["Turkey"],
+    "options":["Pakistan", "Egypt", "Kosovo", "Nepal", "Brazil", "Liberia", "Ghana"],
+    "difficulty":3,
+    "categories":["geography"]
+},
+{
+    "question":"Catalhoyuk is located in which Turkish city?",
+    "answers":["Konya"],
+    "options":["Istanbul", "Antalya", "Ankara", "Bursa"],
+    "difficulty":5,
+    "categories":["geography"]
+},
+{
+    "question":"'Mesopotamia' is translated as 'the land between two rivers', which rivers was it referring to?",
+    "answers":["Tigris & Euphrates"],
+    "options":["Aras & Tigris", "Seyhan River & Aras", "Euphrates & Aras"],
+    "difficulty":4,
+    "categories":["geography"]
+},
+{
+    "question":"In which continent would you find the Yellow River?",
+    "answers":["Asia"],
+    "options":["Europe", "Africa", "North America", "Australia", "South America", "Antartica"],
+    "difficulty":2,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Lebanon?",
+    "answers":["Beirut"],
+    "options":["Europe", "Tripoli", "Tyre", "Sidon", "Tehran", "Amman"],
+    "difficulty":2,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Kazakhstan?",
+    "answers":["Nur-Sultan"],
+    "options":["Asmara", "Amman", "Doha", "Sidon", "Aktau", "Kyzylorda"],
+    "difficulty":3,
+    "categories":["geography"]
+},
+{
+    "question":"Which capital city was previously named Astana?",
+    "answers":["Nur-Sultan"],
+    "options":["Tehran", "Baghdad", "Doha", "Amman", "Sanaa", "Damascus", "Muscat", "Beijing", "Bangkok"],
+    "difficulty":3,
+    "categories":["geography"]
+},
+{
+    "question":"'No one is fool enough to choose war instead of peace - in peace sons bury fathers, but in war fathers bury sons' is a quote from whom?",
+    "answers":["Herodotus"],
+    "options":["Ronald Regan", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras"],
+    "difficulty":4,
+    "categories":["quotes"]
+},
+{
+    "question":"What is the capital of India?",
+    "answers":["New Delhi"],
+    "options":["Mumbai", "Bengaluru", "Chennai", "Hyderabad", "Kolkata", "Ahmedabad", "Jaipur"],
+    "difficulty":2,
+    "categories":["geography"]
+},
+{
+    "question":"What does Buddha mean?",
+    "answers":["Enlightened One"],
+    "options":["Blessed One", "Patient One", "Holy One", "Chosen One"],
+    "difficulty":2,
+    "categories":["religion", "history"]
+},
+{
+    "question":"How many days and nights did Buddha spend under a fig tree?",
+    "answers":["49"],
+    "options":["9", "29", "19", "39", "59", "69", "89", "1"],
+    "difficulty":3,
+    "categories":["religion", "history"]
+},
+{
+    "question":"What type of tree did Buddha sit under for 49 days and nights?",
+    "answers":["A Fig Tree"],
+    "options":["A Sal Tree", "29", "19", "39", "59", "69", "89", "1"],
+    "difficulty":3,
+    "categories":["religion", "history"]
+},
+{
+    "question":"'Stay away from negative people. They have a problem for every solution' is a quote from whom?",
+    "answers":["Albert Einstein"],
+    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "René Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis"],
+    "difficulty":2,
+    "categories":["quotes"]
+},
+{
+    "question":"'Everyone is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid' is a quote from whom?",
+    "answers":["Albert Einstein"],
+    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "René Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis"],
+    "difficulty":2,
+    "categories":["quotes"]
+},
+{
+    "question":"Which Chinese ruler was famous for their Terracotta Army?",
+    "answers":["Qin Shi Huang Zheng"],
+    "options":["Sun Yat-sen", "Kublai Khan", "Mao Zedong", "Deng Xiaoping"],
+    "difficulty":5,
+    "categories":["quotes"]
 }
 ]
