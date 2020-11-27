@@ -21,7 +21,7 @@ class Main:
 
     def load_data(self):
         self.game_folder = path.dirname(__file__)
-        self.baseFont = pg.font.SysFont("Roman", 20)
+        self.baseFont = pg.font.SysFont("Roman", BASE_FONT_SIZE)
         self.loadImages()
 
     def loadImages(self):
@@ -33,7 +33,6 @@ class Main:
         self.mouse = Sprite_Mouse_Location(0, 0, self)
         self.all_sprites = pg.sprite.LayeredUpdates()
         self.game = StandardGame(self)
-
 
     def run(self):
         self.playing = True
@@ -64,6 +63,7 @@ class Main:
         self.game.draw()
         for sprite in self.all_sprites:
             self.screen.blit(sprite.image, (sprite.x, sprite.y))
+        self.game.drawText()
         pg.display.flip()
 
     def show_start_screen(self):
@@ -95,7 +95,7 @@ class Main:
 class Sprite_Mouse_Location(pg.sprite.Sprite):
     def __init__(self,x,y, game):
         pg.sprite.Sprite.__init__(self)
-        self.rect = pg.Rect(x,y,1,1)
+        self.rect = pg.Rect(x, y, 1, 1)
         self.x = self.rect.x
         self.y = self.rect.y
 

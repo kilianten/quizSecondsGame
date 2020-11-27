@@ -9,8 +9,15 @@
 {
     "question":"What is the capital of England?",
     "answers":["London"],
-    "options":["Belfast", "York", "London", "Edinburgh"],
+    "options":["Belfast", "York", "Dublin", "Edinburgh"],
     "difficulty":1,
     "categories":["geography"]
+},
+{
+    "question":"Idina Menzel sings 'let it go' 20 times in 'Let It Go' from Frozen",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty":4,
+    "categories":["entertainment", "film"]
 }
 ]
