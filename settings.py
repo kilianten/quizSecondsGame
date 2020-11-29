@@ -20,6 +20,7 @@ BASE_FONT_HEIGHT = 27
 
 #Images
 PANEL_STAR_IMAGE =  "panelStar.png"
+PANEL_Q_STAR_IMAGE = "panelQStar.png"
 
 #Colorpalettes
 PALETTE_1 = [(231, 111, 81, 0), (244, 162, 97), (233, 196, 106), (42, 157, 143), (38, 70, 83)]

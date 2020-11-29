@@ -30,6 +30,7 @@ class Main:
         img_folder = path.join(self.game_folder, 'images')
         self.img_folder = path.join(self.game_folder, 'images')
         self.panel_star = pg.image.load(path.join(img_folder, PANEL_STAR_IMAGE)).convert_alpha()
+        self.panel_q_star = pg.image.load(path.join(img_folder, PANEL_Q_STAR_IMAGE)).convert_alpha()
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)

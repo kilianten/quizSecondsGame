@@ -58,7 +58,7 @@
 {
     "question":"What is the capital of Lebanon?",
     "answers":["Beirut"],
-    "options":["Europe", "Tripoli", "Tyre", "Sidon", "Tehran", "Amman"],
+    "options":["Tripoli", "Tyre", "Sidon", "Tehran", "Amman"],
     "difficulty":2,
     "categories":["geography"]
 },
@@ -79,7 +79,7 @@
 {
     "question":"'No one is fool enough to choose war instead of peace - in peace sons bury fathers, but in war fathers bury sons' is a quote from whom?",
     "answers":["Herodotus"],
-    "options":["Ronald Regan", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras"],
+    "options":["Ronald Regan", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty":4,
     "categories":["quotes"]
 },
@@ -105,23 +105,16 @@
     "categories":["religion", "history"]
 },
 {
-    "question":"What type of tree did Buddha sit under for 49 days and nights?",
-    "answers":["A Fig Tree"],
-    "options":["A Sal Tree", "29", "19", "39", "59", "69", "89", "1"],
-    "difficulty":3,
-    "categories":["religion", "history"]
-},
-{
     "question":"'Stay away from negative people. They have a problem for every solution' is a quote from whom?",
     "answers":["Albert Einstein"],
-    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "René Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis"],
+    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "René Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Lao Tzu"],
     "difficulty":2,
     "categories":["quotes"]
 },
 {
     "question":"'Everyone is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid' is a quote from whom?",
     "answers":["Albert Einstein"],
-    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "René Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis"],
+    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "René Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Lao Tzu"],
     "difficulty":2,
     "categories":["quotes"]
 },
@@ -130,6 +123,90 @@
     "answers":["Qin Shi Huang Zheng"],
     "options":["Sun Yat-sen", "Kublai Khan", "Mao Zedong", "Deng Xiaoping"],
     "difficulty":5,
+    "categories":["history"]
+},
+{
+    "question":"In which country would you find the Tiber river?",
+    "answers":["Italy"],
+    "options":["France", "Nyanmar", "Russia", "Portugal", "French Guyana", "Croatia"],
+    "difficulty":4,
+    "categories":["geography"]
+},
+{
+    "question":"When did the Black Death occur?",
+    "answers":["1346 - 1353"],
+    "options":["1246 - 1253", "1446 - 1453", "1646 - 1553", "1346 - 1653", "1146 - 1153"],
+    "difficulty":4,
+    "categories":["history"]
+},
+{
+    "question":"Which volcano caused the destruction of the Roman cities of Pompeii and Herculaneum?",
+    "answers":["Mount Vesuvius"],
+    "options":["Mount Etna", "Krakatoa", "Mount Fuji", "Mount Saint Helens", "Sakurajima"],
+    "difficulty":1,
+    "categories":["history", "geography", "nature"]
+},
+{
+    "question":"Where would you find Mount Vesuvius?",
+    "answers":["Italy"],
+    "options":["Mexico", "Greece", "China", "Kazakhstan", "Barbados", "Bangladesh"],
+    "difficulty":1,
+    "categories":["geography", "nature"]
+},
+{
+    "question":"When did Mount Vesuvius famously erupt and destroy Pompeii?",
+    "answers":["79AD"],
+    "options":["79BC", "162AD", "162BC", "20AD", "29BC", "138AD"],
+    "difficulty":3,
+    "categories":["history"]
+},
+{
+    "question":"When did Mount Vesuvius erupted and destroyed Pompeii and which other city?",
+    "answers":["Herculaneum"],
+    "options":["Cathage", "Mediolanum", "Eboracum", "Nicomedia", "Aquileia", "Syracuse"],
+    "difficulty":5,
+    "categories":["history"]
+},
+{
+    "question":"According to the proverb, hindsight is what?",
+    "answers":["Blinding"],
+    "options":["Helpful", "Useful", "Steady", "Marginal", "Time consuming", "Not what you remember"],
+    "difficulty":2,
+    "categories":["language", "proverb"]
+},
+{
+    "question":"'If you are depressed you are living in the past. If you are anxious you are living in the future. If you are at peace you are living in the present?', is a quote from whom?",
+    "answers":["Lao Tzu"],
+    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "René Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Albert Einstein"],
+    "difficulty":2,
     "categories":["quotes"]
+},
+{
+    "question":"'In a self-sufficient manner, thereby carrying all of one's food, shelter and equipment as one climbs' desribes which mountaineering style?",
+    "answers":["Alpine style"],
+    "options":["Expedition style", "Traditional Style", "Bouldering", "Free-Solo climbing", "Scrambling style"],
+    "difficulty":4,
+    "categories":["sports"]
+},
+{
+    "question":"Who famously drew Vitruvian Man?",
+    "answers":["Leonardo da Vinci"],
+    "options":["Pablo Picasso", "Vincent van Gogh", "Claude Money", "Michelangelo", "Frida Kahlo"],
+    "difficulty":1,
+    "categories":["art"]
+},
+{
+    "question":"Who is credited with formulating the model of the universe that placed the Sun rather than the Earth at the center of the universe?",
+    "answers":["Nicolaus Copernicus"],
+    "options":["Albert Einstein", "Isaac Newton", "Euclid", "Alan Turing", "Galileo Galilei", "Aristotle", "Archimedes"],
+    "difficulty":1,
+    "categories":["history", "science"]
+},
+{
+    "question":"'Edo is the former name of which capital city?",
+    "answers":["Tokyo, Japan"],
+    "options":["New dehli, India", "Kinshasa, Congo", "Abu Dhabi, United Arab Nations", "Kiev, Ukraine", "Hanoi, Vietnam"],
+    "difficulty":2,
+    "categories":["geography"]
 }
 ]

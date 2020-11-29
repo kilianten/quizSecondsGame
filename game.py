@@ -47,7 +47,8 @@ class Game():
                 panelx = (TILESIZE + 512) * x + PANEL_X_OFFSET
                 option = choice(options)
                 options.remove(option)
-                self.panels.append(Panel(self.main, panelx, panely, option))
+                self.panels.append(optionPanel(self.main, panelx, panely, option))
+            self.questionPanel = questionPanel(self.main, (7 * TILESIZE), (6 * TILESIZE), self.question["question"])
 
     def removeExtraOptionsAnswers(self, question):
         dup = dict(question)
@@ -59,11 +60,18 @@ class Game():
         shuffle(options)
         return options
 
+    def drawQuestionPanel(self):
+        questionPanel = self.questionPanel
+        questionPanel.drawRect()
+        self.main.screen.blit(questionPanel.image, (questionPanel.x, questionPanel.y))
+        questionPanel.drawText()
+
     def draw(self):
         for panel in self.panels:
             panel.drawRect()
             self.main.screen.blit(panel.image, (panel.x, panel.y))
             panel.drawText()
+        self.drawQuestionPanel()
 
 class StandardGame(Game):
     def __init__(self, main):

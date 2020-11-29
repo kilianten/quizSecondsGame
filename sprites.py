@@ -18,30 +18,27 @@ def splitTextIntoLines(space, text, font):
     return lines
 
 class Panel(pg.sprite.Sprite):
-    def __init__(self, main, x, y, text):
+    def __init__(self, main, x, y, text, image):
         self.main = main
         self.groups = self.main.collidables
         pg.sprite.Sprite.__init__(self, self.groups)
-        self.image = pg.transform.scale(self.main.panel_star, (512, 128))
+        self.image = image
         self.x = x
         self.y = y
         self.text = text
         self.rect = self.image.get_rect()
         self.rect.x = self.x
         self.rect.y = self.y
-        self.clicked = self.isHoveredOn = False
+        self.isHoveredOn = False
 
     def drawRect(self):
         pg.draw.rect(self.main.screen, PALETTE_1[0], (self.x, self.y, self.image.get_width(), self.image.get_height()))
-        if self.isHoveredOn == True:
-            pg.draw.rect(self.main.screen, WHITE, (self.x, self.y, self.image.get_width(), self.image.get_height()), PANEL_BORDER_RADIUS)
 
     def drawText(self):
         if self.isHoveredOn:
             font = self.main.baseFontUnderline
         else:
             font = self.main.baseFont
-
         textWidthSpace = self.image.get_width() - (MIN_PADDING_OF_PANELS * 2)
         textHeightSpace = self.image.get_height() - (MIN_PADDING_OF_PANELS * 2)
         text = splitTextIntoLines(textWidthSpace, str(self.text), font)
@@ -52,3 +49,17 @@ class Panel(pg.sprite.Sprite):
             emptyXSpace = textWidthSpace - font.size(text[x])[0]
             levelText = font.render("{}".format(text[x]), False, WHITE)
             self.main.screen.blit(levelText, (self.x  + (emptyXSpace / 2) + MIN_PADDING_OF_PANELS, self.y + (x * BASE_FONT_HEIGHT) + (emptySpace / 2) + (MIN_PADDING_OF_PANELS)))
+
+class questionPanel(Panel):
+    def __init__(self, main, x, y, text):
+        super().__init__(main, x, y, text, pg.transform.scale(main.panel_q_star, (960, 128)))
+
+class optionPanel(Panel):
+    def __init__(self, main, x, y, text):
+        super().__init__(main, x, y, text, pg.transform.scale(main.panel_star, (512, 128)))
+        self.clicked = False
+
+    def drawRect(self):
+        super().drawRect()
+        if self.isHoveredOn == True:
+            pg.draw.rect(self.main.screen, WHITE, (self.x, self.y, self.image.get_width(), self.image.get_height()), PANEL_BORDER_RADIUS)
