@@ -18,7 +18,7 @@ def splitTextIntoLines(space, text, font):
     return lines
 
 class Panel(pg.sprite.Sprite):
-    def __init__(self, main, x, y, text, image):
+    def __init__(self, main, x, y, text, image, colour):
         self.main = main
         self.groups = self.main.collidables
         pg.sprite.Sprite.__init__(self, self.groups)
@@ -30,9 +30,10 @@ class Panel(pg.sprite.Sprite):
         self.rect.x = self.x
         self.rect.y = self.y
         self.isHoveredOn = False
+        self.colour = colour
 
     def drawRect(self):
-        pg.draw.rect(self.main.screen, PALETTE_1[0], (self.x, self.y, self.image.get_width(), self.image.get_height()))
+        pg.draw.rect(self.main.screen, self.colour, (self.x, self.y, self.image.get_width(), self.image.get_height()))
 
     def drawText(self):
         if self.isHoveredOn:
@@ -51,15 +52,30 @@ class Panel(pg.sprite.Sprite):
             self.main.screen.blit(levelText, (self.x  + (emptyXSpace / 2) + MIN_PADDING_OF_PANELS, self.y + (x * BASE_FONT_HEIGHT) + (emptySpace / 2) + (MIN_PADDING_OF_PANELS)))
 
 class questionPanel(Panel):
-    def __init__(self, main, x, y, text):
-        super().__init__(main, x, y, text, pg.transform.scale(main.panel_q_star, (960, 128)))
+    def __init__(self, main, x, y, text, colour):
+        super().__init__(main, x, y, text, pg.transform.scale(main.panel_q_star, (960, 128)), colour)
 
 class optionPanel(Panel):
-    def __init__(self, main, x, y, text):
-        super().__init__(main, x, y, text, pg.transform.scale(main.panel_star, (512, 128)))
+    def __init__(self, main, x, y, text, colour):
+        super().__init__(main, x, y, text, pg.transform.scale(main.panel_star, (512, 128)), colour)
         self.clicked = False
 
     def drawRect(self):
         super().drawRect()
         if self.isHoveredOn == True:
             pg.draw.rect(self.main.screen, WHITE, (self.x, self.y, self.image.get_width(), self.image.get_height()), PANEL_BORDER_RADIUS)
+
+class LightJar(pg.sprite.Sprite):
+    def __init__(self, main, x, y, colour):
+        self.main = main
+        self.image = self.main.light_jar
+        self.x = x
+        self.y = y
+        self.rect = self.image.get_rect()
+        self.rect.x = self.x
+        self.rect.y = self.y
+        self.isOn = True
+        self.colour = colour
+
+    def drawRect(self):
+        pg.draw.rect(self.main.screen, self.colour, (self.x + 16, self.y + 16, self.image.get_width() - 32, self.image.get_height() - 23))

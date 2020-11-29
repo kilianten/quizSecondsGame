@@ -21,6 +21,11 @@ BASE_FONT_HEIGHT = 27
 #Images
 PANEL_STAR_IMAGE =  "panelStar.png"
 PANEL_Q_STAR_IMAGE = "panelQStar.png"
+LIGHT_IMAGE = "light.png"
 
 #Colorpalettes
-PALETTE_1 = [(231, 111, 81, 0), (244, 162, 97), (233, 196, 106), (42, 157, 143), (38, 70, 83)]
+PALETTE_1 = [(231, 111, 81, 0), (244, 162, 97), (42, 157, 143), (38, 70, 83)]
+
+NORMAL_START_TIME = 60
+NORMAL_CORRECT_BONUS = 6
+NUM_OF_LIGHTS = int(WIDTH / TILESIZE)

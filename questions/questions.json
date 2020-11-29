@@ -135,7 +135,7 @@
 {
     "question":"When did the Black Death occur?",
     "answers":["1346 - 1353"],
-    "options":["1246 - 1253", "1446 - 1453", "1646 - 1553", "1346 - 1653", "1146 - 1153"],
+    "options":["1246 - 1253", "1446 - 1453", "1646 - 1553", "1646 - 1653", "1146 - 1153"],
     "difficulty":4,
     "categories":["history"]
 },
@@ -161,7 +161,7 @@
     "categories":["history"]
 },
 {
-    "question":"When did Mount Vesuvius erupted and destroyed Pompeii and which other city?",
+    "question":"Mount Vesuvius erupted and destroyed Pompeii and which other city?",
     "answers":["Herculaneum"],
     "options":["Cathage", "Mediolanum", "Eboracum", "Nicomedia", "Aquileia", "Syracuse"],
     "difficulty":5,
@@ -203,10 +203,87 @@
     "categories":["history", "science"]
 },
 {
-    "question":"'Edo is the former name of which capital city?",
+    "question":"Edo is the former name of which capital city?",
     "answers":["Tokyo, Japan"],
     "options":["New dehli, India", "Kinshasa, Congo", "Abu Dhabi, United Arab Nations", "Kiev, Ukraine", "Hanoi, Vietnam"],
     "difficulty":2,
     "categories":["geography"]
+},
+{
+    "question":"Giordano Bruno was executed by the church for arguing what?",
+    "answers":["That the sun was a star and the universe is infinite"],
+    "options":["The bible should be translated into ordinary vernacular, for all to understand", "That his wife wasn't a witch", "The church shouldn't tax the poor", "Arguing that science was greated than God"],
+    "difficulty":4,
+    "categories":["history", "religion"]
+},
+{
+    "question":"In which Indian city would you find the Taj Mahal?",
+    "answers":["Agra"],
+    "options":["New Dehli", "Mumbai", "Kolkata", "Bengaluru", "Chennai", "Hydrebad", "Lucknow"],
+    "difficulty":3,
+    "categories":["history", "religion"]
+},
+{
+    "question":"When was the Taj Mahal commissioned by Shah Jahan?",
+    "answers":["1631"],
+    "options":["1731", "1531", "1600", "1700", "1500", "1431", "1400", "1100", "1131"],
+    "difficulty":3,
+    "categories":["history", "religion"]
+},
+{
+    "question":"Who commissioned was the Taj Mahal?",
+    "answers":["Shah Jahan"],
+    "options":["Samudragupta", "Ashoka Maurya", "Taj Mahal", "Maharana Pratap", "Maharana Mahal"],
+    "difficulty":5,
+    "categories":["history", "religion"]
+},
+{
+    "question":"One of the most famous jewels in the world, also known as 'Le bleu de France', is called?",
+    "answers":["The Hope Diamond"],
+    "options":["The Beautiful Diamond", "The Blue Diamond", "The Green Diamond"],
+    "difficulty":4,
+    "categories":["misc"]
+},
+{
+    "question":"Who is an agricultural pioneer and the inventor of the seed drill, the horse drawn hoe, and an improved plough, many of the developments in the 18th century agricultural revolution?",
+    "answers":["Jethro Tull"],
+    "options":["Helen Sharman", "Edith Wilson", "Matthias Sindelar", "Percy Julian"],
+    "difficulty":4,
+    "categories":["history"]
+},
+{
+    "question":"Chironex fleckeri is a of highly venomous species of what?",
+    "answers":["Jellyfish"],
+    "options":["Snake", "Frog", "Spider", "Octopus"],
+    "difficulty":3,
+    "categories":["nature"]
+},
+{
+    "question":"Erasmus Darwin is the grandfather of which famous scientist?",
+    "answers":["Charles Darwin"],
+    "options":["Marie Curie", "Isaac Newton", "Micheal Faraday"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"The word 'vaccine' comes from the Latin word 'vacca' meaning what?",
+    "answers":["Cow"],
+    "options":["Cure", "Health", "Immunity", "Waver", "Empty"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"Who invented the world's first vaccine?",
+    "answers":["Edward Jenner"],
+    "options":["Galen", "Virginia Apgar", "Jonas Salk", "William Osler"],
+    "difficulty": 3,
+    "categories":["history", "science"]
+},
+{
+    "question":"Edward Jenner created the first vaccine to combat which disease?",
+    "answers":["Smallpox"],
+    "options":["Bubonic plague", "Cholera", "Influenze", "Spanish Flu"],
+    "difficulty": 2,
+    "categories":["history", "science"]
 }
 ]
