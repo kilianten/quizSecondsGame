@@ -28,16 +28,22 @@ class Main:
 
     def loadImages(self):
         img_folder = path.join(self.game_folder, 'images')
+        snd_folder = path.join(self.game_folder, 'sounds')
         self.img_folder = path.join(self.game_folder, 'images')
         self.panel_star = pg.image.load(path.join(img_folder, PANEL_STAR_IMAGE)).convert_alpha()
         self.panel_q_star = pg.image.load(path.join(img_folder, PANEL_Q_STAR_IMAGE)).convert_alpha()
         self.light_jar = pg.image.load(path.join(img_folder, LIGHT_IMAGE)).convert_alpha()
+        self.correct_text = []
+        for image in CORRECT_TEXT_IMAGES:
+            self.correct_text.append(pg.image.load(path.join(img_folder, image)).convert_alpha())
+        self.correct_sound = pg.mixer.Sound(path.join(snd_folder, CORRECT_SOUND))
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)
         self.all_sprites = pg.sprite.LayeredUpdates()
         self.collidables = pg.sprite.Group()
         self.game = StandardGame(self)
+        self.game.isPaused = False
 
     def run(self):
         self.playing = True
@@ -56,6 +62,8 @@ class Main:
         self.mouse.rect.x, self.mouse.rect.y = pg.mouse.get_pos()
         self.mouse.x, self.mouse.y =  pg.mouse.get_pos()
         self.game.update()
+        for sprite in self.all_sprites:
+            sprite.update()
 
     def draw_grid(self):
         for x in range(0, WIDTH, TILESIZE):
@@ -66,9 +74,9 @@ class Main:
     def draw(self):
         self.screen.fill(BGCOLOR)
         self.draw_grid()
+        self.game.draw()
         for sprite in self.all_sprites:
             self.screen.blit(sprite.image, (sprite.x, sprite.y))
-        self.game.draw()
         pg.display.flip()
 
     def show_start_screen(self):

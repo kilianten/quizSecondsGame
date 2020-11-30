@@ -20,22 +20,25 @@ class Game():
         self.startTime = NORMAL_START_TIME
         self.timeRemaining = NORMAL_START_TIME
         self.lastUpdate = pg.time.get_ticks()
+        self.isPaused = False
 
     def update(self):
-        if pg.time.get_ticks() - self.lastUpdate > 1000:
-            self.timeRemaining -= 1
-            self.dimLights()
-            self.lastUpdate = pg.time.get_ticks()
-        for panel in self.panels:
-            if panel.clicked == True and panel.text in self.question["answers"]:
-                panel.clicked = False
-                self.resetQuestion()
-                self.timeRemaining += NORMAL_CORRECT_BONUS
-                if self.timeRemaining > NORMAL_START_TIME:
-                    self.timeRemaining = NORMAL_START_TIME
-            elif panel.clicked == True and not panel.text in self.question["answers"]:
-                self.resetQuestion()
-                self.timeRemaining -= NORMAL_PUNISHMENT_TIME
+        if self.isPaused == False:
+            if pg.time.get_ticks() - self.lastUpdate > 1000:
+                self.timeRemaining -= 1
+                self.dimLights()
+                self.lastUpdate = pg.time.get_ticks()
+            for panel in self.panels:
+                if panel.clicked == True and panel.text in self.question["answers"]:
+                    panel.clicked = False
+                    self.timeRemaining += NORMAL_CORRECT_BONUS
+                    if self.timeRemaining > NORMAL_START_TIME:
+                        self.timeRemaining = NORMAL_START_TIME
+                    correctAnimation(self.main, 1, 1)
+                    self.main.correct_sound.play()
+                elif panel.clicked == True and not panel.text in self.question["answers"]:
+                    self.resetQuestion()
+                    self.timeRemaining -= NORMAL_PUNISHMENT_TIME
 
     def resetQuestion(self):
         for panel in self.panels:

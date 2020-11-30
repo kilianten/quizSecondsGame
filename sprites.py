@@ -79,3 +79,26 @@ class LightJar(pg.sprite.Sprite):
 
     def drawRect(self):
         pg.draw.rect(self.main.screen, self.colour, (self.x + 16, self.y + 16, self.image.get_width() - 32, self.image.get_height() - 23))
+
+class correctAnimation(pg.sprite.Sprite):
+    def __init__(self, main, x, y):
+        self.main = main
+        self.groups = self.main.all_sprites
+        pg.sprite.Sprite.__init__(self, self.groups)
+        self.x = x
+        self.y = y
+        self.image = self.main.correct_text[0]
+        self.lastUpdate = pg.time.get_ticks()
+        self.main.game.isPaused = True
+
+    def update(self):
+        if pg.time.get_ticks() - self.lastUpdate > CORRECT_TEXT_UPDATE_TIME:
+            currentImage = self.main.correct_text.index(self.image)
+            currentImage += 1
+            if currentImage < len(self.main.correct_text):
+                self.image = self.main.correct_text[currentImage]
+                self.lastUpdate = pg.time.get_ticks()
+            else:
+                self.kill()
+                self.main.game.isPaused = False
+                self.main.game.resetQuestion()

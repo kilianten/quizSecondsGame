@@ -579,5 +579,117 @@
     "options":["Elvis Presley", "David Bowie", "Bob Dylan", "Mozart", "Bach", "Neil Young", "Aretha Franklin", "Stevie Wonder"],
     "difficulty": 3,
     "categories":["music", "history", "science"]
+},
+{
+    "question":"Nanosecond is a billionth of a second",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"Nanosecond is a millionth of a second",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"How small is a picosecond?",
+    "answers":["A trillionth of a second"],
+    "options":["A millionth of a second", "A billionth of a second", "A thousandth of a second"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"How small is a nanosecond?",
+    "answers":["A billionth of a second"],
+    "options":["A millionth of a second", "A trillionth of a second", "A thousandth of a second"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Ulysses is a 1922 book written by whom?",
+    "answers":["James Joyce"],
+    "options":["Ernest Hemmingway", "Charles Dickens", "Jane Austen", "Leo Tolstoy", "Aldous Huxley", "Oscar Wilde", "F. Scott Fitzgerald"],
+    "difficulty": 3,
+    "categories":["books", "authors"]
+},
+{
+    "question":"Which of these James Joyce novels were published in 1922?",
+    "answers":["Ulysses"],
+    "options":["Dubliners", "Finnegans Wake", "Eveline"],
+    "difficulty": 3,
+    "categories":["books", "authors"]
+},
+{
+    "question":"When did Edwin Hubble discovery that the universe is expanding?",
+    "answers":["1929"],
+    "options":["1946", "1900", "1915", "1897", "1885", "1873", "1899"],
+    "difficulty": 3,
+    "categories":["science", "history"]
+},
+{
+    "question":"Who discovered that the universe is expanding?",
+    "answers":["Edwin Hubble"],
+    "options":["Galileo Galilei", "Nicolaus Copernicus", "Isaac Newton", "Carl Sagan", "Neil DeGrasse Tyson"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"Who discovered that the universe is expanding?",
+    "answers":["Edwin Hubble"],
+    "options":["Galileo Galilei", "Nicolaus Copernicus", "Isaac Newton", "Carl Sagan", "Neil DeGrasse Tyson"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"Approximately what is the square root of 2?",
+    "answers":["1.4142"],
+    "options":["1", "1.3141", "0.5231", "0.9248"],
+    "difficulty": 3,
+    "categories":["math"]
+},
+{
+    "question":"On which planet is Olympus Mons located?",
+    "answers":["Mars"],
+    "options":["Earth", "Neptune", "Jupiter", "Uranus", "Saturn", "Venus"],
+    "difficulty": 3,
+    "categories":["astronomy", "science"]
+},
+{
+    "question":"On which planet is Makalu located?",
+    "answers":["Earth"],
+    "options":["Mars", "Neptune", "Jupiter", "Uranus", "Saturn", "Venus"],
+    "difficulty": 2,
+    "categories":["astronomy", "science"]
+},
+{
+    "question":"The Five-hundred-meter Aperture Spherical radio Telescope is located in which country?",
+    "answers":["China"],
+    "options":["The United States", "Japan", "South Korea", "United Kingdom", "Russia", "Singapore"],
+    "difficulty": 4,
+    "categories":["science", "geography"]
+},
+{
+    "question":"On the 18th of January 1778, British Explorer James Cook landed where?",
+    "answers":["Hawaii"],
+    "options":["Australia", "Jamaica", "Malaysia", "Tasmania"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"When did British Explorer James Cook reach Hawaii?",
+    "answers":["18th of January 1778"],
+    "options":["18th of January 1658", "18th of January 1709", "18th of January 1828", "18th of March 1438", "18th of March 1698"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"What is the capital of the Democratic Republic of the Congo?",
+    "answers":["Kinshasa"],
+    "options":["Goma", "Kinsangani", "Bukavu", "Mjubi-Mayi", "Conakry", "Accra", "Dakar", "Antananarivo"],
+    "difficulty": 3,
+    "categories":["geography"]
 }
 ]
