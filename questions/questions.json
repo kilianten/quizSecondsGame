@@ -285,5 +285,299 @@
     "options":["Bubonic plague", "Cholera", "Influenze", "Spanish Flu"],
     "difficulty": 2,
     "categories":["history", "science"]
+},
+{
+    "question":"What was issued by Abraham Lincoln on January 1, 1863?",
+    "answers":["The Emancipation Proclamation"],
+    "options":["Proclamation of Neutrality", "Thanksgiving Proclamation", "Proclamation of Amnesty"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"When was the Emancipation Proclamation issued?",
+    "answers":["January 1, 1863"],
+    "options":["January 1, 1763", "January 1, 1895", "January 1, 1866", "January 1, 1861", "January 1, 1862", "1869"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"Which president issued the Emancipation Proclamation in 1863?",
+    "answers":["Abraham Lincoln"],
+    "options":["George Washington", "Franklin D. Roosevelt", "Theodore Roosevelt", "Thomas Jefferson", "Harry S. Truman"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"Which play was Abraham Lincoln attending when he was assassinated?",
+    "answers":["Our American Cousin"],
+    "options":["Death of a Salesman", "Our Town", "A Raisin in the Sun"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"When was Abraham Lincoln assassinated?",
+    "answers":["April 14, 1865"],
+    "options":["April 14, 1963", "October 14, 1865", "October 14, 1865", "January 14, 1861", "September 14, 1861", "November 14, 1863", "November 14, 1861",  "May 14, 1861"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"In which theatre was Abraham Lincoln assassinated?",
+    "answers":["Ford's Theatre"],
+    "options":["Central City Opera House", "Fox Theatre", "Dock Street Theatre"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"Who assassinated Abraham Lincoln?",
+    "answers":["John Wilkes Booth"],
+    "options":["James Earl Ray", "Derek Hymes", "Alfred Linklater"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"Assassinated in 44BC, what was Caesar's full name?",
+    "answers":["Gaius Julius Caesar"],
+    "options":["Julius Caesar", "Julius Senneca Caesar", "Julius Albertus Caesar"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"When was Julius Caesar born?",
+    "answers":["13 July, 100 BC"],
+    "options":["13 August 141 AD", "13 July, 141 BC", "13 August, 100 AD", "13 December, 41 AD", "13 January, 41 BC"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"When did Julius Caesar die?",
+    "answers":["15 March 44BC"],
+    "options":["15 August 144 AD", "15 July, 144 BC", "15 August, 100 AD", "15 December, 44 AD", "15 January, 44 BC"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"When was Hitler was named Chancellor?",
+    "answers":["30th of January 1933"],
+    "options":["1st of September 1939", "31st of October 1941", "16th of June 1935", "15th of December, 1920", "15th of January, 1929"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"Both George Washington and Thomas Jefferson owned slaves",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"What was the 28th U.S state?",
+    "answers":["Texas"],
+    "options":["Iowa", "California", "Maine", "Florida", "Alabama", "Missouri", "Arkansas", "Michigan", "Wisonsin", "California"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Opium comes from the seeds of which plant?",
+    "answers":["Poppy"],
+    "options":["Guaco", "Pumpkin", "Bramble", "Chaguar", "Xate", "Mugwort"],
+    "difficulty": 3,
+    "categories":["nature"]
+},
+{
+    "question":"What is the medical name for nearsightedness?",
+    "answers":["Myopia"],
+    "options":["Hyperopia", "Presbyopia", "Cataracts", "Underyopia", "Biyopia", "Amblyopia"],
+    "difficulty": 2,
+    "categories":["science", "medical"]
+},
+{
+    "question":"What is the medical name for farsightedness?",
+    "answers":["Hyperopia"],
+    "options":["Myopia", "Presbyopia", "Cataracts", "Underyopia", "Biyopia", "Amblyopia"],
+    "difficulty": 2,
+    "categories":["science", "medical"]
+},
+{
+    "question":"What is the medical name for  a 'lazy eye'?",
+    "answers":["Amblyopia"],
+    "options":["Myopia", "Presbyopia", "Cataracts", "Underyopia", "Biyopia", "Hyperopia"],
+    "difficulty": 2,
+    "categories":["science", "medical"]
+},
+{
+    "question":"When did Hitler publish 'Mein Kampf'?",
+    "answers":["1925"],
+    "options":["1933", "1939", "1924", "1911", "1915"],
+    "difficulty": 4,
+    "categories":["history", "books"]
+},
+{
+    "question":"When was the Wall Street Crash?",
+    "answers":["1929"],
+    "options":["1933", "1939", "1924", "1911", "1915", "1922", "1925"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"When was Prohibitionin the United States?",
+    "answers":["1920 - 1933"],
+    "options":["1933 - 1945", "1919 - 1926", "1904 - 1911", "1911 - 1917", "1895 - 1901"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"What was the name of the WW2 Project that produced the first atomic bombs?",
+    "answers":["The Manhattan Project"],
+    "options":["The Nuclear Project", "The Boom Project", "Project Orange", "Project Hydra", "Project Pigeon", "Project Medusa"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"What was the name of the bomb used in the Trinity test in New Mexico?",
+    "answers":["The Gadget"],
+    "options":["Fatman", "Agent Orange", "Tiny Boy", "Little Boy"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"What was the name of the bomb dropped on Nagasaki?",
+    "answers":["Fatman"],
+    "options":["The Gadget", "Agent Orange", "Tiny Boy", "Little Boy"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"What was the name of the bomb dropped on Hiroshima?",
+    "answers":["Little Boy"],
+    "options":["The Gadget", "Agent Orange", "Tiny Boy", "Fatman"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"When did Aldolf Hitler killed himself by gunshot?",
+    "answers":["30 April 1945"],
+    "options":["30 April 1944", "30 April 1943", "30 April 1946", "30 August 1944", "30 August 1943", "30 August 1946", "30 August 1945", "30 May 1944", "30 May 1943", "30 May 1946", "30 May 1945"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"What was the name of Hitler's wife?",
+    "answers":["Eva Braun"],
+    "options":["Marie Müller", "Luarie Schneider", "Mia Fischer"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"When was the first detonation of a nuclear weapon?",
+    "answers":["July 16, 1945"],
+    "options":["April 16, 1945", "October 16, 1945", "Decemeber 16, 1945", "April 16, 1944", "October 16, 1944", "Decemeber 16, 1944", "July 16, 1944"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"'If I need only one shirt to cover myself with but use two, I am guilty of stealing one from another. If five bananas are enough to keep me going, my eating a sixth one is a form of theft' is a quote from whom?",
+    "answers":["Mahatma Gandhi"],
+    "options":["Albert Einstein", "Mother Teresa", "Martin Luther King Jr.", "Malcolm X", "Abraham Lincoln"],
+    "difficulty": 3,
+    "categories":["quote"]
+},
+{
+    "question":"Who was assassinated on 30 January 1948?",
+    "answers":["Mahatma Gandhi"],
+    "options":["Indira Gandhi", "Franz Ferdinand", "Martin Luther King Jr.", "Malcolm X"],
+    "difficulty": 2,
+    "categories":["quote"]
+},
+{
+    "question":"IBM's Deep Blue chess-playing computer defeated which chess grandmaster in 1996 & 1997?",
+    "answers":["Garry Kasparov"],
+    "options":["Bobby Fischer", "Magnus Carlsen", "Anatoly Karpov", "Boris Spassky"],
+    "difficulty": 3,
+    "categories":["science", "history"]
+},
+{
+    "question":"Alan Turing was convicted in 1952 for what?",
+    "answers":["Gross Indecency"],
+    "options":["Espionage", "Perjury", "Not fulfulling duties", "Theft"],
+    "difficulty": 3,
+    "categories":["science", "history"]
+},
+{
+    "question":"When did Alan Turing die?",
+    "answers":["1954"],
+    "options":["1958", "1948", "1932", "1945", "1961", "1960", "1951"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"What is the name of the hypothesis that the invention of artificial superintelligence will abruptly trigger runaway technological growth, resulting in unfathomable changes to civilization?",
+    "answers":["The singularity"],
+    "options":["Big Freeze", "The Technological Shadow", "Brink", "Runaway Computer Acceleration"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"'The universe is under no obligation to make sense to you' is a quote from whom?",
+    "answers":["Neil DeGrasse Tyson"],
+    "options":["Marie Curie", "Isaac Newton", "Micheal Faraday", "Albert Einstein", "Elon Musk", "Alezia Banks"],
+    "difficulty": 3,
+    "categories":["quotes", "science"]
+},
+{
+    "question":"Protons are an example of a hadron",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"A neutron is an example of a hadron",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"A Electron is an example of a hadron",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Where is the Large Hadron Collider located?",
+    "answers":["Switzerland"],
+    "options":["Poland", "The United States", "Britain", "Canada", "France", "Sweden", "Norway", "Denmark", "Belgium"],
+    "difficulty": 2,
+    "categories":["science", "geography"]
+},
+{
+    "question":"Approximately how far will light have travelled in a light-year?",
+    "answers":["Ten trillion kilometers"],
+    "options":["One year", "Ten billion kilometers", "Ten million kilometers", "Ten thousand kilometers"],
+    "difficulty": 5,
+    "categories":["science"]
+},
+{
+    "question":"How many Voyager probes were launched?",
+    "answers":["2"],
+    "options":["1", "7", "13", "3", "5"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"When were Voyager 1 and Voyager 2 launched?",
+    "answers":["1977"],
+    "options":["1968", "1983", "1942", "1967", "1961", "1971", "1988"],
+    "difficulty": 3,
+    "categories":["history", "science"]
+},
+{
+    "question":"Launched in 1977, Voyager 1 and Voyager 2 contained disks with music from which artist?",
+    "answers":["Chuck Berry", "Beethoven"],
+    "options":["Elvis Presley", "David Bowie", "Bob Dylan", "Mozart", "Bach", "Neil Young", "Aretha Franklin", "Stevie Wonder"],
+    "difficulty": 3,
+    "categories":["music", "history", "science"]
 }
 ]
