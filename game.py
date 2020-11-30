@@ -33,6 +33,9 @@ class Game():
                 self.timeRemaining += NORMAL_CORRECT_BONUS
                 if self.timeRemaining > NORMAL_START_TIME:
                     self.timeRemaining = NORMAL_START_TIME
+            elif panel.clicked == True and not panel.text in self.question["answers"]:
+                self.resetQuestion()
+                self.timeRemaining -= NORMAL_PUNISHMENT_TIME
 
     def resetQuestion(self):
         for panel in self.panels:
