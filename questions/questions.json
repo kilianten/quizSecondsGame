@@ -1097,5 +1097,264 @@
     "options":["Pretoria", "Bloemfontein", "Durban", "Cape Town"],
     "difficulty": 5,
     "categories":["geography"]
+},
+{
+    "question":"Which city is South Africa's largest?",
+    "answers":["Johannesburg"],
+    "options":["Pretoria", "Bloemfontein", "Durban", "Cape Town"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"Which country was formerly known as Burma?",
+    "answers":["Myanmar"],
+    "options":["Bhutan", "Pakistan", "Qatar", "Sri Lanka", "Indonesia"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"When did the ruling military junta change the Burma name to Myanmar?",
+    "answers":["1989"],
+    "options":["1961", "1955", "1911", "1873", "1998", "1907"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"When did the ruling military junta change the Burma name to Myanmar?",
+    "answers":["1989"],
+    "options":["1961", "1955", "1911", "1873", "1998", "1907"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Rangoon was the previous name for which city?",
+    "answers":["Yangon"],
+    "options":["Istambul", "Saint Petersburg", "Guangzhou", "Mumbai", "Sanaa"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Naypyidaw is the capital of which country?",
+    "answers":["Myanmar"],
+    "options":["Cambodia", "Bangladesh", "Ghana", "Laos", "Turkmenistan", "Somalia", "Guyana", "Grenada", "Togo", "Comoros"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Tulips in Holland were originally imported from which present day contry?",
+    "answers":["Turkey"],
+    "options":["Brussels", "Cambodia", "Luxembourg", "Laos", "Turkmenistan", "Slovakia", "Guyana"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"When did World War 1 begin?",
+    "answers":["September 1, 1939"],
+    "options":["February 1, 1938", "October 1, 1938", "April 1, 1939", "January 1, 1940", "January 1, 1939"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"When did World War 1 begin?",
+    "answers":["September 2, 1945"],
+    "options":["February 1, 1945", "October 1, 1946", "April 1, 1945", "January 1, 1945", "January 1, 1944"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"What is the capital of Nigeria?",
+    "answers":["Abuja"],
+    "options":["Niamey", "Accra", "Lagos", "Kano", "Enugu"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Where did Eva Braun meet Hitler?",
+    "answers":["Munich"],
+    "options":["Berlin", "Bern", "Paris", "London"],
+    "difficulty": 3,
+    "categories":["history", "misc"]
+},
+{
+    "question":"Where did Eva Braun meet Hitler?",
+    "answers":["Munich"],
+    "options":["Berlin", "Bern", "Paris", "London"],
+    "difficulty": 3,
+    "categories":["history", "misc"]
+},
+{
+    "question":"'For whoever has will be given more, and they will have an abundance. Whoever does not have, even what they have will be taken from them' comes from which bible verse?",
+    "answers":["Matthew 25:29"],
+    "options":["Isaiah 23:20", "Mark 21:2", "Psalm 29:10"],
+    "difficulty": 4,
+    "categories":["religion", "quotes"]
+},
+{
+    "question":"'Here we must run as fast as we can, just to stay in place. And if you wish to go anywhere you must run twice as fast as that' comes from which book?",
+    "answers":["Alice Adventures in Wonderland"],
+    "options":["The Lord of the Rings", "The Last Unicorn", "The Name of the Wind", "The Lion, the Witch and the Wardrobe", "The Wonderful Wizard of OZ"],
+    "difficulty":2,
+    "categories":["books", "quotes"]
+},
+{
+    "question":"'He whose life has a why can bear almost any how?' is a quote from whom?",
+    "answers":["Friedrich Niezsche"],
+    "options":["Ronald Regan", "Plato", "Karl Marx", "Socrates", "Confucius", "René Descartes", "Epictetus", "Lao Tzu", "Abhraham Lincoln", "C. S. Lewis"],
+    "difficulty":3,
+    "categories":["quotes"]
+},
+{
+    "question":"In 2018 Jordan B Peterson released his book with how many 'Rules for Life'?",
+    "answers":["12"],
+    "options":["5", "20", "1", "30", "10", "15", "100", "76"],
+    "difficulty":3,
+    "categories":["books"]
+},
+{
+    "question":"During World War II, B. F. Skinner's attempted to develop missiles guided by what?",
+    "answers":["Pigeons"],
+    "options":["Tornados", "Voice", "Radiowaves", "Heat", "GPS"],
+    "difficulty":3,
+    "categories":["science", "history", "misc"]
+},
+{
+    "question":"When was Socrates born?",
+    "answers":["470 BC"],
+    "options":["320 BC", "266 BC", "109 BC", "41 BC", "22 AD", "200 AD"],
+    "difficulty":4,
+    "categories":["history"]
+},
+{
+    "question":"How did Socrates die?",
+    "answers":["By drinking poison"],
+    "options":["A chariot crash", "Hanging", "By stabbing", "Natural causes"],
+    "difficulty":3,
+    "categories":["history"]
+},
+{
+    "question":"Karl Marx said what is the opium of the people?",
+    "answers":["Religion"],
+    "options":["Opium", "Laziness", "Love", "The economy", "Money"],
+    "difficulty":3,
+    "categories":["quotes"]
+},
+{
+    "question":"Where was Karl Marx from?",
+    "answers":["Germany"],
+    "options":["Austria", "Belgium", "France", "United Kingdom", "Poland", "Russia"],
+    "difficulty":2,
+    "categories":["quotes"]
+},
+{
+    "question":"'Cogito ergo sum' translates to what?",
+    "answers":["I think, therefore I am"],
+    "options":["Through adversity to the stars", "Seize the wine", "The die is cast", "Deeds, not words", "I believe because it is absurd"],
+    "difficulty":3,
+    "categories":["quotes"]
+},
+{
+    "question":"René Descartes was a philosopher from where?",
+    "answers":["France"],
+    "options":["Italy", "Greece", "Spain", "Belgium", "Finland"],
+    "difficulty":2,
+    "categories":["geography"]
+},
+{
+    "question":"In which of these countries can you find Mount Everest",
+    "answers":["China", "Nepal"],
+    "options":["Bangladesh", "Russia", "India", "Loas", "Myanmar"],
+    "difficulty":2,
+    "categories":["geography"]
+},
+{
+    "question":"A haiku consists of how many lines?",
+    "answers":["3"],
+    "options":["1", "7", "5", "15", "13", "21"],
+    "difficulty":2,
+    "categories":["poetry", "misc"]
+},
+{
+    "question":"The middle line of a haiku contains how many moras?",
+    "answers":["7"],
+    "options":["1", "3", "5", "15", "13", "21"],
+    "difficulty":2,
+    "categories":["poetry", "misc"]
+},
+{
+    "question":"The last line of a haiku contains how many moras?",
+    "answers":["5"],
+    "options":["1", "3", "7", "15", "13", "21"],
+    "difficulty":2,
+    "categories":["poetry", "misc"]
+},
+{
+    "question":"The first line of a haiku contains how many moras?",
+    "answers":["5"],
+    "options":["1", "3", "7", "15", "13", "21"],
+    "difficulty":2,
+    "categories":["poetry", "misc"]
+},
+{
+    "question":"A haiku is originally from which country?",
+    "answers":["Japan"],
+    "options":["China", "India", "Combodia", "Bhutan", "South Korea", "Philippines", "Indonesia", "Malaysia"],
+    "difficulty":2,
+    "categories":["poetry", "misc"]
+},
+{
+    "question":"Who created the Renaissance piece, Pietá?",
+    "answers":["Michelangelo"],
+    "options":["Raphael", "Donatello", "Titian", "Alberto Giacometti"],
+    "difficulty":2,
+    "categories":["art"]
+},
+{
+    "question":"Who created the Renaissance piece, Pietá?",
+    "answers":["Michelangelo"],
+    "options":["Raphael", "Donatello", "Titian", "Alberto Giacometti"],
+    "difficulty":2,
+    "categories":["art"]
+},
+{
+    "question":"What is the term for for deaths, injuries, or other damage inflicted on an unintended target?",
+    "answers":["Collateral damage"],
+    "options":["Whoopsy Whoops", "Misfire harm", "Friendly accident", "Lost fire"],
+    "difficulty":1,
+    "categories":["language"]
+},
+{
+    "question":"What ancient symbol depicting a serpent or dragon eating its own tail?",
+    "answers":["Ouroboros"],
+    "options":["La Sepienza", "Osmosis", "Ajna", "Seal of Shamash", "Alpha & Omega"],
+    "difficulty":3,
+    "categories":["misc", "history"]
+},
+{
+    "question":"'Don't be a girly man' is a quote from whom?",
+    "answers":["Arnold Schwarzenegger"],
+    "options":["Chuck Norris", "Hugh Jackman", "Angelina Jolie", "Harrison Ford", "Jackie Chan", "Elton John"],
+    "difficulty":2,
+    "categories":["quotes"]
+},
+{
+    "question":"Which dog was originally known as a 'German Spitz'?",
+    "answers":["American Eskimo Dog"],
+    "options":["German Shepard", "Bulldog", "Beagle", "Rottweiler", "Dachshund", "Great Dane"],
+    "difficulty":3,
+    "categories":["nature"]
+},
+{
+    "question":"What is a 'moniker'?",
+    "answers":["A name"],
+    "options":["An old Russian currency", "A tool", "One of Saturn's planets", "A priest"],
+    "difficulty":3,
+    "categories":["language"]
+},
+{
+    "question":"'Ask, and it shall be given to you; Seek, and ye shall' what?",
+    "answers":["Find"],
+    "options":["Discover", "Recover", "Get help", "Encounter"],
+    "difficulty":1,
+    "categories":["religion", "quotes"]
 }
 ]
