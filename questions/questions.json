@@ -296,7 +296,7 @@
 {
     "question":"When was the Emancipation Proclamation issued?",
     "answers":["January 1, 1863"],
-    "options":["January 1, 1763", "January 1, 1895", "January 1, 1866", "January 1, 1861", "January 1, 1862", "1869"],
+    "options":["January 1, 1763", "January 1, 1895", "January 1, 1866", "January 1, 1861", "January 1, 1862", "January 1, 1869"],
     "difficulty": 2,
     "categories":["history"]
 },
@@ -689,6 +689,314 @@
     "question":"What is the capital of the Democratic Republic of the Congo?",
     "answers":["Kinshasa"],
     "options":["Goma", "Kinsangani", "Bukavu", "Mjubi-Mayi", "Conakry", "Accra", "Dakar", "Antananarivo"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"In 1979, the World Health Organization declared what disease to be completely eradicated?",
+    "answers":["Smallpox"],
+    "options":["Ebola", "Rinderpest", "Malaria", "Polio", "Rubella"],
+    "difficulty": 2,
+    "categories":["medicine", "science"]
+},
+{
+    "question":"In 2013 Google introduced Calico, a company with the goal of solving what?",
+    "answers":["Death"],
+    "options":["Limited Search Results", "Internet Latency", "Every family not having access to the internet"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Finish the quote from Woody Allen, 'I don't want to achieve immortality through my work. I want to achieve it through ____'",
+    "answers":["Not dying"],
+    "options":["Making films until I die", "My children", "My character", "My work"],
+    "difficulty": 3,
+    "categories":["quotes", "entertainment"]
+},
+{
+    "question":"'Sildenafil' is sold as what brand name?",
+    "answers":["Viagra"],
+    "options":["Reglan", "Zantac", "Aspirin"],
+    "difficulty": 3,
+    "categories":["medicine"]
+},
+{
+    "question":"In 1907 Oskar Pfungst investigated 'Clever Hans' an animal that could seemingly do math. What animal was Clever Hans?",
+    "answers":["A horse"],
+    "options":["A dog", "A cat", "A lion", "A dolphin", "An elephant", "A turtle"],
+    "difficulty": 3,
+    "categories":["misc", "history"]
+},
+{
+    "question":"Nicolae Ceausescu was former president of which country?",
+    "answers":["Romania"],
+    "options":["Hungary", "Bolivia", "Botswana", "Macedonia", "Kosovo", "Yemen", "Iran"],
+    "difficulty": 3,
+    "categories":["politics", "history"]
+},
+{
+    "question":"On December 20th 2013, which country passed the Anti-Homosexuality Act?",
+    "answers":["Uganda"],
+    "options":["Brazil", "Bolivia", "Botswana", "Ghana", "Kosovo", "Yemen", "Democratic Republic of the Congo", "Iran", "Baghdad"],
+    "difficulty": 3,
+    "categories":["politics", "law"]
+},
+{
+    "question":"When did Narendra Damodardas Modi become Prime Minister of India?",
+    "answers":["2014"],
+    "options":["2016", "2012", "2013", "2011", "2015", "2017"],
+    "difficulty": 2,
+    "categories":["politics"]
+},
+{
+    "question":"In 1917 what did Marcel Duchamps purchase, declare it art and named it Fountain?",
+    "answers":["A urinal"],
+    "options":["A bird feeder", "A pile of bibles", "A hose", "A pile of rubbish"],
+    "difficulty": 2,
+    "categories":["art"]
+},
+{
+    "question":"In 1917 what did Marcel Duchamps purchased a urinal, declared it art and named it what?",
+    "answers":["Fountain"],
+    "options":["Birth", "Profession", "Presence", "Signature", "Medicine", "Country"],
+    "difficulty": 2,
+    "categories":["art"]
+},
+{
+    "question":"When did Marcel Duchamps create 'Fountain'?",
+    "answers":["1917"],
+    "options":["1935", "1924", "1947", "1960", "1956", "1981"],
+    "difficulty": 3,
+    "categories":["art"]
+},
+{
+    "question":"According to the proverb, beauty is in the eye of the what?",
+    "answers":["Beholder"],
+    "options":["Man", "Drunk", "Ugly", "Beautiful", "Stroke"],
+    "difficulty": 1,
+    "categories":["proverb", "language"]
+},
+{
+    "question":"'That 2,000-Yard Stare' by Tom Lea depicts a nameless Marine at which battle?",
+    "answers":["The Battle of Peleliu"],
+    "options":["The Battle of Tarawa", "The Battle of Guam", "The battle of Iwo Jima"],
+    "difficulty": 5,
+    "categories":["art"]
+},
+{
+    "question":"The lyrics 'A little country boy' from Johnny B. Goode by Chuck Berry were originally what?",
+    "answers":["A little coloured boy"],
+    "options":["A little white boy", "A little happy boy", "A little lonely"],
+    "difficulty": 2,
+    "categories":["music"]
+},
+{
+    "question":"Seoul is the capital of which country?",
+    "answers":["South Korea"],
+    "options":["North Korea", "Yemen", "Bangladesh", "Taiwan", "United Arab Emirates", "Qatar", "Ecaudor"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"Which of these it not a capital city?",
+    "answers":["Istambul", "Geneva", "Marrakesh", "Auckland", "Rio de Janeiro", "Johannesburg", "Toronto"],
+    "options":["Brasilia", "Ottawa", "Abuja", "New Dehli", "Bern", "Brussels", "Cairo"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Which of these animals do not use echo locations?",
+    "answers":["Octopuses"],
+    "options":["Bats", "Whales", "Dolphins"],
+    "difficulty": 2,
+    "categories":["nature", "animals"]
+},
+{
+    "question":"A group of monkeys is known as a what?",
+    "answers":["Troop"],
+    "options":["Drove", "Pack", "Army"],
+    "difficulty": 2,
+    "categories":["nature", "animals"]
+},
+{
+    "question":"How many grams in 1 teaspoon?",
+    "answers":["4.2 grams"],
+    "options":["5 grams", "6.5 grams", "8.4 grams", "3.2 grams", "7.1 grams"],
+    "difficulty": 2,
+    "categories":["nature", "animals"]
+},
+{
+    "question":"What is the capital of Finland?",
+    "answers":["Helsinki"],
+    "options":["Copenhagen", "Oslo", "Stockholm", "Vilnius", "Turku", "Savonlinna"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Someone described as terses uses few what?",
+    "answers":["Words"],
+    "options":["Clues", "Technologies", "Muscles", "Of their abilities"],
+    "difficulty": 1,
+    "categories":["language"]
+},
+{
+    "question":"The 'Molotov coctail' was named after the man who led the 1939-1940 Solveit campaign against Finland, what was his name?",
+    "answers":["Vyacheslav Molotov"],
+    "options":["Zarich iz Molo", "Moloslevak Tovluha", "Henri Molotov", "Molavio Abdulov", "Molein Kotov"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"Norway gained indepence from what country in 1905?",
+    "answers":["Sweden"],
+    "options":["Denmark", "Britain", "The United States", "Russia", "Finland"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"When did Norway gain indepence from Sweden?",
+    "answers":["1905"],
+    "options":["1962", "1931", "1959", "1899", "1875", "1913"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"What is the capital of Norway?",
+    "answers":["Oslo"],
+    "options":["Copenhagen", "Oslo", "Stockholm", "Vilnius", "Stavanger", "Bergen", "Helsinki"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"The town of Babylon was located along the Euphrates River, about 50 miles south of which present-day capital city?",
+    "answers":["Baghdad"],
+    "options":["Tehran", "Ankara", "Damascus"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Operation Barbarossa was the code name for the invasion of the Soviet Union,during which war?",
+    "answers":["World War 2"],
+    "options":["World War 1", "The Russian Civil War", "Taiping Rebellion", "Mongol conquests"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"Operation Barbarossa was the code name for the invasion of the Soviet Union, during which war?",
+    "answers":["World War 2"],
+    "options":["World War 1", "The Russian Civil War", "Taiping Rebellion", "Mongol conquests"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"What was the code name for the Axis invasion of the Soviet Union, during which World War 2?",
+    "answers":["Operation Barbarossa"],
+    "options":["Operation Yellow Snow", "Operation Thunder", "Operation Chimera", "Operation Anosmia"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"Codenamed Barbarossa, when did the Axis invasion of the Soviet Union during World War II take place?",
+    "answers":["22 June 1941"],
+    "options":["22 June 1943", "22 June 1944", "22 June 1945", "22 June 1942", "22 June 1940", "22 October 1941", "22 October 1943", "22 October 1944", "22 October 1945", "22 October 1942"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"What is the largest island in the world?",
+    "answers":["Greenlands"],
+    "options":["New Guinea", "Borneo", "Madagascar", "Baffin", "Sumatra", "Honshu", "Great Britain", "Victoria"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"What is the second largest island in the world?",
+    "answers":["New Guinea"],
+    "options":["Greenlands", "Borneo", "Madagascar", "Baffin", "Sumatra", "Honshu", "Great Britain", "Victoria"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"What is the third largest island in the world?",
+    "answers":["Borneo"],
+    "options":["Greenlands", "New Guinea", "Madagascar", "Baffin", "Sumatra", "Honshu", "Great Britain", "Victoria"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the fourth largest island in the world?",
+    "answers":["Madagascar"],
+    "options":["Greenlands", "New Guinea", "Borneo", "Baffin", "Sumatra", "Honshu", "Great Britain", "Victoria"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the fifth largest island in the world?",
+    "answers":["Baffin"],
+    "options":["Greenlands", "New Guinea", "Borneo", "Madagascar", "Sumatra", "Honshu", "Great Britain", "Victoria"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the sixth largest island in the world?",
+    "answers":["Sumatra"],
+    "options":["Greenlands", "New Guinea", "Borneo", "Madagascar", "Baffin", "Honshu", "Great Britain", "Victoria"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the seventh largest island in the world?",
+    "answers":["Honshu"],
+    "options":["Greenlands", "New Guinea", "Borneo", "Madagascar", "Baffin", "Sumatra", "Great Britain", "Victoria"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Which of these islands is the smallest?",
+    "answers":["Victoria", "Great Britain", "Honshu"],
+    "options":["Greenlands", "New Guinea", "Borneo", "Madagascar", "Baffin", "Sumatra"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Which of these islands is the largest?",
+    "answers":["Greenlands", "New Guinea", "Borneo"],
+    "options":["Madagascar", "Baffin", "Sumatra", "Honshu", "Great Britain"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Which of these countries is not part of Borneo?",
+    "answers":["Philippines", "Papa New Guinea"],
+    "options":["Indonesia", "Malaysia", "Brunei"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Baffin is territory of which country?",
+    "answers":["Canada"],
+    "options":["The United States", "Malaysia", "Phillipines", "Japan", "Indonesia", "Australia", "Great Britain"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Sumatra is part of which country?",
+    "answers":["Indonesia"],
+    "options":["The United States", "Malaysia", "Phillipines", "Japan", "Australia", "Great Britain", "China"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Sumatra is part of which country?",
+    "answers":["Japan"],
+    "options":["Malaysia", "Phillipines", "Indonesia", "Vietnam", "Taiwan", "China"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Baffin is territory of which country?",
+    "answers":["Canada"],
+    "options":["The United States", "Malaysia", "Phillipines", "Amsterdam", "Indonesia", "Australia", "Great Britain"],
     "difficulty": 3,
     "categories":["geography"]
 }

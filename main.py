@@ -106,9 +106,10 @@ class Main:
                         self.screen = pg.display.set_mode((WIDTH, HEIGHT), pg.FULLSCREEN)
                         self.isFullScreen = True
             if event.type == pg.MOUSEBUTTONUP:
-                for sprite in self.collidables:
-                    if pg.sprite.collide_rect(sprite, self.mouse):
-                        sprite.clicked = True
+                if event.button == 1:
+                    for sprite in self.collidables:
+                        if pg.sprite.collide_rect(sprite, self.mouse):
+                            sprite.clicked = True
 
 class Sprite_Mouse_Location(pg.sprite.Sprite):
     def __init__(self,x,y, game):

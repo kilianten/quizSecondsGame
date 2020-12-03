@@ -21,6 +21,9 @@ class Game():
         self.timeRemaining = NORMAL_START_TIME
         self.lastUpdate = pg.time.get_ticks()
         self.isPaused = False
+        self.score = 0
+        self.correctQuestions = 0
+        self.difficulty = 1
 
     def update(self):
         if self.isPaused == False:
@@ -30,6 +33,8 @@ class Game():
                 self.lastUpdate = pg.time.get_ticks()
             for panel in self.panels:
                 if panel.clicked == True and panel.text in self.question["answers"]:
+                    self.score += self.question["difficulty"] * self.difficulty
+                    self.correctQuestions += 1
                     panel.clicked = False
                     self.timeRemaining += NORMAL_CORRECT_BONUS
                     if self.timeRemaining > NORMAL_START_TIME:
@@ -94,6 +99,10 @@ class Game():
             if light.isOn:
                 light.drawRect()
             self.main.screen.blit(light.image, (light.x, light.y))
+        scoreText = self.main.baseFont.render("Score {}".format(self.score), False, BLACK)
+        self.main.screen.blit(scoreText, (5 * TILESIZE, 3 * TILESIZE))
+        questionsCorrect = self.main.baseFont.render("Correct Answers: {}".format(self.correctQuestions), False, BLACK)
+        self.main.screen.blit(questionsCorrect, (23 * TILESIZE, 3 * TILESIZE))
 
     def createLights(self):
         index = 0
