@@ -70,8 +70,8 @@ class Game():
                 panelx = (TILESIZE + 512) * x + PANEL_X_OFFSET
                 option = choice(options)
                 options.remove(option)
-                self.panels.append(optionPanel(self.main, panelx, panely, option, self.colour))
-            self.questionPanel = questionPanel(self.main, (7 * TILESIZE), (6 * TILESIZE), self.question["question"], self.colour)
+                self.panels.append(optionPanel(self.main, panelx, panely, option))
+            self.questionPanel = questionPanel(self.main, (7 * TILESIZE), (6 * TILESIZE), self.question["question"])
 
     def removeExtraOptionsAnswers(self, question):
         dup = dict(question)
@@ -99,10 +99,20 @@ class Game():
             if light.isOn:
                 light.drawRect()
             self.main.screen.blit(light.image, (light.x, light.y))
-        scoreText = self.main.baseFont.render("Score {}".format(self.score), False, BLACK)
+        self.drawScores()
+
+    def drawScores(self):
+        scoreText = self.main.baseFont.render("Score: {}".format(self.score), True, WHITE)
+        text = "Score: " + str(self.score)
+        pg.draw.rect(self.main.screen, PALETTE_1[1], (5 * TILESIZE - SCORE_BOX_PADDING, 3 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2) + 10))
+        pg.draw.rect(self.main.screen, PALETTE_1[0], (5 * TILESIZE - SCORE_BOX_PADDING, 3 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2)))
         self.main.screen.blit(scoreText, (5 * TILESIZE, 3 * TILESIZE))
-        questionsCorrect = self.main.baseFont.render("Correct Answers: {}".format(self.correctQuestions), False, BLACK)
-        self.main.screen.blit(questionsCorrect, (23 * TILESIZE, 3 * TILESIZE))
+        questionsCorrect = self.main.baseFont.render("Correct Answers: {}".format(self.correctQuestions), True, WHITE)
+        text = "Correct Answers: " + str(self.correctQuestions)
+        pg.draw.rect(self.main.screen, PALETTE_1[1], (21 * TILESIZE - SCORE_BOX_PADDING, 3 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2) + 10))
+        pg.draw.rect(self.main.screen, PALETTE_1[0], (21 * TILESIZE - SCORE_BOX_PADDING, 3 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2)))
+        self.main.screen.blit(questionsCorrect, (21 * TILESIZE, 3 * TILESIZE))
+
 
     def createLights(self):
         index = 0
@@ -114,13 +124,13 @@ class Game():
     def dimLights(self):
         percentageTimeRemain = self.timeRemaining / NORMAL_START_TIME
         numOfLightsOn = int(percentageTimeRemain * NUM_OF_LIGHTS)
-        self.updateColor(percentageTimeRemain)
+        self.updateColour(percentageTimeRemain)
         for x in range(numOfLightsOn, NUM_OF_LIGHTS):
             self.lights[x].isOn = False
         for x in range(0, numOfLightsOn + 1):
             self.lights[x].isOn = True
 
-    def updateColor(self, percentageRemainingTime):
+    def updateColour(self, percentageRemainingTime):
         if percentageRemainingTime <= 0.25:
             colour = self.colour_scheme[3]
         elif percentageRemainingTime <= 0.5:
@@ -132,9 +142,6 @@ class Game():
         self.colour = colour
         for light in self.lights:
             light.colour = colour
-        for panel in self.panels:
-            panel.colour = colour
-        self.questionPanel.colour = colour
 
 class StandardGame(Game):
     def __init__(self, main):

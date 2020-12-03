@@ -37,6 +37,7 @@ class Main:
         for image in CORRECT_TEXT_IMAGES:
             self.correct_text.append(pg.image.load(path.join(img_folder, image)).convert_alpha())
         self.correct_sound = pg.mixer.Sound(path.join(snd_folder, CORRECT_SOUND))
+        self.background_image = pg.image.load(path.join(img_folder, BACKGROUND_IMAGE)).convert_alpha()
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)
@@ -72,8 +73,8 @@ class Main:
             pg.draw.line(self.screen, LIGHTGREY, (0, y), (WIDTH, y))
 
     def draw(self):
-        self.screen.fill(BGCOLOR)
-        self.draw_grid()
+        self.screen.blit(self.background_image, (0, 0))
+        #self.draw_grid()
         self.game.draw()
         for sprite in self.all_sprites:
             self.screen.blit(sprite.image, (sprite.x, sprite.y))

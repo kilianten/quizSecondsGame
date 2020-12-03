@@ -1,4 +1,4 @@
-DARKGREY = (40, 40, 40)
+DARKGREY = (16, 105, 75)
 LIGHTGREY = (100, 100, 100)
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
@@ -15,6 +15,7 @@ MIN_PADDING_OF_PANELS = 6
 PANEL_BORDER_RADIUS = 3
 PANEL_X_OFFSET = TILESIZE * 6
 PANEL_Y_OFFSET = TILESIZE * 9
+SCORE_BOX_PADDING = 30
 
 BASE_FONT_SIZE = 28
 BASE_FONT_HEIGHT = 27
@@ -24,6 +25,7 @@ PANEL_STAR_IMAGE =  "panelStar.png"
 PANEL_Q_STAR_IMAGE = "panelQStar.png"
 LIGHT_IMAGE = "light2.png"
 CORRECT_TEXT_IMAGES = ["correct1.png", "correct2.png", "correct3.png", "correct4.png", "correct5.png", "correct6.png", "correct7.png", "correct8.png", "correct9.png",  "correct10.png", "correct11.png", "correct12.png", "correct13.png", "correct14.png", "correct15.png", "correct16.png", "correct17.png", "correct18.png", "correct19.png", "correct20.png", "correct21.png", "correct22.png", "correct23.png", "correct24.png", "correct25.png", "correct26.png", "correct27.png", "correct28.png", "correct29.png", "correct30.png", "correct31.png", "correct32.png"]
+BACKGROUND_IMAGE = "background.png"
 
 #sounds
 CORRECT_SOUND = "correct.wav"

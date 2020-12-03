@@ -999,5 +999,103 @@
     "options":["The United States", "Malaysia", "Phillipines", "Amsterdam", "Indonesia", "Australia", "Great Britain"],
     "difficulty": 3,
     "categories":["geography"]
+},
+{
+    "question":"Baffin is territory of which country?",
+    "answers":["Canada"],
+    "options":["The United States", "Malaysia", "Phillipines", "Amsterdam", "Indonesia", "Australia", "Great Britain"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the typical name for a ring with letters or a design carved into it?",
+    "answers":["Signet ring"],
+    "options":["Birthstone ring", "Purity ring", "Moissanite Ring", "Promise Ring"],
+    "difficulty": 4,
+    "categories":["fashion"]
+},
+{
+    "question":"Silent night was written originally in what language?",
+    "answers":["German"],
+    "options":["English", "French", "Latin", "Italian", "Egyptian"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"Who originally wrote silent night?",
+    "answers":["Joseph Mohr"],
+    "options":["Ronald Leiber", "Woldemar Kadelburg", "Jonathan Suhren", "Daniel Warrick"],
+    "difficulty": 4,
+    "categories":["misc"]
+},
+{
+    "question":"Joseph Mohr, the write of 'Silent Night' was originally from which country?",
+    "answers":["Austria"],
+    "options":["Germany", "Great Britain", "Ireland", "Australia", "The United States", "Amsterdam"],
+    "difficulty": 4,
+    "categories":["misc"]
+},
+{
+    "question":"When was superman first published?",
+    "answers":["1938"],
+    "options":["1948", "1924", "1905", "1914", "1883", "1876", "1868"],
+    "difficulty": 4,
+    "categories":["misc"]
+},
+{
+    "question":"Azure is a shade of what colour?",
+    "answers":["Blue"],
+    "options":["Green", "White", "Purple", "Grey", "Brown"],
+    "difficulty": 2,
+    "categories":["colours"]
+},
+{
+    "question":"Bamako is the capital of which country?",
+    "answers":["Mali"],
+    "options":["Maldives", "Burkina Faso", "Malwai", "Angola", "Togo", "Eritea", "Ghana", "Libya", "Gabon", "Tanzania", "Botzwana"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Kathmandu is the capital of which country?",
+    "answers":["Nepal"],
+    "options":["Maldives", "Qatar", "Malwai", "Angola", "Togo", "Oman", "Jordan", "Libya", "Gabon", "Yemen", "Botzwana"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Which of these is not a capital of South Africa?",
+    "answers":["Johannesburg", "Durban"],
+    "options":["Pretoria", "Bloemfontein", "Cape Town"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Which city is South Africa's executive capital?",
+    "answers":["Pretoria"],
+    "options":["Bloemfontein", "Cape Town", "Durban", "Johannesburg"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"Which city is South Africa's judicial capital?",
+    "answers":["Bloemfontein"],
+    "options":["Pretoria", "Cape Town", "Durban", "Johannesburg"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"Which city is South Africa's legislative capital?",
+    "answers":["Cape Town"],
+    "options":["Pretoria", "Bloemfontein", "Durban", "Johannesburg"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"Which city is South Africa's largest?",
+    "answers":["Johannesburg"],
+    "options":["Pretoria", "Bloemfontein", "Durban", "Cape Town"],
+    "difficulty": 5,
+    "categories":["geography"]
 }
 ]

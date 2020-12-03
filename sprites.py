@@ -18,7 +18,7 @@ def splitTextIntoLines(space, text, font):
     return lines
 
 class Panel(pg.sprite.Sprite):
-    def __init__(self, main, x, y, text, image, colour):
+    def __init__(self, main, x, y, text, image):
         self.main = main
         self.groups = self.main.collidables
         pg.sprite.Sprite.__init__(self, self.groups)
@@ -30,10 +30,9 @@ class Panel(pg.sprite.Sprite):
         self.rect.x = self.x
         self.rect.y = self.y
         self.isHoveredOn = False
-        self.colour = colour
 
     def drawRect(self):
-        pg.draw.rect(self.main.screen, self.colour, (self.x, self.y, self.image.get_width(), self.image.get_height()))
+        pg.draw.rect(self.main.screen, PALETTE_1[0], (self.x, self.y, self.image.get_width(), self.image.get_height()))
 
     def drawText(self):
         if self.isHoveredOn:
@@ -48,16 +47,16 @@ class Panel(pg.sprite.Sprite):
         emptySpace = textHeightSpace - BASE_FONT_HEIGHT * len(text)
         for x in range(0, len(text)):
             emptyXSpace = textWidthSpace - font.size(text[x])[0]
-            levelText = font.render("{}".format(text[x]), False, WHITE)
+            levelText = font.render("{}".format(text[x]), True, WHITE)
             self.main.screen.blit(levelText, (self.x  + (emptyXSpace / 2) + MIN_PADDING_OF_PANELS, self.y + (x * BASE_FONT_HEIGHT) + (emptySpace / 2) + (MIN_PADDING_OF_PANELS)))
 
 class questionPanel(Panel):
-    def __init__(self, main, x, y, text, colour):
-        super().__init__(main, x, y, text, pg.transform.scale(main.panel_q_star, (960, 128)), colour)
+    def __init__(self, main, x, y, text):
+        super().__init__(main, x, y, text, pg.transform.scale(main.panel_q_star, (960, 128)))
 
 class optionPanel(Panel):
-    def __init__(self, main, x, y, text, colour):
-        super().__init__(main, x, y, text, pg.transform.scale(main.panel_star, (512, 128)), colour)
+    def __init__(self, main, x, y, text):
+        super().__init__(main, x, y, text, pg.transform.scale(main.panel_star, (512, 128)))
         self.clicked = False
 
     def drawRect(self):
