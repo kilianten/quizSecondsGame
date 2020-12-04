@@ -7,6 +7,7 @@ from game import *
 from settings import *
 from game import *
 from sprites import *
+from mainMenu import *
 
 class Main:
     def __init__(self):
@@ -43,8 +44,7 @@ class Main:
         self.mouse = Sprite_Mouse_Location(0, 0, self)
         self.all_sprites = pg.sprite.LayeredUpdates()
         self.collidables = pg.sprite.Group()
-        self.game = StandardGame(self)
-        self.game.isPaused = False
+        self.game = MainMenu(self)
 
     def run(self):
         self.playing = True
@@ -74,7 +74,7 @@ class Main:
 
     def draw(self):
         self.screen.blit(self.background_image, (0, 0))
-        #self.draw_grid()
+        self.draw_grid()
         self.game.draw()
         for sprite in self.all_sprites:
             self.screen.blit(sprite.image, (sprite.x, sprite.y))
@@ -111,6 +111,13 @@ class Main:
                     for sprite in self.collidables:
                         if pg.sprite.collide_rect(sprite, self.mouse):
                             sprite.clicked = True
+                    self.game.checkCollision(self.mouse)
+
+    def createGame(self):
+        menu = self.game
+        self.game = StandardGame(self)
+        self.game.isPaused = False
+
 
 class Sprite_Mouse_Location(pg.sprite.Sprite):
     def __init__(self,x,y, game):

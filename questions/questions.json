@@ -1356,5 +1356,309 @@
     "options":["Discover", "Recover", "Get help", "Encounter"],
     "difficulty":1,
     "categories":["religion", "quotes"]
+},
+{
+    "question":"Which city was the capital of Nigeria before Abuja?",
+    "answers":["Lagos"],
+    "options":["Ibadan", "Port Harcout", "Benin City", "Kano"],
+    "difficulty":2,
+    "categories":["geography"]
+},
+{
+    "question":"Which verse is 'Ask, and it shall be given to you; Seek, and ye shall find; Knock, and it shall be open unto you; For everyone who asks receives, the one who seeks find; and to one who knocks, the door will be open'?",
+    "answers":["Matthew 7:7-7:8"],
+    "options":["Matthew 7:25-7:31", "Isaiah 23:20-23:22", "Isaiah 7:25-7:31"],
+    "difficulty":2,
+    "categories":["religion", "quotes"]
+},
+{
+    "question":"Where was the 1943 Tehran Conference, attended by Franklin D. Roosevelt, Joseph Stalin, and Winston Churchil held?",
+    "answers":["Iran"],
+    "options":["Great Britain", "France", "Washington", "Russia"],
+    "difficulty":1,
+    "categories":["history", "geography"]
+},
+{
+    "question":"When did the Tehran Conference, attended by Franklin D. Roosevelt, Joseph Stalin, and Winston Churchil take place?",
+    "answers":["1943"],
+    "options":["1944", "1942", "1941", "1945", "1946", "1940", "1939", "1938"],
+    "difficulty":1,
+    "categories":["history", "geography"]
+},
+{
+    "question":"Who did not attend the 1943 Tehran Conference?",
+    "answers":["Harry S. Truman", "Aldolf Hitler", "Neville Chamberlain", "Richard Goebbels"],
+    "options":["Franklin D. Roosevelt", "Joseph Stalin", "Winston Churchill"],
+    "difficulty":2,
+    "categories":["history"]
+},
+{
+    "question":"Giovanni Gentile is sometimes called the philosopher of what?",
+    "answers":["Fascism"],
+    "options":["The old world", "The new world", "Stoicism", "Italian cuisine", "The youth", "Medicine"],
+    "difficulty":4,
+    "categories":["philosophy", "history"]
+},
+{
+    "question":"Dandelion comes from the French meaning what?",
+    "answers":["Lion's Tooth"],
+    "options":["Bright and Yellow", "Gift of Leon", "Bright Leaves"],
+    "difficulty":1,
+    "categories":["language", "flowers"]
+},
+{
+    "question":"According to the proverb, fortune favors what?",
+    "answers":["The bold"],
+    "options":["The loner", "Friendship", "The famous", "The honest", "The rich"],
+    "difficulty":1,
+    "categories":["language", "flowers"]
+},
+{
+    "question":"Pyongyang is the capital of which country?",
+    "answers":["North Korea"],
+    "options":["South Korea", "Taiwan", "Yemen", "Mongolia", "Bhutan"],
+    "difficulty":2,
+    "categories":["geography"]
+},
+{
+    "question":"If your face is ruddy, it is what?",
+    "answers":["Red"],
+    "options":["Dirty", "Pale", "Ugly", "Beaten"],
+    "difficulty":3,
+    "categories":["language"]
+},
+{
+    "question":"Havana is the capital of which country?",
+    "answers":["Cuba"],
+    "options":["Bolivia", "Chile", "Ghana", "South Africa", "Venezuela", "Puerto Rico"],
+    "difficulty":2,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Australia?",
+    "answers":["Canberra"],
+    "options":["Sydney", "Melbourne", "Perth", "Brisbaine"],
+    "difficulty":2,
+    "categories":["geography"]
+},
+{
+    "question":"The word boycott originated in which country?",
+    "answers":["Ireland"],
+    "options":["England", "Spain", "Italy", "The United State", "Greece", "Australia", "Egypt"],
+    "difficulty":4,
+    "categories":["language", "geography"]
+},
+{
+    "question":"When did the Irish famine take place?",
+    "answers":["1840's"],
+    "options":["1820's", "1790's", "1800's", "1640's", "1690's", "1750's", "1830's"],
+    "difficulty":3,
+    "categories":["history"]
+},
+{
+    "question":"Approximately how many Irish people migrated to America during the 1840's?",
+    "answers":["1.5 million"],
+    "options":["3 million", "500 thousand", "4.3 million", "3.7 million"],
+    "difficulty":3,
+    "categories":["history"]
+},
+{
+    "question":"In 1845 the Irish blight affected which vedgetable?",
+    "answers":["Potato"],
+    "options":["Mushroom", "Peppers", "Carrots", "Onion"],
+    "difficulty":1,
+    "categories":["history", "nature"]
+},
+{
+    "question":"In 1845 the Irish blight was caused by what microscopic fungus?",
+    "answers":["Phytophthora infestans"],
+    "options":["Lyria diseasus", "Microphirya sycness", "Black dethius", "Yersinia pestis"],
+    "difficulty":5,
+    "categories":["science", "history"]
+},
+{
+    "question":"What is the capital of Venezuela?",
+    "answers":["Caracas"],
+    "options":["Havana", "La Paz", "Barquisimeto", "Maracaibo", "Ciudad Bolívar", "Lima"],
+    "difficulty":2,
+    "categories":["geography"]
+},
+{
+    "question":"Ikigai is a Japanese word whose meaning roughly translates to:?",
+    "answers":["'Reason for being'"],
+    "options":["'A hope for the lost'", "'Freedom to work'", "'Vengance for the peoples'", "Death by Work"],
+    "difficulty":4,
+    "categories":["language"]
+},
+{
+    "question":"According to Randolph Nesse of the University of Michigan in 2002, being what was the single largest demographic factor for early death?",
+    "answers":["Male"],
+    "options":["A smoker", "Young", "Old", "A heavy drinker", "A nurse"],
+    "difficulty":3,
+    "categories":["science", "misc"]
+},
+{
+    "question":"Wellington is the capital of which country?",
+    "answers":["New Zealand"],
+    "options":["Falkland Islands", "Barbados", "Grenada", "Falkan Islands", "Philippines", "Nigeria"],
+    "difficulty":2,
+    "categories":["geography"]
+},
+{
+    "question":"Who famously said 'There is no great genious without a touch of madness'?",
+    "answers":["Aristotle"],
+    "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "difficulty":4,
+    "categories":["quotes"]
+},
+{
+    "question":"The 80/20 rule, that for many events roughly 80% of the effects come from 20% of the causes is also known as what?",
+    "answers":["The Pareto principle"],
+    "options":["The Thesues Ship Rule", "The Bianchi principle", "The Bruno principle", "The Gentil principle", "The Toscani principle"],
+    "difficulty":3,
+    "categories":["science"]
+},
+{
+    "question":"Who famously said 'Men are disturbed not by things, but by the views which they take of things'?",
+    "answers":["Epictetus"],
+    "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Aristotle", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "difficulty":4,
+    "categories":["quotes"]
+},
+{
+    "question":"Finish this Buddha quote, 'Three things cannot be hidden long: The sun, the moon and the', what?",
+    "answers":["Truth"],
+    "options":["The Earth", "The universe", "The stars", "God"],
+    "difficulty":3,
+    "categories":["quotes"]
+},
+{
+    "question":"Who famously said 'Men are disturbed not by things, but by the views which they take of things'?",
+    "answers":["Hippocrates"],
+    "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Aristotle", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu", "Epictetus"],
+    "difficulty":4,
+    "categories":["quotes"]
+},
+{
+    "question":"Another Place is a piece of modern sculpture by Sir Antony Gormley, located where?",
+    "answers":["Liverpool, England"],
+    "options":["Doha, Qatar", "Chicago, Illinois", "Tel Aviv, Israel", "Athens, Greece", "Cork, Ireland", "Wellington, New Zealond"],
+    "difficulty":4,
+    "categories":["art", "geography"]
+},
+{
+    "question":"PFC is an acronym for which part of the brain?",
+    "answers":["The prefrontal cortex "],
+    "options":["The performance cranium", "The paramorobbi charter", "The paradox corrector", "The preelbum charge"],
+    "difficulty":1,
+    "categories":["science"]
+},
+{
+    "question":"Harare is the capital of which country?",
+    "answers":["Zimbabwe"],
+    "options":["Zambia", "Nigeria", "Grenada", "Niger", "Ghana", "Guyana", "Ethiopia"],
+    "difficulty":3,
+    "categories":["geography"]
+},
+{
+    "question":"Numismatics is the study/collecting of what?",
+    "answers":["Currency"],
+    "options":["Numbers", "Trains", "Lint", "Door Handles", "Angles"],
+    "difficulty":3,
+    "categories":["science", "language"]
+},
+{
+    "question":"Homo sapiens means what?",
+    "answers":["'Wise men'"],
+    "options":["Tall men", "Depleteing men", "Upright men", "Earthly men"],
+    "difficulty":1,
+    "categories":["language"]
+},
+{
+    "question":"Which if theses is an oxymoron?",
+    "answers":["Living dead"],
+    "options":["Racecar", "Happy Trucker", "Eskimo's Igloo", "Lone wolf"],
+    "difficulty":2,
+    "categories":["language"]
+},
+{
+    "question":"1 pound is equal to how much kilograms?",
+    "answers":["0.45"],
+    "options":["1.45", "2.45", "0.33", "1.33", "2.33", "1.60"],
+    "difficulty":3,
+    "categories":["sceince"]
+},
+{
+    "question":"According to British Anthropologist, Robin Dunbar, how many stable relations can a human comfortably maintain?",
+    "answers":["150"],
+    "options":["50", "250", "350", "450", "550", "As many friends as they have on Facebook", "650", "750", "850", "1,050"],
+    "difficulty":2,
+    "categories":["sceince"]
+},
+{
+    "question":"What is the capital of Spain?",
+    "answers":["Madrid"],
+    "options":["Barcelona", "Cadiz", "Valencia", "Murcia"],
+    "difficulty":1,
+    "categories":["geography"]
+},
+{
+    "question":"What is the name of the hypothetical scenario where the universe continues to expand forever and eventually all matter reaches a final uniform state of absolute 0 temperature?",
+    "answers":["Big Freeze"],
+    "options":["Ice Age", "Frozen Yoghurt Theory", "Esla Paradox"],
+    "difficulty":3,
+    "categories":["science"]
+},
+{
+    "question":"When did US congress approve the final text of the Declaration of Independence?",
+    "answers":["On July 4th 1776"],
+    "options":["On July 4th 1777", "On July 4th 1779", "On July 4th 1775", "On October 4th 1777", "On October 4th 1779"],
+    "difficulty":1,
+    "categories":["history"]
+},
+{
+    "question":"What is a cross between a donkey jack and a horse mare?",
+    "answers":["Mule"],
+    "options":["Donkey", "Horse", "Hinny"],
+    "difficulty":2,
+    "categories":["nature"]
+},
+{
+    "question":"What is a cross between a female donkey (jenny) and a male horse (stallion)?",
+    "answers":["Hinny"],
+    "options":["Donkey", "Horse", "Mule"],
+    "difficulty":2,
+    "categories":["nature"]
+},
+{
+    "question":"What is a cross between a female donkey (jenny) and a male horse (stallion)?",
+    "answers":["Hinny"],
+    "options":["Donkey", "Horse", "Mule"],
+    "difficulty":2,
+    "categories":["nature"]
+},
+{
+    "question":"From what animal's milk is the drink 'kumis' made from?",
+    "answers":["Mare"],
+    "options":["Goat", "Horse", "Frog", "Dog"],
+    "difficulty":3,
+    "categories":["drinks"]
+},
+{
+    "question":"What type of food is Brioche?",
+    "answers":["Bread"],
+    "options":["Pasta", "Cheese", "Stew", "Pie", "Soup"],
+    "difficulty":2,
+    "categories":["food"]
+},
+{
+    "question":"Which country has a national bean dish called 'ful'?",
+    "answers":["Egypt"],
+    "options":["Syria", "Pakistan", "Venezuela", "Bolivia", "Liberia", "Morocco"],
+    "difficulty":4,
+    "categories":["food"]
 }
+
+
+
 ]

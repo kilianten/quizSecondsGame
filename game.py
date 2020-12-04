@@ -104,12 +104,12 @@ class Game():
     def drawScores(self):
         scoreText = self.main.baseFont.render("Score: {}".format(self.score), True, WHITE)
         text = "Score: " + str(self.score)
-        pg.draw.rect(self.main.screen, PALETTE_1[1], (5 * TILESIZE - SCORE_BOX_PADDING, 3 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2) + 10))
+        pg.draw.rect(self.main.screen, PALETTE_1[1], (5 * TILESIZE - SCORE_BOX_PADDING, 3 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2) + 5))
         pg.draw.rect(self.main.screen, PALETTE_1[0], (5 * TILESIZE - SCORE_BOX_PADDING, 3 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2)))
         self.main.screen.blit(scoreText, (5 * TILESIZE, 3 * TILESIZE))
         questionsCorrect = self.main.baseFont.render("Correct Answers: {}".format(self.correctQuestions), True, WHITE)
         text = "Correct Answers: " + str(self.correctQuestions)
-        pg.draw.rect(self.main.screen, PALETTE_1[1], (21 * TILESIZE - SCORE_BOX_PADDING, 3 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2) + 10))
+        pg.draw.rect(self.main.screen, PALETTE_1[1], (21 * TILESIZE - SCORE_BOX_PADDING, 3 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2) + 5))
         pg.draw.rect(self.main.screen, PALETTE_1[0], (21 * TILESIZE - SCORE_BOX_PADDING, 3 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2)))
         self.main.screen.blit(questionsCorrect, (21 * TILESIZE, 3 * TILESIZE))
 
@@ -142,6 +142,9 @@ class Game():
         self.colour = colour
         for light in self.lights:
             light.colour = colour
+
+    def checkCollision(self, mouse):
+        pass
 
 class StandardGame(Game):
     def __init__(self, main):
