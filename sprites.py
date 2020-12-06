@@ -101,3 +101,30 @@ class correctAnimation(pg.sprite.Sprite):
                 self.kill()
                 self.main.game.isPaused = False
                 self.main.game.resetQuestion()
+
+class QuestionBox(pg.sprite.Sprite):
+    def __init__(self, main, x, y, difficulty):
+        self.main = main
+        self.groups = self.main.all_sprites, self.main.collidables
+        pg.sprite.Sprite.__init__(self, self.groups)
+        self.x = x
+        self.y = y
+        self.image = self.main.question_box_ticked_image
+        self.ticked = True
+        self.difficulty = difficulty
+        self.isHoveredOn = False
+        self.rect = self.image.get_rect()
+        self.rect.x = self.x
+        self.rect.y = self.y
+        self.clicked = False
+
+    def update(self):
+        if self.clicked == True:
+            if self.image == self.main.question_box_ticked_image:
+                self.image = self.main.question_box_image
+                self.ticked = False
+                self.clicked = False
+            else:
+                self.image = self.main.question_box_ticked_image
+                self.ticked = True
+                self.clicked = False

@@ -39,6 +39,10 @@ class Main:
             self.correct_text.append(pg.image.load(path.join(img_folder, image)).convert_alpha())
         self.correct_sound = pg.mixer.Sound(path.join(snd_folder, CORRECT_SOUND))
         self.background_image = pg.image.load(path.join(img_folder, BACKGROUND_IMAGE)).convert_alpha()
+        self.question_box_ticked_image = pg.image.load(path.join(img_folder, QUESTION_BOX_TICKED_IMAGE)).convert_alpha()
+        self.question_box_hover_image = pg.image.load(path.join(img_folder, QUESTION_BOX_HOVER_IMAGE)).convert_alpha()
+        self.question_box_image = pg.image.load(path.join(img_folder, QUESTION_BOX_IMAGE)).convert_alpha()
+
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)
@@ -113,11 +117,11 @@ class Main:
                             sprite.clicked = True
                     self.game.checkCollision(self.mouse)
 
-    def createGame(self):
+    def createGame(self, difficulties):
         menu = self.game
-        self.game = StandardGame(self)
+        self.game = StandardGame(self, difficulties)
         self.game.isPaused = False
-
+        self.all_sprites = pg.sprite.LayeredUpdates()
 
 class Sprite_Mouse_Location(pg.sprite.Sprite):
     def __init__(self,x,y, game):

@@ -7,11 +7,12 @@ from random import choice
 from random import shuffle
 
 class Game():
-    def __init__(self, main):
+    def __init__(self, main, difficulties):
         self.main = main
         self.colour_scheme = PALETTE_1
-        self.questions = json.load(open('questions/questions.json'))
-        print("Number of Questions: ", len(self.questions))
+        self.allQuestions = json.load(open('questions/questions.json'))
+        print("Number of Questions: ", len(self.allQuestions))
+        self.filterOutQuestions(difficulties)
         self.panels = []
         self.question = ""
         self.colour = self.colour_scheme[0]
@@ -24,6 +25,13 @@ class Game():
         self.score = 0
         self.correctQuestions = 0
         self.difficulty = 1
+
+    def filterOutQuestions(self, difficulties):
+        allQuestions = self.allQuestions.copy()
+        self.questions = []
+        for question in allQuestions:
+            if question["difficulty"] in difficulties:
+                self.questions.append(question)
 
     def update(self):
         if self.isPaused == False:
@@ -44,6 +52,7 @@ class Game():
                 elif panel.clicked == True and not panel.text in self.question["answers"]:
                     self.resetQuestion()
                     self.timeRemaining -= NORMAL_PUNISHMENT_TIME
+
 
     def resetQuestion(self):
         for panel in self.panels:
@@ -147,5 +156,5 @@ class Game():
         pass
 
 class StandardGame(Game):
-    def __init__(self, main):
-        super().__init__(main)
+    def __init__(self, main, difficulties):
+        super().__init__(main, difficulties)
