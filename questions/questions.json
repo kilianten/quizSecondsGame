@@ -833,7 +833,7 @@
     "categories":["geography"]
 },
 {
-    "question":"Someone described as terses uses few what?",
+    "question":"Someone described as terse uses few what?",
     "answers":["Words"],
     "options":["Clues", "Technologies", "Muscles", "Of their abilities"],
     "difficulty": 1,
@@ -863,7 +863,7 @@
 {
     "question":"What is the capital of Norway?",
     "answers":["Oslo"],
-    "options":["Copenhagen", "Oslo", "Stockholm", "Vilnius", "Stavanger", "Bergen", "Helsinki"],
+    "options":["Copenhagen", "Stockholm", "Vilnius", "Stavanger", "Bergen", "Helsinki"],
     "difficulty": 1,
     "categories":["geography"]
 },
@@ -878,14 +878,7 @@
     "question":"Operation Barbarossa was the code name for the invasion of the Soviet Union,during which war?",
     "answers":["World War 2"],
     "options":["World War 1", "The Russian Civil War", "Taiping Rebellion", "Mongol conquests"],
-    "difficulty": 1,
-    "categories":["history"]
-},
-{
-    "question":"Operation Barbarossa was the code name for the invasion of the Soviet Union, during which war?",
-    "answers":["World War 2"],
-    "options":["World War 1", "The Russian Civil War", "Taiping Rebellion", "Mongol conquests"],
-    "difficulty": 1,
+    "difficulty": 2,
     "categories":["history"]
 },
 {
@@ -1155,7 +1148,7 @@
     "categories":["history"]
 },
 {
-    "question":"When did World War 1 begin?",
+    "question":"When did World War 1 end?",
     "answers":["September 2, 1945"],
     "options":["February 1, 1945", "October 1, 1946", "April 1, 1945", "January 1, 1945", "January 1, 1944"],
     "difficulty": 2,
@@ -1736,10 +1729,1513 @@
     "categories":["history"]
 },
 {
-    "question":"When was the first atomic bomb?",
+    "question":"At what time was the first atomic bomb detonated?",
     "answers":["5:29:45"],
     "options":["6:29:45", "8:29:45", "10:59:45", "11:59:45", "5:59:45"],
     "difficulty": 5,
     "categories":["history"]
+},
+{
+    "question":"In what month did Neil Armstrong and Buzz Aldrin land the lunar module on the moon?",
+    "answers":["July"],
+    "options":["June", "January", "February", "March", "April", "May", "August", "September", "October", "November", "December"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"When did Neil Armstrong and Buzz Aldrin land the lunar module on the moon?",
+    "answers":["20th of July 1969"],
+    "options":["20th of July 1968", "20th of July 1960", "20th of July 1966", "1st of November 1968", "1st of November 1960", "1st of November 1966"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"Who was the first person to walk on the Moon?",
+    "answers":["Neil Armstrong"],
+    "options":["Buzz Aldrin", "Michael Collins", "Yuri Gagarin"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"Who was the lunar module pilot on the 1969 Apollo 11 mission?",
+    "answers":["Buzz Aldrin"],
+    "options":["Neil Armstrong", "Michael Collins", "Yuri Gagarin"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"Who was the lunar module pilot on the 1969 Apollo 11 mission?",
+    "answers":["Buzz Aldrin"],
+    "options":["Neil Armstrong", "Michael Collins", "Yuri Gagarin"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"Who flew the Apollo 11 command module Columbia around the Moon while his crewmates made the first crewed moon landing?",
+    "answers":["Michael Collins"],
+    "options":["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Richard Finnegan"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"Which was the first mission to land humans on the moon?",
+    "answers":["Apollo 11"],
+    "options":["Apollo 8", "Apollo 9", "Apollo 10", "Apollo 12"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"What was the name of the spacecraft that served as the crewed lunar lander of Apollo 11?",
+    "answers":["Eagle"],
+    "options":["Columbia", "Nightshift", "Orange", "Aberdine", "Alarm", "Ferry", "Net print"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"Britain went to war with China in 1840, after China banned what?",
+    "answers":["Opium"],
+    "options":["Pepper", "Prostitution", "Alcohol", "Slavery", "Salt", "Homosexuality"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"When did the first Opium war between Britain and China take place?",
+    "answers":["1840-1842"],
+    "options":["1880-1882", "1940-1942", "1980-1982", "1740-1742", "1780-1782", "1940-1942"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"After the First Opium War, Britain defeated China and took control of Hong Kong until when?",
+    "answers":["1997"],
+    "options":["1897", "1925", "1825", "1740", "1697", "1597", "1522"],
+    "difficulty": 4,
+    "categories":["geography", "politics", "history"]
+},
+{
+    "question":"Meaning 'A minor irritation that spoils the success or enjoyment of something', the proverb says theres 'A fly in the' what?",
+    "answers":["Ointment"],
+    "options":["Champagne", "Soup", "1825", "1740-1742", "1780-1782", "1940-1942"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"According to the Martin Luther King Jr quote, 'Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only' what can do that?",
+    "answers":["Love"],
+    "options":["Friendship", "Protests", "Peace", "Equality"],
+    "difficulty": 1,
+    "categories":["quotes"]
+},
+{
+    "question":"Who was America named after?",
+    "answers":["Amerigo Vespucci"],
+    "options":["Ron R. America", "Almerica Andre", "Amer icaran", "Christopher Columbus"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"When did Juan Rodriguez Bermejo of the Pinta spot what we now call the Bahamas?",
+    "answers":["October 12th 1492"],
+    "options":["October 12th 1392", "October 12th 1292", "Setpember 12th 1492", "September 13th 1392", "September 24th 1292"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"When did Juan Rodriguez Bermejo of the Pinta spot what we now call the Bahamas?",
+    "answers":["October 12th 1492"],
+    "options":["October 12th 1392", "October 12th 1292", "Setpember 12th 1492", "September 13th 1392", "September 24th 1292"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"On October 12th 1492, Juan Rodriguez Bermejo of the Pinta spotted what we now call the Bahamas and reportedly shouted what?",
+    "answers":["Land, Land"],
+    "options":["I'm king of the world", "Were gonna need a bigger boat", "Its beautiful", "I call ye, America"],
+    "difficulty": 1,
+    "categories":["quotes"]
+},
+{
+    "question":"In 1519, Hernando Cortés landed in which modern country?",
+    "answers":["Mexico"],
+    "options":["Bahamas", "Peru", "Chile", "Panama"],
+    "difficulty": 3,
+    "categories":["geography", "history"]
+},
+{
+    "question":"In 1519, Hernando Cortés landed in Mexico and discovered which civilization?",
+    "answers":["Aztec"],
+    "options":["Inca"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"When did Hernando Cortés land in Mexico for the first time?",
+    "answers":["1519"],
+    "options":["1492", "1522", "1452", "1561", "1421", "1498"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"Who, in 1519, landed in Mexico to discover the Aztec civilization?",
+    "answers":["Hernando Cortés"],
+    "options":["Christopher Columbus", "Francisco Pizarro", "Amerigo Vespucci", "Marco Polo", "John Cabot"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"Who, in 1522, landed in Peru to discover the Inca civilization?",
+    "answers":["Francisco Pizarro"],
+    "options":["Christopher Columbus", "Hernando Cortés", "Amerigo Vespucci", "Marco Polo", "John Cabot"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"When did Francisco Pizarro land in Peru for the first time?",
+    "answers":["1522"],
+    "options":["1492", "1519", "1452", "1561", "1421", "1498"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"In 1522, Francisco Pizarro landed in Peru and discovered which civilization?",
+    "answers":["Inca"],
+    "options":["Aztec"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"In 1522, Francisco Pizarro landed in where to discover the Inca civilization?",
+    "answers":["Peru"],
+    "options":["Panama", "Bahamas", "Chile", "Bolivia", "Mexico"],
+    "difficulty": 2,
+    "categories":["geography", "history"]
+},
+{
+    "question":"'All that I feel to be good is good; all that I feel to be bad is bad' is a quote from whom?",
+    "answers":["Jean-Jacques Rousseau"],
+    "options":["Ronald Regan", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu", "Herodotus"],
+    "difficulty":4,
+    "categories":["quotes"]
+},
+{
+    "question":"When was aluminium discovered?",
+    "answers":["1820's"],
+    "options":["1620's", "1720's", "1920's", "1520's", "1320's", "1220's"],
+    "difficulty":4,
+    "categories":["science", "history"]
+},
+{
+    "question":"Some sharks must keep swimming in order to breath?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty":2,
+    "categories":["nature"]
+},
+{
+    "question":"When did Mary Shelley publish Frankenstein?",
+    "answers":["1st January 1818"],
+    "options":["12th May 1860", "5th Match 1919", "2nd January 1943", "18th June 1878"],
+    "difficulty":3,
+    "categories":["books"]
+},
+{
+    "question":"What age was Mary Shelley when she wrote Frankenstein?",
+    "answers":["19"],
+    "options":["27", "33", "43", "58", "61", "70"],
+    "difficulty":2,
+    "categories":["books"]
+},
+{
+    "question":"Where was Mary Shelley born?",
+    "answers":["England"],
+    "options":["Ireland", "Switzerland", "Germany", "Poland", "Austria"],
+    "difficulty":3,
+    "categories":["authors"]
+},
+{
+    "question":"Who wrote Frankenstein?",
+    "answers":["Mary Shelley"],
+    "options":["Edger Allan Poe", "George Eliot", "Walt Whitman", "Jane Austen", "Benjamin Constant"],
+    "difficulty":1,
+    "categories":["authors"]
+},
+{
+    "question":"Where is Frankenstein set?",
+    "answers":["Geneva, Switzerland"],
+    "options":["London, England", "Leipzig, Germany", "Namur, Belgium", "Paris, France", "Den Bosch, Netherlands"],
+    "difficulty":3,
+    "categories":["books", "geography"]
+},
+{
+    "question":"Where would you find the temple of Apollo?",
+    "answers":["Greece"],
+    "options":["England", "Germany", "Belgium", "Italy", "Turkey", "Italy", "Egypt"],
+    "difficulty":2,
+    "categories":["geography"]
+},
+{
+    "question":"What is inscribed at the entrance of the temple of Apollo?",
+    "answers":["'Know thyself'"],
+    "options":["'This too shall pass'", "'No entry'", "'No return'", "'God looks down upon ye'", "'Nevermore, never again'"],
+    "difficulty":4,
+    "categories":["misc"]
+},
+{
+    "question":"Where was paper money first used?",
+    "answers":["China"],
+    "options":["Turkey", "England", "Japan", "Taiwan", "India", "Egypt", "Holland"],
+    "difficulty":2,
+    "categories":["history"]
+},
+{
+    "question":"Paper money was first used in China during what dynasty?",
+    "answers":["The Tang Dynasty"],
+    "options":["The Xia Dynasty", "The Shang Dynasty", "The Sui Dynasty", "The Han Dynasty"],
+    "difficulty":5,
+    "categories":["history"]
+},
+{
+    "question":"Paper money was first used in China during what dynasty?",
+    "answers":["The Tang Dynasty"],
+    "options":["The Xia Dynasty", "The Shang Dynasty", "The Sui Dynasty", "The Han Dynasty"],
+    "difficulty":5,
+    "categories":["history"]
+},
+{
+    "question":"What is the capital of Syria?",
+    "answers":["Damascus"],
+    "options":["Riyadh", "Jeddah", "Aleppo", "Homs", "Latakia"],
+    "difficulty":3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of France?",
+    "answers":["Paris"],
+    "options":["Marseille", "Strasbourg", "Lyon", "Nice", "Bordeaux"],
+    "difficulty":1,
+    "categories":["geography"]
+},
+{
+    "question":"Bratislava is the capital of which country?",
+    "answers":["Slovakia"],
+    "options":["Slovenia", "Croatia", "Luxembourg", "Romania"],
+    "difficulty":2,
+    "categories":["geography"]
+},
+{
+    "question":"When was Bailey's Irish Cream founded?",
+    "answers":["1971"],
+    "options":["1954", "1901", "1856", "1783", "1726"],
+    "difficulty":4,
+    "categories":["drinks"]
+},
+{
+    "question":"'First they ignore you, then they laugh at you, then they fight you, then you win?', is a quote from whom?",
+    "answers":["Mahatma Gandhi"],
+    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "René Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Albert Einstein", "Lao Tzu", "Mother Teresa", "Martin Luther King Jr."],
+    "difficulty":2,
+    "categories":["quotes"]
+},
+{
+    "question":"What is the capital of Pakistan?",
+    "answers":["Islamabad"],
+    "options":["Baghdad", "Tehran", "Lahore", "Karachi", "Multan"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Paraguay?",
+    "answers":["Asunción"],
+    "options":["Montevideo", "Tehran", "Bogota", "San Lorenzo", "Ciudad de Este", "Paraguay city", "Encarnacion"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Greenland?",
+    "answers":["Nuuk"],
+    "options":["Montevideo", "Ilulissat", "Sisimiut", "Qaqortoq", "Tasiilaq"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Jack Horner served as the technical advisor for all the Jurassic Park films, he also made a cameo which of them?",
+    "answers":["Jurassic World"],
+    "options":["Jurassic Park", "The Lost World: Jurassic Park", "Jurrasic Park 3"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which building has its address as 1600 Pennsylvania Avenue?",
+    "answers":["The White House"],
+    "options":["American Gothic House", "Franklin Court", "Benjamin Franklin House"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"The Chicxulub crater, which is believed to be left by the asteriod that killed the dinosaurs, is located where?",
+    "answers":["Yucatán, Mexico"],
+    "options":["Sao Paulo, Brazil", "Medeillín, Colombia", "Salvador, Brazil"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the name of the supercontinent that existed during the late Paleozoic and early Mesozoic eras?",
+    "answers":["Pangea"],
+    "options":["Pietas", "Loquor", "Amnis", "Aetas", "Quisque"],
+    "difficulty": 3,
+    "categories":["geography", "history"]
+},
+{
+    "question":"What is the name of the superocean that surrounded the supercontinent Pangaea?",
+    "answers":["Panthalassa"],
+    "options":["Pangea's ocean", "Antartalea", "Articuno", "Aguisque", "Volupat"],
+    "difficulty": 4,
+    "categories":["geography", "history"]
+},
+{
+    "question":"What is the capital of the U.S. state of New Mexico?",
+    "answers":["Sante Fe"],
+    "options":["Phoenix", "Albuquerque", "Las Cruces", "Roswell", "Taos"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Charles Darwin married his first cousin",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty":3,
+    "categories":["misc"]
+},
+{
+    "question":"Albert Einstein married his first cousin",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty":3,
+    "categories":["misc"]
+},
+{
+    "question":"Charlie Chaplin married his first cousin",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty":3,
+    "categories":["misc"]
+},
+{
+    "question":"Isaac Newton married his first cousin",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty":3,
+    "categories":["misc"]
+},
+{
+    "question":"Where would you find 'The Sea Organ'?",
+    "answers":["Zadar, Croatia"],
+    "options":["Alytus, Lithuania", "Sopron, Hungary", "Puno, Peru"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"The Mesozoic Era is divided into 3 periods, which of these is not one of them?",
+    "answers":["The Curassic Period"],
+    "options":["The Triassic", "The Jurassic", "The Cretaceous"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Approximately when did the Mesozoic Era take place?",
+    "answers":["248 million to 65 million years ago"],
+    "options":["539 million to 502 million years ago", "444 million to 345 million years ago", "64 million - 40 million years ago"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"Which Era is divided into three periods, the Triassic, the Jurassic, and the Cretaceou?",
+    "answers":["Mesozoic"],
+    "options":["Paleozoic", "Cenozoic", "Phanerozoic"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"Which animal has the strongest bite of any living creature?",
+    "answers":["The Nile Crocodile"],
+    "options":["Hippopotamus", "American Alligator", "Spotted Hyena"],
+    "difficulty": 3,
+    "categories":["nature"]
+},
+{
+    "question":"What is the capital of The United Republic Of Tanzania?",
+    "answers":["Dodoma"],
+    "options":["Dar es Salaam", "Mbeya", "Mwanza", "Tanga", "Harare", "Conakry"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Tyrannosaurus Rex's name translates to 'King Tyrant Lizard'",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Tyrannosaurus Rex's name translates to 'Reptile beast of pre world'",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Toenails grow 4 times faster than fingernails",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 1,
+    "categories":["science", "nature"]
+},
+{
+    "question":"Fingernails grow 4 times faster than toenails",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 1,
+    "categories":["science", "nature"]
+},
+{
+    "question":"What is the capital of Niger",
+    "answers":["Niamey"],
+    "options":["Abuja", "Maradi", "Zinder", "Agadez"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"When was Albert Einstein born?",
+    "answers":["14 March 1879"],
+    "options":["14 March 1864", "14 March 1820", "14 Setpember 1879", "14 September 1864", "14 September 1820", "14 April 1901"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"When did Albert Einstein die?",
+    "answers":["April 18th 1955"],
+    "options":["April 18th 1935", "April 18th 1945", "April 18th 1905", "April 18th 1895", "April 18th 1890", "April 18th 1885"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"The name Jeep comes from the army abbreviation of what?",
+    "answers":["General purpose"],
+    "options":["Jailed prisoner", "Absent without official leave", "Prisoner of war"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"'The distinction between past, present and future is only an illusion, however tenacious this illusion may be' is a quote from whom?",
+    "answers":["Albert Einstein"],
+    "options":["Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marie Curie", "George Orwell"],
+    "difficulty": 3,
+    "categories":["quotes"]
+},
+{
+    "question":"When did the titanic sink?",
+    "answers":["April 14 1912"],
+    "options":["April 14 1910", "April 14 1908", "April 14 1904", "April 14 1901", "April 14 1810"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"'In times of universal deceit, telling the truth is a revolutionary act' is a quote from whom?",
+    "answers":["George Orwell"],
+    "options":["Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan"],
+    "difficulty": 2,
+    "categories":["quotes"]
+},
+{
+    "question":"Which Latin phrase is 'used to refer to the fact that something has been done or repeated so often that it has become annoying or tiresome'?",
+    "answers":["Ad nauseam"],
+    "options":["Ad hoc", "Ad infinitum", "Ad hominem", "Ad interim"],
+    "difficulty": 1,
+    "categories":["language"]
+},
+{
+    "question":"'The man who views the world at 50 the same as he did at 20 has wasted 30 years of his life' is a quote from whom?",
+    "answers":["Muhammad Ali"],
+    "options":["Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu"],
+    "difficulty": 3,
+    "categories":["quotes"]
+},
+{
+    "question":"What is the capital of Canada",
+    "answers":["Ottawa"],
+    "options":["Toronto", "Vancouver", "Montreal", "Calgary", "Winnipeg", "Quebec City"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"'Beware of false prophets, which come to you in sheep's clothing, but inwardly they are ravening wolves' is what bible verse?",
+    "answers":["Matthew 7:15"],
+    "options":["Matthew 9:2", "Leviticus 2:5", "Jeremiah 7:1"],
+    "difficulty": 4,
+    "categories":["quotes", "religion"]
+},
+{
+    "question":"Who discovered Alzheimer's disease?",
+    "answers":["Dr. Alois Alzheimer"],
+    "options":["Dr. Andrew Alzheimer", "Dr. Alveris Alzheimer", "Dr. Alzheimer Muller"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Where was Dr. Alois Alzheimer, the discoverer of Alzheimer's disease from?",
+    "answers":["Germany"],
+    "options":["Holland", "Austria", "Sweden", "Denmark", "Norway", "Finland", "Russia", "Lithuania", "Macedonia"],
+    "difficulty": 3,
+    "categories":["science", "geography"]
+},
+{
+    "question":"When did Dr. Alois Alzheimer discover Alzheimer's disease?",
+    "answers":["1906"],
+    "options":["1901", "1891", "1909", "1864", "1955", "1847"],
+    "difficulty": 4,
+    "categories":["science", "history"]
+},
+{
+    "question":"'Time and space are modes by which we think and not conditions in which we live' is a quote from whom?",
+    "answers":["Albert Einstein"],
+    "options":["Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marie Curie", "George Orwell"],
+    "difficulty": 3,
+    "categories":["quotes"]
+},
+{
+    "question":"Biphasic sleep refers to sleep habits that involve a person sleeping for two segments per day?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Biphasic sleep refers to organisms that can allow half of their brains to sleep at different times?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Inemuri is the Japenese practice of what?",
+    "answers":["Sleeping on the job"],
+    "options":["Dying alone", "Drinking while driving", "Smoking in crowded places", "Overeating"],
+    "difficulty": 4,
+    "categories":["language"]
+},
+{
+    "question":"What is the capital of The Bahamas",
+    "answers":["Nassau"],
+    "options":["Bogotá", "Paramaribo", "Freeport", "West End", "Marsh Harbour", "Alice Town"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"'Sleep that knits up the ravell'd sleave of care, the death of each day's life, sore labour's bath, balm of hurt minds, great nature's second course, chief nourisher in life's feast' is a quote from which Shakespeere work?",
+    "answers":["Macbeth"],
+    "options":["Hamlet", "Romeo and Juliet", "The Tempest", "Measure for Measure"],
+    "difficulty": 3,
+    "categories":["quotes", "books"]
+},
+{
+    "question":"Fatal Familiar Insomnia (FFI) is a rare sleep disorder that effects which part of the brain?",
+    "answers":["Thalmus"],
+    "options":["Hypothalamus", "Pituitary gland", "Cerebellum", "Cerebral cortex", "Amygdala", "Pineal gland", "Hippocampas"],
+    "difficulty": 5,
+    "categories":["science"]
+},
+{
+    "question":"Sleep habits that involve a person sleeping for two segments per day is known as what?",
+    "answers":["Biphasic sleep"],
+    "options":["Bilateral sleep", "Binaural sleep", "Bimetric sleep"],
+    "difficulty": 4,
+    "categories":["science"]
+},
+{
+    "question":"Amyloid beta are crucially involved in what?",
+    "answers":["Alzheimer's disease"],
+    "options":["Diabetes", "Herpes", "Bronchitis"],
+    "difficulty": 4,
+    "categories":["science"]
+},
+{
+    "question":"Who was assassinated on 28th of June 1914?",
+    "answers":["Franz Ferdinand"],
+    "options":["Mahatma Gandhi", "Mahatma Gandhi", "Martin Luther King Jr.", "Malcolm X"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"When was Archduke Franz Ferdinand assassinated?",
+    "answers":["28th of June 1914"],
+    "options":["28th of June 1916", "28th of June 1910", "28th of June 1919", "28th of June 1917"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"Where was Archduke Franz Ferdinand assassinated?",
+    "answers":["Sarajevo"],
+    "options":["Berlin", "Vienna", "Riga", "Paris", "Amsterdam", "Vilnius"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"Sarajevo is the capital of which country",
+    "answers":["Bosnia and Herzegovina"],
+    "options":["Bolivia", "Paraguay", "Lithuania", "Macedonia", "Luxembourg", "Malta", "Nepal"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Which of these famous sports personalities died in 2020?",
+    "answers":["Diego Maradona"],
+    "options":["David Pearson", "Mel Hutchins", "Paul Sherwen", "Bob McNair"],
+    "difficulty": 1,
+    "categories":["sports"]
+},
+{
+    "question":"Chuck Yeager was the first pilot to do what?",
+    "answers":["Break the sound barrier"],
+    "options":["Fly around the world in 80 days", "Fly the first manned flight", "To crash a plane", "Suicide by plane crash"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"In 2020, Senator Norma Durango proposed putting whose image on new banknotes?",
+    "answers":["Diego Maradona"],
+    "options":["Che Guevara", "Tulio Halperín Donghi", "Eva Peron"],
+    "difficulty": 2,
+    "categories":["misc"]
+},
+{
+    "question":"'You can fool all the people some of the time, and some of the people all the time, but you cannot fool all the people all the time' is a quote from whom?",
+    "answers":["Abraham Lincoln"],
+    "options":["Charles Darwin", "René Descartes", "Isaac Newton", "Marie Curie", "George Orwell", "Albert Einstein", "George Washington", "Winston Churchill"],
+    "difficulty": 3,
+    "categories":["quotes"]
+},
+{
+    "question":"'Democracy is the worst form of goverment, except for all the others' is a quote from whom?",
+    "answers":["Winston Churchill"],
+    "options":["Charles Darwin", "René Descartes", "Isaac Newton", "Marie Curie", "George Orwell", "Albert Einstein", "George Washington", "Abraham Lincoln"],
+    "difficulty": 3,
+    "categories":["quotes"]
+},
+{
+    "question":"Which of these singers were born in 1982?",
+    "answers":["Nicki Minaj"],
+    "options":["Britney Spears", "Beyoncé", "Rihanna", "Katy Perry", "George Orwell", "Albert Einstein", "George Washington", "Abraham Lincoln"],
+    "difficulty": 3,
+    "categories":["music"]
+},
+{
+    "question":"In what game series would you play as Agent 47?",
+    "answers":["Hitman"],
+    "options":["Metal Gear Solid", "Halo", "Mortal Combat", "Far Cry", "Uncharted", "Watch Dogs"],
+    "difficulty": 2,
+    "categories":["videogames"]
+},
+{
+    "question":"In what year did the US enter WWII?",
+    "answers":["1941"],
+    "options":["1942", "1940", "1939", "1943", "1944", "1945", "1946", "1938"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"Which of these actors did not star in 'The Deer Hunter'?",
+    "answers":["Joe pesci", "Anthony Hopkins", "Al Pacino", "Jack Nicholson"],
+    "options":["Robert De Niro", "Christopher Walken", "Meryl Streep"],
+    "difficulty": 2,
+    "categories":["film"]
+},
+{
+    "question":"When did the American Civil War end?",
+    "answers":["1965"],
+    "options":["1961", "1959", "1979", "1983", "1944", "1931"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"'Do not seek revenge or bear a grudge against anyone among your people, but love your neighbor as you love yourself' is what bible verse?",
+    "answers":["Leviticus 19:18"],
+    "options":["Matthew 9:2", "Leviticus 2:5", "Jeremiah 7:1", "Matthew 7:15"],
+    "difficulty": 4,
+    "categories":["quotes", "religion"]
+},
+{
+    "question":"Which country has a non-quadrilateral national flag?",
+    "answers":["Nepal"],
+    "options":["Guyana", "Marshall Islands", "Pakistan", "Macedonia", "Chad", "Malaysia", "Uruguay"],
+    "difficulty": 4,
+    "categories":["quotes", "religion"]
+},
+{
+    "question":"Where were ATM's fisrt introduced?",
+    "answers":["England"],
+    "options":["China", "The United States", "Japan", "France", "Amsterdam"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"What does ATM stand for?",
+    "answers":["Automatic Teller Machine"],
+    "options":["Automatically Tendered Money", "Automatic Tender Maker", "Automatic Til Market"],
+    "difficulty": 1,
+    "categories":["language"]
+},
+{
+    "question":"When was the first ATM introduced?",
+    "answers":["1965"],
+    "options":["1945", "1955", "1975", "1985"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"When did Cornation Street start?",
+    "answers":["1960"],
+    "options":["1965", "1955", "1975", "1970", "1950", "1980", "1945"],
+    "difficulty": 3,
+    "categories":["tv"]
+},
+{
+    "question":"December 9 1978 saw the first women's professional league game of which sport?",
+    "answers":["Basketball"],
+    "options":["Baseball", "Rugby", "Soccer", "Tennis"],
+    "difficulty": 3,
+    "categories":["sport"]
+},
+{
+    "question":"On December 9, 1941, which country did China NOT formally declared war on?",
+    "answers":["Britain", "Russia", "Hungary", "Romania", "Greece"],
+    "options":["Japan", "Italy", "Germany"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"Approximately how old is the universe?",
+    "answers":["13.8 billion years old"],
+    "options":[ "22.3 billion years old", "13.8 trillion years old", "22.3 trillion years old", "15.9 billion years old", "10.3 billion years old", "10.3 trillion years old"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Approximately how old is the Earth?",
+    "answers":["4.5 billion years old"],
+    "options":[ "12.3 billion years old", "13.8 million years old", "22.3 million years old", "7.9 billion years old", "10.3 billion years old", "10.3 million years old"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Mead is created by fermenting what with water?",
+    "answers":["Honey"],
+    "options":[ "Lime juice", "Ginger", "Lemon", "Poppy seeds"],
+    "difficulty": 1,
+    "categories":["drinks"]
+},
+{
+    "question":"Where did NASA use to run its tests because it has similar conditions to MARS?",
+    "answers":["The Atacama desert"],
+    "options":[ "Antarctica", "Mount Washington", "Sinabung Volcano", "Valley of Death", "Yellowstone"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Where is the Atacama desert?",
+    "answers":["Chile"],
+    "options":[ "Mongolia", "Mexico", "Antartica", "Namibia"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Virtually all bees have hair",
+    "answers":["True"],
+    "options":[ "False"],
+    "difficulty": 1,
+    "categories":["nature"]
+},
+{
+    "question":"Rosa Parks famously refused to give up her what, to a white man?",
+    "answers":["Seat on a bus"],
+    "options":[ "Children", "Secrets", "Diary"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"When was Rosa Parks born?",
+    "answers":["1913"],
+    "options":[ "1933", "1889", "1873", "1852"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"A honeybee beats its wings around 10 times per second",
+    "answers":["False"],
+    "options":[ "True"],
+    "difficulty": 2,
+    "categories":["nature"]
+},
+{
+    "question":"A honeybee beats its wings around 200 times per second",
+    "answers":["True"],
+    "options":[ "False"],
+    "difficulty": 2,
+    "categories":["nature"]
+},
+{
+    "question":"Only male bees & wasps sting",
+    "answers":["False"],
+    "options":[ "True"],
+    "difficulty": 2,
+    "categories":["nature"]
+},
+{
+    "question":"Only female bees & wasps sting",
+    "answers":["True"],
+    "options":[ "False"],
+    "difficulty": 2,
+    "categories":["nature"]
+},
+{
+    "question":"Which band had an album that's artwork is based on radio waves from pulsar CP 1919",
+    "answers":["Joy Division"],
+    "options":[ "Pink Flyod", "The Beatles", "The Artic Monkeys", "The Strokes", "AC/DC", "Bon Jovi"],
+    "difficulty": 3,
+    "categories":["music"]
+},
+{
+    "question":"Which Joy Division album had artwork based on radio waves from pulsar CP 1919",
+    "answers":["Unknown Pleasures"],
+    "options":[ "Closer", "Let the Movie Begin", "Fractured Box"],
+    "difficulty": 2,
+    "categories":["music"]
+},
+{
+    "question":"Which bees can sting?",
+    "answers":["Female"],
+    "options":[ "Male", "Both Male and Female", "Neither"],
+    "difficulty": 2,
+    "categories":["nature"]
+},
+{
+    "question":"What is the paradox which describes the apparent contradiction between the lack of evidence and high possibility for extraterrestrial life?",
+    "answers":["The Fermi Paradox"],
+    "options":["The Expectation Paradox", "Fletcher's Paradox", "Socratic Paradox", "The Solavida Paradox"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"When was the Big Mac debuted?",
+    "answers":["1967"],
+    "options":["1977", "1947", "1957", "1947", "1937", "1927", "1917", "1907", "1897"],
+    "difficulty": 3,
+    "categories":["food"]
+},
+{
+    "question":"In which state was the Big Mac debuted?",
+    "answers":["Pennsylvania"],
+    "options":["Wyoming", "Florida", "Nebraska", "Kentucky", "Georgia", "Maine"],
+    "difficulty": 4,
+    "categories":["food"]
+},
+{
+    "question":"What does Renaissance mean?",
+    "answers":["Rebirth"],
+    "options":["Reconstruct", "Reevaluate", "Revolution", "Reductionism"],
+    "difficulty": 1,
+    "categories":["language", "art"]
+},
+{
+    "question":"A 'Sobriquet' is a what?",
+    "answers":["A nickname"],
+    "options":["A man who flirts", "A woman's hat", "A monacle", "A car part"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"'The important thing is not to stop questioning' is a quote from whom?",
+    "answers":["Albert Einstein"],
+    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "René Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Lao Tzu"],
+    "difficulty":3,
+    "categories":["quotes"]
+},
+{
+    "question":"What is the capital of Afghanistan?",
+    "answers":["Kabul"],
+    "options":[ "Baghdad", "Herat", "Mazari Sharif", "Jalalabad", "Tehran"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the largest country in the world?",
+    "answers":["Russia"],
+    "options":[ "Canada", "China", "The United States", "Brazil"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"What is the second largest country in the world?",
+    "answers":["Canada"],
+    "options":[ "Russia", "China", "The United States", "Brazil"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"What is the third largest country in the world?",
+    "answers":["United States"],
+    "options":[ "Russia", "China", "Canada", "Brazil"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is largest of these countries?",
+    "answers":["United States", "Russia", "Canada"],
+    "options":[  "China", "Australia", "Brazil", "India"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Which of these countries is the smallest?",
+    "answers":["India", "Argentina", "Kazakhstan"],
+    "options":["The United States", "China", "Brazil", "Australia"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Which animal is the symbol of Russia?",
+    "answers":["Bear"],
+    "options":["A wolverine", "A lion", "A wolf", "A fox"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"The National Association for Stock Car Auto Racing (NASCAR) was founded in which state?",
+    "answers":["Florida"],
+    "options":["Texas", "", "California", "Pennsylvania", "Georgia", "Arizona"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"When was 'The National Association for Stock Car Auto Racing (NASCAR)' founded?",
+    "answers":["1947"],
+    "options":["1967", "1987", "1927", "1907", "1957", "1977"],
+    "difficulty": 4,
+    "categories":["sports"]
+},
+{
+    "question":"What is the 'S' in NASCAR?",
+    "answers":["Stock"],
+    "options":["Shift", "Semi", "State", "Service"],
+    "difficulty": 4,
+    "categories":["sports"]
+},
+{
+    "question":"What is the 'R' in NASCAR?",
+    "answers":["Racing"],
+    "options":["Rack", "Ramp", "Road", "Rear", "Rapid"],
+    "difficulty": 1,
+    "categories":["sports"]
+},
+{
+    "question":"With which sport would you assosiate Arthur Ashe?",
+    "answers":["Tennis"],
+    "options":["Nascar", "Soccer", "Golf", "Rugby", "Baseball"],
+    "difficulty": 4,
+    "categories":["sports"]
+},
+{
+    "question":"In 1955 who released a single called 'Folsom Prison Blues'?",
+    "answers":["Johnny Cash"],
+    "options":["Bob Dylan", "Elvis", "Buddy Holly", "Ray Charles", "The Platters"],
+    "difficulty": 2,
+    "categories":["music"]
+},
+{
+    "question":"When was The Berlin Wall built?",
+    "answers":["1961"],
+    "options":["1971", "1966", "1976", "1956", "1977"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"When was The Berlin Wall taken down?",
+    "answers":["1989"],
+    "options":["1971", "1966", "1976", "1956", "1987", "1986", "1986", "1990", "1992"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"Where was Ivan the Terrible from?",
+    "answers":["Russia"],
+    "options":["China", "Romania", "Poland", "England"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Who was the first tsar of Russia?",
+    "answers":["Ivan the Terrible"],
+    "options":["Vlad the Impaler", "Simeon Bekbulatovich", "Feodor I"],
+    "difficulty": 2,
+    "categories":["history", "politics"]
+},
+{
+    "question":"What is the capital of Estonia?",
+    "answers":["Tallinn"],
+    "options":["Tbilisi", "Bern", "Skopje", "Tirana", "Tartu", "Narva", "Vilijandi", "Kuressaare"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Where was Vlad the Impaler from?",
+    "answers":["Romania"],
+    "options":["China", "Russia", "Poland", "England"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Vlad the Impaler was the inspiration for Dracula?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["books"]
+},
+{
+    "question":"Ivan the Terrible was the inspiration for Dracula?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 3,
+    "categories":["books"]
+},
+{
+    "question":"Bogotá is the capital of which South American country?",
+    "answers":["Columbia"],
+    "options":["Venezuela", "Chile", "Ecuador", "Bolivia", "Guyana", "Suriname", "Paraguay"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Puerto Rico?",
+    "answers":["San Juan"],
+    "options":["Palau", "San José", "Santo Domingo", "Ponce", "Culebra", "Fajardo", "Puerto Rico City"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Which of these is an example of a vestigial trait of a human?",
+    "answers":["Wisdom Teeth", "Tail bone", "Palmar Grasp Reflex"],
+    "options":["Eyesight", "Thumbs", "Nasal Bone", "Ulna"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Which of these is not an example of a vestigial trait of a human?",
+    "answers":["Eyesight", "Thumbs", "Nasal Bone"],
+    "options":["Wisdom Teeth", "Tail bone", "Palmar Grasp Reflex"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"'It always seems impossible until it's done' is a quote from whom?",
+    "answers":["Nelson Mandela"],
+    "options":["Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 3,
+    "categories":["quotes"]
+},
+{
+    "question":"What is the capital of Serbia?",
+    "answers":["Belgrade"],
+    "options":["Sarajevo", "Damascus", "Riyadh", "Novia Sad", "Kragujevac", "Subotica", "Petrovaradin"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Mark Twain famously stated that the reports of his what had been exaggerated?",
+    "answers":["His death"],
+    "options":["His success", "His affair", "His temperament", "His failures", "His sporting ability"],
+    "difficulty": 3,
+    "categories":["quotes"]
+},
+{
+    "question":"Who is Bart Simpson's best friend?",
+    "answers":["Milhouse Van Houten"],
+    "options":["Jimbo Jones", "Ralph Wiggum", "Nelson Muntz", "Martin Prince"],
+    "difficulty": 1,
+    "categories":["TV"]
+},
+{
+    "question":"Lacrosse is the national sport of which country?",
+    "answers":["Canada"],
+    "options":["Australia", "The United Kingdom", "The United States"],
+    "difficulty": 2,
+    "categories":["sports"]
+},
+{
+    "question":"Which of these South American countries does not have Spanish as its official language?",
+    "answers":["Brazil", "Falkland Islands", "Guyana", "Suriname"],
+    "options":["Chile", "Peru", "Ecuador", "Argentina", "Uruguay", "Paraguay", "Bolivia", "Columbia"],
+    "difficulty": 2,
+    "categories":["language", "geography"]
+},
+{
+    "question":"Which of these South American countries has Spanish as its official langauge?",
+    "answers":["Chile", "Peru", "Ecuador", "Argentina", "Uruguay", "Paraguay", "Bolivia", "Columbia"],
+    "options":["Brazil", "Falkland Islands", "Guyana", "Suriname"],
+    "difficulty": 2,
+    "categories":["language", "geography"]
+},
+{
+    "question":"Which of these is an official language of Colombia?",
+    "answers":["Spanish"],
+    "options":["French", "English", "Portuguese", "Dutch"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Guyana?",
+    "answers":["English"],
+    "options":["French", "Spanish", "Portuguese", "Dutch"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Suriname?",
+    "answers":["Dutch"],
+    "options":["French", "Spanish", "Portuguese", "English"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Antigua and Barbuda?",
+    "answers":["English"],
+    "options":["French", "Spanish", "Portuguese", "Dutch"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Argentina?",
+    "answers":["Spanish"],
+    "options":["French", "English", "Portuguese", "Dutch"],
+    "difficulty": 1,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Bahamas?",
+    "answers":["English"],
+    "options":["French", "Spanish", "Portuguese", "Dutch"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Barbados?",
+    "answers":["English"],
+    "options":["French", "Spanish", "Portuguese", "Dutch"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Barbados?",
+    "answers":["English"],
+    "options":["French", "Spanish", "Portuguese", "Dutch"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Belize?",
+    "answers":["English"],
+    "options":["French", "Spanish", "Portuguese", "Dutch"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"Is Spanish the offical language of Bolivia?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 1,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Brazil?",
+    "answers":["Portuguese"],
+    "options":["French", "Spanish", "English", "Dutch"],
+    "difficulty": 1,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Chile?",
+    "answers":["Spanish"],
+    "options":["French", "English", "Portuguese", "Dutch"],
+    "difficulty": 1,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Costa Rica?",
+    "answers":["Spanish"],
+    "options":["French", "English", "Portuguese", "Dutch"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Cuba?",
+    "answers":["Spanish"],
+    "options":["French", "English", "Portuguese", "Dutch"],
+    "difficulty": 1,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Dominica?",
+    "answers":["Spanish"],
+    "options":["French", "English", "Portuguese", "Dutch"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Dominican Republic?",
+    "answers":["Spanish"],
+    "options":["French", "English", "Portuguese", "Dutch"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Ecuador?",
+    "answers":["Spanish"],
+    "options":["French", "English", "Portuguese", "Dutch"],
+    "difficulty": 1,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of El Salvador?",
+    "answers":["Spanish"],
+    "options":["French", "English", "Portuguese", "Dutch"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Grenada?",
+    "answers":["English"],
+    "options":["French", "Spanish", "Portuguese", "Dutch"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Guyana?",
+    "answers":["English"],
+    "options":["French", "Spanish", "Portuguese", "Dutch"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Honduras?",
+    "answers":["Spanish"],
+    "options":["French", "English", "Portuguese", "Dutch"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Mexico?",
+    "answers":["Spanish"],
+    "options":["French", "English", "Portuguese", "Dutch"],
+    "difficulty": 1,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Panama?",
+    "answers":["Spanish"],
+    "options":["French", "English", "Portuguese", "Dutch"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Which of these is an official language of Uruguay?",
+    "answers":["Spanish"],
+    "options":["French", "English", "Portuguese", "Dutch"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Osama Bin Laden was from which country?",
+    "answers":["Saudi Arabia"],
+    "options":["Pakistan", "Iraq", "Iran", "Syria"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Osama Bin Laden was found in 2011 hiding in which country?",
+    "answers":["Pakistan"],
+    "options":["Saudi Arabia", "Iraq", "Iran", "Syria"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"When was Osama Bin Laden was killed?",
+    "answers":["2011"],
+    "options":["2013", "2015", "2009", "2007", "2005", "2003"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"What is the longest river in the world?",
+    "answers":["Nile"],
+    "options":["Amazon River", "Yangtze", "Yellow River"],
+    "difficulty": 1,
+    "categories":["nature"]
+},
+{
+    "question":"What is the second longest river in the world?",
+    "answers":["Amazon River"],
+    "options":["Nile", "Yangtze", "Yellow River"],
+    "difficulty": 1,
+    "categories":["nature"]
+},
+{
+    "question":"Which of these rivers if the shortest?",
+    "answers":["Niger", "Congo River"],
+    "options":["Nile", "Yangtze", "Yellow River", "Amazon River"],
+    "difficulty": 2,
+    "categories":["nature"]
+},
+{
+    "question":"Which of these countries was not originally part of The European Coal & Steel Community, which eventually became the EU?",
+    "answers":["The United Kingdom", "Spain", "Ireland"],
+    "options":["Belgium", "France", "Netherlands", "Italy", "Luxembourg"],
+    "difficulty": 3,
+    "categories":["geography", "history"]
+},
+{
+    "question":"When was The European Coal & Steel Community, which eventually became the EU, formed?",
+    "answers":["1951"],
+    "options":["1961", "1941", "1931", "1921", "1911"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"In what decade did the Cuban Missile Crisis take place?",
+    "answers":["1960's"],
+    "options":["1970's", "1950's", "1940's", "1930's"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"What is the capital of Sudan?",
+    "answers":["Khartoum"],
+    "options":["Juba", "Kinsasha", "Port Sudan", "Omdurman", "Nyala"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"BRICS is an acronym for the major emerging national economies, which of these countries is not a part of it?",
+    "answers":["Bolivia", "Romania", "Ireland", "Canada", "Chile", "Cameroon", "Saudi Arabia0"],
+    "options":["Brazil", "Russia", "India", "China", "South Africa"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"How many countries start with thhe letter R?",
+    "answers":["5"],
+    "options":["3", "4", "6", "7", "8", "9", "10"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"'War is peace, Freedom is slavery, Ignorance is strength' is a quote from which George Orwell novel?",
+    "answers":["1984"],
+    "options":["Animal Farm", "Homage to Catalonia", "Burmese Days"],
+    "difficulty": 2,
+    "categories":["quotes", "books"]
+},
+{
+    "question":"'War is peace, Freedom is slavery, Ignorance is strength' is a quote from which George Orwell novel?",
+    "answers":["1984"],
+    "options":["Animal Farm", "Homage to Catalonia", "Burmese Days"],
+    "difficulty": 2,
+    "categories":["quotes", "books"]
+},
+{
+    "question":"Launched in 1980, what does CNN stand for?",
+    "answers":["Cable News Network"],
+    "options":["Controlled News Notifications", "Constant Neverending News", "Corroborated Nuetral News"],
+    "difficulty": 1,
+    "categories":["TV"]
+},
+{
+    "question":"Which of these artists released an album 'Born in the USA'?",
+    "answers":["Bruce Springsteen"],
+    "options":["Elvis Presley", "George Michael", "The Cure", "Elton John", "Guns N' Roses"],
+    "difficulty": 1,
+    "categories":["music"]
+},
+{
+    "question":"Who created the Simpsons?",
+    "answers":["Matt Groening"],
+    "options":["Seth Macfarlane", "Trey Parker", "Matt Stone", "Justin Roiland", "Dan Harmon"],
+    "difficulty": 1,
+    "categories":["TV"]
+},
+{
+    "question":"Who created the Simpsons?",
+    "answers":["Matt Groening"],
+    "options":["Seth Macfarlane", "Trey Parker", "Matt Stone", "Justin Roiland", "Dan Harmon"],
+    "difficulty": 2,
+    "categories":["TV"]
+},
+{
+    "question":"Created by Justin Roiland and Dan Harmon, the main characters of the show are Rick and who?",
+    "answers":["Morty"],
+    "options":["Martin", "Markis", "Matt", "Marshall", "Mitchel"],
+    "difficulty": 2,
+    "categories":["TV"]
+},
+{
+    "question":"Created by Justin Roiland and Dan Harmon, the main characters of the show are Morty and who?",
+    "answers":["Rick"],
+    "options":["Roiland", "Dan", "Chase", "Marshall", "Harry"],
+    "difficulty": 1,
+    "categories":["TV"]
+},
+{
+    "question":"Created by Justin Roiland and Dan Harmon, the main characters of the show are Morty and who?",
+    "answers":["Rick"],
+    "options":["Roiland", "Dan", "Chase", "Marshall", "Harry"],
+    "difficulty": 1,
+    "categories":["TV"]
+},
+{
+    "question":"Acrophobia is an extreme/irrational fear of what?",
+    "answers":["Heights"],
+    "options":["Clowns", "Farming", "Running", "Speed", "Spiders"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"Who was the first person to journey into space?",
+    "answers":["Yuri Gagarin"],
+    "options":["Neil Armstrong", "Buzz Aldrin", "Alan Shepard"],
+    "difficulty": 1,
+    "categories":["history", "science"]
+},
+{
+    "question":"When did Yuri Gagarin become the first person to journey into space?",
+    "answers":["1961"],
+    "options":["1969", "1965", "1957", "1953", "1950", "1949"],
+    "difficulty": 2,
+    "categories":["history", "science"]
+},
+{
+    "question":"Simón Bolívar was a political leader during the independence wars from the Spanish empire, where was he from?",
+    "answers":["Venezuela"],
+    "options":["Columbia", "Panama", "Ecaudor", "Peru", "Chile", "Peru", "Brazil"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Simón Bolívar was a political leader who led countries to independence from which empire?",
+    "answers":["The Spanish Empire"],
+    "options":["The British Empire", "The Portuguese Empire", "The Roman Empire"],
+    "difficulty": 1,
+    "categories":["history"]
 }
+
+
+Simón Bolívar
+
+
 ]

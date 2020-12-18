@@ -121,8 +121,13 @@ class QuestionBox(pg.sprite.Sprite):
     def update(self):
         if self.clicked == True:
             if self.image == self.main.question_box_ticked_image:
-                self.image = self.main.question_box_image
-                self.ticked = False
+                tickedBoxCount = 0
+                for tickBox in self.main.game.questionBoxes:
+                    if tickBox.ticked:
+                        tickedBoxCount += 1
+                if tickedBoxCount > 1:
+                    self.image = self.main.question_box_image
+                    self.ticked = False
                 self.clicked = False
             else:
                 self.image = self.main.question_box_ticked_image
