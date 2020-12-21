@@ -6,6 +6,8 @@ from os import listdir
 from game import *
 from settings import *
 from game import *
+import pickle
+
 from sprites import *
 from mainMenu import *
 
@@ -19,6 +21,19 @@ class Main:
         pg.key.set_repeat(500, 100)
         self.load_data()
         self.isFullScreen = False
+        self.getHighScore()
+        print("High Score: ", self.highScore)
+
+    def getHighScore(self):
+        try:
+            with open('score.dat', 'rb') as file:
+                self.highScore = pickle.load(file)
+        except:
+            self.highScore = 0
+
+    def writeHighScore(self, score):
+        with open('score.dat', 'wb') as file:
+            pickle.dump(score, file)
 
     def load_data(self):
         self.game_folder = path.dirname(__file__)

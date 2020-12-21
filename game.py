@@ -35,6 +35,8 @@ class Game():
 
     def update(self):
         if self.isPaused == False:
+            if self.timeRemaining < 0:
+                self.endGame()
             if pg.time.get_ticks() - self.lastUpdate > 1000:
                 self.timeRemaining -= 1
                 self.dimLights()
@@ -53,6 +55,9 @@ class Game():
                     self.resetQuestion()
                     self.timeRemaining -= NORMAL_PUNISHMENT_TIME
 
+    def endGame(self):
+        if self.main.highScore < self.score:
+            self.main.writeHighScore(self.score)
 
     def resetQuestion(self):
         for panel in self.panels:

@@ -3232,10 +3232,499 @@
     "options":["The British Empire", "The Portuguese Empire", "The Roman Empire"],
     "difficulty": 1,
     "categories":["history"]
+},
+{
+    "question":"Simón Bolívar was a political leader who led countries to independence from which empire?",
+    "answers":["The Spanish Empire"],
+    "options":["The British Empire", "The Portuguese Empire", "The Roman Empire"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"'Laugh and the whole world laughs with you, weep and you weep alone' is a quote from whom?",
+    "answers":["Ella Wheller Wilcox"],
+    "options":["Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"Colony collapse disorder affects what organisms",
+    "answers":["Bees"],
+    "options":["Birds", "Ants", "Reef"],
+    "difficulty": 3,
+    "categories":["nature", "science"]
+},
+{
+    "question":"Colony collapse disorder affects what organisms",
+    "answers":["Bees"],
+    "options":["Birds", "Ants", "Reef"],
+    "difficulty": 3,
+    "categories":["nature", "science"]
+},
+{
+    "question":"'To light a candle is to cast a shadow' is a quote from whom?",
+    "answers":["Ursula Le Guin"],
+    "options":["Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"On which continent is Yellowstone National Park located?",
+    "answers":["North America"],
+    "options":["South America", "Europe", "Asia", "Antarctica", "Africa", "Australia"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"In which state is Yellowstone National Park located?",
+    "answers":["Wyonming"],
+    "options":["New Mexico", "Louisiana", "Connecticut", "South Carolina", "Nebraska", "Texas", "Iowa", "Arkansas", "Kentucky", "Nevada"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the most abundant element on the Earth's crust?",
+    "answers":["Oxegen"],
+    "options":["Silicon", "Aluminium", "Iron", "Calcium", "Sodium", "Magnesium", "Potassium", "Titanium", "Hydrogen"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the second most abundant element on the Earth's crust?",
+    "answers":["Silicon"],
+    "options":["Oxegen", "Aluminium", "Iron", "Calcium", "Sodium", "Magnesium", "Potassium", "Titanium", "Hydrogen"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What is the third most abundant element on the Earth's crust?",
+    "answers":["Aluminium"],
+    "options":["Oxegen", "Silicon", "Iron", "Calcium", "Sodium", "Magnesium", "Potassium", "Titanium", "Hydrogen"],
+    "difficulty": 4,
+    "categories":["science"]
+},
+{
+    "question":"Which element has the Symbol 'H'?",
+    "answers":["Hydrogen"],
+    "options":["Helium", "Hafnium", "Hassium"],
+    "difficulty": 1,
+    "categories":["science"]
+},
+{
+    "question":"Which element has the Symbol 'He'?",
+    "answers":["Helium"],
+    "options":["Hydrogen", "Hafnium", "Hassium"],
+    "difficulty": 1,
+    "categories":["science"]
+},
+{
+    "question":"Which element has the Symbol 'Li'?",
+    "answers":["Lithium"],
+    "options":["Iron", "Lanthanum", "Lead"],
+    "difficulty": 1,
+    "categories":["science"]
+},
+{
+    "question":"Which element has the Symbol 'Li'?",
+    "answers":["Lithium"],
+    "options":["Iron", "Lanthanum", "Lead"],
+    "difficulty": 1,
+    "categories":["science"]
+},
+{
+    "question":"Which element has the Symbol 'Be'?",
+    "answers":["Berylium"],
+    "options":["Boron", "Lanthanum", "Bromine"],
+    "difficulty": 1,
+    "categories":["science"]
+},
+{
+    "question":"Which element has the Symbol 'B'?",
+    "answers":["Boron"],
+    "options":["Barium", "Berylium", "Bromine", "Berkelium"],
+    "difficulty": 1,
+    "categories":["science"]
+},
+{
+    "question":"Which element has the Symbol 'C'?",
+    "answers":["Carbon"],
+    "options":["Calcium", "Cerium", "Cadmium", "Chlorine"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"Which element has the Symbol 'N'?",
+    "answers":["Nitrogen"],
+    "options":["Neon", "Nickel", "Niobium"],
+    "difficulty": 1,
+    "categories":["science"]
+},
+{
+    "question":"Which element has the Symbol 'O'?",
+    "answers":["Oxegen"],
+    "options":["Orium", "Osmium", "Oganesson"],
+    "difficulty": 1,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of flourine?",
+    "answers":["F"],
+    "options":["Fl", "Fe", "Ao"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of sodium?",
+    "answers":["Na"],
+    "options":["S", "So", "Sl", "No", "Cl"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of magnesium?",
+    "answers":["Mg"],
+    "options":["M", "Ma", "Mm"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of aluminium?",
+    "answers":["Al"],
+    "options":["A", "Au", "Am"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of silicon?",
+    "answers":["Si"],
+    "options":["S", "Sl", "Sn", "Ti", "Sc"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of phosphorus?",
+    "answers":["P"],
+    "options":["Ph", "Ps", "Fe", "G"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of sulfur?",
+    "answers":["S"],
+    "options":["Su", "Sl", "Sf"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"Which element has the Symbol 'S'?",
+    "answers":["Sulfur"],
+    "options":["Silicon", "Silver", "Sodium"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of chlorine?",
+    "answers":["Cl"],
+    "options":["C", "Ce", "Sf"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of argon?",
+    "answers":["Ar"],
+    "options":["Ag", "A", "An", "V"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of potassium?",
+    "answers":["K"],
+    "options":["P", "Pm", "Po", "Ge"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Which element has the Symbol 'K'?",
+    "answers":["Potassium"],
+    "options":["Krypton", "Kiridium", "Kilium"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of calcium?",
+    "answers":["Ca"],
+    "options":["C", "Cl", "Cm", "No"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of titanium?",
+    "answers":["Ti"],
+    "options":["T", "Pm", "Tm", "Tt"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of chromium?",
+    "answers":["Cr"],
+    "options":["C", "Cm", "Ch", "Go"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of iron?",
+    "answers":["Fe"],
+    "options":["Ir", "I", "In", "Ni"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of cobalt?",
+    "answers":["Co"],
+    "options":["C", "Cm", "Cb", "Ct"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of nickel?",
+    "answers":["Ni"],
+    "options":["N", "Nk", "Nl"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of copper?",
+    "answers":["Cu"],
+    "options":["C", "Cp", "Cr", "Ge", "Ga"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of zinc?",
+    "answers":["Zn"],
+    "options":["Z", "Zi", "Po", "Ge"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of krypton?",
+    "answers":["Kr"],
+    "options":["K", "Kn", "Nb", "Kp"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of silver?",
+    "answers":["Ag"],
+    "options":["S", "Sl", "Si", "Sv", "Sb", "Cd"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of Tin?",
+    "answers":["Sn"],
+    "options":["S", "T", "Ti", "Tn"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of iodine?",
+    "answers":["I"],
+    "options":["Io", "Id", "La", "Tc"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of iridium?",
+    "answers":["Ir"],
+    "options":["I", "Im", "Ii", "Hg"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Is krypton a real chemical element?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of platinum?",
+    "answers":["Pt"],
+    "options":["P", "Pm", "Pu", "Pl", "Ir"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of gold?",
+    "answers":["Au"],
+    "options":["G", "Gl", "Gd", "Ao", "Na"],
+    "difficulty": 1,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of mercury?",
+    "answers":["Hg"],
+    "options":["My", "M", "Me", "Mr", "Pb"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of lead?",
+    "answers":["Pb"],
+    "options":["L", "Le", "Ld", "Rn"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of radium?",
+    "answers":["Ra"],
+    "options":["R", "Rd", "Rm", "Pu", "Bi"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of uranium?",
+    "answers":["U"],
+    "options":["Ur", "Pa", "Un", "Po"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What is the chemical symbol of plutonium?",
+    "answers":["Pu"],
+    "options":["P", "Pm", "Pl", "Bk"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Who was born on 12th February 1809?",
+    "answers":["Charles Darwin", "Abraham Lincoln"],
+    "options":["Albert Einstein", "Thomas Edison", "Robert E. Lee", "Clara Barton"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"Abraham Lincoln was born on 12th February 1809, who else was born on the exact same day?",
+    "answers":["Charles Darwin"],
+    "options":["Albert Einstein", "Thomas Edison", "Robert E. Lee", "Clara Barton"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"Where was Abraham Lincoln born?",
+    "answers":["Kentucky"],
+    "options":["New Mexico", "Louisiana", "Connecticut", "South Carolina", "Nebraska", "Texas", "Iowa", "Arkansas", "Florida", "Nevada"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"According to the decleration of indepence, what is not an unalienable right of men?",
+    "answers":["Love", "Privacy", "Vote"],
+    "options":["Life", "Liberty", "The persuit of happiness"],
+    "difficulty": 2,
+    "categories":["misc"]
+},
+{
+    "question":"What is the capital of Macedonia?",
+    "answers":["Skopje"],
+    "options":["Riga", "Macedonia city", "Bitola", "Ohrid", "Veles", "Prilep", "Tetovo"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Where was Mother Teresa born?",
+    "answers":["Macedonia"],
+    "options":["Poland", "Russia", "India", "Austria", "Romania", "Serbia", "Albania", "Montenegro"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"When was Mother Teresa born?",
+    "answers":["1910"],
+    "options":["1930", "1940", "1890", "1870", "1850"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"When did Mother Teresa die?",
+    "answers":["1997"],
+    "options":["1987", "2007", "1977", "1967", "1957"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"'Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real' is a quote from which Harry Potter character?",
+    "answers":["Albus Dumbledore"],
+    "options":["Hagrid", "Hermione Grange", "Luna Lovegood", "Ron Weasley"],
+    "difficulty": 2,
+    "categories":["quotes"]
+},
+{
+    "question":"According to Mary Schmich 'worrying is as effective as trying to solve an algebra equation by' doing what?",
+    "answers":["Chewing gum"],
+    "options":["Consulting a monkey", "Wasting time", "Hiring a troop of monkeys to solve it", "Watching TV", "Muttering nonsensically"],
+    "difficulty": 3,
+    "categories":["quotes"]
+},
+{
+    "question":"Will a fresh egg will sink in water?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["food"]
+},
+{
+    "question":"Will a fresh egg will float in water?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 2,
+    "categories":["food"]
+},
+{
+    "question":"'The weak can never forgive. Forgiveness is an attribute of the strong' is a quote from whom?",
+    "answers":["Mohandas Gandhi"],
+    "options":["Ursula Le Guin", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 3,
+    "categories":["quotes"]
+},
+{
+    "question":"Where would you find the tallest building in the world?",
+    "answers":["Dubai"],
+    "options":["Shanghai", "Tokyo", "Al Haram", "Shenzhen"],
+    "difficulty": 2,
+    "categories":["geography", "architecture"]
+},
+{
+    "question":"What is the tallest building in the world?",
+    "answers":["Burj Khalifa"],
+    "options":["Shanghai Tower", "Makkah Clock Tower", "Lotte World Tower", "Empire State Building"],
+    "difficulty": 1,
+    "categories":["misc", "architecture"]
+},
+{
+    "question":"How tall is the Burj Khalifa?",
+    "answers":["828m"],
+    "options":["878m", "1028m", "1078m", "626m", "678m", "1228m", "1278m"],
+    "difficulty": 3,
+    "categories":["misc", "architecture"]
+},
+{
+    "question":"When was the Burj Khalifa built?",
+    "answers":["2009"],
+    "options":["2004", "2000", "2012", "2016", "1997", "1991", "1993", "1897"],
+    "difficulty": 3,
+    "categories":["misc", "architecture"]
+},
+{
+    "question":"What did Anne Frank name her diary?",
+    "answers":["Kitty"],
+    "options":["Minnie", "Lucky", "The Frank secret memory box", "Tigger", "Aiva", "Domino"],
+    "difficulty": 3,
+    "categories":["books"]
 }
 
 
-Simón Bolívar
 
 
 ]
