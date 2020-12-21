@@ -6,7 +6,7 @@ BLACK = (0, 0, 0)
 WIDTH = 1920   # 16 * 64 or 32 * 32 or 64 * 16
 HEIGHT = 1080  # 16 * 48 or 32 * 24 or 64 * 12
 FPS = 60
-TITLE = "Seconds Quiz"
+TITLE = "HighQ Quiz"
 BGCOLOR = DARKGREY
 TILESIZE = 64
 
@@ -27,10 +27,12 @@ PANEL_STAR_IMAGE =  "panelStar.png"
 PANEL_Q_STAR_IMAGE = "panelQStar.png"
 LIGHT_IMAGE = "light2.png"
 CORRECT_TEXT_IMAGES = ["correct1.png", "correct2.png", "correct3.png", "correct4.png", "correct5.png", "correct6.png", "correct7.png", "correct8.png", "correct9.png",  "correct10.png", "correct11.png", "correct12.png", "correct13.png", "correct14.png", "correct15.png", "correct16.png", "correct17.png", "correct18.png", "correct19.png", "correct20.png", "correct21.png", "correct22.png", "correct23.png", "correct24.png", "correct25.png", "correct26.png", "correct27.png", "correct28.png", "correct29.png", "correct30.png", "correct31.png", "correct32.png"]
-BACKGROUND_IMAGE = "background.png"
+BACKGROUND_IMAGE = "background.jpg"
+BACKGROUND_IMAGE_MENU = "background2.jpg"
 QUESTION_BOX_IMAGE = "questionBox.png"
 QUESTION_BOX_TICKED_IMAGE = "questionBoxTicked.png"
 QUESTION_BOX_HOVER_IMAGE = "questionBoxHovered-export.png"
+LOGO = "logo.png"
 
 #sounds
 CORRECT_SOUND = "correct.wav"

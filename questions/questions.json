@@ -2424,7 +2424,7 @@
 {
     "question":"Which of these singers were born in 1982?",
     "answers":["Nicki Minaj"],
-    "options":["Britney Spears", "Beyoncé", "Rihanna", "Katy Perry", "George Orwell", "Albert Einstein", "George Washington", "Abraham Lincoln"],
+    "options":["Britney Spears", "Beyoncé", "Rihanna", "Katy Perry"],
     "difficulty": 3,
     "categories":["music"]
 },
@@ -3722,9 +3722,168 @@
     "options":["Minnie", "Lucky", "The Frank secret memory box", "Tigger", "Aiva", "Domino"],
     "difficulty": 3,
     "categories":["books"]
+},
+{
+    "question":"Where was Ludwig Van Beethoven born?",
+    "answers":["Germany"],
+    "options":["Romania", "Austria", "Poland", "Greece", "The United Kingdom"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"Where was Ludwig Van Beethoven born?",
+    "answers":["Germany"],
+    "options":["Romania", "Austria", "Poland", "Greece", "The United Kingdom"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"When was Ludwig Van Beethoven born?",
+    "answers":["1770"],
+    "options":["1870", "1670", "1570", "1470", "1370"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"'Any sufficiently advanced technology is indistinguishable from magic' is a quote from whom?",
+    "answers":["Arthur C. Clarke"],
+    "options":["Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 3,
+    "categories":["quotes"]
+},
+{
+    "question":"Who wrote '2001:A Space Odyssey'?",
+    "answers":["Arthur C. Clarke"],
+    "options":["Isaac Asimov", "Ray Bradbury", "Philip K. Dick", "Orson Scott Card", "Harlan Ellison"],
+    "difficulty": 3,
+    "categories":["books"]
+},
+{
+    "question":"What is the furthest point on Earth from Earth's center?",
+    "answers":["Mount Chimborazo's peak"],
+    "options":["K2's peak", "Mount Everest's peak", "Burj Khalifa's peak"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"What is the highest mountain on Earth?",
+    "answers":["Mount Everest"],
+    "options":["K2", "Kangchenjunga", "Lhotse", "Makalu"],
+    "difficulty": 1,
+    "categories":["geography", "nature"]
+},
+{
+    "question":"Where is Mount Chimborazo located?",
+    "answers":["Ecuador"],
+    "options":["Chile", "India", "China", "Bhutan", "Antartica", "Nepal", "Tajikstan", "Afghanistan", "Andorra", "Lesotho"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Ecaudor?",
+    "answers":["Quito"],
+    "options":["Belmopan", "Ecaudor city", "Eqaulia", "Cuenca", "Manta"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Was Ecaudor was named after the Equator?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"Was Ecaudor was named after an equinox?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"When was radium discovered?",
+    "answers":["1928"],
+    "options":["1907", "1946", "1894", "1749", "1856", "1822", "1827"],
+    "difficulty": 2,
+    "categories":["science", "history"]
+},
+{
+    "question":"What was Walt Disney's first feature-length animated film?",
+    "answers":["Snow White and the Seven Dwarfs"],
+    "options":["Pinocchio", "Fantasia", "Dumbo", "Cinderella", "Treasure Island"],
+    "difficulty": 2,
+    "categories":["film"]
+},
+{
+    "question":"In 1968 which Glen Campell album went to no.1 in the United States?",
+    "answers":["Wichita Lineman"],
+    "options":["Galveston", "That Christmas Feeling", "True Grit", "Hey Little One"],
+    "difficulty": 5,
+    "categories":["music"]
+},
+{
+    "question":"Huckleberry Finn escaped his foster family by sailing on a rift on which river?",
+    "answers":["Missouri River"],
+    "options":["Mississippi River", "Yukon River", "Rio Grande", "Snake River"],
+    "difficulty": 2,
+    "categories":["books"]
+},
+{
+    "question":"When did the Solveit Union lauched Sputnik 1, the first artificial satelite?",
+    "answers":["October 4th 1957"],
+    "options":["October 4th 1961", "October 4th 1951", "October 4th 1947", "October 4th 1941", "April 7th 1957", "April 7th 1961", "April 7th 1951", "April 7th 1947", "April 7th 1941"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"Launched in 1957, what was the name of the first artificial satelite?",
+    "answers":["Sputnik 1"],
+    "options":["Internation Space Station", "Explorer 1", "Skylab", "Telstar 1", "Aryabhata"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"How long does it take the Sun's light to reach Earth?",
+    "answers":["8 minutes and 20 seconds"],
+    "options":["82 seconds", "1 day", "8 hours 20 minutes", "24 minutes 50 seconds", "24 seconds", "24 hours and 50 minutes", "3.5 minutes"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Assassinated alongside him, what was the name of Franz Ferdinand's wife?",
+    "answers":["Sophie"],
+    "options":["Katie", "Maggie", "Maddie", "Averie", "Ellie", "Sadie", "Valerie"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"What is the capital of Croatia?",
+    "answers":["Zagreb"],
+    "options":["Dubrovnik", "Split", "Zadar", "Pula", "Rijeka"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"When was the first motorized flight?",
+    "answers":["December 17, 1903"],
+    "options":["December 17, 1913", "December 17, 1923", "December 17, 1933", "December 17, 1943", "December 17, 1953", "December 17, 1893"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"On November 17 2020, Barak Obama published his memoir entitled what?",
+    "answers":["A Promised Land"],
+    "options":["Yes We Can", "Hard Choices", "Long Walk to Freedom", "Open", "Change We Need", "Change We Can Believe in"],
+    "difficulty": 3,
+    "categories":["books"]
+},
+{
+    "question":"Golden Delicious is which type of fruit?",
+    "answers":["Apple"],
+    "options":["Grape", "Banana", "Pineapple", "Orange", "Lemon", "Mango", "Peach", "Passion fruit"],
+    "difficulty": 2,
+    "categories":["food"]
 }
-
-
 
 
 ]

@@ -22,7 +22,6 @@ class Main:
         self.load_data()
         self.isFullScreen = False
         self.getHighScore()
-        print("High Score: ", self.highScore)
 
     def getHighScore(self):
         try:
@@ -53,11 +52,12 @@ class Main:
         for image in CORRECT_TEXT_IMAGES:
             self.correct_text.append(pg.image.load(path.join(img_folder, image)).convert_alpha())
         self.correct_sound = pg.mixer.Sound(path.join(snd_folder, CORRECT_SOUND))
-        self.background_image = pg.image.load(path.join(img_folder, BACKGROUND_IMAGE)).convert_alpha()
+        self.background_image =pg.transform.scale( pg.image.load(path.join(img_folder, BACKGROUND_IMAGE)).convert_alpha(), (1920, 1080))
+        self.menu_background_image = pg.transform.scale( pg.image.load(path.join(img_folder, BACKGROUND_IMAGE_MENU)).convert_alpha(), (1920, 1080))
         self.question_box_ticked_image = pg.image.load(path.join(img_folder, QUESTION_BOX_TICKED_IMAGE)).convert_alpha()
         self.question_box_hover_image = pg.image.load(path.join(img_folder, QUESTION_BOX_HOVER_IMAGE)).convert_alpha()
         self.question_box_image = pg.image.load(path.join(img_folder, QUESTION_BOX_IMAGE)).convert_alpha()
-
+        self.logo = pg.transform.scale(pg.image.load(path.join(img_folder, LOGO)).convert_alpha(), (460, 350))
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)
@@ -92,8 +92,12 @@ class Main:
             pg.draw.line(self.screen, LIGHTGREY, (0, y), (WIDTH, y))
 
     def draw(self):
-        self.screen.blit(self.background_image, (0, 0))
-        self.draw_grid()
+        if isinstance(self.game, MainMenu):
+            self.screen.blit(self.menu_background_image, (0, 0))
+        else:
+            self.screen.blit(self.background_image, (0, 0))
+
+        #self.draw_grid()
         self.game.draw()
         for sprite in self.all_sprites:
             self.screen.blit(sprite.image, (sprite.x, sprite.y))

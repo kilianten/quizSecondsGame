@@ -8,8 +8,8 @@ class MainMenu():
         self.main = main
         self.font = pg.font.SysFont("Roman", MENU_FONT_SIZE)
         self.smallerFont = pg.font.SysFont("Roman", MENU_SMALLER_FONT_SIZE)
-        self.newGameRect = pg.Rect(10 * TILESIZE, 3 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE + 20)
-        self.exitRect = pg.Rect(10 * TILESIZE, 6 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE + 20)
+        self.newGameRect = pg.Rect(10 * TILESIZE, 6 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE + 20)
+        self.exitRect = pg.Rect(10 * TILESIZE, 9 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE + 20)
         self.newGameMenuRect = pg.Rect(2 * TILESIZE, 1 * TILESIZE, 26 * TILESIZE, 15 * TILESIZE)
         self.startGameRect = pg.Rect(16 * TILESIZE, 13 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE)
         self.menu = "main"
@@ -40,15 +40,15 @@ class MainMenu():
 
     def drawMainMenuPanels(self):
         pg.draw.rect(self.main.screen, PALETTE_1[1], self.newGameRect)
-        pg.draw.rect(self.main.screen, PALETTE_1[0], (10 * TILESIZE, 3 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE))
+        pg.draw.rect(self.main.screen, PALETTE_1[0], (10 * TILESIZE, 6 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE))
         newGameText = self.font.render("NEW GAME", True, WHITE)
-        self.main.screen.blit(newGameText, (10 * TILESIZE * 1.5 - (self.font.size("NEW GAME")[0]) / 2, 4 * TILESIZE - (self.font.size("NEW GAME")[1]) / 2))
-
+        self.main.screen.blit(newGameText, (10 * TILESIZE * 1.5 - (self.font.size("NEW GAME")[0]) / 2, 7 * TILESIZE - (self.font.size("NEW GAME")[1]) / 2))
 
         pg.draw.rect(self.main.screen, PALETTE_1[1], self.exitRect)
-        pg.draw.rect(self.main.screen, PALETTE_1[0], (10 * TILESIZE, 6 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE))
+        pg.draw.rect(self.main.screen, PALETTE_1[0], (10 * TILESIZE, 9 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE))
         newGameText = self.font.render("EXIT", True, WHITE)
-        self.main.screen.blit(newGameText, (10 * TILESIZE * 1.5 - (self.font.size("EXIT")[0]) / 2, 7 * TILESIZE - (self.font.size("EXIT")[1]) / 2))
+        self.main.screen.blit(newGameText, (10 * TILESIZE * 1.5 - (self.font.size("EXIT")[0]) / 2, 10 * TILESIZE - (self.font.size("EXIT")[1]) / 2))
+        self.main.screen.blit(self.main.logo, (11.2 * TILESIZE, .2 * TILESIZE))
 
     def checkCollision(self, mouse):
         if self.menu == "main":
