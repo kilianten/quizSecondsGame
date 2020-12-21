@@ -85,7 +85,7 @@ class Game():
                 option = choice(options)
                 options.remove(option)
                 self.panels.append(optionPanel(self.main, panelx, panely, option))
-            self.questionPanel = questionPanel(self.main, (7 * TILESIZE), (6 * TILESIZE), self.question["question"])
+            self.questionPanel = questionPanel(self.main, (7 * TILESIZE), (7 * TILESIZE), self.question["question"])
 
     def removeExtraOptionsAnswers(self, question):
         dup = dict(question)
@@ -118,14 +118,14 @@ class Game():
     def drawScores(self):
         scoreText = self.main.baseFont.render("Score: {}".format(self.score), True, WHITE)
         text = "Score: " + str(self.score)
-        pg.draw.rect(self.main.screen, PALETTE_1[1], (5 * TILESIZE - SCORE_BOX_PADDING, 3 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2) + 5))
-        pg.draw.rect(self.main.screen, PALETTE_1[0], (5 * TILESIZE - SCORE_BOX_PADDING, 3 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2)))
-        self.main.screen.blit(scoreText, (5 * TILESIZE, 3 * TILESIZE))
+        pg.draw.rect(self.main.screen, PALETTE_1[1], (5 * TILESIZE - SCORE_BOX_PADDING, 4 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2) + 5))
+        pg.draw.rect(self.main.screen, PALETTE_1[0], (5 * TILESIZE - SCORE_BOX_PADDING, 4 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2)))
+        self.main.screen.blit(scoreText, (5 * TILESIZE, 4 * TILESIZE))
         questionsCorrect = self.main.baseFont.render("Correct Answers: {}".format(self.correctQuestions), True, WHITE)
         text = "Correct Answers: " + str(self.correctQuestions)
-        pg.draw.rect(self.main.screen, PALETTE_1[1], (21 * TILESIZE - SCORE_BOX_PADDING, 3 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2) + 5))
-        pg.draw.rect(self.main.screen, PALETTE_1[0], (21 * TILESIZE - SCORE_BOX_PADDING, 3 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2)))
-        self.main.screen.blit(questionsCorrect, (21 * TILESIZE, 3 * TILESIZE))
+        pg.draw.rect(self.main.screen, PALETTE_1[1], (21 * TILESIZE - SCORE_BOX_PADDING, 4 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2) + 5))
+        pg.draw.rect(self.main.screen, PALETTE_1[0], (21 * TILESIZE - SCORE_BOX_PADDING, 4 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2)))
+        self.main.screen.blit(questionsCorrect, (21 * TILESIZE, 4 * TILESIZE))
 
 
     def createLights(self):
