@@ -57,6 +57,7 @@ class Game():
     def endGame(self):
         if self.main.highScore < self.score:
             self.main.writeHighScore(self.score)
+        self.main.quit()
 
     def resetQuestion(self):
         for panel in self.panels:

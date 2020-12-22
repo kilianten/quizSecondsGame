@@ -1562,7 +1562,7 @@
 },
 {
     "question":"Homo sapiens means what?",
-    "answers":["'Wise men'"],
+    "answers":["Wise men"],
     "options":["Tall men", "Depleteing men", "Upright men", "Earthly men"],
     "difficulty":1,
     "categories":["language"]
@@ -3129,7 +3129,7 @@
     "categories":["geography"]
 },
 {
-    "question":"How many countries start with thhe letter R?",
+    "question":"How many countries start with the letter R?",
     "answers":["5"],
     "options":["3", "4", "6", "7", "8", "9", "10"],
     "difficulty": 3,
@@ -3890,7 +3890,356 @@
     "options":["2D World", "3 Dimensional heart", "Flatline", "2D"],
     "difficulty": 4,
     "categories":["books"]
+},
+{
+    "question":"On July 1914, Germany offered unconditional support for Austria-Hungary in an event that has become known as the what?",
+    "answers":["Blank cheque"],
+    "options":["Clean slate", "Blind Eye", "Bitten bullet", "Blue moon", "Blind treaty"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"When did Germany offer unconditional support for Austria-Hungary, known as the 'Blank Cheque'?",
+    "answers":["July 5 1914"],
+    "options":["July 5 1915", "July 5 1916", "July 5 1917", "July 5 1913", "July 5 1912", "October 23 1914", "October 23 1915", "October 23 1916", "October 23 1917", "October 23 1913", "October 23 1912", "April 11 1914", "April 11 1915", "April 11 1916", "April 11 1917", "April 11 1913", "April 11 1912"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"What is the capital of Haiti?",
+    "answers":["Port-au-prince"],
+    "options":["Bridgetown", "Suva", "Cap-Haitien", "Jacmel", "Les Cayes", "Petion-Ville"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Henry Ford famously said 'A customer can have their car painted any colour he wants, as long as its' what colour?",
+    "answers":["Black"],
+    "options":["White", "Silver", "Green", "Blue"],
+    "difficulty": 2,
+    "categories":["quotes"]
+},
+{
+    "question":"Henry Ford famously said 'A customer can have their car painted any colour he wants, as long as its' what?",
+    "answers":["Black"],
+    "options":["Cheap", "Easy on the eyes", "Bright", "A colour of the American flag", "Possible"],
+    "difficulty": 3,
+    "categories":["quotes"]
+},
+{
+    "question":"Which series of car is regarded as the first affordable car?",
+    "answers":["Ford T Model"],
+    "options":["BMC Mini", "Citroen DS", "Volkswagen Beetle", "Ford Model BB", "Volkswagen Golf Mk1"],
+    "difficulty": 3,
+    "categories":["transport", "history"]
+},
+{
+    "question":"In 1956, Colo became the first what to be born into captivity?",
+    "answers":["Gorilla"],
+    "options":["Elephant", "Seal", "Giraffe", "Penguin", "Lion"],
+    "difficulty": 4,
+    "categories":["misc", "history"]
+},
+{
+    "question":"In 1956, the first gorilla to be born into capitivity was named what?",
+    "answers":["Colo"],
+    "options":["Rolo", "Molo", "Yolo", "Solo", "Bolo", "Dolo", "Lolo", "Nolo"],
+    "difficulty": 5,
+    "categories":["misc", "history"]
+},
+{
+    "question":"Which of these TV shows was not created by Matt Groening?",
+    "answers":["Rick and Morty", "Big Mouth", "Metalocalypse", "The Awesomes", "Daria"],
+    "options":["Futurama", "The Simpsons", "Disenchantment"],
+    "difficulty": 5,
+    "categories":["tv"]
+},
+{
+    "question":"What is 36 x 3?",
+    "answers":["108"],
+    "options":["138", "112", "102", "96", "118"],
+    "difficulty": 2,
+    "categories":["maths"]
+},
+{
+    "question":"What is the square root of 64?",
+    "answers":["8"],
+    "options":["2", "4", "6", "12"],
+    "difficulty": 1,
+    "categories":["maths"]
+},
+{
+    "question":"What is the square root of 121?",
+    "answers":["11"],
+    "options":["7", "9", "13"],
+    "difficulty": 2,
+    "categories":["maths"]
+},
+{
+    "question":"What is the square root of 256?",
+    "answers":["16"],
+    "options":["12", "13", "18", "8", "14"],
+    "difficulty": 3,
+    "categories":["maths"]
+},
+{
+    "question":"What is three fifths as a decimal?",
+    "answers":["0.6"],
+    "options":["0.8", "0.2", "0.34", "6"],
+    "difficulty": 1,
+    "categories":["maths"]
+},
+{
+    "question":"How many months are there in 5 years?",
+    "answers":["60"],
+    "options":["80", "58", "48", "84", "64"],
+    "difficulty": 2,
+    "categories":["maths"]
+},
+{
+    "question":"What is 3 - 7 x 4?",
+    "answers":["-25"],
+    "options":["25", "-24", "-16", "16", "-29"],
+    "difficulty": 2,
+    "categories":["maths"]
+},
+{
+    "question":"What is the capital of Uganda?",
+    "answers":["Kampala"],
+    "options":["Harare", "Dodoma", "Nicosia", "Entebbe", "Gulu", "Jinja"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"'Rough diamonds may sometimes be mistaken for worthless pebbles' is a quote from whom?",
+    "answers":["Thomas Browne"],
+    "options":["Ursula Le Guin", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"'Trouble shared is trouble halved' is a quote from whom?",
+    "answers":["Lee Lacocca"],
+    "options":["Ursula Le Guin", "Thomas Browne", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"Certain land snails can sleep for up to three years",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["nature"]
+},
+{
+    "question":"Certain land snails can sleep for up to eight years",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["nature"]
+},
+{
+    "question":"What is the only country to have a square flag",
+    "answers":["Switzerland"],
+    "options":["Myanimar", "Nepal", "Saudi Arabia", "Slovakia", "Ghana", "Tanzania", "Lethoso", "Nauru", "Fiji"],
+    "difficulty": 3,
+    "categories":["georaphy"]
+},
+{
+    "question":"What is the capital of Switzerland",
+    "answers":["Bern"],
+    "options":["Zurich", "Geneva", "Basel", "Lucerne"],
+    "difficulty": 2,
+    "categories":["georaphy"]
+},
+{
+    "question":"In the 2009 film 'Public Enemies' Johnny Depp portrays which gangster?",
+    "answers":["John Dillinger"],
+    "options":["Baby Face Nelson", "Al Capone", "Bugsy Siegel", "Pretty Boy Floyd", "Jesse James"],
+    "difficulty": 2,
+    "categories":["film"]
+},
+{
+    "question":"On July 22nd 1934, Federal agents shot which criminal in Chicago?",
+    "answers":["John Dillinger"],
+    "options":["Baby Face Nelson", "Al Capone", "Bugsy Siegel", "Pretty Boy Floyd", "Jesse James"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"When did federal agents shoot and kill John Dillinger in Chicago?",
+    "answers":["July 22nd 1934"],
+    "options":["July 22nd 1954", "July 22nd 1914", "July 22nd 1894", "December 22nd 1934", "December 22nd 1954", "December 22nd 1914", "December 22nd 1894"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"Where was John Dillinger exiting when he was shot and killed in 1934?",
+    "answers":["Theatre"],
+    "options":["Casino", "His home", "A bank", "A phone booth"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"Where was John Dillinger when he was shot and killed by federal agents in 1934?",
+    "answers":["Chicago, Illinois"],
+    "options":["Los Angeles, California", "San Francisco, California", "Boston, Massachusetts", "Seattle, Washingston", "Philadelphia, Pennsylvania", "Detroit, Michigan", "New Orleans, Louisiana", "Denver, Colorado", "San Antonio, Texas", "Portland, Oregan", "Houston, Texas", "Austin, Texas", "Phoenix, Arizona", "Nashville, Tennessee", "San Jose, California", "Miami, Florida", "Charlotte, North Carolina", "Atlanta, Georgia", "Minneapolis, Minnesota", "Las Vegas, Nevada", "Pittsburgh, Pennsylvania"],
+    "difficulty": 3,
+    "categories":["geography", "history"]
+},
+{
+    "question":"Where would you find the city of Chicago?",
+    "answers":["Illinois"],
+    "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Michigan", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Los Angeles?",
+    "answers":["California"],
+    "options":["Illinois", "Massachusetts", "Washingston", "Pennsylvania", "Michigan", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of San Francisco?",
+    "answers":["California"],
+    "options":["Illinois", "Massachusetts", "Washingston", "Pennsylvania", "Michigan", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Boston?",
+    "answers":["Massachusetts"],
+    "options":["Illinois", "California", "Washingston", "Pennsylvania", "Michigan", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Seattle?",
+    "answers":["Washingston"],
+    "options":["Illinois", "California", "Pennsylvania", "Michigan", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Philadelphia?",
+    "answers":["Pennsylvania"],
+    "options":["Illinois", "California", "Washingston", "Michigan", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Detroit?",
+    "answers":["Michigan"],
+    "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of New Orleans?",
+    "answers":["Louisiana"],
+    "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Denver?",
+    "answers":["Colorado"],
+    "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of San Antonio?",
+    "answers":["Texas"],
+    "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Portland?",
+    "answers":["Oregan"],
+    "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Colorado", "Texas", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Houston?",
+    "answers":["Texas"],
+    "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Austin?",
+    "answers":["Texas"],
+    "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Phoenix?",
+    "answers":["Arizona"],
+    "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Texas", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Nashville?",
+    "answers":["Tennessee"],
+    "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Texas", "Arizona", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of San Jose?",
+    "answers":["California"],
+    "options":["Tennessee", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Texas", "Arizona", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Miami?",
+    "answers":["Florida"],
+    "options":["Tennessee", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Texas", "Arizona", "California", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Charlotte?",
+    "answers":["North Carolina"],
+    "options":["Tennessee", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Texas", "Arizona", "California", "Florida", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Atlanta?",
+    "answers":["Georgia"],
+    "options":["Tennessee", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Texas", "Arizona", "California", "Florida", "North Carolina", "Minnesota", "Nevada"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Minneapolis?",
+    "answers":["Minnesota"],
+    "options":["Tennessee", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Texas", "Arizona", "California", "Florida", "North Carolina", "Georgia", "Nevada"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Las Vegas?",
+    "answers":["Nevada"],
+    "options":["Tennessee", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Texas", "Arizona", "California", "Florida", "North Carolina", "Georgia", "Minnesota"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Pittsburgh?",
+    "answers":["Pennsylvania"],
+    "options":["Tennessee", "Massachusetts", "Washingston", "Nevada", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Texas", "Arizona", "California", "Florida", "North Carolina", "Georgia", "Minnesota"],
+    "difficulty": 3,
+    "categories":["geography"]
 }
-
 
 ]

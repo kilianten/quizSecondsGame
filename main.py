@@ -105,7 +105,7 @@ class Main:
         else:
             self.screen.blit(self.background_image, (0, 0))
 
-        self.draw_grid()
+        #self.draw_grid()
         self.game.draw()
         for sprite in self.all_sprites:
             self.screen.blit(sprite.image, (sprite.x, sprite.y))

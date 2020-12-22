@@ -69,8 +69,8 @@ class MainMenu():
                 self.main.createGame(difficulties)
 
     def drawNumberOfQuestions(self):
-        numberOfQuestions = self.smallerFont.render("Number Of Questions: ", True, WHITE)
-        self.main.screen.blit(numberOfQuestions, (3.5 * TILESIZE, 2 * TILESIZE))
+        numberOfQuestions = self.smallerFont.render("No. Of Questions: ", True, WHITE)
+        self.main.screen.blit(numberOfQuestions, (3.9 * TILESIZE, 2 * TILESIZE))
         numbersAsString = str(self.main.numberOfQuestions)
         numbers = len(numbersAsString)
         xOffset = 0
