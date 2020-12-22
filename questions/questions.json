@@ -231,7 +231,7 @@
     "categories":["history", "religion"]
 },
 {
-    "question":"Who commissioned was the Taj Mahal?",
+    "question":"Who commissioned the Taj Mahal?",
     "answers":["Shah Jahan"],
     "options":["Samudragupta", "Ashoka Maurya", "Taj Mahal", "Maharana Pratap", "Maharana Mahal"],
     "difficulty":5,
@@ -3883,6 +3883,13 @@
     "options":["Grape", "Banana", "Pineapple", "Orange", "Lemon", "Mango", "Peach", "Passion fruit"],
     "difficulty": 2,
     "categories":["food"]
+},
+{
+    "question":"Written by Edwin Abbott and published in 1992, what is the name of his book about a 2 dimenional love story?",
+    "answers":["Flatland"],
+    "options":["2D World", "3 Dimensional heart", "Flatline", "2D"],
+    "difficulty": 4,
+    "categories":["books"]
 }
 
 

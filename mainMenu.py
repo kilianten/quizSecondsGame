@@ -49,6 +49,8 @@ class MainMenu():
         newGameText = self.font.render("EXIT", True, WHITE)
         self.main.screen.blit(newGameText, (10 * TILESIZE * 1.5 - (self.font.size("EXIT")[0]) / 2, 10 * TILESIZE - (self.font.size("EXIT")[1]) / 2))
         self.main.screen.blit(self.main.logo, (11.2 * TILESIZE, .2 * TILESIZE))
+        self.drawNumberOfQuestions()
+        self.drawScore()
 
     def checkCollision(self, mouse):
         if self.menu == "main":
@@ -66,6 +68,25 @@ class MainMenu():
                         difficulties.append(questionBox.difficulty)
                 self.main.createGame(difficulties)
 
+    def drawNumberOfQuestions(self):
+        numberOfQuestions = self.smallerFont.render("Number Of Questions: ", True, WHITE)
+        self.main.screen.blit(numberOfQuestions, (3.5 * TILESIZE, 2 * TILESIZE))
+        numbersAsString = str(self.main.numberOfQuestions)
+        numbers = len(numbersAsString)
+        xOffset = 0
+        for x in range(0, numbers):
+            self.main.screen.blit(self.main.numbers_images[int(numbersAsString[x])], (5 * TILESIZE + xOffset, 3 * TILESIZE))
+            xOffset += self.main.numbers_images[x].get_width() + NUMBERS_OFFSET
+
+    def drawScore(self):
+        score = self.smallerFont.render("High Score: ", True, WHITE)
+        self.main.screen.blit(score, (23 * TILESIZE, 2 * TILESIZE))
+        numbersAsString = str(self.main.highScore)
+        numbers = len(numbersAsString)
+        xOffset = 0
+        for x in range(0, numbers):
+            self.main.screen.blit(self.main.numbers_images[int(numbersAsString[x])], (24 * TILESIZE + xOffset, 3 * TILESIZE))
+            xOffset += self.main.numbers_images[x].get_width() + NUMBERS_OFFSET
 
     def createGame(self):
         self.main.createGame()

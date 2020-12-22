@@ -10,8 +10,7 @@ class Game():
     def __init__(self, main, difficulties):
         self.main = main
         self.colour_scheme = PALETTE_1
-        self.allQuestions = json.load(open('questions/questions.json'))
-        print("Number of Questions: ", len(self.allQuestions))
+        self.allQuestions = self.main.allQuestions
         self.filterOutQuestions(difficulties)
         self.panels = []
         self.question = ""

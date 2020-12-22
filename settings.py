@@ -33,6 +33,8 @@ QUESTION_BOX_IMAGE = "questionBox.png"
 QUESTION_BOX_TICKED_IMAGE = "questionBoxTicked.png"
 QUESTION_BOX_HOVER_IMAGE = "questionBoxHovered-export.png"
 LOGO = "logo.png"
+QUESTION_COUNTER_IMAGE = "questionCounter.png"
+NUMBER_IMAGES = ["0.png", "1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png"]
 
 #sounds
 CORRECT_SOUND = "correct.wav"
@@ -47,3 +49,5 @@ NORMAL_START_TIME = 60
 NORMAL_CORRECT_BONUS = 10
 NORMAL_PUNISHMENT_TIME = 6
 NUM_OF_LIGHTS = int(WIDTH / TILESIZE)
+
+NUMBERS_OFFSET = 10

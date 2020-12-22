@@ -22,6 +22,11 @@ class Main:
         self.load_data()
         self.isFullScreen = False
         self.getHighScore()
+        self.loadQuestions()
+
+    def loadQuestions(self):
+        self.allQuestions = json.load(open('questions/questions.json'))
+        self.numberOfQuestions = len(self.allQuestions)
 
     def getHighScore(self):
         try:
@@ -58,6 +63,9 @@ class Main:
         self.question_box_hover_image = pg.image.load(path.join(img_folder, QUESTION_BOX_HOVER_IMAGE)).convert_alpha()
         self.question_box_image = pg.image.load(path.join(img_folder, QUESTION_BOX_IMAGE)).convert_alpha()
         self.logo = pg.transform.scale(pg.image.load(path.join(img_folder, LOGO)).convert_alpha(), (460, 350))
+        self.numbers_images = []
+        for image in NUMBER_IMAGES:
+            self.numbers_images.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (27, 53)))
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)
@@ -97,7 +105,7 @@ class Main:
         else:
             self.screen.blit(self.background_image, (0, 0))
 
-        #self.draw_grid()
+        self.draw_grid()
         self.game.draw()
         for sprite in self.all_sprites:
             self.screen.blit(sprite.image, (sprite.x, sprite.y))
