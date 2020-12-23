@@ -2503,7 +2503,7 @@
     "answers":["Basketball"],
     "options":["Baseball", "Rugby", "Soccer", "Tennis"],
     "difficulty": 3,
-    "categories":["sport"]
+    "categories":["sports"]
 },
 {
     "question":"On December 9, 1941, which country did China NOT formally declared war on?",
@@ -2711,7 +2711,7 @@
 {
     "question":"The National Association for Stock Car Auto Racing (NASCAR) was founded in which state?",
     "answers":["Florida"],
-    "options":["Texas", "", "California", "Pennsylvania", "Georgia", "Arizona"],
+    "options":["Texas", "California", "Pennsylvania", "Georgia", "Arizona"],
     "difficulty": 3,
     "categories":["sports"]
 },
@@ -3951,7 +3951,7 @@
     "question":"Which of these TV shows was not created by Matt Groening?",
     "answers":["Rick and Morty", "Big Mouth", "Metalocalypse", "The Awesomes", "Daria"],
     "options":["Futurama", "The Simpsons", "Disenchantment"],
-    "difficulty": 5,
+    "difficulty": 3,
     "categories":["tv"]
 },
 {
@@ -4240,6 +4240,612 @@
     "options":["Tennessee", "Massachusetts", "Washingston", "Nevada", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Texas", "Arizona", "California", "Florida", "North Carolina", "Georgia", "Minnesota"],
     "difficulty": 3,
     "categories":["geography"]
+},
+{
+    "question":"Where was Bernard Shaw born?",
+    "answers":["Ireland"],
+    "options":["England", "The United States", "Germany", "Austria", "Australia"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"When was Bernard Shaw born?",
+    "answers":["1856"],
+    "options":["1956", "1756", "1656", "1801", "1901", "1701", "1601"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"When did Bernard Shaw die?",
+    "answers":["1950"],
+    "options":["1951", "1751", "1651", "1801", "1901", "1701", "1601"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"When did the chernobyl disaster occur?",
+    "answers":["26 April 1986"],
+    "options":["26 October 1986", "26 April 1982", "26 October 1982", "26 April 1976",  "26 October 1976", "26 April 1971", "26 October 1971", "26 April 1979", "26 October 1979"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"Chevon is the meat of which animal?",
+    "answers":["Goat"],
+    "options":["Calf", "Pigeon", "Deer", "Turkey"],
+    "difficulty": 3,
+    "categories":["food"]
+},
+{
+    "question":"Squad is the meat of which animal?",
+    "answers":["Pigeon"],
+    "options":["Calf", "Goat", "Deer", "Turkey"],
+    "difficulty": 4,
+    "categories":["food"]
+},
+{
+    "question":"Venison is the meat of which animal?",
+    "answers":["Deer"],
+    "options":["Calf", "Goat", "Pigeon", "Turkey"],
+    "difficulty": 2,
+    "categories":["food"]
+},
+{
+    "question":"'You can't shake hands with a clenched fist' is a quote from whom?",
+    "answers":["Indira Gandi"],
+    "options":["Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 3,
+    "categories":["quotes"]
+},
+{
+    "question":"What does the title 'King' tell you about a snake?",
+    "answers":["They eat other snakes"],
+    "options":["Theyre the biggest of their family", "Theyre venemous", "They have 2 heads", "They can spit"],
+    "difficulty": 3,
+    "categories":["nature"]
+},
+{
+    "question":"What president was JFK?",
+    "answers":["35th"],
+    "options":["37th", "36th", "38th", "39th", "34th"],
+    "difficulty": 4,
+    "categories":["misc", "politics"]
+},
+{
+    "question":"When did JFK become president?",
+    "answers":["1961"],
+    "options":["1967", "1964", "1955", "1957", "1950", "1949"],
+    "difficulty": 4,
+    "categories":["politics", "history"]
+},
+{
+    "question":"When was JFK assassinated?",
+    "answers":["1963"],
+    "options":["1961", "1969", "1965", "1954", "1950", "1967"],
+    "difficulty": 4,
+    "categories":["politics", "history"]
+},
+{
+    "question":"'Man - A being in search of meaning' is a quote from whom?",
+    "answers":["Plato"],
+    "options":["Ronald Regan", "Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"'Many a trip continues long after movement in time and space have ceased' is a quote from whom?",
+    "answers":["John Steinbeck"],
+    "options":["Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"'That which does not kill us makes us stronger' is a quote from whom?",
+    "answers":["Freidrich Nietzche"],
+    "options":["Plato", "Ronald Regan", "Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"'You must be the change you wish to see in the world' is a quote from whom?",
+    "answers":["Mohandas Gandhi"],
+    "options":["Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "John Steinbeck", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"The distress code 'Mayday' comes from what French phrase?",
+    "answers":["M'aide"],
+    "options":["M'aime", "m'aller", "M'être", ""],
+    "difficulty": 4,
+    "categories":["language"]
+},
+{
+    "question":"According to Insider, Which of these words has the most definitions in English?",
+    "answers":["Set", "Run"],
+    "options":["Go", "Take", "Stand", "Get", "Turn", "Put", "Fall"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"'Wars begin when you will, but they do not end when you please' is a quote from whom?",
+    "answers":["Nicoló Machiavelli"],
+    "options":["Plato", "Ronald Regan", "Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"Nicoló Machiavelli is from which country?",
+    "answers":["Italy"],
+    "options":["Greece", "France", "Austria", "Amsterdam"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"When was Nicoló Machiavelli born?",
+    "answers":["1469"],
+    "options":["1569", "1669", "1369", "1269", "1479"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"When was Nicoló Machiavelli born?",
+    "answers":["1527"],
+    "options":["1427", "1627", "1327", "1227", "1427"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"What percentage of the Earth's surface is covered by water?",
+    "answers":["71%"],
+    "options":["61%", "81%", "93%", "87%", "67%", "77%", "63%", "53%", "73%", "83%"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"71% of the Earths surface is covered by water, of the remaining 29%, 33% is what?",
+    "answers":["Desert"],
+    "options":["Forest", "Mountain", "More water"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Persia is now which modern country?",
+    "answers":["Iran"],
+    "options":["Egypt", "Turkey", "Suadi Arabia", "Pakistan", "Nepal", "Bhutan"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"Persia changed its name to Iran in what century?",
+    "answers":["20th"],
+    "options":["21st", "19th", "18th", "17th", "16th", "15th"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"When did Persia changed its name to Iran?",
+    "answers":["1935"],
+    "options":["1945", "1955", "1965", "1925", "1915", "1905", "1895", "1885", "1875"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"CT scans and MRIs are both used to capture images within your body",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 1,
+    "categories":["science", "medicine"]
+},
+{
+    "question":"What does an MRIs stand for",
+    "answers":["Magnetic resonance imaging"],
+    "options":["Magnetic relative imaging", "Medical resonance imaging", "Medical relative imaging", "Magentic real-time imaging", "Medical real-time imaging"],
+    "difficulty": 2,
+    "categories":["science", "medicine"]
+},
+{
+    "question":"What does a CT scan stand for",
+    "answers":["Computer tomography"],
+    "options":["Computer topography", "Critical topography", "Cathode topography", "Cathode tomography", "Clustered tomography", "Clustered topography"],
+    "difficulty": 3,
+    "categories":["science", "medicine"]
+},
+{
+    "question":"Which of these uses X-rays",
+    "answers":["CT scan"],
+    "options":["MRI"],
+    "difficulty": 2,
+    "categories":["science", "medicine"]
+},
+{
+    "question":"Which of these uses radio waves",
+    "answers":["MRI"],
+    "options":["CT scan"],
+    "difficulty": 2,
+    "categories":["science", "medicine"]
+},
+{
+    "question":"The word origin of which profession comes from the Greek for 'star sailor'",
+    "answers":["Astronaut"],
+    "options":["Astronomer", "Astrophysicist", "Astrosailor"],
+    "difficulty": 1,
+    "categories":["science", "medicine"]
+},
+{
+    "question":"Patrick Henry famously said 'Give me liberty or give me' what?",
+    "answers":["Death"],
+    "options":["Nothing", "Freedom", "Hope", "A clenched fist", "Olympus"],
+    "difficulty": 2,
+    "categories":["quotes"]
+},
+{
+    "question":"Which founding father famously said 'Give me liberty or give me death'?",
+    "answers":["Patrick Henry"],
+    "options":["James Madison", "George Washington", "John Adams", "Benjamin Franklin", "Thomas Jefferson", "Alexander Hamilton", "Thomas Paine", "Samuel Adams"],
+    "difficulty": 3,
+    "categories":["quotes"]
+},
+{
+    "question":"Which founding father has the largest signature on the Decleration of Independence?",
+    "answers":["John Hancock"],
+    "options":["Patrick Henry", "James Madison", "George Washington", "John Adams", "Benjamin Franklin", "Thomas Jefferson", "Alexander Hamilton", "Thomas Paine", "Samuel Adams"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"Which founding father has the largest signature on the Decleration of Independence?",
+    "answers":["John Hancock"],
+    "options":["Patrick Henry", "James Madison", "George Washington", "John Adams", "Benjamin Franklin", "Thomas Jefferson", "Alexander Hamilton", "Thomas Paine", "Samuel Adams"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"What does does the S in SCUBA stand for?",
+    "answers":["Self-contained"],
+    "options":["Submerged", "Seamless", "SLL", "Standalone", "Surface"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"What does does the S in SCUBA stand for?",
+    "answers":["Self"],
+    "options":["Submerged", "Seamless", "SLL", "Standalone", "Surface"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"What does does the U in SCUBA stand for?",
+    "answers":["Underwater"],
+    "options":["Ultra", "Utility", "Ultimate", "User"],
+    "difficulty": 1,
+    "categories":["language"]
+},
+{
+    "question":"What does does the A in SCUBA stand for?",
+    "answers":["Apparatus"],
+    "options":["Accelerator", "Adapter", "Air", "Amplifier"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"When did the Notre-Dame catherdral catch fire?",
+    "answers":["15th of April 2019"],
+    "options":["15th of April 2018", "15th of April 2017", "15th of April 2020", "15th of March 2019", "15th of March 2018"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"Where is the Notre-Dame catherdral located?",
+    "answers":["France"],
+    "options":["Germany", "Brussels", "Austria", "Amstderdam"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"Where is the Notre-Dame catherdral located?",
+    "answers":["Paris"],
+    "options":["Marseille", "Strasbourg", "Nice", "Lyon", "Lille"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of France?",
+    "answers":["Paris"],
+    "options":["Marseille", "Strasbourg", "Nice", "Lyon", "Lille"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"What did Vincent van Gogh cut off after an argument?",
+    "answers":["His ear"],
+    "options":["His nose", "His big toe", "His middle finger", "Hand"],
+    "difficulty": 1,
+    "categories":["misc"]
+},
+{
+    "question":"Vincent van Gogh cut off his right after an argument?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"Vincent van Gogh cut off his left after an argument?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"Where was the first kidney transplant done?",
+    "answers":["Massachusetts"],
+    "options":["Illinois", "California", "Washingston", "Pennsylvania", "Michigan", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 4,
+    "categories":["science", "medicine", "history"]
+},
+{
+    "question":"Where was the first kidney transplant done?",
+    "answers":["The United States"],
+    "options":["England", "Canada", "Australia", "Austria", "Amsterdam", "Germany", "France"],
+    "difficulty": 2,
+    "categories":["science", "medicine", "history"]
+},
+{
+    "question":"Which organ was sucessfully transplanted in 1954?",
+    "answers":["Kidney"],
+    "options":["Lung", "Pancreas", "Eye", "Skin"],
+    "difficulty": 2,
+    "categories":["science", "medicine", "history"]
+},
+{
+    "question":"Which organ was sucessfully transplanted in 1869?",
+    "answers":["Skin"],
+    "options":["Lung", "Pancreas", "Eye", "Kidney"],
+    "difficulty": 3,
+    "categories":["science", "medicine", "history"]
+},
+{
+    "question":"Which organ was sucessfully transplanted first?",
+    "answers":["Skin"],
+    "options":["Lung", "Pancreas", "Eye", "Kidney"],
+    "difficulty": 3,
+    "categories":["science", "medicine", "history"]
+},
+{
+    "question":"When did England win the world cup?",
+    "answers":["1966"],
+    "options":["1970", "1974", "1978", "1962", "1976", "1972"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"Which of these countries has not won a World Cup?",
+    "answers":["Belgium", "Holland"],
+    "options":["Uruguay", "France", "Spain", "England"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"Which of these countries has not won a World Cup?",
+    "answers":["Belgium", "Holland", "Croatia"],
+    "options":["Uruguay", "France", "Spain", "England"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"Who won the 2018 World Cup?",
+    "answers":["France"],
+    "options":["Uruguay", "Spain", "England", "Croatia", "Belgium"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"Who hosted the 2018 World Cup?",
+    "answers":["Russia"],
+    "options":["Brazil", "South Africa", "Germany", "South Korea, Japan", "France", "United States", "Mexico", "Italy"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"Who won the 2014 World Cup?",
+    "answers":["Germany"],
+    "options":["Brazil", "France", "Spain", "Italy", "Argentina"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"Who hosted the 2014 World Cup?",
+    "answers":["Brazil"],
+    "options":["Russia", "South Africa", "Germany", "South Korea, Japan", "France", "United States", "Mexico", "Italy"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"Who won the 2010 World Cup?",
+    "answers":["Spain"],
+    "options":["Brazil", "France", "Spain", "Germany", "Argentina"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"Who hosted the 2010 World Cup?",
+    "answers":["South Africa"],
+    "options":["Russia", "Brazil", "Germany", "South Korea, Japan", "France", "United States", "Mexico", "Italy"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"Who won the 2006 World Cup?",
+    "answers":["Italy"],
+    "options":["Brazil", "France", "Spain", "Germany", "Argentina"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"Who hosted the 2006 World Cup?",
+    "answers":["Germany"],
+    "options":["Russia", "Brazil", "South Africa", "South Korea, Japan", "France", "United States", "Mexico", "Italy"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"Who won the 2002 World Cup?",
+    "answers":["Brazil"],
+    "options":["Italy", "France", "Spain", "Germany", "Argentina"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"Who hosted the 2002 World Cup?",
+    "answers":["South Korea, Japan"],
+    "options":["Russia", "Brazil", "South Africa", "Germany", "France", "United States", "Mexico", "Italy"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"Who won the 1998 World Cup?",
+    "answers":["France"],
+    "options":["Italy", "Brazil", "Spain", "Germany", "Argentina"],
+    "difficulty": 4,
+    "categories":["sports"]
+},
+{
+    "question":"Who hosted the 1998 World Cup?",
+    "answers":["France"],
+    "options":["Russia", "Brazil", "South Africa", "Germany", "South Korea, Japan", "United States", "Mexico", "Italy"],
+    "difficulty": 4,
+    "categories":["sports"]
+},
+{
+    "question":"Who won the 1994 World Cup?",
+    "answers":["Brazil"],
+    "options":["Italy", "France", "Spain", "Germany", "Argentina"],
+    "difficulty": 4,
+    "categories":["sports"]
+},
+{
+    "question":"Who hosted the 1994 World Cup?",
+    "answers":["United States"],
+    "options":["Russia", "Brazil", "South Africa", "Germany", "South Korea, Japan", "France", "Mexico", "Italy"],
+    "difficulty": 4,
+    "categories":["sports"]
+},
+{
+    "question":"Who won the 1990 World Cup?",
+    "answers":["Germany"],
+    "options":["Italy", "France", "Spain", "Brazil", "Argentina"],
+    "difficulty": 4,
+    "categories":["sports"]
+},
+{
+    "question":"Who hosted the 1990 World Cup?",
+    "answers":["Italy"],
+    "options":["Russia", "Brazil", "South Africa", "Germany", "South Korea, Japan", "France", "Mexico", "United States"],
+    "difficulty": 4,
+    "categories":["sports"]
+},
+{
+    "question":"Who won the 1986 World Cup?",
+    "answers":["Argentina"],
+    "options":["Italy", "France", "Spain", "Brazil", "Germany"],
+    "difficulty": 4,
+    "categories":["sports"]
+},
+{
+    "question":"Who hosted the 1986 World Cup?",
+    "answers":["Mexico"],
+    "options":["Russia", "Brazil", "South Africa", "Germany", "South Korea, Japan", "France", "Mexico", "United States", "Italy"],
+    "difficulty": 5,
+    "categories":["sports"]
+},
+{
+    "question":"In 2020, Joe Rogan announced his podcast would move from Youtube to what platform?",
+    "answers":["Spotify"],
+    "options":["Itunes", "Netflix", "Hulu", "Facebook", "Amazon", "Vimeo"],
+    "difficulty": 2,
+    "categories":["misc", "enteraintment"]
+},
+{
+    "question":"Ricky Martin, singer of 'Livin' La Vida Loca' is from what country?",
+    "answers":["Puerto Rico"],
+    "options":["Columbia", "Barbado", "Spain", "Cuba", "Mexico"],
+    "difficulty": 3,
+    "categories":["music"]
+},
+{
+    "question":"Who is the singer of 'Livin' La Vida Loca'?",
+    "answers":["Ricky Martin"],
+    "options":["Luis Fonsi", "Enrique Iglesias", "Shakira", "Selena", "Los Fabulosos Cadillacs"],
+    "difficulty": 3,
+    "categories":["music"]
+},
+{
+    "question":"Stephenie Meyer is known for which series of books?",
+    "answers":["Twilight"],
+    "options":["The Hunger Games", "The Princess Diaries", "Divergent"],
+    "difficulty": 3,
+    "categories":["books"]
+},
+{
+    "question":"Who wrote the Lord of the Rings?",
+    "answers":["J. R. R. Tolkien"],
+    "options":["J. K. Rowling", "George R. Martin", "C. S. Lewis"],
+    "difficulty": 1,
+    "categories":["books"]
+},
+{
+    "question":"Akihito was en emporer of which country?",
+    "answers":["Japan"],
+    "options":["China", "Korea", "Jordan", "Cambodia"],
+    "difficulty": 4,
+    "categories":["politics"]
+},
+{
+    "question":"Who was the founder of The Latter Day Saint movement?",
+    "answers":["Joseph Smith"],
+    "options":["Thomas S. Monson", "Joseph Fielding Smith", "Emma Hale", "Thomas S. Monson"],
+    "difficulty": 4,
+    "categories":["politics"]
+},
+{
+    "question":"When did Vincent van Gogh cut off his ear?",
+    "answers":["1888"],
+    "options":["1988", "1788", "1688", "1672", "1772", "1872", "1972"],
+    "difficulty": 4,
+    "categories":["art", "history"]
+},
+{
+    "question":"In 1982 Time Magazine's Man of the Year was a computer?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["misc"]
+},
+{
+    "question":"In 1982 Time Magazine's Man of the Year was a dog?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 2,
+    "categories":["misc"]
+},
+{
+    "question":"What was the first horror film to be nominated for Best Picture at the Academy Awards?",
+    "answers":["The Exorcist"],
+    "options":["Silence of the Lambs", "Misery", "Jaws", "Alien", "Psycho", "Birds"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"What is the only horror film to win Best Picture at the Academy Awards?",
+    "answers":["Silence of the Lambs"],
+    "options":["Exorcist", "Misery", "Jaws", "Alien", "Psycho", "Birds"],
+    "difficulty": 3,
+    "categories":["film"]
 }
+
+
+
+
 
 ]
