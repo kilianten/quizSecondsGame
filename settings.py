@@ -45,9 +45,13 @@ CORRECT_TEXT_UPDATE_TIME = 40
 #Colorpalettes
 PALETTE_1 = [(231, 111, 81, 0), (244, 162, 97), (42, 157, 143), (38, 70, 83)]
 
+ICON_CATEGORY_COLOUR = (92, 168, 181)
+
 NORMAL_START_TIME = 60
 NORMAL_CORRECT_BONUS = 10
 NORMAL_PUNISHMENT_TIME = 7
 NUM_OF_LIGHTS = int(WIDTH / TILESIZE)
 
 NUMBERS_OFFSET = 10
+
+ICON_IMAGES = {"science": "icon_science_blur.png", "misc": "icon_misc_blur.png", "geography": "icon_geography_blur.png", "history": "icon_history_blur.png"}

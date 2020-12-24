@@ -15,6 +15,7 @@ class Game():
         self.panels = []
         self.question = ""
         self.colour = self.colour_scheme[0]
+        self.categoryIcon = CategoryIcon(main, 3 * TILESIZE, 6 * TILESIZE)
         self.startGame()
         self.createLights()
         self.startTime = NORMAL_START_TIME
@@ -86,6 +87,7 @@ class Game():
                 options.remove(option)
                 self.panels.append(optionPanel(self.main, panelx, panely, option))
             self.questionPanel = questionPanel(self.main, (7 * TILESIZE), (7 * TILESIZE), self.question["question"])
+        self.categoryIcon.changeImage(self.question["categories"])
 
     def removeExtraOptionsAnswers(self, question):
         dup = dict(question)
@@ -108,12 +110,18 @@ class Game():
             panel.drawRect()
             self.main.screen.blit(panel.image, (panel.x, panel.y))
             panel.drawText()
+        self.draw_categry_icon()
         self.drawQuestionPanel()
         for light in self.lights:
             if light.isOn:
                 light.drawRect()
             self.main.screen.blit(light.image, (light.x, light.y))
         self.drawScores()
+
+    def draw_categry_icon(self):
+        categoryIcon = self.categoryIcon
+        categoryIcon.drawCircle()
+        self.main.screen.blit(categoryIcon.image, (categoryIcon.x, categoryIcon.y))
 
     def drawScores(self):
         scoreText = self.main.baseFont.render("Score: {}".format(self.score), True, WHITE)

@@ -65,7 +65,10 @@ class Main:
         self.logo = pg.transform.scale(pg.image.load(path.join(img_folder, LOGO)).convert_alpha(), (460, 350))
         self.numbers_images = []
         for image in NUMBER_IMAGES:
-            self.numbers_images.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (27, 53)))
+            self.numbers_images.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (27, 53)))#
+        self.icon_images = {}
+        for icon_image in ICON_IMAGES:
+            self.icon_images[icon_image] = pg.transform.scale(pg.image.load(path.join(img_folder, ICON_IMAGES[icon_image])).convert_alpha(), (150, 150))
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)

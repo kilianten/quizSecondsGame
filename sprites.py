@@ -133,3 +133,29 @@ class QuestionBox(pg.sprite.Sprite):
                 self.image = self.main.question_box_ticked_image
                 self.ticked = True
                 self.clicked = False
+
+class CategoryIcon(pg.sprite.Sprite):
+    def __init__(self, main, x, y, category=None):
+        self.main = main
+        self.groups = self.main.all_sprites
+        pg.sprite.Sprite.__init__(self, self.groups)
+        self.x = x
+        self.y = y
+        if category == None:
+            self.image = self.main.icon_images["science"]
+        else:
+            self.image = self.main.icon_images[category]
+
+    def changeImage(self, categories):
+        foundImage = False
+        for category in categories:
+            if category in list(self.main.icon_images):
+                self.image = self.main.icon_images[category]
+                foundImage = True
+                break
+        if not foundImage:
+            self.image = self.main.icon_images["misc"]
+
+    def drawCircle(self):
+        pg.draw.circle(self.main.screen, (244, 162, 97), (self.x + self.image.get_width() / 2, self.y + self.image.get_height() / 2),  self.image.get_width() / 2 + 10)
+        pg.draw.circle(self.main.screen, ICON_CATEGORY_COLOUR, (self.x + self.image.get_width() / 2, self.y + self.image.get_height() / 2),  self.image.get_width() / 2 + 5)

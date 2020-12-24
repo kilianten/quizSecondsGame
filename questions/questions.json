@@ -4564,14 +4564,14 @@
     "categories":["misc"]
 },
 {
-    "question":"Vincent van Gogh cut off his right after an argument?",
+    "question":"Did Vincent van Gogh cut off his right ear after an argument?",
     "answers":["False"],
     "options":["True"],
     "difficulty": 3,
     "categories":["misc"]
 },
 {
-    "question":"Vincent van Gogh cut off his left after an argument?",
+    "question":"Did Vincent van Gogh cut off his left ear after an argument?",
     "answers":["True"],
     "options":["False"],
     "difficulty": 3,
@@ -4842,6 +4842,13 @@
     "options":["Exorcist", "Misery", "Jaws", "Alien", "Psycho", "Birds"],
     "difficulty": 3,
     "categories":["film"]
+},
+{
+    "question":"In The Hitchhiker's Guide to the Galaxy, an enormous supercomputer calculates the meaning of life. What answer does it give?",
+    "answers":["42"],
+    "options":["Cake", "Make as many relationships as possible", "Find peace at home", "Find God", "Love"],
+    "difficulty": 3,
+    "categories":["books", "film"]
 }
 
 
