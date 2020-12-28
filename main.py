@@ -8,6 +8,7 @@ from settings import *
 from game import *
 import pickle
 
+from collections import OrderedDict
 from sprites import *
 from mainMenu import *
 
@@ -24,9 +25,33 @@ class Main:
         self.getHighScore()
         self.loadQuestions()
 
+
     def loadQuestions(self):
+        printStats = True #print out question stats
         self.allQuestions = json.load(open('questions/questions.json'))
         self.numberOfQuestions = len(self.allQuestions)
+        if printStats:
+            self.printStats()
+
+    def printStats(self):
+        categoriesCounts = OrderedDict()
+        for question in self.allQuestions:
+            for category in question['categories']:
+                if category not in categoriesCounts.keys():
+                    categoriesCounts[category] = 1
+                else:
+                    categoriesCounts[category] = categoriesCounts[category] + 1
+
+        for category in categoriesCounts:
+            print(category, ": ", categoriesCounts[category])
+        categoriesWithoutIcons = []
+        for category in categoriesCounts.keys():
+            if category not in self.icon_images.keys():
+                categoriesWithoutIcons.append(category)
+        categoriesWithoutIcons.sort()
+        print("Categories without Icons: ", categoriesWithoutIcons)
+        for category in categoriesWithoutIcons:
+            print(category, ": ", categoriesCounts[category])
 
     def getHighScore(self):
         try:
@@ -52,7 +77,9 @@ class Main:
         self.img_folder = path.join(self.game_folder, 'images')
         self.panel_star = pg.image.load(path.join(img_folder, PANEL_STAR_IMAGE)).convert_alpha()
         self.panel_q_star = pg.image.load(path.join(img_folder, PANEL_Q_STAR_IMAGE)).convert_alpha()
-        self.light_jar = pg.image.load(path.join(img_folder, LIGHT_IMAGE)).convert_alpha()
+        self.light_jar = pg.image.load(path.join(img_folder,
+
+         LIGHT_IMAGE)).convert_alpha()
         self.correct_text = []
         for image in CORRECT_TEXT_IMAGES:
             self.correct_text.append(pg.image.load(path.join(img_folder, image)).convert_alpha())
@@ -68,7 +95,7 @@ class Main:
             self.numbers_images.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (27, 53)))#
         self.icon_images = {}
         for icon_image in ICON_IMAGES:
-            self.icon_images[icon_image] = pg.transform.scale(pg.image.load(path.join(img_folder, ICON_IMAGES[icon_image])).convert_alpha(), (150, 150))
+            self.icon_images[icon_image] = pg.transform.scale(pg.image.load(path.join(img_folder, ICON_IMAGES[icon_image])).convert_alpha(), (175, 175))
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)

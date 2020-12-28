@@ -480,14 +480,14 @@
     "answers":["Mahatma Gandhi"],
     "options":["Albert Einstein", "Mother Teresa", "Martin Luther King Jr.", "Malcolm X", "Abraham Lincoln"],
     "difficulty": 3,
-    "categories":["quote"]
+    "categories":["quotes"]
 },
 {
     "question":"Who was assassinated on 30 January 1948?",
     "answers":["Mahatma Gandhi"],
     "options":["Indira Gandhi", "Franz Ferdinand", "Martin Luther King Jr.", "Malcolm X"],
     "difficulty": 2,
-    "categories":["quote"]
+    "categories":["quotes"]
 },
 {
     "question":"IBM's Deep Blue chess-playing computer defeated which chess grandmaster in 1996 & 1997?",
@@ -2331,7 +2331,7 @@
     "categories":["geography"]
 },
 {
-    "question":"'Sleep that knits up the ravell'd sleave of care, the death of each day's life, sore labour's bath, balm of hurt minds, great nature's second course, chief nourisher in life's feast' is a quote from which Shakespeere work?",
+    "question":"'Sleep that knits up the ravell'd sleave of care, the death of each day's life, sore labour's bath, balm of hurt minds, great nature's second course, chief nourisher in life's feast' is a quote from which Shakespeare work?",
     "answers":["Macbeth"],
     "options":["Hamlet", "Romeo and Juliet", "The Tempest", "Measure for Measure"],
     "difficulty": 3,
@@ -2496,7 +2496,7 @@
     "answers":["1960"],
     "options":["1965", "1955", "1975", "1970", "1950", "1980", "1945"],
     "difficulty": 3,
-    "categories":["tv"]
+    "categories":["TV"]
 },
 {
     "question":"December 9 1978 saw the first women's professional league game of which sport?",
@@ -3952,56 +3952,56 @@
     "answers":["Rick and Morty", "Big Mouth", "Metalocalypse", "The Awesomes", "Daria"],
     "options":["Futurama", "The Simpsons", "Disenchantment"],
     "difficulty": 3,
-    "categories":["tv"]
+    "categories":["TV"]
 },
 {
     "question":"What is 36 x 3?",
     "answers":["108"],
     "options":["138", "112", "102", "96", "118"],
     "difficulty": 2,
-    "categories":["maths"]
+    "categories":["math"]
 },
 {
     "question":"What is the square root of 64?",
     "answers":["8"],
     "options":["2", "4", "6", "12"],
     "difficulty": 1,
-    "categories":["maths"]
+    "categories":["math"]
 },
 {
     "question":"What is the square root of 121?",
     "answers":["11"],
     "options":["7", "9", "13"],
     "difficulty": 2,
-    "categories":["maths"]
+    "categories":["math"]
 },
 {
     "question":"What is the square root of 256?",
     "answers":["16"],
     "options":["12", "13", "18", "8", "14"],
     "difficulty": 3,
-    "categories":["maths"]
+    "categories":["math"]
 },
 {
     "question":"What is three fifths as a decimal?",
     "answers":["0.6"],
     "options":["0.8", "0.2", "0.34", "6"],
     "difficulty": 1,
-    "categories":["maths"]
+    "categories":["math"]
 },
 {
     "question":"How many months are there in 5 years?",
     "answers":["60"],
     "options":["80", "58", "48", "84", "64"],
     "difficulty": 2,
-    "categories":["maths"]
+    "categories":["math"]
 },
 {
     "question":"What is 3 - 7 x 4?",
     "answers":["-25"],
     "options":["25", "-24", "-16", "16", "-29"],
     "difficulty": 2,
-    "categories":["maths"]
+    "categories":["math"]
 },
 {
     "question":"What is the capital of Uganda?",
@@ -4043,14 +4043,14 @@
     "answers":["Switzerland"],
     "options":["Myanimar", "Nepal", "Saudi Arabia", "Slovakia", "Ghana", "Tanzania", "Lethoso", "Nauru", "Fiji"],
     "difficulty": 3,
-    "categories":["georaphy"]
+    "categories":["geography"]
 },
 {
     "question":"What is the capital of Switzerland",
     "answers":["Bern"],
     "options":["Zurich", "Geneva", "Basel", "Lucerne"],
     "difficulty": 2,
-    "categories":["georaphy"]
+    "categories":["geography"]
 },
 {
     "question":"In the 2009 film 'Public Enemies' Johnny Depp portrays which gangster?",
@@ -4764,7 +4764,7 @@
     "answers":["Spotify"],
     "options":["Itunes", "Netflix", "Hulu", "Facebook", "Amazon", "Vimeo"],
     "difficulty": 2,
-    "categories":["misc", "enteraintment"]
+    "categories":["misc", "entertainment"]
 },
 {
     "question":"Ricky Martin, singer of 'Livin' La Vida Loca' is from what country?",
@@ -4849,10 +4849,777 @@
     "options":["Cake", "Make as many relationships as possible", "Find peace at home", "Find God", "Love"],
     "difficulty": 3,
     "categories":["books", "film"]
+},
+{
+    "question":"'He is happiest, be king or peasant, who finds peace at home' is a quote from whom?",
+    "answers":["Johann Wolfgang von Goethe"],
+    "options":["John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"Joan of Arc faught in which war?",
+    "answers":["Hundred Years' War"],
+    "options":["Wars of the Roses", "German–Polish War", "Despenser War", "War of the Two Peters"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"When was the Hundred Years' War faught?",
+    "answers":["1337-1453"],
+    "options":["1227-1327", "1427-1527", "1137-1237", "1527-1627", "1549-1623"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"What age was Joan of Arc when she died?",
+    "answers":["19"],
+    "options":["26", "34", "41", "47", "52", "61", "37", "31"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"How did Joan of Arc die?",
+    "answers":["She was burned at the stake"],
+    "options":["She took an arrow to the knee during battle", "She died in the Queen's prison", "Her horse kicked her", "She drank poison", "She was thrown off a cliff to see if she would fall or fly"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"What does IQ stand for?",
+    "answers":["Intelligence quotient"],
+    "options":["Intelligence qualifier", "Intelligence Query", "Intelligence Query", "Intelligence Quicktime", "Intelligence Quantum", "Intelligence Quest"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Heliophobia is the fear of what?",
+    "answers":["The sun"],
+    "options":["Helium", "Floating away from Earth", "Cheese", "Clowns", "Workout", "Feet"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"When was Guinness founded?",
+    "answers":["1759"],
+    "options":["1859", "1889", "1659", "1459", "1359"],
+    "difficulty": 4,
+    "categories":["drinks"]
+},
+{
+    "question":"Where was Guinness founded?",
+    "answers":["Dublin"],
+    "options":["Cork", "London", "Galway", "Paris"],
+    "difficulty": 2,
+    "categories":["drinks"]
+},
+{
+    "question":"In 1664, the English renamed the city to New York City, what was it called before?",
+    "answers":["New Amsterdam"],
+    "options":["New Columbia", "Housten", "Yorktown", "Lyria", "El cuppo"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"'Anything that can go wrong will go wrong' is typically known as what?",
+    "answers":["Murphy's Law"],
+    "options":["Hanlon's Razor", "Occam's Razor", "The Pareto principle", "The 80/20 rule"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"'The growth of wisdom can be accurately measured by the decline of ill-temper' is a quote from whom?",
+    "answers":["Friedrich Nietzche"],
+    "options":["Johann Wolfgang von Goethe", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"In 1994, what caused a blackout in L.A?",
+    "answers":["An Earthquake"],
+    "options":["A bomb", "A flood", "A hurricane", "A pulsar sent from the sun"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"The largest known eyes in the world belong to what type of animal?",
+    "answers":["Squid"],
+    "options":["Shark", "Ostrich", "Chameleon", "Camel"],
+    "difficulty": 3,
+    "categories":["nature"]
+},
+{
+    "question":"The collosal squid has the largest eyes in the animal kingdom, how big are they?",
+    "answers":["27cm"],
+    "options":["15cm", "21cm", "32cm", "13cm", "9cm", "5cm", "37cm", "39cm"],
+    "difficulty": 3,
+    "categories":["nature"]
+},
+{
+    "question":"What is the capital of Cyprus?",
+    "answers":["Nicosia"],
+    "options":["Paphos", "Larnaca", "Limassol", "Famagusta", "Paralimni"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Where is insulin produced in the body?",
+    "answers":["Pancreas"],
+    "options":["Kidney", "Spleen", "Liver", "Appendix"],
+    "difficulty": 2,
+    "categories":["medicine", "science"]
+},
+{
+    "question":"'Its not the fall that kills you, its the sudden stop at the end' is a quote from whom?",
+    "answers":["Douglas Adams"],
+    "options":["Johann Wolfgang von Goethe", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"Hitler & Charlie Chaplin were born just 4 days apart",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"Charles Darwin & Charlie Chaplin were born just 4 days apart",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"Albert Einstein & Charlie Chaplin were born just 4 days apart",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"When was Hitler born?",
+    "answers":["1889"],
+    "options":["1899", "1909", "1979", "1969", "1919", "1929"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"When was Charlie Chaplin?",
+    "answers":["1889"],
+    "options":["1899", "1909", "1979", "1969", "1919", "1929"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"When did the March on Rome occur?",
+    "answers":["1922"],
+    "options":["1892", "1902", "1972", "1962", "1912", "1932", "1942"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"'Hell is empty and all the devils are here' is a Shakespeare quote from which of his works?",
+    "answers":["The Tempest"],
+    "options":["Hamlet", "Macbeth", "Romeo and Juliet", "Orthello", "King Lear"],
+    "difficulty": 3,
+    "categories":["books"]
+},
+{
+    "question":"Addis Ababa is the capital of which country?",
+    "answers":["Ethiopia"],
+    "options":["Benin", "Rwanda", "Eritea", "Togo", "Zimbabwe", "Gabon", "Comoros"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Which president was Harry S. Truman?",
+    "answers":["33rd"],
+    "options":["37th", "36th", "38th", "39th", "34th", "32nd", "31st", "30th", "35th"],
+    "difficulty": 4,
+    "categories":["politics", "misc"]
+},
+{
+    "question":"What is the capital of Berarus?",
+    "answers":["Minsk"],
+    "options":["Bucharest", "Brest", "Grondo", "Pinsk", "Mogilev", "Bratislava", "Baku"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Kosovo?",
+    "answers":["Pristina"],
+    "options":["Prizen", "Peja", "Gjakova", "Mitrovica", "Baku", "Gjilan"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"'Great things are done by a series of small things brought together' is a quote from whom?",
+    "answers":["Vincent Van Gough"],
+    "options":["Johann Wolfgang von Goethe", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"Venezuela means little what?",
+    "answers":["Venice"],
+    "options":["Venison", "Venus", "Vendiagram", "Seller", "Green"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"What is Venezuela's currency?",
+    "answers":["Venezuelan bolívar"],
+    "options":["Venezuelan peso", "Venezuelan florin", "Venezuelan dollar", "Venezuelan lempira", "Venezuelan pound"],
+    "difficulty": 3,
+    "categories":["geography", "currency"]
+},
+{
+    "question":"What gas makes up approximately 21% of the air in the Earth's atmosphere?",
+    "answers":["Oxegen"],
+    "options":["Carbon Dioxide", "Nitrogen", "Neon", "Hydrogen"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"What gas makes up approximately 78% of the air in the Earth's atmosphere?",
+    "answers":["Nitrogen"],
+    "options":["Carbon Dioxide", "Oxegen", "Neon", "Hydrogen"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"'The reward of suffering is experience' is a quote from whom?",
+    "answers":["Harry S. Truman"],
+    "options":["Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"Rosalind Franklin was best known for what?",
+    "answers":["Her role in the discovery of the structure of DNA"],
+    "options":["Refusing to give up her seat to a white man on a bus", "Observing primates using tools", "Supposedly contacting spirits from another dimension", "Her role in the discovery of uranium"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"Rosalind Franklin was alive during which century?",
+    "answers":["20th"],
+    "options":["21st", "19th", "18th", "17th", "16th"],
+    "difficulty": 4,
+    "categories":["misc"]
+},
+{
+    "question":"What was Jane Goodall best known for?",
+    "answers":["Observing primates using tools"],
+    "options":["Refusing to give up her seat to a white man on a bus", "Her role in the discovery of the structure of DNA", "Supposedly contacting spirits from another dimension", "Her role in the discovery of uranium"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"What is the capital of Comoros?",
+    "answers":["Moroni"],
+    "options":["Fomboni", "Domoney", "Mutsamudu", "Ouani", "Koni-Djodjo"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Who was the lead actor in 'The Great Dictator'?",
+    "answers":["Charlie Chaplin"],
+    "options":["Sacha Baron Cohen", "Robert De Niro", "Hal Holbrook", "Humphrey Bogart"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Who wrote 'Beyond Good and Evil'?",
+    "answers":["Friedrich Nietzche"],
+    "options":["René Descartes", "Immanuel Kant", "Karl Marx", "John Locke"],
+    "difficulty": 3,
+    "categories":["philosophy", "books"]
+},
+{
+    "question":"When was 'Beyond Good and Evil' published?",
+    "answers":["1886"],
+    "options":["1986", "1786", "1686", "1586", "1486"],
+    "difficulty": 4,
+    "categories":["philosophy", "books"]
+},
+{
+    "question":"What is the capital of Azerbaijan?",
+    "answers":["Baku"],
+    "options":["Ganja", "Sheki", "Sumqayit", "Lankaran"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What does NATO stand for?",
+    "answers":["North Atlantic Treaty Organization"],
+    "options":["North Atlantic Trade Organization", "North Atlantic Totalitarian Organization", "North Atlantic Tax Organization", "North Atlantic Trustee Organization"],
+    "difficulty": 3,
+    "categories":["politics", "misc"]
+},
+{
+    "question":"When was NATO formed",
+    "answers":["4th April 1949"],
+    "options":["4th April 1945", "4th April 1959", "4th April 1955", "4th April 1969", "4th April 1965"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"What is the capital of Slovenia",
+    "answers":["Ljubljana"],
+    "options":["Bratislava", "Maribor", "Koper", "Piran", "Kranj", "Bled", "Ptuj", "Celje", "Novo mesto"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Which of these countries is landlocked?",
+    "answers":["Afghanistan", "Andorra", "Armenia", "Austria", "Azerbaijan", "Belarus", "Bhutan", "Bolivia", "Botswana", "Burkina Faso", "Burundi", "Central African Republic", "Chad", "Czech Republic", "Eswatini", "Ethiopia", "Hungary", "Kazakhstan", "Kyrgyzstan", "Laos", "Lesotho", "Liechtenstein", "Luxembourg", "Malawi", "Mali", "Moldova",
+    "Mongolia", "Nepal", "Niger", "Macedonia", "Paraguay", "Rwanda", "San Marino", "Serbia", "Slovakia", "South Sudan", "Switzerland", "Tajikistan", "Turkmenistan", "Uganda", "Uzbekistan", "Vatican City", "Zambia", "Zimbabwe"],
+    "options":["Albania", "Algeria", "Angola", "Argentina", "Bahamas", "Bahrain", "Bangladesh", "Belgium", "Belize", "Montenegro", "Mozambique", "Myanimar", "Namibia", "Nauru", "New Zealand", "Nicaragua", "Oman", "Pakistan", "Samoa", "Senegal", "Tunisia", "Turkey", "Yemen", "Venezuela", "Mauritius", "Mauritania", "Estonia", "Guinea", "Guinea-Bissau"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"On August 16th 1962, who was kicked out of the Beatles?",
+    "answers":["Pete Best"],
+    "options":["Ringo Starr", "John Lennon", "Paul McCartney", "George Harrison", "Tommy Moore"],
+    "difficulty": 2,
+    "categories":["music"]
+},
+{
+    "question":"When was Pete Best kicked out of the Beatles?",
+    "answers":["1962"],
+    "options":["1972", "1982", "1992", "1952"],
+    "difficulty": 3,
+    "categories":["music"]
+},
+{
+    "question":"What is a blue moon?",
+    "answers":["A second full moon in one month"],
+    "options":["When the moon changes colour due to a shadow from the Earth", "When it appears a slender crescent, shortly after its conjunction with the sun", "When the suns light reflects a blue colour from the oceans onto the moon"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"What was the first planet to be discovered by maths prediction before being observed?",
+    "answers":["Neptune"],
+    "options":["Venus", "Uranus", "Jupiter", "Saturn"],
+    "difficulty": 3,
+    "categories":["science", "math"]
+},
+{
+    "question":"What was the first planet to be discovered by maths prediction before being observed?",
+    "answers":["Neptune"],
+    "options":["Venus", "Uranus", "Jupiter", "Saturn"],
+    "difficulty": 3,
+    "categories":["science", "math"]
+},
+{
+    "question":"'It is the mark of an educated mind to entertain a thought without accepting it' is a quote from whom?",
+    "answers":["Aristotle"],
+    "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "difficulty":4,
+    "categories":["quotes"]
+},
+{
+    "question":"In normal conditions a lot of adenosine in your body will make you feel what?",
+    "answers":["Sleepy"],
+    "options":["Hungry", "Thirsty", "Aroused", "Happy"],
+    "difficulty": 4,
+    "categories":["science"]
+},
+{
+    "question":"The Rosetta Stone is used to understand what?",
+    "answers":["Egyptian hieroglyphs"],
+    "options":["Greek alphabet", "Cuneform", "Maya script", "Written Chinese"],
+    "difficulty": 1,
+    "categories":["language"]
+},
+{
+    "question":"What stone is used to understand Egyptian hieroglyphs?",
+    "answers":["The Rosetta Stone"],
+    "options":["The Philosoper's Stone", "Blarney Stone", "The Black Stone of the Kaaba"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"What is the capital of Iceland",
+    "answers":["Reykjavík"],
+    "options":["Akureyri", "Hafnarfjordour", "Vik", "Selfoss"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Malawi",
+    "answers":["Lilongwe"],
+    "options":["Blantyre", "Mzuzu", "Zomba", "Karonga", "Mangochi"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Who wrote 'On the Origin of Species'",
+    "answers":["Charles Darwin"],
+    "options":["Albert Einstein", "Isaac Newton", "Marie Curie", "Galileo Galilei"],
+    "difficulty": 3,
+    "categories":["books", "science"]
+},
+{
+    "question":"When was 'On the Origin of Species' published",
+    "answers":["1859"],
+    "options":["1949", "1929", "1919", "1889", "1979", "1839", "1809", "1789"],
+    "difficulty": 3,
+    "categories":["books", "science"]
+},
+{
+    "question":"Sheryl Crow sang the title track for which James Bond film?",
+    "answers":["Tomorrow Never Dies"],
+    "options":["The World Is Not Enough", "Die Another Day", "GoldenEye", "License to Kill"],
+    "difficulty": 4,
+    "categories":["film", "music"]
+},
+{
+    "question":"'The journey of a thousand miles begins with one step' is a quote from whom?",
+    "answers":["Lao Tzu"],
+    "options":["Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"Who famously delivered the 'I Have a Dream' speech?",
+    "answers":["Martin Luther King Jr"],
+    "options":["Harry S. Truman", "Friedrich Nietzche", "Mohandas Gandhi", "Charles Darwin", "Nelson Mandela", "Muhammad Ali", "Bill Gates"],
+    "difficulty": 1,
+    "categories":["quotes"]
+},
+{
+    "question":"In his 'I Have a Dream' Martin Luther King Jr wanted his children not to be judged by the colour of their skin but by what?",
+    "answers":["The content of their character"],
+    "options":["The ability that lies in their potential", "Their heart and personality", "Their deeds and growth", "Their capacity for change", "Their platitudes of grace"],
+    "difficulty": 2,
+    "categories":["quotes"]
+},
+{
+    "question":"What is the capital of Moldova",
+    "answers":["Chisinau"],
+    "options":["Valletta", "Tiraspol", "Balti", "Comrat", "Cahul", "Orhei"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the term for an uncastrated, adult male horse",
+    "answers":["Stallion"],
+    "options":["Saddlebred", "Warm blood", "Light Horse", "Gelding"],
+    "difficulty": 2,
+    "categories":["nature"]
+},
+{
+    "question":"What is the term for an castrated, adult male horse",
+    "answers":["Gelding"],
+    "options":["Saddlebred", "Warm blood", "Light Horse", "Stallion"],
+    "difficulty": 4,
+    "categories":["nature"]
+},
+{
+    "question":"What is the capital of Gambia",
+    "answers":["Bangul"],
+    "options":["Windhoek", "Serrekunda", "Bakau", "Brikama", "Basse Santa Su"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"The Earth's rotation is overall slowing down",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["science", "nature"]
+},
+{
+    "question":"The Earth's rotation is overall speeding up",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 2,
+    "categories":["science", "nature"]
+},
+{
+    "question":"In 1981, which NHL player became the fastest ever to get to 100 points",
+    "answers":["Wayne Gretzky"],
+    "options":["Mario Lemieux", "Joe Thornton", "Jean Ratelle", "John Cullen"],
+    "difficulty": 4,
+    "categories":["sports"]
+},
+{
+    "question":"Where are the ruins of Macchu Picchu located",
+    "answers":["Peru"],
+    "options":["Chile", "Mexico", "Malaysia", "Philippines", "Indonesia"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Which would not typically be a feature of a male turtle compared to females",
+    "answers":["Drie skin"],
+    "options":["Larger shells", "Wider Tails", "Longer Tails", "Concave plastron (shell on the belly)"],
+    "difficulty": 5,
+    "categories":["nature", "animals"]
+},
+{
+    "question":"The 3 wise monkeys originated from what country?",
+    "answers":["Japan"],
+    "options":["India", "Peru", "China", "Taiwan"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"Which of these is not one of the 3 wise monkeys?",
+    "answers":["Pizaru", "Winazaru", "Litzaru"],
+    "options":["Kikazaru", "Mizaru", "Iwazaru"],
+    "difficulty": 4,
+    "categories":["misc"]
+},
+{
+    "question":"Mizaru...does what",
+    "answers":["Sees no evil"],
+    "options":["Hears no evil", "Speaks no evil", "Feels no evil"],
+    "difficulty": 5,
+    "categories":["misc"]
+},
+{
+    "question":"Kikazaru...does what",
+    "answers":["Hears no evil"],
+    "options":["Sees no evil", "Speaks no evil", "Feels no evil"],
+    "difficulty": 5,
+    "categories":["misc"]
+},
+{
+    "question":"Iwazaru...does what",
+    "answers":["Speaks no evil"],
+    "options":["Hears no evil", "Sees no evil", "Feels no evil"],
+    "difficulty": 5,
+    "categories":["misc"]
+},
+{
+    "question":"Who was the first African American to win an Oscar",
+    "answers":["Hattie McDaniel"],
+    "options":["Sidney Poitier", "Louis Gossett", "Denzel Washington", "Whoopi Goldberg", "Cuba Gooding, Jr."],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Hattie McDaniel became the first African American to win an Oscar for her role in which film?",
+    "answers":["Gone with the Wind"],
+    "options":["A Star is Born", "Scarface", "Freaks", "Citizen Kane", "It's a Wonderful Life"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"What is the capital of Liechtenstein",
+    "answers":["Vaduz"],
+    "options":["Schaan", "Balzers", "Triesenberg", "Triesen", "Ruggell"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"'I would rather be hated for who I am, than loved for who I am not' is a quote from whom?",
+    "answers":["Kurt Kobain"],
+    "options":["Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"What is the capital of Fiji",
+    "answers":["Suva"],
+    "options":["Nadi", "Lautoka", "Lveuka", "Savusavu", "Sigatoka"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"'A winner is a dreamer who never gives up' is a quote from whom?",
+    "answers":["Nelson Mandela"],
+    "options":["Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"When did Malcolm in the Middle premier?",
+    "answers":["2000"],
+    "options":["2004", "2006", "2002", "1998", "2001", "2005"],
+    "difficulty": 4,
+    "categories":["TV"]
+},
+{
+    "question":"Who played Malcolm in 'Malcolm in the Middle'?",
+    "answers":["Frankie Muniz"],
+    "options":["Justin Berfield", "Erik Per Sullivan", "Kyle Massey", "Shad Moss", "Jeremy Sumpter", "Josh Peck"],
+    "difficulty": 3,
+    "categories":["TV"]
+},
+{
+    "question":"Was is the first name of the James Bond villian Goldfinger?",
+    "answers":["Auric"],
+    "options":["Erin", "Hans", "Mike", "Norman", "Anthony"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which of these Venezuelan presidents was impeached?",
+    "answers":["Carlos Andrés Pérez"],
+    "options":["Nicolás Maduro", "Hugo Chavez", "Luis Herrera Campins"],
+    "difficulty": 4,
+    "categories":["politics", "history"]
+},
+{
+    "question":"Juan Pablo Pérez Alfonzo, a Venezuelan politician referred to what, as 'The Devils excrement'?",
+    "answers":["Oil"],
+    "options":["Rum", "Heroine", "Corn", "Icecream"],
+    "difficulty": 3,
+    "categories":["politics", "quotes"]
+},
+{
+    "question":"Before the Euro, what was Austria's currency?",
+    "answers":["Schilling"],
+    "options":["Pound", "Kroon", "Lats", "Tolar"],
+    "difficulty": 4,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Belgium's currency?",
+    "answers":["Franc"],
+    "options":["Schilling", "Pound", "Kroon", "Lats", "Tolar"],
+    "difficulty": 3,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Cyprus's currency?",
+    "answers":["Pound"],
+    "options":["Franc", "Schilling", "Kroon", "Lats", "Tolar"],
+    "difficulty": 4,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Estonia's currency?",
+    "answers":["Kroon"],
+    "options":["Franc", "Schilling", "Lats", "Tolar"],
+    "difficulty": 5,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Finland's currency?",
+    "answers":["Markka"],
+    "options":["Kroon", "Franc", "Schilling", "Lats", "Tolar"],
+    "difficulty": 5,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, which of these countries did not have the Franc as its currency?",
+    "answers":["Malta", "Greece", "Slovakia"],
+    "options":["Monaco", "France", "Luxembourg", "Belgium"],
+    "difficulty": 3,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was France's currency?",
+    "answers":["Franc"],
+    "options":["Kroon", "Markka", "Schilling", "Lats", "Tolar"],
+    "difficulty": 1,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was German's currency?",
+    "answers":["Deutschmark"],
+    "options":["Kroon", "Franc", "Markka", "Schilling", "Lats", "Tolar"],
+    "difficulty": 2,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Greece's currency?",
+    "answers":["Drachma"],
+    "options":["Kroon", "Franc", "Markka", "Schilling", "Lats", "Tolar"],
+    "difficulty": 3,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Ireland's currency?",
+    "answers":["Pound"],
+    "options":["Kroon", "Drachma", "Franc", "Markka", "Schilling", "Lats", "Tolar"],
+    "difficulty": 3,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, which of these countries did not have the Lira as its currency?",
+    "answers":["Malta", "Greece", "Slovakia"],
+    "options":["Italy", "San Marino", "Vatican City"],
+    "difficulty": 3,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Italy's currency?",
+    "answers":["Lira"],
+    "options":["Kroon", "Drachma", "Franc", "Markka", "Schilling", "Lats", "Tolar", "Pound"],
+    "difficulty": 2,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Latvia's currency?",
+    "answers":["Lats"],
+    "options":["Kroon", "Drachma", "Franc", "Markka", "Schilling", "Lira", "Tolar", "Pound"],
+    "difficulty": 3,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Lithuania's currency?",
+    "answers":["Litas"],
+    "options":["Kroon", "Drachma", "Franc", "Markka", "Schilling", "Lira", "Lats", "Tolar", "Pound"],
+    "difficulty": 3,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Luxembourg's currency?",
+    "answers":["Franc"],
+    "options":["Kroon", "Drachma", "Litas", "Markka", "Schilling", "Lira", "Lats", "Tolar", "Pound"],
+    "difficulty": 3,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Malta's currency?",
+    "answers":["Lira"],
+    "options":["Kroon", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Tolar", "Pound"],
+    "difficulty": 3,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Netherlands' currency?",
+    "answers":["Guilder"],
+    "options":["Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Tolar", "Pound"],
+    "difficulty": 4,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Portugal's currency?",
+    "answers":["Escudo"],
+    "options":["Guilder", "Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Tolar", "Pound"],
+    "difficulty": 4,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Slovakia's currency?",
+    "answers":["Koruna"],
+    "options":["Guilder", "Escudo", "Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Tolar", "Pound"],
+    "difficulty": 4,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Slovenia's currency?",
+    "answers":["Tolar"],
+    "options":["Guilder", "Escudo", "Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Koruna", "Pound"],
+    "difficulty": 4,
+    "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Before the Euro, what was Spain's currency?",
+    "answers":["Peseta"],
+    "options":["Tolar", "Guilder", "Escudo", "Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Koruna", "Pound"],
+    "difficulty": 4,
+    "categories":["currency", "history", "misc"]
 }
-
-
-
-
 
 ]

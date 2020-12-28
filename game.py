@@ -15,7 +15,7 @@ class Game():
         self.panels = []
         self.question = ""
         self.colour = self.colour_scheme[0]
-        self.categoryIcon = CategoryIcon(main, 3 * TILESIZE, 6 * TILESIZE)
+        self.categoryIcon = CategoryIcon(main, 2.5 * TILESIZE, 6.5 * TILESIZE)
         self.startGame()
         self.createLights()
         self.startTime = NORMAL_START_TIME
@@ -51,6 +51,7 @@ class Game():
                         self.timeRemaining = NORMAL_START_TIME
                     correctAnimation(self.main, 1, 1)
                     self.main.correct_sound.play()
+                    self.categoryIcon.isRotating = True
                 elif panel.clicked == True and not panel.text in self.question["answers"]:
                     self.resetQuestion()
                     self.timeRemaining -= NORMAL_PUNISHMENT_TIME

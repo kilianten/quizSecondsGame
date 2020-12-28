@@ -142,9 +142,11 @@ class CategoryIcon(pg.sprite.Sprite):
         self.x = x
         self.y = y
         if category == None:
-            self.image = self.main.icon_images["science"]
+            self.image = self.main.icon_images["misc"]
         else:
             self.image = self.main.icon_images[category]
+        self.isRotating = False
+        self.lastUpdate = pg.time.get_ticks()
 
     def changeImage(self, categories):
         foundImage = False
@@ -157,5 +159,8 @@ class CategoryIcon(pg.sprite.Sprite):
             self.image = self.main.icon_images["misc"]
 
     def drawCircle(self):
-        pg.draw.circle(self.main.screen, (244, 162, 97), (self.x + self.image.get_width() / 2, self.y + self.image.get_height() / 2),  self.image.get_width() / 2 + 10)
-        pg.draw.circle(self.main.screen, ICON_CATEGORY_COLOUR, (self.x + self.image.get_width() / 2, self.y + self.image.get_height() / 2),  self.image.get_width() / 2 + 5)
+        #pg.draw.rect(self.main.screen, (244, 162, 97), (self.x + 16, self.y + 16, self.image.get_width() + 10, self.image.get_height() + 10))
+        pg.draw.rect(self.main.screen, (244, 162, 97), (self.x - 24, self.y, self.image.get_width() + 48, self.image.get_height() + 2))
+        pg.draw.rect(self.main.screen, ICON_CATEGORY_COLOUR, (self.x - 20, self.y, self.image.get_width() + 40, self.image.get_height() + 2))
+        #pg.draw.circle(self.main.screen, (244, 162, 97), (self.x + self.image.get_width() / 2, self.y + self.image.get_height() / 2),  self.image.get_width() / 2 + 10)
+        #pg.draw.circle(self.main.screen, ICON_CATEGORY_COLOUR, (self.x + self.image.get_width() / 2, self.y + self.image.get_height() / 2),  self.image.get_width() / 2 + 5)
