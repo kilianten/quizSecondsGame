@@ -24,9 +24,8 @@ class Main:
         self.getHighScore()
         self.loadQuestions()
 
-
     def loadQuestions(self):
-        printStats = True #print out question stats
+        printStats = False #print out question stats
         self.allQuestions = json.load(open('questions/questions.json'))
         self.numberOfQuestions = len(self.allQuestions)
         if printStats:
@@ -136,6 +135,12 @@ class Main:
             if event.type == pg.QUIT:
                 self.quit()
             if event.type == pg.KEYDOWN:
+                if event.key == pg.K_ESCAPE:
+                    if isinstance(self.game, Game):
+                        self.writeHighScore(self.game.score)
+                        self.game = MainMenu(self)
+                    else:
+                        self.quit()
                 if event.key == pg.K_F1:
                     if (self.isFullScreen):
                         #if fullscreen set to window

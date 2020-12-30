@@ -12,7 +12,9 @@ class MainMenu():
         self.exitRect = pg.Rect(10 * TILESIZE, 9 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE + 20)
         self.newGameMenuRect = pg.Rect(2 * TILESIZE, 1 * TILESIZE, 26 * TILESIZE, 15 * TILESIZE)
         self.startGameRect = pg.Rect(16 * TILESIZE, 13 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE)
+        self.backRect = pg.Rect(4 * TILESIZE, 13 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE)
         self.menu = "main"
+        self.main.getHighScore()
 
     def update(self):
         pass
@@ -22,7 +24,6 @@ class MainMenu():
             self.drawMainMenuPanels()
         elif self.menu == "newGame":
             self.drawNewGameMenu()
-
 
     def drawNewGameMenu(self):
         pg.draw.rect(self.main.screen, PALETTE_1[1], self.newGameMenuRect)
@@ -36,7 +37,9 @@ class MainMenu():
         pg.draw.rect(self.main.screen, PALETTE_1[0], self.startGameRect)
         newGameText = self.font.render("NEW GAME", True, WHITE)
         self.main.screen.blit(newGameText, (self.startGameRect.x + TILESIZE * 2.2, self.startGameRect.y + 0.5 * TILESIZE))
-
+        pg.draw.rect(self.main.screen, PALETTE_1[0], self.backRect)
+        backText = self.font.render("BACK", True, WHITE)
+        self.main.screen.blit(backText, (self.backRect.x + TILESIZE * 3.5, self.backRect.y + 0.5 * TILESIZE))
 
     def drawMainMenuPanels(self):
         pg.draw.rect(self.main.screen, PALETTE_1[1], self.newGameRect)
@@ -67,6 +70,11 @@ class MainMenu():
                     if questionBox.ticked:
                         difficulties.append(questionBox.difficulty)
                 self.main.createGame(difficulties)
+            elif mouse.rect.colliderect(self.backRect):
+                for sprite in self.main.all_sprites:
+                    self.main.all_sprites.remove(sprite)
+                    del sprite
+                self.main.game = MainMenu(self.main)
 
     def drawNumberOfQuestions(self):
         numberOfQuestions = self.smallerFont.render("No. Of Questions: ", True, WHITE)

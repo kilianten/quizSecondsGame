@@ -373,7 +373,7 @@
 {
     "question":"What was the 28th U.S state?",
     "answers":["Texas"],
-    "options":["Iowa", "California", "Maine", "Florida", "Alabama", "Missouri", "Arkansas", "Michigan", "Wisonsin", "California"],
+    "options":["Iowa", "California", "Maine", "Florida", "Alabama", "Missouri", "Arkansas", "Michigan", "Wisonsin"],
     "difficulty": 4,
     "categories":["geography"]
 },
@@ -5732,8 +5732,147 @@
     "options":["Electronic Arts", "Amazon", "Fox Entertainment Group", "NFL", "The Trump Organization", "Uber", "Facebook"],
     "difficulty": 5,
     "categories":["journalism", "misc"]
+},
+{
+    "question":"What is the capital of Montenegro?",
+    "answers":["Podgorica"],
+    "options":["Nikšić", "Pljevlja", "Herceg Novi", "Bar", "Cetinje"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Belize?",
+    "answers":["Belmopan"],
+    "options":["Belize City", "San Ignacio", "San Pedro", "Punta Gorda", "Orange Walk"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is interesting about the island of Bermeja?",
+    "answers":["It is a phantom island"],
+    "options":["All the residents are deaf", "It's located in the South Pole", "It is 1 meter long", "Everyone who visits it dies", "All the residents vanished in the 16th century"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Jordan?",
+    "answers":["Amman"],
+    "options":["Aqaba", "Jerash", "Madaba", "Kerak", "Irbid", "Zarqa"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"LeBron James is famous for playing which sport?",
+    "answers":["Basketball"],
+    "options":["Hockey", "Baseball", "Tennis", "Badminton", "Wrestling"],
+    "difficulty": 2,
+    "categories":["sports"]
+},
+{
+    "question":"In which state was Tiger Woods born?",
+    "answers":["California"],
+    "options":["Illinois", "Massachusetts", "Washingston", "Pennsylvania", "Michigan", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"What is Tiger Woods real first name?",
+    "answers":["Eldrick"],
+    "options":["Anthony", "Aziz", "Arnold", "David", "Tyreke", "Dawid", "Jade"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"What is the British equivalent of molasses?",
+    "answers":["Treacle"],
+    "options":["Golden syrup", "Suet", "Sultana", "Parkin", "Butterscotch"],
+    "difficulty": 4,
+    "categories":["food"]
+},
+{
+    "question":"What is Ecaudor's currency?",
+    "answers":["United States dollar"],
+    "options":["Ecaudorian peso", "Ecaudorian florin", "Ecaudorian dollar", "Ecaudorian lempira", "Ecaudorian pound"],
+    "difficulty": 3,
+    "categories":["currency", "geography"]
+},
+{
+    "question":"What is Zimbabwe's currency?",
+    "answers":["United States dollar"],
+    "options":["Zimbabwean peso", "Zimbabwean florin", "Zimbabwean dollar", "Zimbabwean lempira", "Zimbabwean pound"],
+    "difficulty": 3,
+    "categories":["currency", "geography"]
+},
+{
+    "question":"Which of these countries does not have the United States Dollar as its currency?",
+    "answers":["Ethiopia", "Gabon", "Finland", "Mauritania"],
+    "options":["Ecaudor", "Zimbabwe", "The United States"],
+    "difficulty": 3,
+    "categories":["currency", "geography"]
+},
+{
+    "question":"Where would you find the tallest above ground waterfall?",
+    "answers":["Venezuela"],
+    "options":["South Africa", "Norway", "Hawaii", "Canada"],
+    "difficulty": 4,
+    "categories":["geography", "nature"]
+},
+{
+    "question":"What is the tallest above ground waterfall?",
+    "answers":["Angel Falls"],
+    "options":["Tugela Falls", "Pu'uka'oku Falls", "Mongefossen", "Gocta Waterfall"],
+    "difficulty": 4,
+    "categories":["geography", "nature"]
+},
+{
+    "question":"Where would you find Tugela Falls?",
+    "answers":["South Africa"],
+    "options":["Libya", "Hawaii", "Canada", "Peru", "Chile"],
+    "difficulty": 4,
+    "categories":["geography", "nature"]
+},
+{
+    "question":"Where would you find Mongefossen Falls?",
+    "answers":["Norway"],
+    "options":["Libya", "Hawaii", "Canada", "Peru", "Chile", "South Africa", "Finland"],
+    "difficulty": 4,
+    "categories":["geography", "nature"]
+},
+{
+    "question":"Where would you find Gocta Waterfall?",
+    "answers":["Peru"],
+    "options":["Libya", "Hawaii", "Canada", "Norway", "Chile", "South Africa", "Finland"],
+    "difficulty": 4,
+    "categories":["geography", "nature"]
+},
+{
+    "question":"What is the capital of Armenia?",
+    "answers":["Yerevan"],
+    "options":["Gyumri", "Vanadzor", "Vagharshapat", "Kapan", "Artashat", "Masis"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"'The only true wisdom is in knowing that you know nothing' is a quote from whom?",
+    "answers":["Socrates"],
+    "options":["Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "difficulty":4,
+    "categories":["quotes"]
+},
+{
+    "question":"In telecoms, a call that cuts off just as the phone rings, leaving a missed call, usually from an unknown number is known as what?",
+    "answers":["Wangiri"],
+    "options":["Inemuri", "Otaku", "Fugu", "Ikigai"],
+    "difficulty":4,
+    "categories":["misc"]
+},
+{
+    "question":"What is the capital of Phillipines?",
+    "answers":["Manila"],
+    "options":["Quezon City", "Cebu city", "Davao City", "Baguio", "Makati", "Zamboanga"],
+    "difficulty": 3,
+    "categories":["geography"]
 }
-
 
 
 
