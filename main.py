@@ -25,11 +25,11 @@ class Main:
         self.loadQuestions()
 
     def loadQuestions(self):
-        printStats = False #print out question stats
+        displayStats = True #print out question stats
         self.allQuestions = json.load(open('questions/questions.json'))
         self.numberOfQuestions = len(self.allQuestions)
-        if printStats:
-            self.printStats()
+        if displayStats:
+            self.displayStats()
 
     def getHighScore(self):
         try:
@@ -164,7 +164,7 @@ class Main:
         self.game.isPaused = False
         self.all_sprites = pg.sprite.LayeredUpdates()
 
-    def printStats(self):
+    def displayStats(self):
         categoriesCounts = {}
         for question in self.allQuestions:
             for category in question['categories']:

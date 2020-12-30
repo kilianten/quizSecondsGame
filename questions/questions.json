@@ -5872,7 +5872,149 @@
     "options":["Quezon City", "Cebu city", "Davao City", "Baguio", "Makati", "Zamboanga"],
     "difficulty": 3,
     "categories":["geography"]
+},
+{
+    "question":"What is the capital of Barbados?",
+    "answers":["Bridgetown"],
+    "options":["St. Johns", "Holetown", "Oistins", "Speightstown", "Bathsheba", "Saint James"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"'History repeats itself, first as tragedy, second as farce' is a quote from whom?",
+    "answers":["Karl Marx"],
+    "options":["Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"What is the capital of Barbados?",
+    "answers":["St. Johns"],
+    "options":["Bridgetown", "Codrington", "Bolands", "Piggotts", "Potters Village", "All Saints", "Falmouth"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"When did The Six Day war take place?",
+    "answers":["5 - 10th of June 1967"],
+    "options":["5 - 10th of June 1937", "5 - 10th of June 1917", "5 - 10th of June 1867", "5 - 10th of June 1837", "5 - 10th of June 1817", "5 - 10th of June 1767", "5 - 10th of June 1717"],
+    "difficulty": 4,
+    "categories":["history", "war"]
+},
+{
+    "question":"Which of these countries did not fight in the Six Day War?",
+    "answers":["Angola", "Iran", "Iraq", "Tunisia", "Libya"],
+    "options":["Israel", "Syria", "Egypt", "Syria"],
+    "difficulty": 4,
+    "categories":["history", "war"]
+},
+{
+    "question":"When did the head of Jewish Agency, proclaimed the establishment of the state of Israel?",
+    "answers":["1948"],
+    "options":["1918", "1967", "1837", "1854", "1875", "1777", "1757"],
+    "difficulty": 4,
+    "categories":["geography", "history"]
+},
+{
+    "question":"What is the capital of Saudi Arabia?",
+    "answers":["Riyadh"],
+    "options":["Damascus", "Jeddah", "Medina", "Dammam", "Mecca", "Tabuk"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the Challenger Deep?",
+    "answers":["In the Mariana Trench"],
+    "options":["In Space", "On Chimborazo", "In the Grand Canyon", "On Mars", "On the moon"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"The Challenger Deep in the Mariana Trench is the deepest known point in the Earth's ocean, how deep is it?",
+    "answers":["10,994 metres"],
+    "options":["100,994 metres", "1,994 metres", "1,000,994 metres", "500,994 metres", "5,994 metres", "5,000,994 metres", "50,994 metres"],
+    "difficulty": 4,
+    "categories":["geography", "nature"]
+},
+{
+    "question":"According to the Gospel, where was Jesus crucified?",
+    "answers":["Golgotha"],
+    "options":["Gethsemane", "Kidron Valley", "Cenacle", "Mount Zion"],
+    "difficulty": 4,
+    "categories":["religion"]
+},
+{
+    "question":"Finish the Stephen Hawking quote, 'In space no one can hear you scream; and in a black hole, no one can see you', what?",
+    "answers":["Disappear"],
+    "options":["At all", "Implode", "Dissipate", "Shout"],
+    "difficulty": 4,
+    "categories":["quote"]
+},
+{
+    "question":"What was the name of the cult leader who directed a mass suicide in 1978?",
+    "answers":["Jim Jones"],
+    "options":["Jack Jones", "Jeffery Jones", "Joshua Jones", "Jeremiah Jones", "Gilbert Jones"],
+    "difficulty": 4,
+    "categories":["religion", "history"]
+},
+{
+    "question":"Jim Jones directed a mass suicide in 1978 in his settlement, Jonestown, located where?",
+    "answers":["Guyana"],
+    "options":["Canada", "Venezuela", "Chile", "Angola", "Germany", "Austria", "The United States"],
+    "difficulty": 4,
+    "categories":["religion", "history"]
+},
+{
+    "question":"When did Jim Jones orchestrate a mass suicide?",
+    "answers":["1978"],
+    "options":["1988", "1998", "1968", "1958", "1948"],
+    "difficulty": 4,
+    "categories":["religion", "history"]
+},
+{
+    "question":"What is the term for the boundary around a black hole",
+    "answers":["Event horizon"],
+    "options":["Aperture", "Dobsonian", "Black Hole Shine", "Ephemeris", "Sunspot", "Twilight"],
+    "difficulty": 3,
+    "categories":["science", "astronomy"]
+},
+{
+    "question":"Spa in an acronym",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"Spa stands for the latin 'Sanus Per Aquam', meaning what",
+    "answers":["Health through water"],
+    "options":["Purity per body", "Body for water", "Surrounded by water", "Sanitation through water"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"Who became known as the 'Father of chemical warfare' during World War 1",
+    "answers":["Fritz Haber"],
+    "options":["Robert Oppenhiemer", "Ernst Junger", "Georges Painvin", "John Keegan", "Klaus Fuchs"],
+    "difficulty": 3,
+    "categories":["war", "history"]
+},
+{
+    "question":"'The stuff you own ends up owning you. It's only after you lose everything that you're free to do anything' is a quote from which movie?",
+    "answers":["Fight Club"],
+    "options":["Pulp Fiction", "Deep Impact", "Falling Down", "Good Will Hunting", "Fargo", "The Fifth Element"],
+    "difficulty": 3,
+    "categories":["film", "quotes"]
+},
+{
+    "question":"What was the first name of Brad Pitt's character in 'Fight Club'?",
+    "answers":["Tyler"],
+    "options":["Chad", "Marcus", "Freddy", "Brad", "Noah", "Lucas"],
+    "difficulty": 3,
+    "categories":["film"]
 }
+
+
 
 
 
