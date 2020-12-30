@@ -1579,14 +1579,14 @@
     "answers":["0.45"],
     "options":["1.45", "2.45", "0.33", "1.33", "2.33", "1.60"],
     "difficulty":3,
-    "categories":["sceince"]
+    "categories":["science"]
 },
 {
     "question":"According to British Anthropologist, Robin Dunbar, how many stable relations can a human comfortably maintain?",
     "answers":["150"],
     "options":["50", "250", "350", "450", "550", "As many friends as they have on Facebook", "650", "750", "850", "1,050"],
     "difficulty":2,
-    "categories":["sceince"]
+    "categories":["science"]
 },
 {
     "question":"What is the capital of Spain?",
@@ -5618,8 +5618,124 @@
     "question":"Before the Euro, what was Spain's currency?",
     "answers":["Peseta"],
     "options":["Tolar", "Guilder", "Escudo", "Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Koruna", "Pound"],
-    "difficulty": 4,
+    "difficulty": 3,
     "categories":["currency", "history", "misc"]
+},
+{
+    "question":"Pol Pot was Prime Minister of which country?",
+    "answers":["Cambodia"],
+    "options":["Canada", "Britain", "India", "Australia", "Ghana"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"Pol Pot was leader of the which regime?",
+    "answers":["Khmer Rouge"],
+    "options":["Khmer Blanche", "Khmer Noir", "Khmer Verde", "Khmer Marron", "Khmer Jaune"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"What is the capital of Botswana?",
+    "answers":["Gaborone"],
+    "options":["Francistown", "Maun", "Lobaste", "Serowe", "Molepolole"],
+    "difficulty":4,
+    "categories":["geography"]
+},
+{
+    "question":"Which of these animals sleeps longer per day?",
+    "answers":["Koala", "Sloth"],
+    "options":["Armadillo", "Possum", "Lemur", "Squirrel", "Hamster"],
+    "difficulty":2,
+    "categories":["nature", "animals"]
+},
+{
+    "question":"Which of these animals sleepss least?",
+    "answers":["Hamster", "Squirrel"],
+    "options":["Armadillo", "Possum", "Lemur", "Sloth", "Koala"],
+    "difficulty":3,
+    "categories":["nature", "animals"]
+},
+{
+    "question":"'Life is what happens when you are busy making other plans' is a quote from whom?",
+    "answers":["John Lennon"],
+    "options":["Nelson Mandela", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"Prohibition was which Amendment to the U.S. Constitution?",
+    "answers":["The 18th"],
+    "options":["The 19th", "The 20th", "The 21st", "The 16th", "The 15th"],
+    "difficulty": 5,
+    "categories":["law", "history"]
+},
+{
+    "question":"When did Prohibition officially go into effect?",
+    "answers":["January 17, 1920"],
+    "options":["January 17, 1930", "January 17, 1940", "January 17, 1950", "January 17, 1910", "January 17, 1900", "January 17, 1890"],
+    "difficulty": 4,
+    "categories":["law", "history"]
+},
+{
+    "question":"'It is during our darkest moments that we must focus to see the light' is a quote from whom?",
+    "answers":["Plato"],
+    "options":["Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "difficulty":4,
+    "categories":["quotes"]
+},
+{
+    "question":"What is the capital of Mozambique?",
+    "answers":["Maputo"],
+    "options":["Beira", "Chimoio", "Quelimane", "Matola", "Lichinga", "Pemba"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Cambodia?",
+    "answers":["Phnom Penh"],
+    "options":["Kron Siem Reap", "Preah Sihanouk", "Krong Battambang", "Kratié Province", "Krong Poi Pet"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Malta?",
+    "answers":["Valletta"],
+    "options":["Mdina", "Birgu", "Victoria", "Senglea", "Marsaxlokk", "Cospicua"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What was the name of Bob Marley's first child?",
+    "answers":["Ziggy"],
+    "options":["Damian", "Cedella", "Stephen", "Rohan", "Karen", "Ky-Mani"],
+    "difficulty": 5,
+    "categories":["music"]
+},
+{
+    "question":"Which of these is not a Call of Duty title?",
+    "answers":["Call of Duty: Frontline", "Call of Duty: Combat Evolved"],
+    "options":["Call of Duty: World at War", "Call of Duty: Modern Warfare", "Call of Duty: Black Ops", "Call of Duty: Ghosts", "Call of Duty: Advanced Warfare", "Call of Duty: WWII"],
+    "difficulty": 3,
+    "categories":["videogames"]
+},
+{
+    "question":"In what type of resturaunt would you be likely to find soba noodles?",
+    "answers":["Japanese"],
+    "options":["Chinese", "Indian", "Thai", "Korean", "Vietnamese"],
+    "difficulty": 4,
+    "categories":["food"]
+},
+{
+    "question":"Witing for the Rolling Stone, Matt Taibbi called which organization a 'Great vampire squid wrapped around the face of humanity'?",
+    "answers":["Goldman Sachs"],
+    "options":["Electronic Arts", "Amazon", "Fox Entertainment Group", "NFL", "The Trump Organization", "Uber", "Facebook"],
+    "difficulty": 5,
+    "categories":["journalism", "misc"]
 }
+
+
+
+
 
 ]

@@ -8,7 +8,6 @@ from settings import *
 from game import *
 import pickle
 
-from collections import OrderedDict
 from sprites import *
 from mainMenu import *
 
@@ -32,26 +31,6 @@ class Main:
         self.numberOfQuestions = len(self.allQuestions)
         if printStats:
             self.printStats()
-
-    def printStats(self):
-        categoriesCounts = OrderedDict()
-        for question in self.allQuestions:
-            for category in question['categories']:
-                if category not in categoriesCounts.keys():
-                    categoriesCounts[category] = 1
-                else:
-                    categoriesCounts[category] = categoriesCounts[category] + 1
-
-        for category in categoriesCounts:
-            print(category, ": ", categoriesCounts[category])
-        categoriesWithoutIcons = []
-        for category in categoriesCounts.keys():
-            if category not in self.icon_images.keys():
-                categoriesWithoutIcons.append(category)
-        categoriesWithoutIcons.sort()
-        print("Categories without Icons: ", categoriesWithoutIcons)
-        for category in categoriesWithoutIcons:
-            print(category, ": ", categoriesCounts[category])
 
     def getHighScore(self):
         try:
@@ -179,6 +158,38 @@ class Main:
         self.game = StandardGame(self, difficulties)
         self.game.isPaused = False
         self.all_sprites = pg.sprite.LayeredUpdates()
+
+    def printStats(self):
+        categoriesCounts = {}
+        for question in self.allQuestions:
+            for category in question['categories']:
+                if category not in categoriesCounts.keys():
+                    categoriesCounts[category] = 1
+                else:
+                    categoriesCounts[category] = categoriesCounts[category] + 1
+
+        for category in categoriesCounts:
+            print(category, ": ", categoriesCounts[category])
+        categoriesWithoutIcons = []
+        for category in categoriesCounts.keys():
+            if category not in self.icon_images.keys():
+                categoriesWithoutIcons.append(category)
+        #categoriesWithoutIcons.sort()
+        print("Categories without Icons: ", categoriesWithoutIcons)
+        categoriesWithoutIconsOrdered = {}
+
+        while categoriesWithoutIcons:
+            max = 0
+            maxCategory = " "
+            for category in categoriesCounts:
+                if max < categoriesCounts[category] and category in categoriesWithoutIcons:
+                    max = categoriesCounts[category]
+                    maxCategory = category
+            categoriesWithoutIconsOrdered[maxCategory] = max
+            categoriesWithoutIcons.remove(maxCategory)
+        for category in categoriesWithoutIconsOrdered:
+            print(category, ": ", categoriesWithoutIconsOrdered[category])
+
 
 class Sprite_Mouse_Location(pg.sprite.Sprite):
     def __init__(self,x,y, game):

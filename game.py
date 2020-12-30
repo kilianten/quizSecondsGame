@@ -136,7 +136,6 @@ class Game():
         pg.draw.rect(self.main.screen, PALETTE_1[0], (21 * TILESIZE - SCORE_BOX_PADDING, 4 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2)))
         self.main.screen.blit(questionsCorrect, (21 * TILESIZE, 4 * TILESIZE))
 
-
     def createLights(self):
         index = 0
         self.lights = []
