@@ -5948,7 +5948,7 @@
     "answers":["Disappear"],
     "options":["At all", "Implode", "Dissipate", "Shout"],
     "difficulty": 4,
-    "categories":["quote"]
+    "categories":["quotes"]
 },
 {
     "question":"What was the name of the cult leader who directed a mass suicide in 1978?",
@@ -6012,7 +6012,295 @@
     "options":["Chad", "Marcus", "Freddy", "Brad", "Noah", "Lucas"],
     "difficulty": 3,
     "categories":["film"]
+},
+{
+    "question":"Where would you find the oldest-known living tree in the world?",
+    "answers":["The United States"],
+    "options":["Canada", "Russia", "China", "Brazil", "Paraguay", "Syria"],
+    "difficulty": 3,
+    "categories":["trees", "nature"]
+},
+{
+    "question":"In 2020, which founding journalist left 'The Intercept' due to censorship?",
+    "answers":["Glenn Greenwald"],
+    "options":["Matt Taibbi", "Lester Holt", "Fredricka Whitfield", "Christiane Amanpour", "Hu Shuli"],
+    "difficulty": 5,
+    "categories":["journalism", "misc"]
+},
+{
+    "question":"In 2019, who published their autobiography entitled 'Permanent Record'?",
+    "answers":["Edward Snowden"],
+    "options":["Noam Chomsky", "Julian Assange", "John McAfee", "Chelsea Manning", "Jacob Appelbaum"],
+    "difficulty": 4,
+    "categories":["books"]
+},
+{
+    "question":"When did World War 1 start?",
+    "answers":["28th July 1914"],
+    "options":["28th July 1913", "28th July 1912", "28th July 1915", "28th July 1916", "28th July 1917", "28th September 1914", "28th September 1913", "28th September 1912", "28th September 1915", "28th September 1916", "28th September 1917"],
+    "difficulty": 2,
+    "categories":["war", "history"]
+},
+{
+    "question":"When did World War 1 end?",
+    "answers":["November 11th, 1918"],
+    "options":["November 11th, 1917", "November 11th, 1916", "November 11th, 1919", "November 11th, 1915", "January 11th, 1918", "January 11th, 1917", "January 11th, 1916", "January 11th, 1919", "January 11th, 1915"],
+    "difficulty": 2,
+    "categories":["war", "history"]
+},
+{
+    "question":"What is the capital of the Central African Republic?",
+    "answers":["Bangui"],
+    "options":["Bambari", "Bouar", "Bossangoa", "Bimbo", "Kaga-Bandoro"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of the Ghana?",
+    "answers":["Accra"],
+    "options":["Kumasi", "Tema", "Takoradi", "Tamale", "Cape Coast", "Obuasi"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of the Yemen?",
+    "answers":["Sana'a"],
+    "options":["Taizz", "Aden", "Zabid", "Ibb", "Al Hudaydah", "Al Mukalla"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"L. Ron Hubbard was the founder of what?",
+    "answers":["Scientology"],
+    "options":["Yahoo!", "WordPress", "The United States", "Architecture"],
+    "difficulty": 1,
+    "categories":["misc"]
+},
+{
+    "question":"Who was the founder of Scientology?",
+    "answers":["L. Ron Hubbard"],
+    "options":["Guy Ballard", "John Slocum", "Frank Buchman", "Paul Twitchell", "Mark L. Prophet"],
+    "difficulty": 2,
+    "categories":["religion"]
+},
+{
+    "question":"What is the capital of the Vietnam?",
+    "answers":["Hanoi"],
+    "options":["Ho Chi Minh City", "Da Nang", "Nha Trang", "Hue"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"According to Socrates 'When the debate is lost' what 'becomes the tool of the loser'?",
+    "answers":["Slander"],
+    "options":["Melee", "Denial", "Retreat", "Vexation"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"The Philips Company was founded in 1891, mainly selling what?",
+    "answers":["Lightbulbs"],
+    "options":["Radios", "TVs", "Healthcare Products", "Doorbells"],
+    "difficulty": 3,
+    "categories":["technology", "history"]
+},
+{
+    "question":"Where was The Philips Company founded?",
+    "answers":["Amsterdam"],
+    "options":["Britain", "Ireland", "The United States", "Germany", "Belgium", "Austria"],
+    "difficulty": 3,
+    "categories":["technology", "history"]
+},
+{
+    "question":"What is the capital of the Vanuatu?",
+    "answers":["Port Vila"],
+    "options":["Luganville", "Lakatoro", "Isangel", "Sola", "Port Olry"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of the Zambia?",
+    "answers":["Lusaka"],
+    "options":["Kitwe", "Livingstone", "Ndola", "Solwezi"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of the Algeria?",
+    "answers":["Algiers"],
+    "options":["Oran", "Annaba", "Constantine", "Setif"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Where was Johann Wolfgang Von Goethe from?",
+    "answers":["Germany"],
+    "options":["Austria", "Romania", "The United States", "Russia", "Latvia", "Macedonia"],
+    "difficulty": 3,
+    "categories":["authors", "books", "geography"]
+},
+{
+    "question":"What is the capital of the Tuvula?",
+    "answers":["Funafuti"],
+    "options":["Alapi", "Lolua", "Vaiaku"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"During what century did the first Crusades take place?",
+    "answers":["11th"],
+    "options":["12th", "10th", "9th", "13th", "14th"],
+    "difficulty": 3,
+    "categories":["religion", "history"]
+},
+{
+    "question":"Which pope ordered the first Crusade?",
+    "answers":["Urban II"],
+    "options":["Victor III", "Pschal II", "Alexander II", "Damasus II"],
+    "difficulty": 3,
+    "categories":["religion", "history"]
+},
+{
+    "question":"What is the capital of the Suriname?",
+    "answers":["Paramaribo"],
+    "options":["Nieuw Nickerie", "Nieuw Amsterdam", "Albina", "Lelydorp", "Moengo"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of the Soloman Islands?",
+    "answers":["Honiara"],
+    "options":["Gizo", "Auki", "Buala", "Lata", "Kirakira"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of the Togo?",
+    "answers":["Lomé"],
+    "options":["Tsevie", "Atakpame", "Sokode", "Kpalime", "Dapaong"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"Which is a capital of the Sri Lanka?",
+    "answers":["Sri Jayawardenepura Kotte", "Colombo"],
+    "options":["Kandy", "Galle", "Jaffna", "Anuradhapura"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of the Honduras?",
+    "answers":["Tegucigalpa"],
+    "options":["San Pedro Sula", "La Ceiba", "Comayagua", "Puerto Cortes", "Choluteca"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of the Papau New Guinea?",
+    "answers":["Port Moresby"],
+    "options":["Lae", "Goroka", "Mount Hagen", "Madang"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of the Qatar?",
+    "answers":["Doha"],
+    "options":["Al Rayyan", "Al Khor", "Ar Ruways", "Al Wakrah"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"When was Facebook launched?",
+    "answers":["2004"],
+    "options":["2006", "2002", "2000", "2008", "2005", "2001", "2007"],
+    "difficulty": 3,
+    "categories":["technology", "misc"]
+},
+{
+    "question":"When was Amazon founded?",
+    "answers":["1994"],
+    "options":["1997", "1991", "2001", "2003", "2005", "2001", "1992"],
+    "difficulty": 3,
+    "categories":["technology", "misc"]
+},
+{
+    "question":"When was Youtube founded?",
+    "answers":["2005"],
+    "options":["1997", "2000", "2001", "2003", "2004", "2007", "2006", "2008", "1999"],
+    "difficulty": 3,
+    "categories":["technology", "misc"]
+},
+{
+    "question":"When was Ebay founded?",
+    "answers":["1995"],
+    "options":["1997", "2000", "2001", "2003", "1993", "1991", "1999", "2004", "2006", "2007"],
+    "difficulty": 4,
+    "categories":["technology", "misc"]
+},
+{
+    "question":"When was Netflix founded?",
+    "answers":["1997"],
+    "options":["1991", "1993", "1995", "1999", "2000", "2003", "2007", "2009", "2006", "2002"],
+    "difficulty": 4,
+    "categories":["technology", "misc"]
+},
+{
+    "question":"Which of these was founded first?",
+    "answers":["Ebay", "Amazon"],
+    "options":["Netflix", "Facebook", "Youtube", "Google", "LinkedIn", "Instagram"],
+    "difficulty": 3,
+    "categories":["technology", "misc"]
+},
+{
+    "question":"When was Google founded?",
+    "answers":["1998"],
+    "options":["1991", "1993", "1995", "1999", "2000", "2003", "2007", "2009", "2006", "2002"],
+    "difficulty": 4,
+    "categories":["technology", "misc"]
+},
+{
+    "question":"When was LinkedIn founded?",
+    "answers":["2002"],
+    "options":["1991", "1993", "1995", "1999", "2000", "2003", "2007", "2009", "2006", "1998"],
+    "difficulty": 4,
+    "categories":["technology", "misc"]
+},
+{
+    "question":"When was Instagram founded?",
+    "answers":["2010"],
+    "options":["1991", "1993", "1995", "1999", "2000", "2003", "2007", "2009", "2006", "1998", "2013", "2015"],
+    "difficulty": 4,
+    "categories":["technology", "misc"]
+},
+{
+    "question":"With what sport would you assosiate Kent Desormeaux?",
+    "answers":["Horse Racing"],
+    "options":["Ice Hockey", "Baseball", "American football", "Football (Soccer)", "Basketball", "Golf"],
+    "difficulty": 4,
+    "categories":["sports"]
+},
+{
+    "question":"In 2017, a Washington Post ad called Lorde a bigot for cancelling her show in which country?",
+    "answers":["Israel"],
+    "options":["Turkey", "Iran", "Venezuela", "Syria"],
+    "difficulty": 4,
+    "categories":["music"]
+},
+{
+    "question":"What was the biggest selling UK album of 2005?",
+    "answers":["Back To Bedlam - James Blunt"],
+    "options":["X & Y - Coldplay", "Robbie Wailliam - Intensive Care", "Demon Days - Gorillaz", "Face to Face - Westlife", "Hot Fuss - The Killers"],
+    "difficulty": 4,
+    "categories":["music"]
+},
+{
+    "question":"Who had the biggest selling UK album of 2005 with 'Back To Bedlam'?",
+    "answers":["James Blunt"],
+    "options":["Coldplay", "Robbie Wailliam", "Gorillaz", "Westlife", "The Killers"],
+    "difficulty": 3,
+    "categories":["music"]
 }
+
 
 
 
