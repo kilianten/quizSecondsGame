@@ -83,7 +83,7 @@ class MainMenu():
         numbers = len(numbersAsString)
         xOffset = 0
         for x in range(0, numbers):
-            self.main.screen.blit(self.main.numbers_images[int(numbersAsString[x])], (5 * TILESIZE + xOffset, 3 * TILESIZE))
+            self.main.screen.blit(self.main.numbers_images[int(numbersAsString[x])], (4.7 * TILESIZE + xOffset, 3 * TILESIZE))
             xOffset += self.main.numbers_images[x].get_width() + NUMBERS_OFFSET
 
     def drawScore(self):

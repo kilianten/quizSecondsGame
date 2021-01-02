@@ -137,8 +137,7 @@ class Main:
             if event.type == pg.KEYDOWN:
                 if event.key == pg.K_ESCAPE:
                     if isinstance(self.game, Game):
-                        self.writeHighScore(self.game.score)
-                        self.game = MainMenu(self)
+                        self.goToMainMenu()
                     else:
                         self.quit()
                 if event.key == pg.K_F1:
@@ -157,6 +156,13 @@ class Main:
                         if pg.sprite.collide_rect(sprite, self.mouse):
                             sprite.clicked = True
                     self.game.checkCollision(self.mouse)
+
+    def goToMainMenu(self):
+        self.writeHighScore(self.game.score)
+        for sprite in self.all_sprites:
+            self.all_sprites.remove(sprite)
+            del sprite
+        self.game = MainMenu(self)
 
     def createGame(self, difficulties):
         menu = self.game
