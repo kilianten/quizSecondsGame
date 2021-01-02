@@ -5239,7 +5239,7 @@
 {
     "question":"What stone is used to understand Egyptian hieroglyphs?",
     "answers":["The Rosetta Stone"],
-    "options":["The Philosoper's Stone", "Blarney Stone", "The Black Stone of the Kaaba"],
+    "options":["The Philosopher's Stone", "Blarney Stone", "The Black Stone of the Kaaba"],
     "difficulty": 3,
     "categories":["language"]
 },
@@ -6091,13 +6091,6 @@
     "categories":["geography"]
 },
 {
-    "question":"According to Socrates 'When the debate is lost' what 'becomes the tool of the loser'?",
-    "answers":["Slander"],
-    "options":["Melee", "Denial", "Retreat", "Vexation"],
-    "difficulty": 4,
-    "categories":["quotes"]
-},
-{
     "question":"The Philips Company was founded in 1891, mainly selling what?",
     "answers":["Lightbulbs"],
     "options":["Radios", "TVs", "Healthcare Products", "Doorbells"],
@@ -6299,11 +6292,714 @@
     "options":["Coldplay", "Robbie Wailliam", "Gorillaz", "Westlife", "The Killers"],
     "difficulty": 3,
     "categories":["music"]
+},
+{
+    "question":"What is the capital of Madagascar",
+    "answers":["Antananarivo"],
+    "options":["Toamasina", "Antsirabe", "Mahajanga", "Tianarantsoa", "Toliara"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Seychelles",
+    "answers":["Victoria"],
+    "options":["Beau Vallon", "Baie Ste Anne", "La Passe"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Malaysia",
+    "answers":["Kuala Lumpur"],
+    "options":["Kuching", "Georgetown", "Johor Bahru", "Ipoh", "Malacca", "Kota Kinabalu"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Brunei",
+    "answers":["Bandar Seri Begawan"],
+    "options":["Kuala Belait", "Seria", "Bangar", "Tutong", "Muara"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Angola",
+    "answers":["Luanda"],
+    "options":["Lobito", "Lubango", "Huambo", "Saurimo"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Indonesia",
+    "answers":["Jakarta"],
+    "options":["Bandung", "Surabaya", "Medan", "Makassar", "Semarang"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Ivory Coast",
+    "answers":["Yamoussoukro"],
+    "options":["Abidjan", "Bouake", "San-Pedro", "Man", "Korhogo"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of St. Lucia",
+    "answers":["Castries"],
+    "options":["Soufriere", "Vieux Fort", "Laborie", "Gros Islet"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Sierra Leone",
+    "answers":["Freetown"],
+    "options":["Makeni", "Kenema", "Koidu", "Bo", "Lunsar"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Chad",
+    "answers":["N'Djamena"],
+    "options":["Abeche", "Sarh", "Moundou", "Kelo"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"The large ice sheets of Earth reflecting light from the sun which causes them to grow further is known as what?",
+    "answers":["The albedo effect"],
+    "options":["The adobe effect", "The Fermi effect", "The big freeze effect", "The domino effect"],
+    "difficulty": 4,
+    "categories":["science"]
+},
+{
+    "question":"March he 10th 1876 saw the first what?",
+    "answers":["Phone call"],
+    "options":["Radio station", "Vaccine use", "Sewing machine", "Plane crash"],
+    "difficulty": 4,
+    "categories":["technology", "science"]
+},
+{
+    "question":"When was the first phone call made?",
+    "answers":["1876"],
+    "options":["1886", "1896", "1906", "1916", "1866", "1856", "1846"],
+    "difficulty": 4,
+    "categories":["history", "technology", "science"]
+},
+{
+    "question":"What is the capital of Nicaragua",
+    "answers":["Managua"],
+    "options":["León", "Granada", "Masaya", "Esteli"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of St. Kitts & Nevis",
+    "answers":["Basseterre"],
+    "options":["Charlestown", "Sandy Point Town", "Cayon", "Trinity"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Complete the name of this country. Saint Kitts and ",
+    "answers":["Nevis"],
+    "options":["Levis", "Pevis", "Mevis", "Revis", "Kevis", "Bevis"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Mongolia",
+    "answers":["Ulaanbaatar"],
+    "options":["Choibalsan", "Zuunmod", "Tsetserleg", "Uliastai"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Tajikistan",
+    "answers":["Dushanbe"],
+    "options":["Khujand", "Qurgonteppa", "Kulob", "Istaravshan"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"Which of these countries is not real",
+    "answers":["Nairobistan", "Murkistan"],
+    "options":["Tajikistan", "Uzbekistan", "Kyrgyzstan", "Turkmenistan"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Which of these is a capital of Benin",
+    "answers":["Porto-Novo"],
+    "options":["Parakou", "Abomey", "Ouidah", "Djougou", "Bohicon"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Kiribati",
+    "answers":["South Tarawa"],
+    "options":["Bikenibeu", "Eita", "Bairiki"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What horror film featured the character Samara Morgan?",
+    "answers":["The Ring"],
+    "options":["Hellraiser", "The Mist", "Oculus", "The Silence of the Lambs"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Chekhov's what is a principle in storytelling that states that every element in a story must be necessary, any irrelevant elements should be removed?",
+    "answers":["Chekhov's gun"],
+    "options":["Chekhov's ring", "Chekhov's law", "Chekhov's scroll", "Chekhov's flower", "Chekhov's chain", "Chekhov's piano", "Chekhov's trap", "Chekhov's loop"],
+    "difficulty": 4,
+    "categories":["misc", "film"]
+},
+{
+    "question":"What is the capital of Taiwan",
+    "answers":["Taipei"],
+    "options":["Tainan", "Taichung City", "New Taipei City", "Hsinchu", "Keelung City"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Nauru",
+    "answers":["Yaren"],
+    "options":["Boe", "Denigomodu", "Anibare", "Meneng"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Kenya",
+    "answers":["Nairobi"],
+    "options":["Mombasa", "Kisumu", "Nakuru", "Eldoret", "Malindi"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Georgia",
+    "answers":["Tbilisi"],
+    "options":["Batumi", "Kutaisi", "Rustavi", "Mtskheta", "Poti"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Guinea",
+    "answers":["Conakry"],
+    "options":["Kankan", "Nzerekore", "Labe", "Kissidougou", "Kamsar"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Eritrea",
+    "answers":["Asmara"],
+    "options":["Kitsiwa", "Assab", "Dekemhare", "Barentu", "Adi Ugri"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Kyrgyzstan",
+    "answers":["Bishkek"],
+    "options":["Osh", "Karakol", "Balykchy", "Tokmok", "Kara Balta"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Cape Verde",
+    "answers":["Praia"],
+    "options":["Mindelo", "Cidade Velha", "Sao Filipe", "Santa Maria", "Tarrafal"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Samoa",
+    "answers":["Apia"],
+    "options":["Asua", "Afega", "Vailima", "Lufi-lufi"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Mauritius",
+    "answers":["Port Louis"],
+    "options":["Curepipe", "Quatre Bornes", "Grand Baie", "Mahebourg"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Turkmenistan",
+    "answers":["Ashgabat"],
+    "options":["Turkmenabat", "Balkanabat", "Dashoguz"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Rwanda",
+    "answers":["Kigali"],
+    "options":["Kamembe", "Butare", "Gisenyi", "Nyanza", "Nyamata"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Gabon",
+    "answers":["Libreville"],
+    "options":["Port-Gentil", "Franceville", "Lambarene", "Oyem", "Mouila"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Namibia",
+    "answers":["Windhoek"],
+    "options":["Swakopmund", "Walvis Bay", "Otijwarongo", "Keetmanshoop", "Okahandja"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Bahrain",
+    "answers":["Manama"],
+    "options":["Riffa", "Muharraq", "Isa Town", "Hamad Town"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Uzbekistan",
+    "answers":["Tashkent"],
+    "options":["Samarkand", "Bukhara", "Khiva", "Nukus", "Andijan"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Oman",
+    "answers":["Muscat"],
+    "options":["Salalah", "Nizwa", "Sohar", "Sur", "Khasab"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of East Timor",
+    "answers":["Dili"],
+    "options":["Maliana", "Lospalos", "Suai", "Baucau", "Aileu"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Laos",
+    "answers":["Vientiane"],
+    "options":["Luang Prabang", "Vang Vieng", "Pakse", "Phonsavan", "Thakhek"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Senegal",
+    "answers":["Dakar"],
+    "options":["Saint Louis", "Kaolack", "Touba", "Ziguinchor"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Maldives",
+    "answers":["Malé"],
+    "options":["Addu City", "Maroshi", "Funadhoo", "Gan", "Veymandhoo", "Gan", "Hithadhoo"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"Where did the Arab spring start its first protests?",
+    "answers":["Tunisia"],
+    "options":["Libya", "Yemen", "Egypt", "Syria", "Bahrain"],
+    "difficulty": 4,
+    "categories":["politics", "misc"]
+},
+{
+    "question":"'O it is excellent to have a giant's strength; but it is tyrannous to use it like a giant', comes from which Shakespeare work?",
+    "answers":["Measure for Measure"],
+    "options":["Hamlet", "Romeo and Juliet", "Macbeth", "King Lear", "The Tempest"],
+    "difficulty": 4,
+    "categories":["quotes", "books"]
+},
+{
+    "question":"Jeff Bezos is the CEO of which company?",
+    "answers":["Amazon"],
+    "options":["Ebay", "Apple", "Google", "Tiktok", "Tesla", "Sony", "Samsung", "LG"],
+    "difficulty": 1,
+    "categories":["technology"]
+},
+{
+    "question":"Jamal Khashoggi was a journalist and dissident from what country?",
+    "answers":["Saudi Arabia"],
+    "options":["Iran", "North Korea", "China", "Russia", "Yemen", "Serbia", "Iraq"],
+    "difficulty": 3,
+    "categories":["politics", "misc"]
+},
+{
+    "question":"When was Leonardo Da Vinci born?",
+    "answers":["April 15 1452"],
+    "options":["April 15 1552", "April 15 1652", "April 15 1752", "April 15 1352", "April 15 1252"],
+    "difficulty": 3,
+    "categories":["art", "history"]
+},
+{
+    "question":"When did Leonardo Da Vinci die?",
+    "answers":["May 2, 1519"],
+    "options":["May 2 1519", "May 2 1619", "May 2 1719", "May 2 1319", "May 2 1219"],
+    "difficulty": 4,
+    "categories":["art", "history"]
+},
+{
+    "question":"What is the name of Peppa Pig's brother?",
+    "answers":["George"],
+    "options":["Stephen", "Mike", "Randy", "Karl", "Max", "Ron"],
+    "difficulty": 2,
+    "categories":["TV"]
+},
+{
+    "question":"What is Stan's second name in South Park?",
+    "answers":["Marsh"],
+    "options":["Cartman", "Smith", "Dixon", "Myers", "Willis", "Collins"],
+    "difficulty": 2,
+    "categories":["TV"]
+},
+{
+    "question":"What is Stan's father's name in South Park?",
+    "answers":["Randy"],
+    "options":["Lance", "Darryl", "Mateo", "Ronan", "Steve", "Cory"],
+    "difficulty": 3,
+    "categories":["TV"]
+},
+{
+    "question":"Where was artists Sandro Botticelli from?",
+    "answers":["Italy"],
+    "options":["Greece", "The United States", "France", "Libya"],
+    "difficulty": 2,
+    "categories":["art"]
+},
+{
+    "question":"Who painted 'The Birth of Venus'?",
+    "answers":["Sandro Botticelli"],
+    "options":["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello", "Caravaggio", "Titian"],
+    "difficulty": 3,
+    "categories":["art"]
+},
+{
+    "question":"Who painted 'Saint Jerome in the Wilderness'?",
+    "answers":["Leonardo da Vinci"],
+    "options":["Michelangelo", "Sandro Botticelli", "Raphael", "Donatello", "Caravaggio", "Titian"],
+    "difficulty": 3,
+    "categories":["art"]
+},
+{
+    "question":"St Jerome was famous for his translation of the Bible into what language?",
+    "answers":["Latin"],
+    "options":["English", "French", "Italian", "Greek"],
+    "difficulty": 3,
+    "categories":["religion"]
+},
+{
+    "question":"Who became pop in 1978?",
+    "answers":["Pope John Paul II"],
+    "options":["Pope Benedict XVI", "Pope Francis", "Pope John Paul I"],
+    "difficulty": 3,
+    "categories":["religion"]
+},
+{
+    "question":"Who became pop in 2005?",
+    "answers":["Pope Benedict XVI"],
+    "options":["Pope John Paul II", "Pope Francis", "Pope John Paul I"],
+    "difficulty": 3,
+    "categories":["religion"]
+},
+{
+    "question":"Who became pop in 2013?",
+    "answers":["Pope Francis"],
+    "options":["Pope John Paul II", "Pope Benedict XVI", "Pope John Paul I"],
+    "difficulty": 2,
+    "categories":["religion"]
+},
+{
+    "question":"What was Michelangelo's surname?",
+    "answers":["Buonarroti"],
+    "options":["Lucciano", "Di Traglia", "Schiavone", "Presutti"],
+    "difficulty": 4,
+    "categories":["art"]
+},
+{
+    "question":"When was Michelangelo born?",
+    "answers":["March 6th 1475"],
+    "options":["March 6th 1375", "March 6th 1275", "March 6th 1575", "March 6th 1675"],
+    "difficulty": 4,
+    "categories":["art", "history"]
+},
+{
+    "question":"When did Michelangelo die?",
+    "answers":["Feb 18th 1564"],
+    "options":["Feb 18th 1664", "Feb 18th 1764", "Feb 18th 1464", "Feb 18th 1364", "Feb 18th 1264"],
+    "difficulty": 4,
+    "categories":["art", "history"]
+},
+{
+    "question":"'A single death is a tragedy, a million deaths are a statistic' is a quote from whom?",
+    "answers":["Joseph Stalin"],
+    "options":["Adolf Hitler", "Joseph Goebbels", "Fritz Haber", "Jim Jones"],
+    "difficulty": 4,
+    "categories":["art", "history"]
+},
+{
+    "question":"According to Greek mythology, what is the void state preceding the creation of the universe?",
+    "answers":["Chaos"],
+    "options":["Dissarray", "Havoc", "Aidos", "Monos"],
+    "difficulty": 3,
+    "categories":["mythology", "misc"]
+},
+{
+    "question":"The Ring of Gyges is a mythical magical artifact that grants its owner what power?",
+    "answers":["Invisibility"],
+    "options":["Invincibility", "Flight", "Superstrength", "X-ray vision", "Telepathy"],
+    "difficulty": 3,
+    "categories":["mythology", "misc"]
+},
+{
+    "question":"What mythical magical artifact grants its owner invisibility?",
+    "answers":["The Ring of Gyges"],
+    "options":["The Cloak of Gyges", "The Hood of Gyges", "The Orb of Gyges", "The Hand of Gyges"],
+    "difficulty": 3,
+    "categories":["mythology", "misc"]
+},
+{
+    "question":"Glaucon is the brother of which philosopher?",
+    "answers":["Plato"],
+    "options":["Aristotle", "Socrates", "Epicurus", "Heraclitus"],
+    "difficulty": 3,
+    "categories":["philosophy", "misc"]
+},
+{
+    "question":"What is the name of Plato's brother?",
+    "answers":["Glaucon"],
+    "options":["Aegeus", "Agnes", "Alejandro", "Elpis", "Erato"],
+    "difficulty": 3,
+    "categories":["philosophy", "misc"]
+},
+{
+    "question":"One of the 5 tastes, umami is often known as what?",
+    "answers":["Savory"],
+    "options":["Sweet", "Sour", "Bitter", "Salty"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"Where is Area 51 located?",
+    "answers":["Nevada"],
+    "options":["New Mexico", "Louisiana", "Connecticut", "South Carolina", "Nebraska", "Texas", "Iowa", "Arkansas", "Kentucky", "Wyonming"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What brain cell reacts both when a particular action is performed & when its only observed?",
+    "answers":["Mirror nueron"],
+    "options":["Copy nueron", "Reflexive nueron", "Motor nueron", "Dupe nueron"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"'Ask not what your country can do for you, ask what you can do for your country' is a quote from which American President?",
+    "answers":["John F. Kennedy"],
+    "options":["Ronald Reagan", "George W. Bush", "Dwight D. Eisenhower", "Harry S. Truman", "Franklin D. Roosevelt"],
+    "difficulty": 2,
+    "categories":["quotes"]
+},
+{
+    "question":"Yakuza is a mafia originating in which country?",
+    "answers":["Japan"],
+    "options":["China", "North Korea", "Taiwan", "Vietnam", "Yemen"],
+    "difficulty": 4,
+    "categories":["misc"]
+},
+{
+    "question":"Where is the source of the Rhine river",
+    "answers":["Switzerland"],
+    "options":["Germany", "Belgium", "Amsterdam"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"In World War 2 which of these countries were part of 'The Big Three'",
+    "answers":["The United States", "The Solviet Union", "The United Kingdom"],
+    "options":["Poland", "Mexico", "Germany"],
+    "difficulty": 2,
+    "categories":["war", "history"]
+},
+{
+    "question":"Michael Schumacher was born in which country?",
+    "answers":["Germany"],
+    "options":["Poland", "England", "France", "Austria", "Italy", "Germany"],
+    "difficulty": 1,
+    "categories":["sports"]
+},
+{
+    "question":"Which Japenese emporer announced Japan's surrender to the Allied Forces in 1945?",
+    "answers":["Hirohito"],
+    "options":["Akihito", "Yoshihito", "Mutsuhito", "Osahito"],
+    "difficulty": 1,
+    "categories":["war", "history"]
+},
+{
+    "question":"Shangri-La is a fictional place described in the 1933 novel?",
+    "answers":["Lost Horizon"],
+    "options":["Brave New World", "Gulliver's Travels", "The Giver", "The Dispossessed"],
+    "difficulty": 3,
+    "categories":["books"]
+},
+{
+    "question":"'Lost Horizon' is a 1933 novel by which British autor?",
+    "answers":["James Hilton"],
+    "options":["George Orwell", "Thomas Hardy", "E. M. Forester", "C. S. Lewis", "Virginia Woolf"],
+    "difficulty": 4,
+    "categories":["authors", "books"]
+},
+{
+    "question":"Atoms for Peace was the title of a speech by which U.S president?",
+    "answers":["Dwight D. Eisenhower"],
+    "options":["Ronald Reagan", "George W. Bush", "John F. Kennedy", "Harry S. Truman", "Franklin D. Roosevelt"],
+    "difficulty": 4,
+    "categories":["misc"]
+},
+{
+    "question":"According to Greek mythology, who is credited with the creation of humanity",
+    "answers":["Prometheus"],
+    "options":["Apollo", "Ares", "Hades", "Artemis", "Poseidon", "Zeus"],
+    "difficulty": 2,
+    "categories":["mythology", "misc"]
+},
+{
+    "question":"According to Greek mythology, Prometheus created humanity out of what",
+    "answers":["Clay"],
+    "options":["Diamond", "Dirt", "Coal", "Feather", "Gold"],
+    "difficulty": 3,
+    "categories":["mythology", "misc"]
+},
+{
+    "question":"According to Greek mythology, Prometheus defies the gods by stealing what and giving it to humanity as civilization?",
+    "answers":["Fire"],
+    "options":["Lightning", "Dirt", "Coal", "Feather", "Gold", "Diamond"],
+    "difficulty": 3,
+    "categories":["mythology", "misc"]
+},
+{
+    "question":"Which laws were state and local laws that enforced racial segregation in the Southern United States?",
+    "answers":["Jim Crow laws"],
+    "options":["Jim Marsh laws", "Jim Jones laws", "Jim Jack laws", "Jim Lykes laws"],
+    "difficulty": 2,
+    "categories":["law", "history"]
+},
+{
+    "question":"Jim Crow laws were enforced until when?",
+    "answers":["1965"],
+    "options":["1975", "1985", "1955", "1945", "1935", "1925"],
+    "difficulty": 4,
+    "categories":["law", "history"]
+},
+{
+    "question":"What is a common mathematical ratio found in nature?",
+    "answers":["The Golden Ratio"],
+    "options":["The Silver Ratio", "The Bronze Ratio", "The Diamond Ratio", "The Iron Ratio"],
+    "difficulty": 2,
+    "categories":["math"]
+},
+{
+    "question":"Which reactor exploded in Chernobyl in 1986?",
+    "answers":["The fourth reactor"],
+    "options":["The first reactor", "The second reactor", "The third reactor", "The fifth reactor"],
+    "difficulty": 4,
+    "categories":["history", "misc"]
+},
+{
+    "question":"What is the name of the structure built to confine the remains of the number 4 reactor unit at the Chernobyl Nuclear Power Plant?",
+    "answers":["The New Safe Confinement"],
+    "options":["The Internation Effort at Safe Confinement", "The Nuclear Failure Confinement", "The Reactor Conrete Confinement"],
+    "difficulty": 4,
+    "categories":["misc"]
+},
+{
+    "question":"When was the New Safe Confinement, the structure built to confine the remains of the Chernobyl Nuclear Power Plant, finished?",
+    "answers":["2019"],
+    "options":["2016", "2012", "1986", "1993", "1997", "2001", "2005"],
+    "difficulty": 4,
+    "categories":["history", "misc"]
+},
+{
+    "question":"Which is not one of the 4 C's of diamonds?",
+    "answers":["Character", "Curvature", "Cabbage"],
+    "options":["Cut", "Colour", "Clarity", "Carat"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"In 1983 a solviet air force pilot accidentally shot down an airliner from which country?",
+    "answers":["Korea"],
+    "options":["The United States", "Iran", "China", "Germany", "France", "Egypt"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"What is a Veblen good?",
+    "answers":["A good for which demand increases as the price increases"],
+    "options":["A good for which demand decreases as the price increases", "A good for which demand increases as the price decreases", "A good for which demand decreases as the price decreases"],
+    "difficulty": 5,
+    "categories":["economics", "misc"]
+},
+{
+    "question":"What was taken to mean increased openness and transparency in government institutions and activities in the Soviet Union?",
+    "answers":["Glasnost"],
+    "options":["Glavlit", "Gosplan", "Gulag", "Voenkomat", "Zemstvo", "Boyar", "Blat", "Cheka", "Cossacks", "Duma"],
+    "difficulty": 5,
+    "categories":["misc"]
+},
+{
+    "question":"DNA stands for what?",
+    "answers":["Deoxyribonucleic acid"],
+    "options":["Dioxidizing nueron acid", "Dextrix neon acid", "Diode nueral acid", "Determental nylon acid"],
+    "difficulty": 1,
+    "categories":["science"]
+},
+{
+    "question":"The Great Barrier Reef is located off the coast of which country?",
+    "answers":["Australia"],
+    "options":["Spain", "Sri Lanka", "Canada", "Russia", "Greece", "Mexico"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"The Great Barrier Reef is visible from space?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"According to Greek mythology, who was described as a winged females with living venemous snake hair?",
+    "answers":["Medusa"],
+    "options":["Cassandra", "Amazons", "Aphrodite", "Atlanta", "Pandora"],
+    "difficulty": 2,
+    "categories":["mythology"]
+},
+{
+    "question":"According to Greek mythology, looking into Medusa's eyes would turn a person into what?",
+    "answers":["Stone"],
+    "options":["Diamond", "Dirt", "Iron", "Sand", "Pandora"],
+    "difficulty": 2,
+    "categories":["mythology"]
+},
+{
+    "question":"The lining of eyes contains two kinds of differently shaped cells, which is responsible for perceiving colour?",
+    "answers":["Cones"],
+    "options":["Rods", "Cylinders", "Cubes", "Torus"],
+    "difficulty": 5,
+    "categories":["science"]
+},
+{
+    "question":"The lining of eyes contains two kinds of differently shaped cells, cones and what?",
+    "answers":["Rods"],
+    "options":["Cylinders", "Cubes", "Torus"],
+    "difficulty": 5,
+    "categories":["science"]
 }
-
-
-
-
 
 
 
