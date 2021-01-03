@@ -980,7 +980,7 @@
     "categories":["geography"]
 },
 {
-    "question":"Sumatra is part of which country?",
+    "question":"Honshu is part of which country?",
     "answers":["Japan"],
     "options":["Malaysia", "Phillipines", "Indonesia", "Vietnam", "Taiwan", "China"],
     "difficulty": 3,
@@ -1141,14 +1141,14 @@
     "categories":["geography"]
 },
 {
-    "question":"When did World War 1 begin?",
+    "question":"When did World War 2 begin?",
     "answers":["September 1, 1939"],
     "options":["February 1, 1938", "October 1, 1938", "April 1, 1939", "January 1, 1940", "January 1, 1939"],
     "difficulty": 2,
     "categories":["history"]
 },
 {
-    "question":"When did World War 1 end?",
+    "question":"When did World War 2 end?",
     "answers":["September 2, 1945"],
     "options":["February 1, 1945", "October 1, 1946", "April 1, 1945", "January 1, 1945", "January 1, 1944"],
     "difficulty": 2,
@@ -6998,6 +6998,706 @@
     "answers":["Rods"],
     "options":["Cylinders", "Cubes", "Torus"],
     "difficulty": 5,
+    "categories":["science"]
+},
+{
+    "question":"An abundance of what element in a layer of rock at the Cretaceuos - Paleogene boundary all around the world was evidence of an asteroid wiping out the dinosaurs?",
+    "answers":["Iridium"],
+    "options":["Potassium", "Nickel", "Niobium", "Praseodymium", "Hydrogen", "Lead"],
+    "difficulty": 4,
+    "categories":["science"]
+},
+{
+    "question":"What fish uses a shiny lure to bring prey within range of its sharp teeth?",
+    "answers":["Anglerfish"],
+    "options":["Zander", "Megalodon", "Catfish", "Swordfish"],
+    "difficulty": 2,
+    "categories":["animals", "nature"]
+},
+{
+    "question":"When Pangea broke up, its northern continent is referred to as what?",
+    "answers":["Laurasia"],
+    "options":["Americasia", "Norasia", "Sorasia", "Antarasia"],
+    "difficulty": 5,
+    "categories":["geography", "history"]
+},
+{
+    "question":"When Pangea broke up, its southern continent is referred to as what?",
+    "answers":["Gondwana"],
+    "options":["Laurafrica", "Europassa", "Sorasia", "Panthalassa", "Golgotha"],
+    "difficulty": 5,
+    "categories":["geography", "history"]
+},
+{
+    "question":"What is a group of lions called?",
+    "answers":["A pride"],
+    "options":["A troop", "An army", "A mob", "A herd", "A pack"],
+    "difficulty": 2,
+    "categories":["animals", "language"]
+},
+{
+    "question":"What is a group of wombats called?",
+    "answers":["A wisdom"],
+    "options":["A troop", "An army", "A mob", "A herd", "A pack", "A pride", "A scurry", "A prickle", "A cavern"],
+    "difficulty": 4,
+    "categories":["animals", "language"]
+},
+{
+    "question":"Which planet is closest to the Sun?",
+    "answers":["Mercury"],
+    "options":["Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"],
+    "difficulty": 1,
+    "categories":["astronomy"]
+},
+{
+    "question":"In order of closest to the sun, which planet comes second?",
+    "answers":["Venus"],
+    "options":["Mercury", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"],
+    "difficulty": 1,
+    "categories":["astronomy"]
+},
+{
+    "question":"In order of closest to the sun, which planet comes third?",
+    "answers":["Earth"],
+    "options":["Mercury", "Venus", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"],
+    "difficulty": 1,
+    "categories":["astronomy"]
+},
+{
+    "question":"In order of closest to the sun, which planet comes fourth?",
+    "answers":["Mars"],
+    "options":["Mercury", "Venus", "Earth", "Jupiter", "Saturn", "Uranus", "Neptune"],
+    "difficulty": 1,
+    "categories":["astronomy"]
+},
+{
+    "question":"In order of closest to the sun, which planet comes fifth?",
+    "answers":["Jupiter"],
+    "options":["Mercury", "Venus", "Earth", "Mars", "Saturn", "Uranus", "Neptune"],
+    "difficulty": 2,
+    "categories":["astronomy"]
+},
+{
+    "question":"In order of closest to the sun, which planet comes sixth?",
+    "answers":["Saturn"],
+    "options":["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Uranus", "Neptune"],
+    "difficulty": 2,
+    "categories":["astronomy"]
+},
+{
+    "question":"In order of closest to the sun, which planet comes seventh?",
+    "answers":["Uranus"],
+    "options":["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Neptune"],
+    "difficulty": 2,
+    "categories":["astronomy"]
+},
+{
+    "question":"In order of closest to the sun, which planet comes eigth?",
+    "answers":["Neptune"],
+    "options":["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus"],
+    "difficulty": 2,
+    "categories":["astronomy"]
+},
+{
+    "question":"How many white keys are there on a normal piano?",
+    "answers":["52"],
+    "options":["58", "64", "72", "80", "56", "42", "46", "38", "32", "66"],
+    "difficulty": 3,
+    "categories":["music"]
+},
+{
+    "question":"How many black keys are there on a normal piano?",
+    "answers":["36"],
+    "options":["38", "44", "52", "30", "46", "32", "26", "28", "42", "66"],
+    "difficulty": 3,
+    "categories":["music"]
+},
+{
+    "question":"Which of these films won an Oscar for best picture?",
+    "answers":["Forrest Gump", "Ordinary People", "Rain Man", "Rocky", "The Godfather"],
+    "options":["Fargo", "Shawshank Redemption", "Pulp Fiction", "Goodfellas", "Raging Bull", "2001: A Space Odyssey", "Psycho", "Citizen Kane", "Saving Private Ryan"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2019 (92nd) Oscar for 'Best Picture'",
+    "answers":["Parasite"],
+    "options":["Ford v Ferrari", "The Irishman", "Joker", "Marriage Story", "1917", "Once Upon a Time in Hollywood"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2018 (91st) Oscar for 'Best Picture'",
+    "answers":["Green Book"],
+    "options":["Black Panther", "BlacKkKlansman", "Bohemian Rhapsody", "The Favourite", "Roma", "A Star Is Born"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2017 (90th) Oscar for 'Best Picture'",
+    "answers":["The Shape of Water"],
+    "options":["Call Me by Your Name", "Darkest Hour", "Dunkirk", "Get Out", "Phantom Thread", "Three Billboards Outside Ebbing, Missouri"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2016 (89th) Oscar for 'Best Picture'",
+    "answers":["Moonlight"],
+    "options":["Arrival", "Hacksaw Ridge", "Hell or High Water", "Hidden Figures", "La La Land", "Manchester by the Sea"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2015 (88th) Oscar for 'Best Picture'",
+    "answers":["Spotlight"],
+    "options":["The Big Short", "Bridge of Spies", "Brooklyn", "Mad Max: Fury Road", "The Revenant", "Room"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2014 (87th) Oscar for 'Best Picture'",
+    "answers":["Birdman or (The Unexpected Virtue of Ignorance)"],
+    "options":["American Sniper", "Boyhood", "The Grand Budapest Hotel", "The Imitation Game", "The Theory of Everything", "Whiplash"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2013 (86th) Oscar for 'Best Picture'",
+    "answers":["12 Years a Slave"],
+    "options":["American Hustle", "Captain Phillips", "Dallas Buyers Club", "Gravity", "Her", "The Wolf of Wall Street"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2012 (85th) Oscar for 'Best Picture'",
+    "answers":["Argo"],
+    "options":["Amour", "Django Unchained", "Les Misérables", "Life of Pi", "Lincoln", "Zero Dark Thirty"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2011 (84th) Oscar for 'Best Picture'",
+    "answers":["The Artist"],
+    "options":["The Descendants", "The Help", "Hugo", "Midnight in Paris", "Moneyball", "The Tree of Life"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2010 (83rd) Oscar for 'Best Picture'",
+    "answers":["The King's Speech"],
+    "options":["127 Hours", "Black Swan", "The Fighter", "Inception", "The Social Network", "Toy Story 3"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2009 (82nd) Oscar for 'Best Picture'",
+    "answers":["The Hurt Locker"],
+    "options":["Avatar", "The Blind Side", "District 9", "Inglourious Basterds", "A Serious Man", "Up"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2008 (81st) Oscar for 'Best Picture'",
+    "answers":["Slumdog Millionaire"],
+    "options":["The Curious Case of Benjamin Button", "Frost/Nixon", "Milk", "The Reader"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2007 (80th) Oscar for 'Best Picture'",
+    "answers":["No Country for Old Men"],
+    "options":["Atonement", "Juno", "Michael Clayton", "There Will Be Blood"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2006 (79th) Oscar for 'Best Picture'",
+    "answers":["The Departed"],
+    "options":["Babel", "Letters from Iwo Jima", "The Queen", "Little Miss Sunshine"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2005 (78th) Oscar for 'Best Picture'",
+    "answers":["Crash"],
+    "options":["Brokeback Mountain", "Capote", "Good Night, and Good Luck", "Munich"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2004 (77th) Oscar for 'Best Picture'",
+    "answers":["Million Dollar Baby"],
+    "options":["The Aviator", "Finding Neverland", "Ray", "Sideways"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2003 (76th) Oscar for 'Best Picture'",
+    "answers":["The Lord of the Rings: The Return of the King"],
+    "options":["Lost in Translation", "Master and Commander: The Far Side of the World", "Mystic River", "Seabiscuit"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2002 (75th) Oscar for 'Best Picture'",
+    "answers":["Chicago"],
+    "options":["Gangs of New York", "The Hours", "The Lord of the Rings: The Two Towers", "The Pianist"],
+    "difficulty": 5,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2001 (74th) Oscar for 'Best Picture'",
+    "answers":["A Beautiful Mind"],
+    "options":["Moulin Rouge!", "Gosford Park", "In the Bedroom", "The Lord of the Rings: The Fellowship of the Ring"],
+    "difficulty": 5,
+    "categories":["film"]
+},
+{
+    "question":"Which film won the 2000 (73rd) Oscar for 'Best Picture'",
+    "answers":["Gladiator"],
+    "options":["Chocolat", "Traffic", "Crouching Tiger, Hidden Dragon", "Erin Brockovich"],
+    "difficulty": 5,
+    "categories":["film"]
+},
+{
+    "question":"Who hosted the 2019 Grammys",
+    "answers":["Alicia Keys"],
+    "options":["James Corden", "Will Smith", "Chris Rock", "Joseph Gordon-Levitt", "Seth Macfarlane", "Neil Patrick Harris"],
+    "difficulty": 4,
+    "categories":["misc"]
+},
+{
+    "question":"Who Played Barney Stinson in 'How I Met Your Mother'?",
+    "answers":["Neil Patrick Harris"],
+    "options":["Jason Segel", "Josh Radnor", "Bob Saget", "Matthew Perry"],
+    "difficulty": 2,
+    "categories":["TV"]
+},
+{
+    "question":"From the popular videogame, who is Ratchet's companion?",
+    "answers":["Clank"],
+    "options":["Daxter", "Tails", "Cortana", "Solas"],
+    "difficulty": 3,
+    "categories":["videogames"]
+},
+{
+    "question":"Which Halo charcater later became the name for Microsoft's virtual assistant?",
+    "answers":["Cortana"],
+    "options":["Alexa", "Tails", "Pixel", "Ava", "Abigail", "Mia", "Talulla", "Fay"],
+    "difficulty": 3,
+    "categories":["videogames", "technology"]
+},
+{
+    "question":"Which of these is one of Mars' moons?",
+    "answers":["Phobos", "Deimos"],
+    "options":["Europa", "Titan", "Ganymede", "Enceladus", "Io", "Triton", "Callisto"],
+    "difficulty": 3,
+    "categories":["astronomy"]
+},
+{
+    "question":"When did scientists discovered the virus that causes AIDS?",
+    "answers":["1983"],
+    "options":["1993", "1973", "1963", "1986", "1966", "1996", "1976"],
+    "difficulty": 4,
+    "categories":["medicine", "science"]
+},
+{
+    "question":"In what month in 2020 did Italy go on lockdown for the first time due to COVID-19?",
+    "answers":["February"],
+    "options":["January", "March", "April", "May"],
+    "difficulty": 3,
+    "categories":["medicine", "science"]
+},
+{
+    "question":"When in 2020 did Ireland go on full lockdown for the first time due to COVID-19?",
+    "answers":["March 27th"],
+    "options":["February 27th", "April 27th", "May 27th", "January 27th", "June 27th"],
+    "difficulty": 3,
+    "categories":["medicine", "science"]
+},
+{
+    "question":"In what month in 2020 did we reach 1 million people confirmed to have COVID-19?",
+    "answers":["April"],
+    "options":["January", "March", "February", "May", "June", "July"],
+    "difficulty": 3,
+    "categories":["medicine", "science"]
+},
+{
+    "question":"When in 2020 did the WHO declare COVID-19 a pandemic?",
+    "answers":["March 11th"],
+    "options":["January 11th", "Febuary 11th", "April 11th", "May 11th", "June 26th", "March 26th", "January 26th", "Febuary 26th", "April 26th", "May 26th", "June 26th"],
+    "difficulty": 3,
+    "categories":["medicine", "science"]
+},
+{
+    "question":"Who is credited with the discover of penicillin?",
+    "answers":["Sir Alexander Fleming"],
+    "options":["Edward Jenner", "Joseph Lister", "Virginia Apgar", "William Osler", "Andreas Vesalius"],
+    "difficulty": 2,
+    "categories":["medicine", "science"]
+},
+{
+    "question":"When did Sir Alexander Fleming discover penicillin?",
+    "answers":["1928"],
+    "options":["1918", "1908", "1898", "1888", "1938", "1948"],
+    "difficulty": 4,
+    "categories":["medicine", "science"]
+},
+{
+    "question":"Where was Alexander Fleming from?",
+    "answers":["Scotland"],
+    "options":["Ireland", "Germany", "England", "France", "Austria", "Greece", "Malta"],
+    "difficulty": 3,
+    "categories":["medicine", "science"]
+},
+{
+    "question":"What Vitamin does our body produce when exposed directly to the sun?",
+    "answers":["D"],
+    "options":["A", "C", "E", "K"],
+    "difficulty": 1,
+    "categories":["science"]
+},
+{
+    "question":"According to the quote, 'Hard times create strong men. Strong men create good times. Good times create' what?",
+    "answers":["Weak men"],
+    "options":["Hard men", "Hard times", "Weak times"],
+    "difficulty": 2,
+    "categories":["quotes"]
+},
+{
+    "question":"Who was assassinated on April 4 1968?",
+    "answers":["Martin Luther King Jr."],
+    "options":["Indira Gandhi", "Franz Ferdinand", "Martin Luther King Jr.", "Malcolm X", "Mahatma Gandhi"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"Which of these famous figures was not born in 1929?",
+    "answers":["Adam West", "Shirley Temple", "Marilyn Monroe", "David Attenborough"],
+    "options":["Martin Luther King Jr.", "Anne Frank", "Audrey Hepburn"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"Which of these famous figures was not born in 1926?",
+    "answers":["Malcolm X", "Margaret Thatcher", "Sten Lee"],
+    "options":["Marilyn Monroe", "David Attenborough", "Fidel Castro"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"When was Martin Luther King Jr. born?",
+    "answers":["January 15 1929"],
+    "options":["January 15 1924", "January 15 1934", "January 15 1939", "January 15 1914", "January 15 1919"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"Jan 27, 1967, when a flash fire swept through which Apollo mission?",
+    "answers":["Apollo 1"],
+    "options":["Apollo 4", "Apollo 11", "Apollo 8", "Apollo 9", "Apollo 5"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"What was the name of the Solviet space dog who became one of the first animals in space?",
+    "answers":["Laika"],
+    "options":["Alexei", "Katya", "Svetlana", "Viktor", "Feliks", "Fyodor", "Pyotr", "Oleg"],
+    "difficulty": 3,
+    "categories":["history", "science"]
+},
+{
+    "question":"Laika, was the Solveit space dog who went into space in 1957. What does Barker translate to?",
+    "answers":["Barker"],
+    "options":["Rock", "Watchful", "Progressor", "Defender of mankind", "Wolf"],
+    "difficulty": 3,
+    "categories":["history", "science"]
+},
+{
+    "question":"What animal was the first to orbit Earth?",
+    "answers":["A dog"],
+    "options":["A chimpanzee", "A duck", "A hamster", "A cat"],
+    "difficulty": 2,
+    "categories":["history", "science"]
+},
+{
+    "question":"Laika, became one of the first animals to orbit the Earth in what year?",
+    "answers":["1957"],
+    "options":["1967", "1947", "1977", "1961", "1951", "1971", "1941"],
+    "difficulty": 4,
+    "categories":["history", "science"]
+},
+{
+    "question":"Where would you find the Red Square?",
+    "answers":["Moscow, Russia"],
+    "options":["Beijing, China", "Rome, Italy", "Nampo , North Korea"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Who was the first American to travel into space?",
+    "answers":["Alan Shepard Jr."],
+    "options":["Neil Armstrong", "Michael Collins", "Buzz Aldrin"],
+    "difficulty": 2,
+    "categories":["history", "science"]
+},
+{
+    "question":"When did Alan Shepard Jr. become the first American to travel into space?",
+    "answers":["1961"],
+    "options":["1965", "1969", "1972", "1974", "1959", "1957", "1954"],
+    "difficulty": 4,
+    "categories":["history", "science"]
+},
+{
+    "question":"Alan Shepard Jr. became the first America to travel into space in 1961. He has also walked on the Moon",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["history", "science"]
+},
+{
+    "question":"What was the name of the chimpanzee and the first hominid launched into space in 1961",
+    "answers":["Ham"],
+    "options":["Laika", "Colo", "Aldo", "Lazlo", "Bingo", "Winston"],
+    "difficulty": 3,
+    "categories":["history", "science"]
+},
+{
+    "question":"Genji, Widowmaker and Mercy are all characters of which videogame?",
+    "answers":["Overwatch"],
+    "options":["Halo", "League of Legends", "Fortnite", "Team Fortress 2"],
+    "difficulty": 3,
+    "categories":["videogames"]
+},
+{
+    "question":"Ham, was a chimpanzee and the first hominid launched into space, when did he go into space?",
+    "answers":["1961"],
+    "options":["1958", "1956", "1953", "1951", "1962", "1948"],
+    "difficulty": 3,
+    "categories":["history", "science"]
+},
+{
+    "question":"Approximately how hot is the surface of the sun?",
+    "answers":["10,000 degrees Farenheit"],
+    "options":["100,000 degrees Farenheit", "1,000,000 degrees Farenheit", "1,000 degrees Farenheit", "5,000 degrees Farenheit", "50,000 degrees Farenheit", "500,000 degrees Farenheit"],
+    "difficulty": 3,
+    "categories":["history", "science"]
+},
+{
+    "question":"Owls only live in dead trees?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 2,
+    "categories":["trees", "nature"]
+},
+{
+    "question":"Which of these is not a colour of the rainbow?",
+    "answers":["Brown", "Turquoise"],
+    "options":["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"],
+    "difficulty": 1,
+    "categories":["colours", "nature"]
+},
+{
+    "question":"Which of these is not a colour prime colour?",
+    "answers":["Green", "White", "Black"],
+    "options":["Red", "Yellow", "Blue"],
+    "difficulty": 2,
+    "categories":["colours"]
+},
+{
+    "question":"Which of these is not a colour secondary color?",
+    "answers":["Red", "White", "Black", "Blue", "Yellow", "Brown"],
+    "options":["Green", "Orange", "Violet"],
+    "difficulty": 3,
+    "categories":["colours"]
+},
+{
+    "question":"Theodore Roosevelt in 1901 invited who into the White House, causing controversy for doing so?",
+    "answers":["Booker T. Washington"],
+    "options":["Henry Ford", "Martin Luther King, Jr.", "Klara Hitler", "Ibn Saud", "Joseph Stalin", "Pancho Villa"],
+    "difficulty": 4,
+    "categories":["history", "politics"]
+},
+{
+    "question":"Which president in 1901 invited Booker T. Washington into the White House, causing controversy for doing so?",
+    "answers":["Theodore Roosevelt"],
+    "options":["William Howard Taft", "Woodrow Wilson", "Franklin D. Roosevelt", "William McKinley"],
+    "difficulty": 3,
+    "categories":["history", "politics"]
+},
+{
+    "question":"Which president was Theodore Roosevelt?",
+    "answers":["The 26th"],
+    "options":["The 27th", "The 28th", "The 29th", "The 25th", "The 24th", "The 30th", "The 31st"],
+    "difficulty": 4,
+    "categories":["history", "politics"]
+},
+{
+    "question":"Which president was Franklin D Roosevelt?",
+    "answers":["The 32nd"],
+    "options":["The 33rd", "The 34th", "The 29th", "The 35th", "The 36th", "The 30th", "The 31st"],
+    "difficulty": 4,
+    "categories":["history", "politics"]
+},
+{
+    "question":"Which president was Harry S. Truman?",
+    "answers":["The 33rd"],
+    "options":["The 34th", "The 29th", "The 35th", "The 36th", "The 30th", "The 31st", "The 32nd"],
+    "difficulty": 4,
+    "categories":["history", "politics"]
+},
+{
+    "question":"Which president was Dwight D. Einsenhower?",
+    "answers":["The 34th"],
+    "options":["The 33rd", "The 35th", "The 36th", "The 30th", "The 31st", "The 32nd", "The 37th"],
+    "difficulty": 4,
+    "categories":["history", "politics"]
+},
+{
+    "question":"Which president was John F. Kennedy?",
+    "answers":["The 35th"],
+    "options":["The 33rd", "The 34th", "The 36th", "The 30th", "The 31st", "The 32nd", "The 37th"],
+    "difficulty": 4,
+    "categories":["history", "politics"]
+},
+{
+    "question":"Which president was Lyndon B. Johnson?",
+    "answers":["The 36th"],
+    "options":["The 33rd", "The 34th", "The 35th", "The 38th", "The 31st", "The 32nd", "The 37th"],
+    "difficulty": 4,
+    "categories":["history", "politics"]
+},
+{
+    "question":"Which president was Richard D Nixon?",
+    "answers":["The 37th"],
+    "options":["The 33rd", "The 34th", "The 35th", "The 38th", "The 39th", "The 32nd", "The 36th"],
+    "difficulty": 4,
+    "categories":["history", "politics"]
+},
+{
+    "question":"Which president was Donald Trump?",
+    "answers":["The 45th"],
+    "options":["The 43rd", "The 44th", "The 46th", "The 48th", "The 39th", "The 42nd", "The 47th"],
+    "difficulty": 4,
+    "categories":["history", "politics"]
+},
+{
+    "question":"When was Nasa founded?",
+    "answers":["On October 1 1958"],
+    "options":["On October 1 1968", "On October 1 1978", "On October 1 1948", "On October 1 1938", "On October 1 1928", "On October 1 1918"],
+    "difficulty": 4,
+    "categories":["science", "history"]
+},
+{
+    "question":"When did the Vietnam war start?",
+    "answers":["November 1, 1955"],
+    "options":["November 1, 1965", "November 1, 1975", "November 1, 1985", "November 1, 1945", "November 1, 1935", "November 1, 1925"],
+    "difficulty": 3,
+    "categories":["war", "history"]
+},
+{
+    "question":"When did the Vietnam war end?",
+    "answers":["April 30, 1975"],
+    "options":["April 30, 1965", "April 30, 1955", "April 30, 1945", "April 30, 1985"],
+    "difficulty": 3,
+    "categories":["war", "history"]
+},
+{
+    "question":"Tét is the New Year of which country?",
+    "answers":["Vietnam"],
+    "options":["Taiwan", "Angola", "Yemen", "Brunei", "Bhutan", "Brussles", "Finlald", "Denmark", "Austria", "Norway", "China"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"What occured on February 8, 1968?",
+    "answers":["The Orangeburg massacre"],
+    "options":["The Blueburg massacre", "The Redburg massacre", "The Violetburg massacre", "The Azureburg massacre", "The Greenburg massacre"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"The Orangeburg massacre, after black customers where refused from where?",
+    "answers":["A bowling alley"],
+    "options":["An arcade", "A video rental store", "A laundromat", "A bath house", "A roller disco", "A nightclub"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"What is the name of a condition caused by a rapid substantial decrease in atmospheric pressure, as in high-altitude flying and coming up from deep-sea diving?",
+    "answers":["The Bends"],
+    "options":["The Warps", "Laughing Death", "Fizzle out syndrome", "Alice in Wonderland syndrome", "Progeria"],
+    "difficulty": 3,
+    "categories":["medical", "science"]
+},
+{
+    "question":"In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 20 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?",
+    "answers":["19 days"],
+    "options":["10 days", "1 day", "20 days", "15 days"],
+    "difficulty": 4,
+    "categories":["riddles"]
+},
+{
+    "question":"A bat and ball cost €1.10. The bat costs one dollar more than the ball. How much does the ball cost?",
+    "answers":["€1.05"],
+    "options":["€1.00", "10c", "20c"],
+    "difficulty": 4,
+    "categories":["riddles"]
+},
+{
+    "question":"If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "answers":["5 minutes"],
+    "options":["100 minutes", "50 minutes", "20 minutes"],
+    "difficulty": 4,
+    "categories":["riddles"]
+},
+{
+    "question":"What is the name of a condition in which one type of stimulation evokes the sensation of another?",
+    "answers":["Synthesia"],
+    "options":["The Warps", "Laughing Death", "Fizzle out syndrome", "Alice in Wonderland syndrome", "Progeria", "The Bends"],
+    "difficulty": 4,
+    "categories":["medical", "science"]
+},
+{
+    "question":"Synthesia is a condition in which one type of stimulation evokes the sensation of another, the only people who have is are women",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 3,
+    "categories":["medical", "science"]
+},
+{
+    "question":"Tetrachromacy is the condition of possessing four types of cone cell in the eye, the only people who have it are women",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 4,
+    "categories":["medical", "science"]
+},
+{
+    "question":"Tetrachromacy is the condition of possessing how many types of cone cell in the eye?",
+    "answers":["4"],
+    "options":["2", "1", "3", "5", "6"],
+    "difficulty": 5,
+    "categories":["medical", "science"]
+},
+{
+    "question":"What is the alcohol used in alcoholic drinks?",
+    "answers":["Ethonal"],
+    "options":["Isopropyl", "Methonal", "Miranal"],
+    "difficulty": 4,
+    "categories":["drinks"]
+},
+{
+    "question":"What is the alcohol used as rubbing alcohol?",
+    "answers":["Isopropyl"],
+    "options":["Ethonal", "Methonal", "Miranal"],
+    "difficulty": 5,
+    "categories":["medical"]
+},
+{
+    "question":"Which of these is not an alcohol?",
+    "answers":["Tetrachonal", "Synthenal"],
+    "options":["Ethonal", "Methonal", "Isopropyl"],
+    "difficulty": 4,
     "categories":["science"]
 }
 
