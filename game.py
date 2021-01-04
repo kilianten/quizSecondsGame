@@ -62,7 +62,8 @@ class Game():
     def endGame(self):
         if self.main.highScore < self.score:
             self.main.writeHighScore(self.score)
-        self.main.quit()
+        ## TODO BUTTON TO RETURN TO MENU:
+        self.main.newMenu()
 
     def resetQuestion(self):
         for panel in self.panels:

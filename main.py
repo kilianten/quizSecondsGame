@@ -102,6 +102,9 @@ class Main:
         for sprite in self.all_sprites:
             sprite.update()
 
+    def newMenu(self):
+        self.game = MainMenu(self)
+
     def draw_grid(self):
         for x in range(0, WIDTH, TILESIZE):
             pg.draw.line(self.screen, LIGHTGREY, (x, 0), (x, HEIGHT))

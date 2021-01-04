@@ -54,6 +54,7 @@ class MainMenu():
         self.main.screen.blit(self.main.logo, (11.2 * TILESIZE, .2 * TILESIZE))
         self.drawNumberOfQuestions()
         self.drawScore()
+        self.drawVersion()
 
     def checkCollision(self, mouse):
         if self.menu == "main":
@@ -95,6 +96,11 @@ class MainMenu():
         for x in range(0, numbers):
             self.main.screen.blit(self.main.numbers_images[int(numbersAsString[x])], (24 * TILESIZE + xOffset, 3 * TILESIZE))
             xOffset += self.main.numbers_images[x].get_width() + NUMBERS_OFFSET
+
+    def drawVersion(self):
+        versionText = "Version: " + VERSION
+        renderedVersionText = self.smallerFont.render(versionText, True, WHITE)
+        self.main.screen.blit(renderedVersionText, (WIDTH - (self.smallerFont.size(versionText)[0]) - 50, HEIGHT - (self.smallerFont.size(versionText)[1]) - 50))
 
     def createGame(self):
         self.main.createGame()
