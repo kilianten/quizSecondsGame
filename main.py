@@ -25,7 +25,7 @@ class Main:
         self.loadQuestions()
 
     def loadQuestions(self):
-        displayStats = True #print out question stats
+        displayStats = False #print out question stats
         self.allQuestions = json.load(open('questions/questions.json'))
         self.numberOfQuestions = len(self.allQuestions)
         if displayStats:
@@ -74,6 +74,7 @@ class Main:
         self.icon_images = {}
         for icon_image in ICON_IMAGES:
             self.icon_images[icon_image] = pg.transform.scale(pg.image.load(path.join(img_folder, ICON_IMAGES[icon_image])).convert_alpha(), (175, 175))
+        self.incorrect_image = pg.image.load(path.join(img_folder, INCORRECT_IMAGE)).convert_alpha()
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)

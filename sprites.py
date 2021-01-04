@@ -30,9 +30,10 @@ class Panel(pg.sprite.Sprite):
         self.rect.x = self.x
         self.rect.y = self.y
         self.isHoveredOn = False
+        self.colour = PALETTE_1[0]
 
     def drawRect(self):
-        pg.draw.rect(self.main.screen, PALETTE_1[0], (self.x, self.y, self.image.get_width(), self.image.get_height()))
+        pg.draw.rect(self.main.screen, self.colour, (self.x, self.y, self.image.get_width(), self.image.get_height()))
 
     def drawText(self):
         if self.isHoveredOn:
@@ -102,6 +103,33 @@ class correctAnimation(pg.sprite.Sprite):
                 self.main.game.isPaused = False
                 self.main.game.resetQuestion()
 
+class incorrectAnimation(pg.sprite.Sprite):
+    def __init__(self, main, x, y, panel, correctPanel):
+        self.main = main
+        self.groups = self.main.all_sprites
+        pg.sprite.Sprite.__init__(self, self.groups)
+        self.x = 0
+        self.y = 0
+        self.image = self.main.incorrect_image
+        self.lastUpdate = pg.time.get_ticks()
+        self.createTime = pg.time.get_ticks()
+        self.main.game.isPaused = True
+        panel.colour = RED
+        self.correctPanel = correctPanel
+        correctPanel.colour = GREEN
+
+    def update(self):
+        if pg.time.get_ticks() - self.createTime > INCORRECT_ANIMATION_DUTATION:
+            self.main.game.isPaused = False
+            self.main.game.resetQuestion()
+            self.kill()
+        elif pg.time.get_ticks() - self.lastUpdate > INCORRECT_COLOUR_UPDATE_TIME:
+            if self.correctPanel.colour == GREEN:
+                self.correctPanel.colour = PALETTE_1[0]
+            else:
+                self.correctPanel.colour = GREEN
+            self.lastUpdate = pg.time.get_ticks()
+
 class QuestionBox(pg.sprite.Sprite):
     def __init__(self, main, x, y, difficulty):
         self.main = main
@@ -145,7 +173,6 @@ class CategoryIcon(pg.sprite.Sprite):
             self.image = self.main.icon_images["misc"]
         else:
             self.image = self.main.icon_images[category]
-        self.isRotating = False
         self.lastUpdate = pg.time.get_ticks()
 
     def changeImage(self, categories):

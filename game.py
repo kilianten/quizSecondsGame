@@ -51,9 +51,12 @@ class Game():
                         self.timeRemaining = NORMAL_START_TIME
                     correctAnimation(self.main, 1, 1)
                     self.main.correct_sound.play()
-                    self.categoryIcon.isRotating = True
                 elif panel.clicked == True and not panel.text in self.question["answers"]:
-                    self.resetQuestion()
+                    for ypanel in self.panels:
+                        if ypanel.text in self.question["answers"]:
+                            correctPanel = ypanel
+                    incorrectAnimation(self.main, 1, 1, panel, correctPanel)
+                    panel.colour = RED
                     self.timeRemaining -= NORMAL_PUNISHMENT_TIME
 
     def endGame(self):
@@ -135,7 +138,7 @@ class Game():
         pg.draw.rect(self.main.screen, PALETTE_1[1], (21 * TILESIZE - SCORE_BOX_PADDING, 4 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2) + 5))
         pg.draw.rect(self.main.screen, PALETTE_1[0], (21 * TILESIZE - SCORE_BOX_PADDING, 4 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2)))
         self.main.screen.blit(questionsCorrect, (21 * TILESIZE, 4 * TILESIZE))
-        
+
     def createLights(self):
         index = 0
         self.lights = []

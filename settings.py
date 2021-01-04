@@ -2,6 +2,8 @@ DARKGREY = (16, 105, 75)
 LIGHTGREY = (100, 100, 100)
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
+RED = (255,36,0)
+GREEN = (157, 193, 131)
 
 WIDTH = 1920   # 16 * 64 or 32 * 32 or 64 * 16
 HEIGHT = 1080  # 16 * 48 or 32 * 24 or 64 * 12
@@ -35,12 +37,16 @@ QUESTION_BOX_HOVER_IMAGE = "questionBoxHovered-export.png"
 LOGO = "logo.png"
 QUESTION_COUNTER_IMAGE = "questionCounter.png"
 NUMBER_IMAGES = ["0.png", "1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png"]
+ICON_IMAGES = {"science": "icon_science_blur.png", "misc": "icon_misc_blur.png", "geography": "icon_geography_blur.png", "history": "icon_history_blur.png"}
+INCORRECT_IMAGE = "1pixel.png"
 
 #sounds
 CORRECT_SOUND = "correct.wav"
 
 #updateTimes
 CORRECT_TEXT_UPDATE_TIME = 40
+INCORRECT_COLOUR_UPDATE_TIME = 500
+INCORRECT_ANIMATION_DUTATION = 3000
 CATEGORY_ICON_ROTATE_SPEED = 100
 CATEGORY_ICON_ROTATE_ANGLE = -20
 
@@ -55,5 +61,3 @@ NORMAL_PUNISHMENT_TIME = 7
 NUM_OF_LIGHTS = int(WIDTH / TILESIZE)
 
 NUMBERS_OFFSET = 10
-
-ICON_IMAGES = {"science": "icon_science_blur.png", "misc": "icon_misc_blur.png", "geography": "icon_geography_blur.png", "history": "icon_history_blur.png"}
