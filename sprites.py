@@ -1,5 +1,6 @@
 import pygame as pg
 from settings import *
+from random import choice, randint
 
 def splitTextIntoLines(space, text, font):
     font.size(text)
@@ -191,3 +192,22 @@ class CategoryIcon(pg.sprite.Sprite):
         pg.draw.rect(self.main.screen, ICON_CATEGORY_COLOUR, (self.x - 20, self.y, self.image.get_width() + 40, self.image.get_height() + 2))
         #pg.draw.circle(self.main.screen, (244, 162, 97), (self.x + self.image.get_width() / 2, self.y + self.image.get_height() / 2),  self.image.get_width() / 2 + 10)
         #pg.draw.circle(self.main.screen, ICON_CATEGORY_COLOUR, (self.x + self.image.get_width() / 2, self.y + self.image.get_height() / 2),  self.image.get_width() / 2 + 5)
+
+class MainMenuBackgroundIcon(pg.sprite.Sprite):
+    def __init__(self, main):
+        self.main = main
+        self.groups = main.all_sprites
+        pg.sprite.Sprite.__init__(self, self.groups)
+        randomIcon = choice(list(main.icon_images.values()))
+        randSize = randint(40, 240)
+        self.image = pg.transform.scale(randomIcon, (randSize, randSize))
+        self.x = randint(0, WIDTH + self.image.get_width())
+        self.y = 0 - self.image.get_height()
+        self.lastUpdate = pg.time.get_ticks()
+        self.speed = randint(2, 5)
+
+    def update(self):
+        self.y += self.speed
+        if self.y >= HEIGHT:
+            self.main.all_sprites.remove(self)
+            del self

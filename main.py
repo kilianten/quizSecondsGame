@@ -62,8 +62,8 @@ class Main:
         for image in CORRECT_TEXT_IMAGES:
             self.correct_text.append(pg.image.load(path.join(img_folder, image)).convert_alpha())
         self.correct_sound = pg.mixer.Sound(path.join(snd_folder, CORRECT_SOUND))
-        self.background_image =pg.transform.scale( pg.image.load(path.join(img_folder, BACKGROUND_IMAGE)).convert_alpha(), (1920, 1080))
-        self.menu_background_image = pg.transform.scale( pg.image.load(path.join(img_folder, BACKGROUND_IMAGE_MENU)).convert_alpha(), (1920, 1080))
+        self.background_image =pg.transform.scale( pg.image.load(path.join(img_folder, BACKGROUND_IMAGE)).convert_alpha(), (WIDTH, HEIGHT))
+        self.menu_background_image = pg.transform.scale( pg.image.load(path.join(img_folder, BACKGROUND_IMAGE_MENU)).convert_alpha(), (WIDTH, HEIGHT))
         self.question_box_ticked_image = pg.image.load(path.join(img_folder, QUESTION_BOX_TICKED_IMAGE)).convert_alpha()
         self.question_box_hover_image = pg.image.load(path.join(img_folder, QUESTION_BOX_HOVER_IMAGE)).convert_alpha()
         self.question_box_image = pg.image.load(path.join(img_folder, QUESTION_BOX_IMAGE)).convert_alpha()
@@ -75,6 +75,7 @@ class Main:
         for icon_image in ICON_IMAGES:
             self.icon_images[icon_image] = pg.transform.scale(pg.image.load(path.join(img_folder, ICON_IMAGES[icon_image])).convert_alpha(), (175, 175))
         self.incorrect_image = pg.image.load(path.join(img_folder, INCORRECT_IMAGE)).convert_alpha()
+        self.tint_image = pg.transform.scale( pg.image.load(path.join(img_folder, TINT_IMAGE)).convert_alpha(), (WIDTH, HEIGHT))
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)
@@ -118,9 +119,14 @@ class Main:
             self.screen.blit(self.background_image, (0, 0))
 
         #self.draw_grid()
+        for sprite in self.all_sprites:
+            if isinstance(sprite, MainMenuBackgroundIcon):
+                self.screen.blit(sprite.image, (sprite.x, sprite.y))
+        self.screen.blit(self.tint_image, (0, 0))
         self.game.draw()
         for sprite in self.all_sprites:
-            self.screen.blit(sprite.image, (sprite.x, sprite.y))
+            if not isinstance(sprite, MainMenuBackgroundIcon):
+                self.screen.blit(sprite.image, (sprite.x, sprite.y))
         pg.display.flip()
 
     def show_start_screen(self):
@@ -204,6 +210,11 @@ class Main:
             categoriesWithoutIcons.remove(maxCategory)
         for category in categoriesWithoutIconsOrdered:
             print(category, ": ", categoriesWithoutIconsOrdered[category])
+
+    def clearAllSprites(self):
+        for sprite in self.all_sprites:
+            self.all_sprites.remove(sprite)
+            del sprite
 
 
 class Sprite_Mouse_Location(pg.sprite.Sprite):

@@ -39,6 +39,8 @@ QUESTION_COUNTER_IMAGE = "questionCounter.png"
 NUMBER_IMAGES = ["0.png", "1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png"]
 ICON_IMAGES = {"science": "icon_science_blur.png", "misc": "icon_misc_blur.png", "geography": "icon_geography_blur.png", "history": "icon_history_blur.png"}
 INCORRECT_IMAGE = "1pixel.png"
+TINT_IMAGE = "tintBackground.png"
+
 
 #sounds
 CORRECT_SOUND = "correct.wav"
@@ -49,6 +51,7 @@ INCORRECT_COLOUR_UPDATE_TIME = 450
 INCORRECT_ANIMATION_DUTATION = 3000
 CATEGORY_ICON_ROTATE_SPEED = 100
 CATEGORY_ICON_ROTATE_ANGLE = -20
+BACKGROUND_ICON_SPAWN_CHANCE = 80
 
 VERSION = "1.0.0"
 

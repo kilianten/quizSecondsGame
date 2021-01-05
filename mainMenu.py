@@ -1,7 +1,8 @@
 import pygame as pg
 from settings import *
 import sys
-from sprites import Panel, QuestionBox
+from sprites import Panel, QuestionBox, MainMenuBackgroundIcon
+from random import randint
 
 class MainMenu():
     def __init__(self, main):
@@ -22,6 +23,9 @@ class MainMenu():
     def draw(self):
         if self.menu == "main":
             self.drawMainMenuPanels()
+            chance = randint(0, BACKGROUND_ICON_SPAWN_CHANCE)
+            if chance == BACKGROUND_ICON_SPAWN_CHANCE:
+                MainMenuBackgroundIcon(self.main)
         elif self.menu == "newGame":
             self.drawNewGameMenu()
 
@@ -60,6 +64,7 @@ class MainMenu():
         if self.menu == "main":
             if mouse.rect.colliderect(self.newGameRect):
                 self.menu = "newGame"
+                self.main.clearAllSprites()
                 self.questionBoxes = [QuestionBox(self.main, 14 * TILESIZE, 2 * TILESIZE, 1), QuestionBox(self.main, 16 * TILESIZE, 2 * TILESIZE, 2), QuestionBox(self.main, 18 * TILESIZE, 2 * TILESIZE, 3), QuestionBox(self.main, 20 * TILESIZE, 2 * TILESIZE, 4), QuestionBox(self.main, 22 * TILESIZE, 2 * TILESIZE, 5)]
             elif mouse.rect.colliderect(self.exitRect):
                 pg.quit()
