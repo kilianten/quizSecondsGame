@@ -25,7 +25,7 @@ class Main:
         self.loadQuestions()
 
     def loadQuestions(self):
-        displayStats = False #print out question stats
+        displayStats = True #print out question stats
         self.allQuestions = json.load(open('questions/questions.json'))
         self.numberOfQuestions = len(self.allQuestions)
         if displayStats:
@@ -181,6 +181,10 @@ class Main:
         self.all_sprites = pg.sprite.LayeredUpdates()
 
     def displayStats(self):
+        difficultyCount = {1:0, 2:0, 3:0, 4:0, 5:0}
+        for question in self.allQuestions:
+            difficultyCount[question['difficulty']] = difficultyCount[question['difficulty']] + 1
+        print(difficultyCount)
         categoriesCounts = {}
         for question in self.allQuestions:
             for category in question['categories']:

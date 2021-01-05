@@ -968,35 +968,35 @@
 {
     "question":"Baffin is territory of which country?",
     "answers":["Canada"],
-    "options":["The United States", "Malaysia", "Phillipines", "Japan", "Indonesia", "Australia", "Great Britain"],
+    "options":["The United States", "Malaysia", "Philipines", "Japan", "Indonesia", "Australia", "Great Britain"],
     "difficulty": 3,
     "categories":["geography"]
 },
 {
     "question":"Sumatra is part of which country?",
     "answers":["Indonesia"],
-    "options":["The United States", "Malaysia", "Phillipines", "Japan", "Australia", "Great Britain", "China"],
+    "options":["The United States", "Malaysia", "Philippines", "Japan", "Australia", "Great Britain", "China"],
     "difficulty": 3,
     "categories":["geography"]
 },
 {
     "question":"Honshu is part of which country?",
     "answers":["Japan"],
-    "options":["Malaysia", "Phillipines", "Indonesia", "Vietnam", "Taiwan", "China"],
+    "options":["Malaysia", "Philippines", "Indonesia", "Vietnam", "Taiwan", "China"],
     "difficulty": 3,
     "categories":["geography"]
 },
 {
     "question":"Baffin is territory of which country?",
     "answers":["Canada"],
-    "options":["The United States", "Malaysia", "Phillipines", "Amsterdam", "Indonesia", "Australia", "Great Britain"],
+    "options":["The United States", "Malaysia", "Philippines", "Amsterdam", "Indonesia", "Australia", "Great Britain"],
     "difficulty": 3,
     "categories":["geography"]
 },
 {
     "question":"Baffin is territory of which country?",
     "answers":["Canada"],
-    "options":["The United States", "Malaysia", "Phillipines", "Amsterdam", "Indonesia", "Australia", "Great Britain"],
+    "options":["The United States", "Malaysia", "Philippines", "Amsterdam", "Indonesia", "Australia", "Great Britain"],
     "difficulty": 3,
     "categories":["geography"]
 },
@@ -5867,7 +5867,7 @@
     "categories":["misc"]
 },
 {
-    "question":"What is the capital of Phillipines?",
+    "question":"What is the capital of Philippines?",
     "answers":["Manila"],
     "options":["Quezon City", "Cebu city", "Davao City", "Baguio", "Makati", "Zamboanga"],
     "difficulty": 3,
@@ -6693,21 +6693,21 @@
     "categories":["religion"]
 },
 {
-    "question":"Who became pop in 1978?",
+    "question":"Who became pope in 1978?",
     "answers":["Pope John Paul II"],
     "options":["Pope Benedict XVI", "Pope Francis", "Pope John Paul I"],
     "difficulty": 3,
     "categories":["religion"]
 },
 {
-    "question":"Who became pop in 2005?",
+    "question":"Who became pope in 2005?",
     "answers":["Pope Benedict XVI"],
     "options":["Pope John Paul II", "Pope Francis", "Pope John Paul I"],
     "difficulty": 3,
     "categories":["religion"]
 },
 {
-    "question":"Who became pop in 2013?",
+    "question":"Who became pope in 2013?",
     "answers":["Pope Francis"],
     "options":["Pope John Paul II", "Pope Benedict XVI", "Pope John Paul I"],
     "difficulty": 2,
@@ -7699,6 +7699,706 @@
     "options":["Ethonal", "Methonal", "Isopropyl"],
     "difficulty": 4,
     "categories":["science"]
+},
+{
+    "question":"Which of these people died on August 5th, 1962?",
+    "answers":["Marilyn Monroe"],
+    "options":["Erwin Schrodinger", "Walt Disney", "Joseph Stalin", "Humphrey Bogart", "George Orwell"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"Which of these people died in 1950?",
+    "answers":["George Orwell"],
+    "options":["Erwin Schrodinger", "Walt Disney", "Joseph Stalin", "Humphrey Bogart", "Marilyn Monroe"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"According to the death certificate, which of these overdosed from Barbiturate?",
+    "answers":["Marilyn Monroe"],
+    "options":["Philip Seymour Hoffman", "Heath Ledger", "Amy Winehouse", "Michael Jackson", "Judy Garland"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"Which of these people died in 1950?",
+    "answers":["George Orwell"],
+    "options":["Erwin Schrodinger", "Walt Disney", "Joseph Stalin", "Humphrey Bogart", "Marilyn Monroe"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"When did Albert Homann invent LSD?",
+    "answers":["1938"],
+    "options":["1948", "1928", "1918", "1908", "1898", "1888", "1958"],
+    "difficulty": 5,
+    "categories":["science"]
+},
+{
+    "question":"In 1938, chemist Albert Homann invented LSD, where was he from?",
+    "answers":["Sweden"],
+    "options":["Scotland", "Germany", "Austria", "Finland", "Denmark", "Ireland"],
+    "difficulty": 5,
+    "categories":["science"]
+},
+{
+    "question":"Which Chinese dynasty lasted from 206BC to 220AD?",
+    "answers":["The Han dynasty"],
+    "options":["Sui Dynasty", "Tang Dynasty", "Qin Dynasty", "Zhou Dynasty", "Shang Dynasty"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"Which letter is derived from the Phoenician letter samekh, meaning 'fish'?",
+    "answers":["X"],
+    "options":["F", "S", "T", "Q", "Y"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"X is derived from the Phoenician letter samekh, meaning what?",
+    "answers":["Fish"],
+    "options":["Fire", "Stampede", "Extreme", "Toil", "Queen", "Year"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"X is derived from the letter samekh, from which civilization?",
+    "answers":["Phoenicians"],
+    "options":["Persians", "Assyrians", "Babylonians", "Choson", "Egyptians", "Hittites", "Greeks", "Minoans", "Yamato"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"Which of these was not part of Yugoslavia?",
+    "answers":["Slovakia", "Bulgaria", "Albania"],
+    "options":["Bosnia and Herzegovina", "Croatia", "Macedonia", "Montenegro", "Serbia", "Slovenia"],
+    "difficulty": 3,
+    "categories":["geography", "politics"]
+},
+{
+    "question":"What was the name of the politician who served as the President of Serbia from 1989 to 1992?",
+    "answers":["Slobodan Miloševic"],
+    "options":["Nicolae Ceaușescu", "Bogdan Filov", "Nikola Mikhov", "Todor Pavlov", "Rafael Boban"],
+    "difficulty": 3,
+    "categories":["politics"]
+},
+{
+    "question":"Until his death in 1980, who was serving as the president of Yugoslavia?",
+    "answers":["Josip Broz Tito"],
+    "options":["Slobodan Miloševic", "Nicolae Ceaușescu", "Bogdan Filov", "Nikola Mikhov", "Todor Pavlov", "Rafael Boban"],
+    "difficulty": 3,
+    "categories":["politics", "history"]
+},
+{
+    "question":"Zoran Dindic, the Prime Minister of Serbia was assassinated for fighting organized crime. He was often known as the what of the Balkans?",
+    "answers":["Kennedy"],
+    "options":["King", "Luther", "Mother Teresa", "Angel"],
+    "difficulty": 2,
+    "categories":["politics", "history"]
+},
+{
+    "question":"What is this missing word in this quote from Andrew Yang, 'Humans need ___ more than ___ needs us'?",
+    "answers":["Work"],
+    "options":["The Earth", "America", "Extraterrestrial life", "The Sun", "Fun"],
+    "difficulty": 3,
+    "categories":["quotes", "politics"]
+},
+{
+    "question":"What was the name for a member of the group of English workers who destroyed machinery, especially in cotton and woollen mills, that they believed was threatening their jobs?",
+    "answers":["Luddite"],
+    "options":["Theorist", "Darwinite", "Luricker", "Meliorist"],
+    "difficulty": 2,
+    "categories":["misc"]
+},
+{
+    "question":"What is the economic term that describes a good whose demand drops when people's incomes rise?",
+    "answers":["Inferior good"],
+    "options":["Veblen good", "Normal good", "Luxury good", "Giffen good"],
+    "difficulty": 2,
+    "categories":["economics"]
+},
+{
+    "question":"Lunatic comes from the Latin word for what?",
+    "answers":["Moon"],
+    "options":["Mind", "Peace", "Normality", "Sponge", "Nut", "Lace"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Which of these countries does not have mandated time off work for new mothers?",
+    "answers":["United States", "Lethoso", "Papa New Guinea", "Eswatini"],
+    "options":["Switzerland", "Macedonia", "Japan", "Sudan", "Yemen", "Eritea", "Philippines", "Singapore"],
+    "difficulty": 4,
+    "categories":["economics", "politics"]
+},
+{
+    "question":"Pre day, you blink more than you breath",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 2,
+    "categories":["medical", "science"]
+},
+{
+    "question":"Approximately how many times do you blink per day",
+    "answers":["14,000"],
+    "options":["1,400", "140,000", "29,000", "2,900", "290,000"],
+    "difficulty": 2,
+    "categories":["medical", "science"]
+},
+{
+    "question":"Approximately how many breaths do you take per day",
+    "answers":["20,000"],
+    "options":["2000", "29,000", "200,000", "2,900", "290,000"],
+    "difficulty": 2,
+    "categories":["medical", "science"]
+},
+{
+    "question":"The full chemical name for the human protein titin is 189,819 letters long",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 3,
+    "categories":["medical", "science", "language"]
+},
+{
+    "question":"The full chemical name for the human protein titin is 1,897 letters long",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 3,
+    "categories":["medical", "science", "language"]
+},
+{
+    "question":"The name of a city in Ghana is 1,897 letters long",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 3,
+    "categories":["medical", "science", "language"]
+},
+{
+    "question":"Ephelide is the scientific word for what?",
+    "answers":["A freckle"],
+    "options":["A mole", "An ingrowing toenail", "A wart", "A blister", "A blackhead"],
+    "difficulty": 3,
+    "categories":["medical", "science", "language"]
+},
+{
+    "question":"Ephelide is the scientific term for what?",
+    "answers":["Goose bumps"],
+    "options":["A mole", "An ingrowing toenail", "A wart", "A blister", "A blackhead", "A freckle"],
+    "difficulty": 3,
+    "categories":["medical", "science", "language"]
+},
+{
+    "question":"Adermatoglyphia is a condition that means a patient won't have what?",
+    "answers":["Fingerprints"],
+    "options":["Nails", "Earlobes", "Skin", "Facial hair"],
+    "difficulty": 2,
+    "categories":["medical", "science", "language"]
+},
+{
+    "question":"Which of these countries did no join the EU on 1 January 1973?",
+    "answers":["Greece", "Spain", "Portugal"],
+    "options":["Denmark", "The UK", "Ireland"],
+    "difficulty": 3,
+    "categories":["politics", "economics", "history"]
+},
+{
+    "question":"On 1 January 1981 which country became the 10th to join the EU?",
+    "answers":["Greece"],
+    "options":["Denmark", "The UK", "Ireland", "Spain", "Portugal"],
+    "difficulty": 3,
+    "categories":["politics", "economics", "history"]
+},
+{
+    "question":"1 January 1986, Portugal and which other country joined the EU?",
+    "answers":["Spain"],
+    "options":["Denmark", "The UK", "Ireland", "Greece", "Austria"],
+    "difficulty": 3,
+    "categories":["politics", "economics", "history"]
+},
+{
+    "question":"1 January 1986, Spain and which other country joined the EU?",
+    "answers":["Portugal"],
+    "options":["Denmark", "The UK", "Ireland", "Greece", "Austria"],
+    "difficulty": 3,
+    "categories":["politics", "economics", "history"]
+},
+{
+    "question":"On 1 January 1995, 3 countries joined the EU, which of these was not one of them?",
+    "answers":["Denmark", "Greece", "Spain"],
+    "options":["Finland", "Sweden", "Austria"],
+    "difficulty": 4,
+    "categories":["politics", "economics", "history"]
+},
+{
+    "question":"On 1 May 2004, 10 countries joined the EU, which of these was not one of them?",
+    "answers":["Romania", "Bulgaria", "Croatia", "Albania"],
+    "options":["Cyprus", "Czech Republic", "Estonia", "Hungary", "Latvia", "Lithuania", "Malta", "Poland", "Slovakia", "Slovenia"],
+    "difficulty": 5,
+    "categories":["politics", "economics", "history"]
+},
+{
+    "question":"On 1 January 2007, 2 countries joined the EU, which of these countries was one of them?",
+    "answers":["Romania", "Bulgaria"],
+    "options":["Croatia", "Albania", "Malta", "Estonia", "Poland", "Serbia", "Montenegro"],
+    "difficulty": 5,
+    "categories":["politics", "economics", "history"]
+},
+{
+    "question":"What is the name of the green photosynthetic pigment found in plants, algae, and cyanobacteria?",
+    "answers":["Chlorophyll"],
+    "options":["Carotenoids", "Anthocyanins", "Betalains"],
+    "difficulty": 1,
+    "categories":["nature", "science"]
+},
+{
+    "question":"1959 which became the 1st craft to leave Earth's gravity?",
+    "answers":["Luna 1"],
+    "options":["Explorer 1", "Barker 1", "Astroneer 1", "Sputnik 1"],
+    "difficulty": 3,
+    "categories":["science", "history"]
+},
+{
+    "question":"In 2007, the 110th United States Congress convened & elected who as the 1st female Speaker of the House?",
+    "answers":["Nancy Pelosi"],
+    "options":["Madeline Albright", "Kamala Harris", "Lisa Murkowski", "Sarah Palin"],
+    "difficulty": 3,
+    "categories":["politics"]
+},
+{
+    "question":"Night Court premiered in 1984 starring which actor?",
+    "answers":["Harry Anderson"],
+    "options":["Don Johnson", "Harry Hamlin", "Scott Bakula", "Richard Dean Anderson", "Corbin Bernsen"],
+    "difficulty": 5,
+    "categories":["TV"]
+},
+{
+    "question":"Trees photosynthesize",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 1,
+    "categories":["trees", "nature", "science"]
+},
+{
+    "question":"Hepatica, due to its resemblance to an organ can be called what?",
+    "answers":["Liverleaf"],
+    "options":["Heartleaf", "Lungeaf", "Brainleaf", "Kidneyleaf", "Intestineleaf"],
+    "difficulty": 4,
+    "categories":["flowers", "nature"]
+},
+{
+    "question":"Concussion, starring Will Smith, depicts which real world condition associated with repeated blows to the head?",
+    "answers":["CTE"],
+    "options":["CFR", "CLT", "CPE", "CPL", "CCE", "CCL", "CCR", "CCD", "CFD"],
+    "difficulty": 3,
+    "categories":["medicine", "film"]
+},
+{
+    "question":"Rosemary Kennedy, JFK's sister spent most of her time in care after what?",
+    "answers":["A lobotomy"],
+    "options":["A car accident", "A mental break down", "A near drowning"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"In the brain, which lobe deals with sensory input like touch and temperature?",
+    "answers":["Parietal lobe"],
+    "options":["Frontal lobe", "Occipital lobe", "Temporal lobe"],
+    "difficulty": 4,
+    "categories":["medicine"]
+},
+{
+    "question":"In the brain, which lobe deals with visual information?",
+    "answers":["Occipital lobe"],
+    "options":["Frontal lobe", "Parietal lobe", "Temporal lobe"],
+    "difficulty": 3,
+    "categories":["medicine"]
+},
+{
+    "question":"In the brain, which lobe deals with auditory information?",
+    "answers":["Temporal lobe"],
+    "options":["Frontal lobe", "Parietal lobe", "Occipital lobe"],
+    "difficulty": 3,
+    "categories":["medicine"]
+},
+{
+    "question":"Which of these is not a lobe of the human briain?",
+    "answers":["Olfactory lobe", "The Amygdalobe", "The Pruebalobe"],
+    "options":["Frontal lobe", "Parietal lobe", "Occipital lobe", "Temporal lobe"],
+    "difficulty": 3,
+    "categories":["medicine"]
+},
+{
+    "question":"How many types of tears are there?",
+    "answers":["3"],
+    "options":["2", "4", "5", "6", "7", "8", "9"],
+    "difficulty": 3,
+    "categories":["medicine"]
+},
+{
+    "question":"What type of tear is for lubrication?",
+    "answers":["Basal tears"],
+    "options":["Reflex tears", "Man tears", "Emotional tears"],
+    "difficulty": 2,
+    "categories":["medicine"]
+},
+{
+    "question":"What type of tear react to smoke/onion?",
+    "answers":["Reflex tears"],
+    "options":["Basal tears", "Man tears", "Emotional tears"],
+    "difficulty": 2,
+    "categories":["medicine"]
+},
+{
+    "question":"Who discovered blood types?",
+    "answers":["Karl Landsteiner"],
+    "options":["William T. G. Morton", "Louis Pasteur", "Joseph Murray", "David Hume"],
+    "difficulty": 5,
+    "categories":["medicine"]
+},
+{
+    "question":"Karl Landsteiner discovered blood types, where was he from?",
+    "answers":["Austria"],
+    "options":["Germany", "Estonia", "The United Kingdom", "Australia"],
+    "difficulty": 5,
+    "categories":["medicine"]
+},
+{
+    "question":"Which blood type can donate to everyone?",
+    "answers":["O"],
+    "options":["AB", "B", "A"],
+    "difficulty": 2,
+    "categories":["medicine"]
+},
+{
+    "question":"A person with blood type A can donate to?",
+    "answers":["AB and A"],
+    "options":["A", "B", "O", "O and A", "AB and B"],
+    "difficulty": 3,
+    "categories":["medicine"]
+},
+{
+    "question":"A person with blood type B can donate to?",
+    "answers":["AB and B"],
+    "options":["A", "AB", "B", "O and B", "O", "AB and A"],
+    "difficulty": 3,
+    "categories":["medicine"]
+},
+{
+    "question":"A person with blood type AB can donate to?",
+    "answers":["AB"],
+    "options":["A and B", "O", "O, B and A", "AB, B and B"],
+    "difficulty": 3,
+    "categories":["medicine"]
+},
+{
+    "question":"When was the Eiffel tower built?",
+    "answers":["1887"],
+    "options":["1897", "1907", "1917", "1927", "1937"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"Puberty starts earlier on average nowadays when compared with the past?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 3,
+    "categories":["medicine"]
+},
+{
+    "question":"Puberty starts later on average nowadays when compared with the past?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 3,
+    "categories":["medicine"]
+},
+{
+    "question":"What is the name of the oldest potential ancestor for every known hominin species?",
+    "answers":["Lucy"],
+    "options":["Mary", "Debrah", "Eileen", "Samantha", "Britney", "Kate", "Rachel"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"Based on 2020 United Nations Population Division estimates, which country has the highest life expectancy?",
+    "answers":["Hong Kong"],
+    "options":["Japan", "Italy", "Ireland", "Switzerland"],
+    "difficulty": 2,
+    "categories":["science", "geography"]
+},
+{
+    "question":"Based on 2020 United Nations Population Division estimates, which of these countries has the highest life expectancy?",
+    "answers":["Hong Kong", "Japan", "Switzerland", "Singapore"],
+    "options":["Italy", "Ireland", "Spain", "Australia", "Iceland", "South Korea"],
+    "difficulty": 3,
+    "categories":["science", "geography"]
+},
+{
+    "question":"Upper Volta is the former name of which country?",
+    "answers":["Burkina Faso"],
+    "options":["Iceland", "Ghana", "Rwanda", "Cameroon", "Tanzania", "Barbados", "Norway", "Sweden", "Myanmar"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Which president signed The Cybersecurity Information Sharing Act?",
+    "answers":["Barak Obama"],
+    "options":["Donald Trump", "George W. Bush", "Bill Clinton"],
+    "difficulty": 3,
+    "categories":["politics"]
+},
+{
+    "question":"Which journalist published 'Hate Inc.' in 2019?",
+    "answers":["Matt Taibbi"],
+    "options":["Glenn Greenwald", "Lester Holt", "Fredricka Whitfield", "Christiane Amanpour", "Hu Shuli"],
+    "difficulty": 5,
+    "categories":["books", "journalism"]
+},
+{
+    "question":"In Mary Shelley's 'Frankenstein', what is Dr. Frankenstein's first name?",
+    "answers":["Victor"],
+    "options":["Glenn", "Lester", "Fredrick", "Christopher", "Richard", "Frank"],
+    "difficulty": 3,
+    "categories":["books"]
+},
+{
+    "question":"When was the first iPhone released?",
+    "answers":["2007"],
+    "options":["2009", "2006", "2005", "2004", "2008", "2003", "2002"],
+    "difficulty": 4,
+    "categories":["technology"]
+},
+{
+    "question":"In Amish culture, what is the name of the period when the adolsecents are allowed to live outside of the community?",
+    "answers":["Rumspringa"],
+    "options":["Mennonite", "Sugarcree", "Charm Days", "Golden Days", "Holy Columber Week", "Wristatcha"],
+    "difficulty": 4,
+    "categories":["technology"]
+},
+{
+    "question":"What is the nearest-known star to our Sun?",
+    "answers":["Proxima Centauri"],
+    "options":["Polaris", "Sirius", "Betelgeuse", "Vega", "Rigel", "Pleiades"],
+    "difficulty": 4,
+    "categories":["astronomy"]
+},
+{
+    "question":"What is term for the scenario where the expansion of the universe eventually reverses and the universe recollapses?",
+    "answers":["The Big Crunch"],
+    "options":["The Second Bang", "The Universal Reversal", "The Big Undoing", "The Reversal", "The Interim Rewind", "The Unbudding"],
+    "difficulty": 4,
+    "categories":["astronomy", "science"]
+},
+{
+    "question":"'God does not play dice' is a quote from whom?",
+    "answers":["Albert Einstein"],
+    "options":["Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Karl Marx", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"'Lasciate ogne speranza, voi ch'intrate' is most frequently tranlated to mean what?",
+    "answers":["Abandon all hope, ye who enter here"],
+    "options":["I think, therefore I am", "Through adversity, to the stars", "the die, has already been cast", "I believe it, because it is absurd"],
+    "difficulty": 3,
+    "categories":["quotes", "language"]
+},
+{
+    "question":"Who won a Nobel Prize for their uncertainty principle?",
+    "answers":["Werner Karl Heisenberg"],
+    "options":["Erwin Schrödinger", "Carl David Anderson", "Enrico Fermi", "Otto Stern", "Ernest Orlando Lawrence"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"Werner Karl Heisenberg won a Nobel Prize in 1932 in which category?",
+    "answers":["Physics"],
+    "options":["Chemistry", "Encomic Sciences", "Literature"],
+    "difficulty": 1,
+    "categories":["science"]
+},
+{
+    "question":"When did Werner Karl Heisenberg win a Nobel Prize for his uncertainty principle?",
+    "answers":["1932"],
+    "options":["1942", "1922", "1923", "1912", "1933"],
+    "difficulty": 5,
+    "categories":["science"]
+},
+{
+    "question":"When was the first Nobel Prize awarded?",
+    "answers":["1901"],
+    "options":["1891", "1881", "1897", "1887", "1892"],
+    "difficulty": 4,
+    "categories":["science"]
+},
+{
+    "question":"Gene comes from 'genos' Greek for what word?",
+    "answers":["Birth"],
+    "options":["Parent", "Tiny", "Mini", "Grape", "Small planet"],
+    "difficulty": 3,
+    "categories":["language", "science"]
+},
+{
+    "question":"Who was the first scientist to be knighted?",
+    "answers":["Isaac Newton"],
+    "options":["Stephen Hawking", "Charles Darwin", "Alan Turing", "Alexander Fleming", "Albert Einstein"],
+    "difficulty": 3,
+    "categories":["science", "history"]
+},
+{
+    "question":"What is the capital of Italy?",
+    "answers":["Rome"],
+    "options":["Venice", "Florence", "Milan", "Turin", "Naples"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Germany?",
+    "answers":["Berlin"],
+    "options":["Munich", "Frankfurt", "Hamburg", "Cologne", "Dresden"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Russia?",
+    "answers":["Moscow"],
+    "options":["Saint Petersburg", "Kazan", "Volgograd", "Novosibirsk"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Japan?",
+    "answers":["Tokyo"],
+    "options":["Beijing", "Osaka", "Hiroshima", "Kyoto", "Nagoya"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"According to Greek mythology, who is the godess of the soul?",
+    "answers":["Psyche"],
+    "options":["Athena", "Aphrodite", "Aura", "Selene", "Styx"],
+    "difficulty": 4,
+    "categories":["mythology"]
+},
+{
+    "question":"According to Greek mythology, Psyche is the godess of what?",
+    "answers":["The soul"],
+    "options":["The mind", "Calmness", "The brain"],
+    "difficulty": 4,
+    "categories":["mythology"]
+},
+{
+    "question":"According to Greek mythology, Morpheus is the godess of what?",
+    "answers":["Dreams"],
+    "options":["War", "The Sea", "Fortune"],
+    "difficulty": 4,
+    "categories":["mythology"]
+},
+{
+    "question":"According to Greek mythology, who is the God of the sky?",
+    "answers":["Zues"],
+    "options":["Morpheus", "Hera", "Demeter", "Ares", "Apollo"],
+    "difficulty": 4,
+    "categories":["mythology"]
+},
+{
+    "question":"According to Greek mythology, Poseidon is the godess of what?",
+    "answers":["The Sea"],
+    "options":["War", "Dreams", "Fortune", "Music", "Fire"],
+    "difficulty": 3,
+    "categories":["mythology"]
+},
+{
+    "question":"According to Greek mythology, who is the God of war?",
+    "answers":["Ares"],
+    "options":["Morpheus", "Hera", "Demeter", "Zues", "Apollo"],
+    "difficulty": 4,
+    "categories":["mythology"]
+},
+{
+    "question":"According to Greek mythology, who is the God of the Moon?",
+    "answers":["Artemis"],
+    "options":["Morpheus", "Hera", "Demeter", "Zues", "Apollo", "Ares"],
+    "difficulty": 4,
+    "categories":["mythology"]
+},
+{
+    "question":"According to Greek mythology, who is the God of the Underworld?",
+    "answers":["Hades"],
+    "options":["Morpheus", "Hera", "Demeter", "Zues", "Apollo", "Ares", "Artemis"],
+    "difficulty": 4,
+    "categories":["mythology"]
+},
+{
+    "question":"According to Greek mythology, who is the God of the Revenge?",
+    "answers":["Nemesis"],
+    "options":["Morpheus", "Hera", "Demeter", "Zues", "Apollo", "Ares", "Artemis", "Hades"],
+    "difficulty": 3,
+    "categories":["mythology"]
+},
+{
+    "question":"'Primeval atom' was the original name intended for which scientific term?",
+    "answers":["The Big Bang"],
+    "options":["DNA", "Quantum theory", "Evolution by natural selection"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Who played Andy Dufresne in 'The Shawshank Redemption'?",
+    "answers":["Tim Robbins"],
+    "options":["Harvey Keitel", "Philip Seymour Hoffman", "Tim Roth", "Morgan Freeman", "William H. Macy"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"In the original novel 'The Shawshank Redemption' was based on, what nationality was Red?",
+    "answers":["Irish"],
+    "options":["English", "American", "Australian", "Italian"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Who directed 'The Godfather' released in 1972?",
+    "answers":["Francis Ford Coppola"],
+    "options":["Martin Scorsese", "Steven Spielberg", "William Friedkin", "Robert Altman"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"'Leave the gun, take the cannoli' is a quote from which gangster film?",
+    "answers":["The Godfather"],
+    "options":["Gangs of New York", "Goodfellas", "A Bronx Tale", "American Gangster", "The Departed"],
+    "difficulty": 5,
+    "categories":["film"]
+},
+{
+    "question":"Who directed 2008's 'The Dark Knight'?",
+    "answers":["Christopher Nolan"],
+    "options":["Paul Thomas Anderson", "David Fincher", "Martin Scorsese", "Quentin Tarantino", "Darren Aronofsky"],
+    "difficulty": 2,
+    "categories":["film"]
+},
+{
+    "question":"Who played Batman in 2008's 'The Dark Knight'?",
+    "answers":["Christian Bale"],
+    "options":["Edward Cullen", "Ben Aflek", "Russell Crowe", "Viggo Mortensen", "Jake Gyllenhaal"],
+    "difficulty": 1,
+    "categories":["film"]
+},
+{
+    "question":"What was the first comic book movie to reach the $1 billion mark worldwide?",
+    "answers":["The Dark Knight"],
+    "options":["The Dark Knight Rises", "Spider-Man", "Iron Man", "Avengers Assemble", "Guardians of the Galaxy"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"A 1957 film features 12 men feeling what?",
+    "answers":["Angry"],
+    "options":["Happy", "Sad", "Fearful", "Digusted", "Hopeful"],
+    "difficulty": 2,
+    "categories":["film"]
 }
 
 

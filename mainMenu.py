@@ -31,8 +31,8 @@ class MainMenu():
 
     def drawNewGameMenu(self):
         pg.draw.rect(self.main.screen, PALETTE_1[1], self.newGameMenuRect)
-        difficulyText = self.smallerFont.render("Include difficuly levels (1 is easy - 5 dificult): ", True, WHITE)
-        self.main.screen.blit(difficulyText, (3 * TILESIZE, 2 * TILESIZE))
+        difficultyText = self.smallerFont.render("Include difficulty levels (1 is easy - 5 dificult): ", True, WHITE)
+        self.main.screen.blit(difficultyText, (3 * TILESIZE, 2 * TILESIZE))
         for questionBox in self.questionBoxes:
             if questionBox.isHoveredOn:
                 self.main.screen.blit(self.main.question_box_hover_image, (questionBox.x, questionBox.y))
