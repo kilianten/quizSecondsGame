@@ -51,6 +51,7 @@ class Game():
                         self.timeRemaining = NORMAL_START_TIME
                     correctAnimation(self.main, 1, 1)
                     self.main.correct_sound.play()
+                    panel.colour = GREEN
                 elif panel.clicked == True and not panel.text in self.question["answers"]:
                     for ypanel in self.panels:
                         if ypanel.text in self.question["answers"]:
