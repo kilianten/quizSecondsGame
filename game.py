@@ -123,6 +123,7 @@ class Game():
                 light.drawRect()
             self.main.screen.blit(light.image, (light.x, light.y))
         self.drawScores()
+        self.categoryIcon.draw()
 
     def draw_categry_icon(self):
         categoryIcon = self.categoryIcon

@@ -166,21 +166,36 @@ class QuestionBox(pg.sprite.Sprite):
 class CategoryIcon(pg.sprite.Sprite):
     def __init__(self, main, x, y, category=None):
         self.main = main
-        self.groups = self.main.all_sprites
+        self.groups = self.main.all_sprites, self.main.collidables
         pg.sprite.Sprite.__init__(self, self.groups)
         self.x = x
         self.y = y
         if category == None:
             self.image = self.main.icon_images["misc"]
+            self.category = "misc"
         else:
             self.image = self.main.icon_images[category]
+            self.category = category
         self.lastUpdate = pg.time.get_ticks()
+        self.isHoveredOn = False
+        self.rect = self.image.get_rect()
+        self.rect.x = self.x
+        self.rect.y = self.y
+
+    def draw(self):
+        if self.isHoveredOn:
+            category = self.category.capitalize()
+            categoryText = self.main.baseFont.render(category, True, WHITE)
+            pg.draw.rect(self.main.screen, (BLACK), (self.main.mouse.x -1, self.main.mouse.y - 40, self.main.baseFont.size(category)[0] + HOVER_CATEGORY_PADDING, self.main.baseFont.size(category)[1] + HOVER_CATEGORY_PADDING))
+            pg.draw.rect(self.main.screen, (PALETTE_1[0]), (self.main.mouse.x, self.main.mouse.y - 39, self.main.baseFont.size(category)[0] + HOVER_CATEGORY_PADDING - 2, self.main.baseFont.size(category)[1] + HOVER_CATEGORY_PADDING - 2))
+            self.main.screen.blit(categoryText, (self.main.mouse.x + 4, self.main.mouse.y - 38))
 
     def changeImage(self, categories):
         foundImage = False
         for category in categories:
             if category in list(self.main.icon_images):
                 self.image = self.main.icon_images[category]
+                self.category = category
                 foundImage = True
                 break
         if not foundImage:

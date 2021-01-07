@@ -134,7 +134,6 @@ class Main:
         pass
 
     def show_go_screen(self):
-
         pass
 
     def events(self):
