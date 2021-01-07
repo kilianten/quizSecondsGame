@@ -25,18 +25,18 @@ class Main:
         self.loadQuestions()
 
     def loadQuestions(self):
-        displayStats = True #print out question stats
+        self.displayStat = True #print out question stats
         self.allQuestions = json.load(open('questions/questions.json'))
         self.numberOfQuestions = len(self.allQuestions)
+        if self.displayStat:
+            self.displayStats()
         for question in self.allQuestions:
             categoryInc = False
             for category in question["categories"]:
                 if category in list(self.icon_images.keys()):
                     categoryInc = True
-            if not categoryInc:
-                question["categories"] = ["misc"]
-        if displayStats:
-            self.displayStats()
+        if not categoryInc:
+            question["categories"] = ["misc"]
 
     def getHighScore(self):
         try:

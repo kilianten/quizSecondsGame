@@ -2877,7 +2877,7 @@
     "categories":["language", "geography"]
 },
 {
-    "question":"Which of these South American countries has Spanish as its official langauge?",
+    "question":"Which of these South American countries has Spanish as its official language?",
     "answers":["Chile", "Peru", "Ecuador", "Argentina", "Uruguay", "Paraguay", "Bolivia", "Columbia"],
     "options":["Brazil", "Falkland Islands", "Guyana", "Suriname"],
     "difficulty": 2,
@@ -6371,7 +6371,7 @@
     "categories":["science"]
 },
 {
-    "question":"March he 10th 1876 saw the first what?",
+    "question":"March 10th 1876 saw the first what?",
     "answers":["Phone call"],
     "options":["Radio station", "Vaccine use", "Sewing machine", "Plane crash"],
     "difficulty": 4,
@@ -8692,7 +8692,7 @@
     "answers":["The Wars of the Roses"],
     "options":["The Wars of the Buttons", "The Wars of the Worlds", "The Wars of the Buckets"],
     "difficulty": 2,
-    "categories":["wars", "history"]
+    "categories":["war", "history"]
 },
 {
     "question":"Cromwell's men in 1649 killed 3500 people, known as 'The Siege of' what?",
@@ -8756,5 +8756,358 @@
     "options":["James Otis", "Benjamin Rush", "Isaac Sears", "James Swan"],
     "difficulty": 5,
     "categories":["history"]
+},
+{
+    "question":"When did the Slavery Abolition Act banned slavery in all British colonies?",
+    "answers":["1833"],
+    "options":["1933", "1733", "1633", "1683", "1783", "1983"],
+    "difficulty": 5,
+    "categories":["law"]
+},
+{
+    "question":"When did the Slavery Abolition Act banned slavery in all British colonies?",
+    "answers":["1833"],
+    "options":["1933", "1733", "1633", "1683", "1783", "1983"],
+    "difficulty": 5,
+    "categories":["law", "history"]
+},
+{
+    "question":"Which of these countries was first to ban slavery?",
+    "answers":["Britain"],
+    "options":["Brazil", "Portugal", "Cuba"],
+    "difficulty": 4,
+    "categories":["law", "history"]
+},
+{
+    "question":"Scurvy is caused by a lack of which vitamin?",
+    "answers":["Vitamin C"],
+    "options":["Vitamin K", "Vitamin A", "Vitamin D"],
+    "difficulty": 3,
+    "categories":["medicine"]
+},
+{
+    "question":"Scurvy is caused by a lack of which vitamin?",
+    "answers":["Vitamin C"],
+    "options":["Vitamin K", "Vitamin A", "Vitamin D"],
+    "difficulty": 3,
+    "categories":["medicine"]
+},
+{
+    "question":"The Great Exhibition, an international exhibition, took place from 1 May from 15 October 1851, where?",
+    "answers":["London"],
+    "options":["Paris", "Liverpool", "Amsterdam"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"When did the first scheduled train service opened in Britain?",
+    "answers":["1830"],
+    "options":["1850", "1870", "1820", "1800", "1780", "1760", "1740", "1720"],
+    "difficulty": 4,
+    "categories":["transport", "history"]
+},
+{
+    "question":"When did the first scheduled train service opened in Britain?",
+    "answers":["1830"],
+    "options":["1850", "1870", "1820", "1800", "1780", "1760", "1740", "1720"],
+    "difficulty": 4,
+    "categories":["transport", "history"]
+},
+{
+    "question":"According to Voltaire, 'No snowflake' in what 'ever feels responsible'?",
+    "answers":["An avalanche"],
+    "options":["A snowstorm", "A snowman", "A snowball", "A storm"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"According to Carl Jung, 'The foundation of all mental illness is the avoidance of true' what?",
+    "answers":["Suffering"],
+    "options":["Acceptance", "Help", "Therapy", "Goodness", "Benevolence"],
+    "difficulty": 5,
+    "categories":["quotes"]
+},
+{
+    "question":"'Man often becomes what he believes himself to be' is a quote from whom?",
+    "answers":["Mohandas Gandhi"],
+    "options":["Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Albert Einstein", "Ella Wheller Wilcox", "Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Karl Marx", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"'Change is the only constant' is a quote from whom?",
+    "answers":["Heraclitus"],
+    "options":["Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"According to Heraclitus, what 'Change 'Is the only constant'?",
+    "answers":["Change"],
+    "options":["Love", "Time", "Friendship", "Humanity", "Nothing"],
+    "difficulty": 1,
+    "categories":["quotes"]
+},
+{
+    "question":"Which scientist wrote Principia?",
+    "answers":["Isaac Newton"],
+    "options":["Stephen Hawking", "Charles Darwin", "Alan Turing", "Alexander Fleming", "Albert Einstein"],
+    "difficulty": 4,
+    "categories":["books", "science"]
+},
+{
+    "question":"When was Principia, by Isaac Newton, published?",
+    "answers":["1687"],
+    "options":["1787", "1707", "1727", "1747", "1767"],
+    "difficulty": 5,
+    "categories":["books", "science"]
+},
+{
+    "question":"Principia, by Isaac Newton, was written in which language?",
+    "answers":["Latin"],
+    "options":["English", "Spanish", "French", "German"],
+    "difficulty": 2,
+    "categories":["books", "language", "science"]
+},
+{
+    "question":"The Big Splash is a hypothesis that a large object/planet hit the Earth causing to debree to shoot off into space, what is the large object known as?",
+    "answers":["Theia"],
+    "options":["Favus", "Gallina", "Motus", "Corpus", "Terra", "Caeleb", "Merces"],
+    "difficulty": 5,
+    "categories":["astronomy"]
+},
+{
+    "question":"What is the name of the hypothesis that a large object/planet called Theia hit the Earth causing to debree to shoot off into space, what is the large object known as?",
+    "answers":["The Big Splash"],
+    "options":["The Big Crunch", "The Big Bang", "The Big Whip", "The Big Crash", "The Big Wrecking", "The Big Wreckingball"],
+    "difficulty": 5,
+    "categories":["astronomy", "science"]
+},
+{
+    "question":"Is the moon moving farther from the Earth?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["astronomy", "science"]
+},
+{
+    "question":"Is the moon moving closer to the Earth?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 3,
+    "categories":["astronomy", "science"]
+},
+{
+    "question":"Approximately how often does the moon orbit the Earth?",
+    "answers":["27 days"],
+    "options":["1 day", "8 days", "15 days", "22 days", "25 days", "1 year"],
+    "difficulty": 5,
+    "categories":["astronomy"]
+},
+{
+    "question":"What is the largest moon in the solar system?",
+    "answers":["Ganynede"],
+    "options":["Titan", "Callisto", "Io", "Moon", "Europa"],
+    "difficulty": 4,
+    "categories":["astronomy"]
+},
+{
+    "question":"The largest moon in the solar system, belongs to which planet?",
+    "answers":["Jupiter"],
+    "options":["Saturn", "Neptune", "Earth", "Uranus"],
+    "difficulty": 3,
+    "categories":["astronomy"]
+},
+{
+    "question":"Which of these is not a moon of Jupiter?",
+    "answers":["Titan", "Callisto", "Triton", "Ariel"],
+    "options":["Ganynede", "Io", "Europa"],
+    "difficulty": 4,
+    "categories":["astronomy"]
+},
+{
+    "question":"Which president was Richard Nixon?",
+    "answers":["37th"],
+    "options":["35th", "32nd", "38th", "39th", "40th", "36th", "34th"],
+    "difficulty": 4,
+    "categories":["politics"]
+},
+{
+    "question":"Who wrote the Great Gatsby?",
+    "answers":["F. Scott Fitzgerald"],
+    "options":["Anthony Burgess", "Virginia Woolf", "Ernest Hemingway", "John Steinbeck", "D. H. Lawrence", "Aldous Huxley"],
+    "difficulty": 3,
+    "categories":["books"]
+},
+{
+    "question":"Who wrote 'Brave New World'?",
+    "answers":["Aldous Huxley"],
+    "options":["Anthony Burgess", "Virginia Woolf", "Ernest Hemingway", "John Steinbeck", "D. H. Lawrence", "F. Scott Fitzgerald"],
+    "difficulty": 3,
+    "categories":["books"]
+},
+{
+    "question":"When was the Great Gatsby published?",
+    "answers":["1925"],
+    "options":["1955", "1975", "1985", "1965", "1945"],
+    "difficulty": 5,
+    "categories":["books"]
+},
+{
+    "question":"When did the Spanish Flu start?",
+    "answers":["1918"],
+    "options":["1916", "1914", "1920", "1922", "1924"],
+    "difficulty": 5,
+    "categories":["medicine"]
+},
+{
+    "question":"When did the Spanish Flu end?",
+    "answers":["1920"],
+    "options":["1916", "1914", "1918", "1922", "1924"],
+    "difficulty": 5,
+    "categories":["medicine"]
+},
+{
+    "question":"Where is the city of Odessa?",
+    "answers":["Ukraine"],
+    "options":["Russia", "Romania", "Poland", "Slovakia", "Lithuania", "Belarus"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What Indian city was previously called Bombay?",
+    "answers":["Mumbai"],
+    "options":["Kolkata", "Bengaluru", "Hyderabad", "New Delhi"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"To what religion does the Talmud belong to?",
+    "answers":["Judaism"],
+    "options":["Islam", "Hinduism", "Buddhism"],
+    "difficulty": 2,
+    "categories":["religion"]
+},
+{
+    "question":"Where is the Ebola River?",
+    "answers":["Democratic Republic of the Congo"],
+    "options":["Lesotho", "Burundi", "Guinea-Bissau", "Central African Republic", "Cameroon"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What spreads Dengue fever?",
+    "answers":["Mosquitos"],
+    "options":["Flies", "Dogs", "Mites", "Fleas", "Rodents"],
+    "difficulty": 5,
+    "categories":["medicine"]
+},
+{
+    "question":"Which of these South American countries does the Andes not extend through?",
+    "answers":["Brazil", "Peru", "Guyana", "Uruguay", "Paraguay"],
+    "options":["Venezuela", "Colombia", "Ecuador", "Bolivia", "Chile", "Argentina"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"The Boxer Rebellion was an uprising in which country?",
+    "answers":["China"],
+    "options":["Brazil", "Germany", "The United States", "Australia", "Britain", "Whales"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"The Family is an unfinished 1918 painting by who?",
+    "answers":["Egon Schiele"],
+    "options":["David Smith", "Paul Cézanne", "Alberto Giacometti", "Henry Moore"],
+    "difficulty": 5,
+    "categories":["art"]
+},
+{
+    "question":"Who painted 'The Scream' in 1893?",
+    "answers":["Edward Munch"],
+    "options":["David Smith", "Paul Cézanne", "Alberto Giacometti", "Henry Moore", "Charles C. Ingham"],
+    "difficulty": 4,
+    "categories":["art"]
+},
+{
+    "question":"What is the opposite effect of placebo?",
+    "answers":["Nocebo effect"],
+    "options":["Anticebo effect", "Sincebo effect", "Noncebo effect", "Neincebo effect"],
+    "difficulty": 4,
+    "categories":["medicine"]
+},
+{
+    "question":"Alaska was purchased by the United States from which country?",
+    "answers":["Russia"],
+    "options":["China", "Canada", "Mexico", "The United Kingdom"],
+    "difficulty": 3,
+    "categories":["geography", "history"]
+},
+{
+    "question":"When was Alaska purchased by the United States from Russia?",
+    "answers":["1867"],
+    "options":["1887", "1877", "1897", "1907", "1917", "1927"],
+    "difficulty": 4,
+    "categories":["geography", "history"]
+},
+{
+    "question":"The first recorded case of Spanish flu was from where?",
+    "answers":["The United States"],
+    "options":["The United Kingdom", "France", "Germany", "Libya", "Tunisia", "China", "Taiwan"],
+    "difficulty": 4,
+    "categories":["medicine", "history"]
+},
+{
+    "question":"The first recorded case of Spanish flu was from which state?",
+    "answers":["Kansas"],
+    "options":["Georgia", "Pennsylvania", "Michigan", "Nevada", "Colorado", "Alabama", "Indiana", "Utah", "Wyonming", "Nebraska", "Oklahoma", "North Dakota"],
+    "difficulty": 5,
+    "categories":["medicine", "history"]
+},
+{
+    "question":"The first recorded was from which month?",
+    "answers":["January"],
+    "options":["Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "difficulty": 5,
+    "categories":["medicine", "history"]
+},
+{
+    "question":"The Battle of the Somme was faught during which war?",
+    "answers":["World War 1"],
+    "options":["World War 2", "Vietnam War", "Korean War"],
+    "difficulty": 2,
+    "categories":["war", "history"]
+},
+{
+    "question":"In what year did The Battle of the Somme take place?",
+    "answers":["1916"],
+    "options":["1914", "1915", "1917", "1918", "1919"],
+    "difficulty": 3,
+    "categories":["war", "history"]
+},
+{
+    "question":"Which capital was previously called Kristiania?",
+    "answers":["Oslo, Norway"],
+    "options":["Abuja, Nigeria", "Monrovia, Liberia", "Mogadishu, Somalia", "St. John's, Antigua and Barbuda", "Vientiane, Laos", "Lisbon, Portugal", "Kigali, Rwanda"],
+    "difficulty": 4,
+    "categories":["geography", "history"]
+},
+{
+    "question":"What is the capital of Somalia?",
+    "answers":["Mogadishu"],
+    "options":["Merca", "Bosaso", "Kismayo", "Galkayo", "Hargeisa", "Garowe", "Baidoa"],
+    "difficulty": 5,
+    "categories":["geography", "history"]
+},
+{
+    "question":"What is the capital of Liberia?",
+    "answers":["Monrovia"],
+    "options":["Zwedru", "Ganta", "Kakata", "Harper"],
+    "difficulty": 5,
+    "categories":["geography", "history"]
 }
+
+
+
 ]
