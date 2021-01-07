@@ -155,22 +155,24 @@ class QuestionBox(pg.sprite.Sprite):
                     if tickBox.ticked:
                         tickedBoxCount += 1
                 if tickedBoxCount > 1:
-                    self.image = self.main.question_box_image
-                    self.ticked = False
+                    if self.main.game.filterOutDifficulty(self.difficulty):
+                        self.image = self.main.question_box_image
+                        self.ticked = False
                 self.clicked = False
             else:
+                self.main.game.unfilterDifficulty(self.difficulty)
                 self.image = self.main.question_box_ticked_image
                 self.ticked = True
                 self.clicked = False
 
 class CategoryIcon(pg.sprite.Sprite):
-    def __init__(self, main, x, y, category=None):
+    def __init__(self, main, x, y, category="misc"):
         self.main = main
         self.groups = self.main.all_sprites, self.main.collidables
         pg.sprite.Sprite.__init__(self, self.groups)
         self.x = x
         self.y = y
-        if category == None:
+        if category == "misc":
             self.image = self.main.icon_images["misc"]
             self.category = "misc"
         else:
@@ -227,3 +229,27 @@ class MainMenuBackgroundIcon(pg.sprite.Sprite):
         if self.y >= HEIGHT:
             self.main.all_sprites.remove(self)
             del self
+
+class MenuCategoryIcon(CategoryIcon):
+    def __init__(self, main, x, y, category="misc"):
+        super().__init__(main, x, y, category)
+        self.main.all_sprites.remove(self)
+        self.image = pg.transform.scale(main.icon_images[category], (NEWGAME_MENU_CATEGORY_ICON_SIZE, NEWGAME_MENU_CATEGORY_ICON_SIZE))
+        self.clicked = False
+        self.disabled = False
+
+    def update(self):
+        if self.clicked == True:
+            self.clicked = False
+            if self.disabled == False:
+                if self.main.game.filterOutCategory(self.category):
+                    self.disabled = True
+            else:
+                self.main.game.unfilterCategory(self.category)
+                self.disabled = False
+
+    def draw(self):
+        super().draw()
+
+    def drawCircle(self):
+        pg.draw.circle(self.main.screen, PALETTE_1[2], (self.x + self.image.get_width() / 2, self.y + self.image.get_height() / 2),  self.image.get_width() / 2 + 10)

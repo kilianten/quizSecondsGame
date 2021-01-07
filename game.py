@@ -7,11 +7,11 @@ from random import choice
 from random import shuffle
 
 class Game():
-    def __init__(self, main, difficulties):
+    def __init__(self, main, questions):
         self.main = main
         self.colour_scheme = PALETTE_1
         self.allQuestions = self.main.allQuestions
-        self.filterOutQuestions(difficulties)
+        self.questions = questions
         self.panels = []
         self.question = ""
         self.colour = self.colour_scheme[0]
@@ -25,13 +25,6 @@ class Game():
         self.score = 0
         self.correctQuestions = 0
         self.difficulty = 1
-
-    def filterOutQuestions(self, difficulties):
-        allQuestions = self.allQuestions.copy()
-        self.questions = []
-        for question in allQuestions:
-            if question["difficulty"] in difficulties:
-                self.questions.append(question)
 
     def update(self):
         if self.isPaused == False:

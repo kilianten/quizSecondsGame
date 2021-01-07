@@ -19,6 +19,7 @@ PANEL_X_OFFSET = TILESIZE * 6
 PANEL_Y_OFFSET = TILESIZE * 10
 SCORE_BOX_PADDING = 30
 HOVER_CATEGORY_PADDING = 10
+NEWGAME_MENU_CATEGORY_ICON_SIZE = 120
 
 BASE_FONT_SIZE = 28
 BASE_FONT_HEIGHT = 27
@@ -41,6 +42,7 @@ NUMBER_IMAGES = ["0.png", "1.png", "2.png", "3.png", "4.png", "5.png", "6.png", 
 ICON_IMAGES = {"science": "icon_science_blur.png", "misc": "icon_misc_blur.png", "geography": "icon_geography_blur.png", "history": "icon_history_blur.png"}
 INCORRECT_IMAGE = "1pixel.png"
 TINT_IMAGE = "tintBackground.png"
+DISABLED_ICON_IMAGE = "disabled_icon.png"
 
 
 #sounds
@@ -53,6 +55,9 @@ INCORRECT_ANIMATION_DUTATION = 3000
 CATEGORY_ICON_ROTATE_SPEED = 100
 CATEGORY_ICON_ROTATE_ANGLE = -20
 BACKGROUND_ICON_SPAWN_CHANCE = 70
+
+MIN_NUM_OF_QUESTIONS_TO_PLAY = 130
+
 
 VERSION = "1.0.0"
 

@@ -28,6 +28,13 @@ class Main:
         displayStats = True #print out question stats
         self.allQuestions = json.load(open('questions/questions.json'))
         self.numberOfQuestions = len(self.allQuestions)
+        for question in self.allQuestions:
+            categoryInc = False
+            for category in question["categories"]:
+                if category in list(self.icon_images.keys()):
+                    categoryInc = True
+            if not categoryInc:
+                question["categories"] = ["misc"]
         if displayStats:
             self.displayStats()
 
@@ -77,6 +84,8 @@ class Main:
             self.icon_images[icon_image] = pg.transform.scale(pg.image.load(path.join(img_folder, ICON_IMAGES[icon_image])).convert_alpha(), (175, 175))
         self.incorrect_image = pg.image.load(path.join(img_folder, INCORRECT_IMAGE)).convert_alpha()
         self.tint_image = pg.transform.scale( pg.image.load(path.join(img_folder, TINT_IMAGE)).convert_alpha(), (WIDTH, HEIGHT))
+        self.disabled_icon_image = pg.transform.scale( pg.image.load(path.join(img_folder, DISABLED_ICON_IMAGE)).convert_alpha(), (NEWGAME_MENU_CATEGORY_ICON_SIZE + 26, NEWGAME_MENU_CATEGORY_ICON_SIZE + 26))
+
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)
@@ -164,7 +173,11 @@ class Main:
             if event.type == pg.MOUSEBUTTONUP:
                 if event.button == 1:
                     for sprite in self.collidables:
-                        if pg.sprite.collide_rect(sprite, self.mouse):
+                        if isinstance(sprite, MenuCategoryIcon):
+                            if isinstance(self.game, MainMenu) and self.game.menu == "newGame":
+                                if pg.sprite.collide_rect(sprite, self.mouse):
+                                    sprite.clicked = True
+                        elif pg.sprite.collide_rect(sprite, self.mouse):
                             sprite.clicked = True
                     self.game.checkCollision(self.mouse)
 
