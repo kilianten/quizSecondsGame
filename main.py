@@ -39,8 +39,9 @@ class Main:
             self.highScore = 0
 
     def writeHighScore(self, score):
-        with open('score.dat', 'wb') as file:
-            pickle.dump(score, file)
+        if score > self.highScore:
+            with open('score.dat', 'wb') as file:
+                pickle.dump(score, file)
 
     def load_data(self):
         self.game_folder = path.dirname(__file__)
@@ -133,6 +134,7 @@ class Main:
         pass
 
     def show_go_screen(self):
+
         pass
 
     def events(self):

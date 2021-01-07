@@ -1045,7 +1045,7 @@
 {
     "question":"Bamako is the capital of which country?",
     "answers":["Mali"],
-    "options":["Maldives", "Burkina Faso", "Malwai", "Angola", "Togo", "Eritea", "Ghana", "Libya", "Gabon", "Tanzania", "Botzwana"],
+    "options":["Maldives", "Burkina Faso", "Malwai", "Angola", "Togo", "Eritrea", "Ghana", "Libya", "Gabon", "Tanzania", "Botzwana"],
     "difficulty": 3,
     "categories":["geography"]
 },
@@ -3782,7 +3782,7 @@
 {
     "question":"What is the capital of Ecaudor?",
     "answers":["Quito"],
-    "options":["Belmopan", "Ecaudor city", "Eqaulia", "Cuenca", "Manta"],
+    "options":["Belmopan", "Ecaudor city", "Equalia", "Cuenca", "Manta"],
     "difficulty": 3,
     "categories":["geography"]
 },
@@ -5028,7 +5028,7 @@
 {
     "question":"Addis Ababa is the capital of which country?",
     "answers":["Ethiopia"],
-    "options":["Benin", "Rwanda", "Eritea", "Togo", "Zimbabwe", "Gabon", "Comoros"],
+    "options":["Benin", "Rwanda", "Eritrea", "Togo", "Zimbabwe", "Gabon", "Comoros"],
     "difficulty": 3,
     "categories":["geography"]
 },
@@ -5904,7 +5904,7 @@
 {
     "question":"Which of these countries did not fight in the Six Day War?",
     "answers":["Angola", "Iran", "Iraq", "Tunisia", "Libya"],
-    "options":["Israel", "Syria", "Egypt", "Syria"],
+    "options":["Israel", "Syria", "Egypt", "Jordan"],
     "difficulty": 4,
     "categories":["history", "war"]
 },
@@ -7829,7 +7829,7 @@
 {
     "question":"Which of these countries does not have mandated time off work for new mothers?",
     "answers":["United States", "Lethoso", "Papa New Guinea", "Eswatini"],
-    "options":["Switzerland", "Macedonia", "Japan", "Sudan", "Yemen", "Eritea", "Philippines", "Singapore"],
+    "options":["Switzerland", "Macedonia", "Japan", "Sudan", "Yemen", "Eritrea", "Philippines", "Singapore"],
     "difficulty": 4,
     "categories":["economics", "politics"]
 },
@@ -8399,8 +8399,362 @@
     "options":["Happy", "Sad", "Fearful", "Digusted", "Hopeful"],
     "difficulty": 2,
     "categories":["film"]
+},
+{
+    "question":"Which colour would you least assosiate with 'tawny'?",
+    "answers":["Blue", "Red"],
+    "options":["Orange", "Yellow", "Brown"],
+    "difficulty": 4,
+    "categories":["colours"]
+},
+{
+    "question":"Where would you find hte Harz Mountains?",
+    "answers":["Germany"],
+    "options":["Austria", "Sweden", "Finland", "Norway", "France", "Greece"],
+    "difficulty": 4,
+    "categories":["colours"]
+},
+{
+    "question":"What was the name of was the first programmable, electronic, general-purpose digital computer?",
+    "answers":["ENIAC"],
+    "options":["MANIAC", "ROBNIAC", "LYRIAC", "BORNIAC"],
+    "difficulty": 4,
+    "categories":["technology", "history"]
+},
+{
+    "question":"When was coffee introduced into Europe?",
+    "answers":["17th century"],
+    "options":["16th century", "15th century", "14th century", "18th century", "13th century", "12th century", "11th century"],
+    "difficulty": 3,
+    "categories":["drinks", "history"]
+},
+{
+    "question":"'Fools find no pleasure in understanding but delight in airing their own opinions', is from which Bible verse?",
+    "answers":["Proverbs 18:2"],
+    "options":["Matthew 18:2", "Genesis 18:2", "Leviticus 18:2", "Exodus 18:2"],
+    "difficulty": 4,
+    "categories":["drinks", "history"]
+},
+{
+    "question":"'Fools find no pleasure in understanding but delight in airing their own opinions', is from which Bible verse?",
+    "answers":["Proverbs 18:2"],
+    "options":["Matthew 18:2", "Genesis 18:2", "Leviticus 18:2", "Exodus 18:2"],
+    "difficulty": 4,
+    "categories":["drinks", "history"]
+},
+{
+    "question":"In 1954 the Americans tested their new hydrogen bomb at Bikini Atoll, which is located where?",
+    "answers":["Marshall Islands"],
+    "options":["Barbados", "The United States", "Canada", "Russia", "Costa Rica", "Bahamas", "Haiti", "Dominican Republic", "St Kitts and Nevis"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"The designer of the bikini was from which country?",
+    "answers":["France"],
+    "options":["Barbados", "The United States", "Canada", "Italy", "Greece", "Dominican Republic", "Japan"],
+    "difficulty": 4,
+    "categories":["fashion"]
+},
+{
+    "question":"The bikini was named after what?",
+    "answers":["An island"],
+    "options":["A tribe", "A star", "A beach", "A fruit", "A queen"],
+    "difficulty": 3,
+    "categories":["fashion"]
+},
+{
+    "question":"Which country was previously called Ceylon and before that Serendip?",
+    "answers":["Sri Lanka"],
+    "options":["Barbados", "Estonia", "Canada", "Russia", "Costa Rica", "Bahamas", "Haiti", "Dominican Republic", "St Kitts and Nevis", "Lethoso", "Liberia"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Sappho was best known for what?",
+    "answers":["Her poetry"],
+    "options":["Her philosophy", "Her music", "Her cooking"],
+    "difficulty": 5,
+    "categories":["misc"]
+},
+{
+    "question":"Lesbos is an island off the coast of which country?",
+    "answers":["Turkey"],
+    "options":["Greece", "Eritrea", "Cameroon", "Equitorial Guinea", "Gabon", "Ecuador"],
+    "difficulty": 5,
+    "categories":["misc"]
+},
+{
+    "question":"Margherita pizza was named after what?",
+    "answers":["A queen"],
+    "options":["A tribe", "A star", "A beach", "A fruit", "An island"],
+    "difficulty": 4,
+    "categories":["food", "language"]
+},
+{
+    "question":"Raffaele Esposito is considered by some, the father or modern what?",
+    "answers":["Pizza"],
+    "options":["Football", "Fashion", "Philosophy", "Facism", "Socialism"],
+    "difficulty": 5,
+    "categories":["misc"]
+},
+{
+    "question":"Raffaele Esposito is considered by some, the father or modern what?",
+    "answers":["Pizza"],
+    "options":["Football", "Fashion", "Philosophy", "Facism", "Socialism"],
+    "difficulty": 5,
+    "categories":["misc"]
+},
+{
+    "question":"'Let Hercules himself do what he may; The cat will mew and the dog will have his day' is a quote from which Shakespeare work?",
+    "answers":["Hamlet"],
+    "options":["Macbeth", "Romeo and Juliet", "The Tempest", "Measure for Measure"],
+    "difficulty": 4,
+    "categories":["quotes", "books"]
+},
+{
+    "question":"As of 2020, which of these are the most produced food commodities in the world?",
+    "answers":["Sugar cane", "Corn"],
+    "options":["Rice", "Wheat", "Milk", "Potatoes"],
+    "difficulty": 4,
+    "categories":["food"]
+},
+{
+    "question":"When did the Tuskegee Syphilis Study finally end?",
+    "answers":["October 1972"],
+    "options":["April 1952", "November 1932", "December 1912", "January 1882", "May 1862"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"What is the term for a greyish-white crystalline deposit of frozen water vapour formed in clear still weather on vegetation, fences, etc.?",
+    "answers":["Hoar frost"],
+    "options":["Moar frost", "Boar frost", "Toar frost", "Soar frost", "Yoar frost"],
+    "difficulty": 4,
+    "categories":["weather", "language"]
+},
+{
+    "question":"When was the death penalty was abolished in the UK?",
+    "answers":["1965"],
+    "options":["1945", "1955", "1975", "1985", "1995", "1935", "1925", "1915"],
+    "difficulty": 4,
+    "categories":["law", "history"]
+},
+{
+    "question":"When was the Old Bailey in London built?",
+    "answers":["1965"],
+    "options":["1945", "1955", "1975", "1985", "1995", "1935", "1925", "1915"],
+    "difficulty": 4,
+    "categories":["architecture", "law", "history"]
+},
+{
+    "question":"When was the Old Bailey in London built?",
+    "answers":["February 27th, 1907"],
+    "options":["February 27th, 1807", "February 27th, 1707", "February 27th, 1937", "February 27th, 1737", "February 27th, 1837"],
+    "difficulty": 5,
+    "categories":["architecture", "law", "history"]
+},
+{
+    "question":"'Never attribute to malice that which is adequately explained by stupidity' is known as what?",
+    "answers":["Hanlon's razor"],
+    "options":["Occam's razor", "Hitchen's razor", "Hume's razor"],
+    "difficulty": 4,
+    "categories":["proverb"]
+},
+{
+    "question":"Jannet Parker was the to die of what?",
+    "answers":["Smallpox"],
+    "options":["MERS", "The Spanish Flu", "Rinderpest"],
+    "difficulty": 4,
+    "categories":["medicine"]
+},
+{
+    "question":"When was the Battle of Hastings fought?",
+    "answers":["1066"],
+    "options":["866", "966", "566", "766"],
+    "difficulty": 4,
+    "categories":["war", "history"]
+},
+{
+    "question":"The English faught in the Battle of Hastings under which King?",
+    "answers":["Harold II"],
+    "options":["William I", "William II", "Henry I", "Stephen", "Henry II"],
+    "difficulty": 5,
+    "categories":["war", "history"]
+},
+{
+    "question":"Magna Carta is a royal charter of rights agreed to by which King?",
+    "answers":["John"],
+    "options":["William I", "William II", "Henry I", "Stephen", "Henry II"],
+    "difficulty": 4,
+    "categories":["law", "history"]
+},
+{
+    "question":"When was Magna Carta originally published?",
+    "answers":["13th century"],
+    "options":["14th century", "12th century", "11th century", "10th century", "15th century"],
+    "difficulty": 4,
+    "categories":["law", "history"]
+},
+{
+    "question":"What document was published in 1215 which, delineated a series of laws establishing the rights of English barons?",
+    "answers":["Magna Carta"],
+    "options":["Magnam Opus", "Magna Rechas", "Magna Derecha", "Magna Veritas"],
+    "difficulty": 3,
+    "categories":["law", "history"]
+},
+{
+    "question":"How many wives did Henry VIII have?",
+    "answers":["6"],
+    "options":["5", "4", "3", "2", "7", "8"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"How many of Henry VIII's wives were beheaded?",
+    "answers":["2"],
+    "options":["3", "4", "5", "1"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"When did Martin Luther post his 95 Theses in Wittenberg?",
+    "answers":["October 31st 1517"],
+    "options":["July 20th 1417", "November 2nd 1617", "March 12th 1567", "April 3rd 1767", "April 13th 1667"],
+    "difficulty": 4,
+    "categories":["religion", "history"]
+},
+{
+    "question":"How many Theses did Martin Luther post in Wittenberg in 1517?",
+    "answers":["95"],
+    "options":["65", "75", "85", "90", "80", "70"],
+    "difficulty": 3,
+    "categories":["religion", "history"]
+},
+{
+    "question":"Where would you find the Great Bear Rainforest?",
+    "answers":["Canada"],
+    "options":["The United States", "Russia", "Poland", "Australia", "Scotland"],
+    "difficulty": 3,
+    "categories":["religion", "history"]
+},
+{
+    "question":"Which US President made the 'Four Freedoms' speech?",
+    "answers":["Franklin Roosevelt"],
+    "options":["Ronald Regan", "Gerald Fort", "John F. Kennedy", "Dwight D. Eisenhower", "Harry S. Truman"],
+    "difficulty": 4,
+    "categories":["politics"]
+},
+{
+    "question":"Which US President made the 'Four Freedoms' speech?",
+    "answers":["Franklin Roosevelt"],
+    "options":["Ronald Regan", "Gerald Fort", "John F. Kennedy", "Dwight D. Eisenhower", "Harry S. Truman"],
+    "difficulty": 4,
+    "categories":["politics"]
+},
+{
+    "question":"Which game show debuted on NBC-TV in 1975?",
+    "answers":["Wheel Of Fortune"],
+    "options":["Jeopardy!", "Who Wants to Be a Millionaire?", "Password"],
+    "difficulty": 3,
+    "categories":["TV"]
+},
+{
+    "question":"Who has a leading role in the assassination of Julius Caeser?",
+    "answers":["Brutus"],
+    "options":["Glaucon", "Augustus", "Titus", "Vitus", "Albus"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"What was the mythical substance that could turn ordinary metals such as iron, tin, lead, zinc, nickel or copper into precious metals like gold and silver?",
+    "answers":["The philosopher's stone"],
+    "options":["Manna", "Alien metal", "Tears of Ra"],
+    "difficulty": 2,
+    "categories":["mythology"]
+},
+{
+    "question":"The House of Lancaster was represented by what?",
+    "answers":["A red rose"],
+    "options":["A white rose", "A pink rose", "A peach rose"],
+    "difficulty": 4,
+    "categories":["symbols", "flowers"]
+},
+{
+    "question":"The House of York was represented by what?",
+    "answers":["A white rose"],
+    "options":["A red rose", "A pink rose", "A peach rose"],
+    "difficulty": 4,
+    "categories":["symbols", "flowers"]
+},
+{
+    "question":"During 1455 – 1485, a series of English civil wars between the House of Lancaster and the House of York is known as what?",
+    "answers":["The Wars of the Roses"],
+    "options":["The Wars of the Buttons", "The Wars of the Worlds", "The Wars of the Buckets"],
+    "difficulty": 2,
+    "categories":["wars", "history"]
+},
+{
+    "question":"Cromwell's men in 1649 killed 3500 people, known as 'The Siege of' what?",
+    "answers":["The Siege of Drogheda"],
+    "options":["The Siege of Kinsale", "The Siege of Westport", "The Siege of Dingle", "The Siege of Louth"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"Where did the Great Fire of London start?",
+    "answers":["Pudding Lane"],
+    "options":["Threadneedle Street", "Savile Row", "Richmond Road", "Kingsway", "North Road", "Manor Road", "Queen Street"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"Where did the Great Fire of London start?",
+    "answers":["Thomas Farriner's bakery"],
+    "options":["Thomas Farriner's resturaunt", "Thomas Farriner's tavern", "Thomas Farriner's lightbulb store", "Thomas Farriner's candle shop"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"When did the Great Fire of London start?",
+    "answers":["1666"],
+    "options":["1766", "1566", "1466", "1366", "1316", "1416", "1516"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"What was carved into a fence on Roanoke Island after the dissapearance of the Lost Colony?",
+    "answers":["CROATOAN"],
+    "options":["ROANOKE", "A map of where they went", "MANTEO", "WANCHESE", "KILL DEVIL"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"1773 a protest by the Sons of Liberty became known as what?",
+    "answers":["The Boston Tea Party"],
+    "options":["The Boston Meat Party", "The Boston Mountain Dew Party", "The Boston Crab Party", "The Boston Caramel Party", "The Boston Watch Party"],
+    "difficulty": 1,
+    "categories":["history"]
+},
+{
+    "question":"When did The Boston Tea Party take place?",
+    "answers":["December 16, 1773"],
+    "options":["December 16, 1673", "December 16, 1573", "December 16, 1873", "December 16, 1623", "December 16, 1723", "December 16, 1823"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"The Boston Tea Party was organized by which group?",
+    "answers":["Sons of Liberty"],
+    "options":["Black Panthers", "Paper Soldeirs", "Original Freedom Fighters", "Radical Nothings"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"The Sons of Liberty organized The Boston Tea Party, led by who?",
+    "answers":["Samuel Adams"],
+    "options":["James Otis", "Benjamin Rush", "Isaac Sears", "James Swan"],
+    "difficulty": 5,
+    "categories":["history"]
 }
-
-
-
 ]
