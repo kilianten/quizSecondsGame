@@ -188,7 +188,7 @@ class CategoryIcon(pg.sprite.Sprite):
             categoryText = self.main.baseFont.render(category, True, WHITE)
             pg.draw.rect(self.main.screen, (BLACK), (self.main.mouse.x -1, self.main.mouse.y - 40, self.main.baseFont.size(category)[0] + HOVER_CATEGORY_PADDING, self.main.baseFont.size(category)[1] + HOVER_CATEGORY_PADDING))
             pg.draw.rect(self.main.screen, (PALETTE_1[0]), (self.main.mouse.x, self.main.mouse.y - 39, self.main.baseFont.size(category)[0] + HOVER_CATEGORY_PADDING - 2, self.main.baseFont.size(category)[1] + HOVER_CATEGORY_PADDING - 2))
-            self.main.screen.blit(categoryText, (self.main.mouse.x + 4, self.main.mouse.y - 38))
+            self.main.screen.blit(categoryText, (self.main.mouse.x + 4, self.main.mouse.y - 36))
 
     def changeImage(self, categories):
         foundImage = False
@@ -200,6 +200,7 @@ class CategoryIcon(pg.sprite.Sprite):
                 break
         if not foundImage:
             self.image = self.main.icon_images["misc"]
+            self.category = "misc"
 
     def drawCircle(self):
         #pg.draw.rect(self.main.screen, (244, 162, 97), (self.x + 16, self.y + 16, self.image.get_width() + 10, self.image.get_height() + 10))
