@@ -18,6 +18,8 @@ class MainMenu():
         self.main.getHighScore()
         self.createCategoryIcons()
         self.questions = self.main.allQuestions.copy()
+        self.disabledCategories = []
+        self.disabledDifficulties = []
 
     def update(self):
         if self.menu == "newGame":
@@ -26,20 +28,35 @@ class MainMenu():
 
     def filterOutCategory(self, category):
         filtered = self.questions.copy()
+        print(category)
+        print(self.disabledCategories)
         for question in self.questions:
             if category in question['categories']:
                 filtered.remove(question)
         if len(filtered) >= MIN_NUM_OF_QUESTIONS_TO_PLAY:
             self.questions = filtered
+            self.disabledCategories.append(category)
+            print(self.disabledCategories)
+            print()
             return True
         return False
 
     def unfilterCategory(self, category):
         filtered = self.questions.copy()
+        print(category)
+        print(self.disabledCategories)
         for question in self.main.allQuestions:
             if category in question['categories'] and question not in self.questions:
-                filtered.append(question)
+                catDisabled = False
+                for cat in question['categories']:
+                    if cat in self.disabledCategories:
+                        catDiabled = True
+                if not catDisabled:
+                    filtered.append(question)
+        self.disabledCategories.remove(category)
         self.questions = filtered
+        print(self.disabledCategories)
+        print()
 
     def filterOutDifficulty(self, difficulty):
         filtered = self.questions.copy()
@@ -48,6 +65,7 @@ class MainMenu():
                 filtered.remove(question)
         if len(filtered) >= MIN_NUM_OF_QUESTIONS_TO_PLAY:
             self.questions = filtered
+            self.disabledDifficulties.append(difficulty)
             return True
         return False
 
@@ -55,7 +73,9 @@ class MainMenu():
         filtered = self.questions.copy()
         for question in self.main.allQuestions:
             if difficulty == question["difficulty"] and question not in self.questions:
-                filtered.append(question)
+                if not question["difficulty"] in self.disabledDifficulties:
+                    filtered.append(question)
+        self.disabledDifficulties.remove(difficulty)
         self.questions = filtered
 
     def createCategoryIcons(self):

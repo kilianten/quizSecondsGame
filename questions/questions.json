@@ -3325,13 +3325,6 @@
     "categories":["science"]
 },
 {
-    "question":"Which element has the Symbol 'Li'?",
-    "answers":["Lithium"],
-    "options":["Iron", "Lanthanum", "Lead"],
-    "difficulty": 1,
-    "categories":["science"]
-},
-{
     "question":"Which element has the Symbol 'Be'?",
     "answers":["Berylium"],
     "options":["Boron", "Lanthanum", "Bromine"],

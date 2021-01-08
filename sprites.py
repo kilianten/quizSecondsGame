@@ -150,14 +150,9 @@ class QuestionBox(pg.sprite.Sprite):
     def update(self):
         if self.clicked == True:
             if self.image == self.main.question_box_ticked_image:
-                tickedBoxCount = 0
-                for tickBox in self.main.game.questionBoxes:
-                    if tickBox.ticked:
-                        tickedBoxCount += 1
-                if tickedBoxCount > 1:
-                    if self.main.game.filterOutDifficulty(self.difficulty):
-                        self.image = self.main.question_box_image
-                        self.ticked = False
+                if self.main.game.filterOutDifficulty(self.difficulty):
+                    self.image = self.main.question_box_image
+                    self.ticked = False
                 self.clicked = False
             else:
                 self.main.game.unfilterDifficulty(self.difficulty)
@@ -247,7 +242,6 @@ class MenuCategoryIcon(CategoryIcon):
             else:
                 self.main.game.unfilterCategory(self.category)
                 self.disabled = False
-
     def draw(self):
         super().draw()
 
