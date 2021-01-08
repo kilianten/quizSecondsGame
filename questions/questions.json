@@ -847,14 +847,14 @@
     "categories":["language"]
 },
 {
-    "question":"Norway gained indepence from what country in 1905?",
+    "question":"Norway gained independence from what country in 1905?",
     "answers":["Sweden"],
     "options":["Denmark", "Britain", "The United States", "Russia", "Finland"],
     "difficulty": 2,
     "categories":["history"]
 },
 {
-    "question":"When did Norway gain indepence from Sweden?",
+    "question":"When did Norway gain independence from Sweden?",
     "answers":["1905"],
     "options":["1962", "1931", "1959", "1899", "1875", "1913"],
     "difficulty": 3,
@@ -871,7 +871,7 @@
     "question":"The town of Babylon was located along the Euphrates River, about 50 miles south of which present-day capital city?",
     "answers":["Baghdad"],
     "options":["Tehran", "Ankara", "Damascus"],
-    "difficulty": 2,
+    "difficulty": 3,
     "categories":["geography"]
 },
 {
@@ -1354,7 +1354,7 @@
     "question":"Which city was the capital of Nigeria before Abuja?",
     "answers":["Lagos"],
     "options":["Ibadan", "Port Harcout", "Benin City", "Kano"],
-    "difficulty":2,
+    "difficulty":4,
     "categories":["geography"]
 },
 {
@@ -3619,7 +3619,7 @@
     "categories":["geography"]
 },
 {
-    "question":"According to the decleration of indepence, what is not an unalienable right of men?",
+    "question":"According to the decleration of independence, what is not an unalienable right of men?",
     "answers":["Love", "Privacy", "Vote"],
     "options":["Life", "Liberty", "The persuit of happiness"],
     "difficulty": 2,
@@ -4356,7 +4356,7 @@
 {
     "question":"The distress code 'Mayday' comes from what French phrase?",
     "answers":["M'aide"],
-    "options":["M'aime", "m'aller", "M'être", ""],
+    "options":["M'aime", "m'aller", "M'être"],
     "difficulty": 4,
     "categories":["language"]
 },
@@ -4499,13 +4499,6 @@
     "options":["Patrick Henry", "James Madison", "George Washington", "John Adams", "Benjamin Franklin", "Thomas Jefferson", "Alexander Hamilton", "Thomas Paine", "Samuel Adams"],
     "difficulty": 3,
     "categories":["misc"]
-},
-{
-    "question":"What does does the S in SCUBA stand for?",
-    "answers":["Self-contained"],
-    "options":["Submerged", "Seamless", "SLL", "Standalone", "Surface"],
-    "difficulty": 3,
-    "categories":["language"]
 },
 {
     "question":"What does does the S in SCUBA stand for?",
@@ -8837,7 +8830,7 @@
 {
     "question":"'Change is the only constant' is a quote from whom?",
     "answers":["Heraclitus"],
-    "options":["Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
+    "options":["Shakespeare", "Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -8924,13 +8917,6 @@
     "options":["Ganynede", "Io", "Europa"],
     "difficulty": 4,
     "categories":["astronomy"]
-},
-{
-    "question":"Which president was Richard Nixon?",
-    "answers":["37th"],
-    "options":["35th", "32nd", "38th", "39th", "40th", "36th", "34th"],
-    "difficulty": 4,
-    "categories":["politics"]
 },
 {
     "question":"Who wrote the Great Gatsby?",
@@ -9106,8 +9092,392 @@
     "options":["Zwedru", "Ganta", "Kakata", "Harper"],
     "difficulty": 5,
     "categories":["geography", "history"]
+},
+{
+    "question":"When did Einstein publish his theory of relativity?",
+    "answers":["1915"],
+    "options":["1925", "1935", "1945"],
+    "difficulty": 3,
+    "categories":["science", "history"]
+},
+{
+    "question":"Samoa gained independence from which country in 1962?",
+    "answers":["New Zealand"],
+    "options":["The United States", "The United Kingdom", "France", "Portugal", "Sweden"],
+    "difficulty": 3,
+    "categories":["geography", "history"]
+},
+{
+    "question":"What was the name of the non-violent movement for Samoa independence?",
+    "answers":["Mau"],
+    "options":["Sau", "Lau", "Pau", "Vau", "Zau", "Tau", "Bau", "Cau"],
+    "difficulty": 5,
+    "categories":["politics", "history"]
+},
+{
+    "question":"When did Samoa gain independence from New Zealand?",
+    "answers":["1962"],
+    "options":["1952", "1942", "1932", "1922", "1912", "1902"],
+    "difficulty": 5,
+    "categories":["politics", "history"]
+},
+{
+    "question":"Egypt gained independence from which country in 1922?",
+    "answers":["Britain"],
+    "options":["The United States", "France", "Portugal", "Sweden"],
+    "difficulty": 2,
+    "categories":["politics", "history"]
+},
+{
+    "question":"When did Egypt gain independence from Britain?",
+    "answers":["1922"],
+    "options":["1912", "1932", "1942", "1952", "1962"],
+    "difficulty": 4,
+    "categories":["politics", "history"]
+},
+{
+    "question":"Which was president was Woodrow Wilson?",
+    "answers":["28th"],
+    "options":["29th", "30th", "31st", "32nd", "27th"],
+    "difficulty": 4,
+    "categories":["politics", "history"]
+},
+{
+    "question":"Which president had a stroke in office?",
+    "answers":["Woodrow Wilson"],
+    "options":["Thomas Jefferson", "William McKinley", "Herbert Hoover", "Harry S. Truman", "Lydon B. Johnson"],
+    "difficulty": 4,
+    "categories":["politics", "history"]
+},
+{
+    "question":"'There is nothing either good or bad, but thinking makes it so' is a quote from whom?",
+    "answers":["Shakespeere"],
+    "options":["Heraclitus", "Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"What connects the two hemispheres of the brain?",
+    "answers":["Corpus callosum"],
+    "options":["Brain Stem", "Pons", "Central sulcus", "Pineal body"],
+    "difficulty": 5,
+    "categories":["medicine"]
+},
+{
+    "question":"What is the name of the symptom of various memory disorders in which made-up stories fill in any gaps in memory?",
+    "answers":["Confabulation"],
+    "options":["Palaver", "Byzabtube", "Sulcus", "Discountenance"],
+    "difficulty": 5,
+    "categories":["medicine"]
+},
+{
+    "question":"What hand syndrome is a phenomenon in which one hand is not under control of the mind?",
+    "answers":["Alien"],
+    "options":["Foreign", "Stranger", "External", "Novel", "Odd", "Non-native"],
+    "difficulty": 4,
+    "categories":["medicine"]
+},
+{
+    "question":"'Things won are done; joy's soul lies in the doing' is a quote from whom?",
+    "answers":["Shakespeere"],
+    "options":["Heraclitus", "Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"Which hormone is known as 'The love drug'?",
+    "answers":["Oxytocin"],
+    "options":["Prolactin", "Testosterone", "Thyroxine", "Leptin", "Kisspeptin", "Cortisol"],
+    "difficulty": 5,
+    "categories":["medicine"]
+},
+{
+    "question":"Which of these is not a book by Johnathon Haidt?",
+    "answers":["Entangled Life"],
+    "options":["The Righteous Mind", "The Happiness Hypothesis", "The Coddling of the American Mind"],
+    "difficulty": 5,
+    "categories":["books"]
+},
+{
+    "question":"In January 2020, Netflix released a controversial film by Maïmouna Doucouré, called what?",
+    "answers":["Cuties"],
+    "options":["Babes", "Chics", "Dolls", "Honies", "Little angels"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"'A lie gets halfway around the world before the truth has a chance to get its pants on' is a quote from whom?",
+    "answers":["Winston Churchill"],
+    "options":["Mohandas Gandhi", "Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Albert Einstein", "Ella Wheller Wilcox", "Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Karl Marx", "Stephen Jobs", "Bill Gates"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"Farmatodo is a pharmacy founded in which country?",
+    "answers":["Venezuela"],
+    "options":["Spain", "Brazil", "Portugal", "Sweden", "Norway", "Colombia", "Guyana"],
+    "difficulty": 5,
+    "categories":["misc"]
+},
+{
+    "question":"Hugo Chavez became president of which country in 1998?",
+    "answers":["Venezuela"],
+    "options":["Spain", "Brazil", "Portugal", "Colombia", "Guyana"],
+    "difficulty": 2,
+    "categories":["politics"]
+},
+{
+    "question":"How did Hugo Chavez die in 2013?",
+    "answers":["Cancer"],
+    "options":["Hanging", "Assassination", "Poisoning", "Car crash", "Plane crash", "Heart attack"],
+    "difficulty": 4,
+    "categories":["politics"]
+},
+{
+    "question":"Who became president of Venezuela in 1998?",
+    "answers":["Hugo Chavez"],
+    "options":["Nicolás Maduro", "Rafael Caldera", "Carlos Andrés Pérez"],
+    "difficulty": 3,
+    "categories":["politics"]
+},
+{
+    "question":"Harina P.A.N. is a flour often used to make which Venezuelan dish?",
+    "answers":["Arepa"],
+    "options":["Moqueca", "Quindim", "Feijoada"],
+    "difficulty": 5,
+    "categories":["food"]
+},
+{
+    "question":"Which of these countries is not a part of Opec (Organization of the Petroleum Exporting Countries)?",
+    "answers":["Brazil", "Mexico", "Uganda", "Tanzania", "Bahrain", "Vietnam", "Botswana", "Oman", "Senegal", "Colombia", "Peru"],
+    "options":["Algeria", "Angola", "Congo", "Ecuador", "Equatorial Guinea", "Gabon", "Iran", "Iraq", "Kuwait", "Libya", "Nigeria", "Qatar", "Saudi Arabia", "United Arab Emirates", "Venezuela"],
+    "difficulty": 5,
+    "categories":["politics"]
+},
+{
+    "question":"When did the Second Congo War start?",
+    "answers":["1998"],
+    "options":["1988", "1978", "1968", "1958", "1948", "1938"],
+    "difficulty": 5,
+    "categories":["war"]
+},
+{
+    "question":"When did the Second Congo War end?",
+    "answers":["2003"],
+    "options":["1993", "1983", "1973", "1963", "1953", "1943", "1933"],
+    "difficulty": 5,
+    "categories":["war"]
+},
+{
+    "question":"Who directed Schindler's List?",
+    "answers":["Steven Spielberg"],
+    "options":["David Fincher", "Peter Weir", "Gus Van Sant", "Robert Zemeckis", "Michael Mann"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Steven Spielberg offered the Schindler's List directors job to which director?",
+    "answers":["Roman Polanski"],
+    "options":["David Fincher", "Peter Weir", "Gus Van Sant", "Robert Zemeckis", "Michael Mann"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Gandalf and Aragorn are characters in which film series?",
+    "answers":["The Lord of the Rings"],
+    "options":["Harry Potter", "Star Wars", "The Avengers", "X-Men"],
+    "difficulty": 1,
+    "categories":["film"]
+},
+{
+    "question":"The last spoken line of which 'The Lord of the Rings' movies is 'Well, I'm back'?",
+    "answers":["The Return of the King"],
+    "options":["The Two Towers", "The Fellowship of the Ring", "The Hobbit"],
+    "difficulty": 5,
+    "categories":["film"]
+},
+{
+    "question":"In the Lord of the Rings, what is Frodo's second name?",
+    "answers":["Baggins"],
+    "options":["Broggins", "Bleggings", "Biggins", "Buggings"],
+    "difficulty": 2,
+    "categories":["film"]
+},
+{
+    "question":"In the Lord of the Rings, what is Bilbo's relationship to Frodo?",
+    "answers":["Uncle"],
+    "options":["Brother", "Cousin", "Grandfather", "Father"],
+    "difficulty": 2,
+    "categories":["film"]
+},
+{
+    "question":"Was 'Pulp Fiction' nominated for Best Picture at the Oscars?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Was 'Interview With a Vampire' nominated for Best Picture at the Oscars?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which of these actors was not in Pulp Fiction?",
+    "answers":["Nicolas Cage"],
+    "options":["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
+    "difficulty": 2,
+    "categories":["film"]
+},
+{
+    "question":"In which of these Quentin Tarantino films did he not make a visual cameo?",
+    "answers":["Once Upon A Time in Hollywood"],
+    "options":["Django Unchained", "Reservoir Dogs", "Pulp Fiction", "Inglourious Basterds"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Which country is shaped like a stiletto boot?",
+    "answers":["Italy"],
+    "options":["Hungary", "Eswatini", "Puerto Rico", "United Arab Emirates", "Bosnia and Herzegovina", "Poland"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"When Henry Kissinger said 'A dagger pointed at the heart of Antarctica', which country was he referring to?",
+    "answers":["Chile"],
+    "options":["Hungary", "Argentina", "Puerto Rico", "United Arab Emirates", "Bosnia and Herzegovina", "Namibia", "Madagascar", "India"],
+    "difficulty": 3,
+    "categories":["geography", "quotes"]
+},
+{
+    "question":"CHON is an acronym for the four most common elements in living ogranisms, what is the C?",
+    "answers":["Carbon"],
+    "options":["Calcium", "Chlorine", "Cobalt", "Curium"],
+    "difficulty": 2,
+    "categories":["science", "nature"]
+},
+{
+    "question":"CHON is an acronym for the four most common elements in living ogranisms, what is the H?",
+    "answers":["Hydrogen"],
+    "options":["Helium", "Hassium", "Hafnium"],
+    "difficulty": 2,
+    "categories":["science", "nature"]
+},
+{
+    "question":"CHON is an acronym for the four most common elements in living ogranisms, what is the O?",
+    "answers":["Oxygen"],
+    "options":["Osmium", "Oganesson", "Orange peel"],
+    "difficulty": 1,
+    "categories":["science", "nature"]
+},
+{
+    "question":"CHON is an acronym for the four most common elements in living ogranisms, what is the N?",
+    "answers":["Nitrogen"],
+    "options":["Neon", "Nickel", "Nihonium"],
+    "difficulty": 2,
+    "categories":["science", "nature"]
+},
+{
+    "question":"There is an element called Neon?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["science", "nature"]
+},
+{
+    "question":"There is an element called Nearium?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 2,
+    "categories":["science", "nature"]
+},
+{
+    "question":"There is an element called Niobium?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["science", "nature"]
+},
+{
+    "question":"Who wrote Les Miserables?",
+    "answers":["Victor Hugo"],
+    "options":["George Elio", "Nathaniel Hawthorne", "Leo Tolstoy", "Gustav Flaubert", "Giacomo Leopardi"],
+    "difficulty": 4,
+    "categories":["books"]
+},
+{
+    "question":"Where is Les Miserables mainly set?",
+    "answers":["Paris"],
+    "options":["Rome", "Berlin", "Dublin", "Madrid"],
+    "difficulty": 1,
+    "categories":["books"]
+},
+{
+    "question":"Guano is the feces of which of these animals used as ferilizer?",
+    "answers":["Seabird", "Bats"],
+    "options":["Bear", "Oryx", "Deer", "Elephant", "Kangaroo", "Squirrel", "Lion"],
+    "difficulty": 5,
+    "categories":["misc"]
+},
+{
+    "question":"Who was the first president of the United States?",
+    "answers":["George Washingston"],
+    "options":["John Adams", "Thomas Jefferson", "Abraham Lincoln", "Benjamin Franklin"],
+    "difficulty": 1,
+    "categories":["politics"]
+},
+{
+    "question":"Who replaced Jay Leno as the host of 'The Tonight Show'?",
+    "answers":["Jimmy Fallon"],
+    "options":["David Letterman", "Jimmy Kimmel", "Bill Maher", "Conan O’Brien", "Stephen Colbert"],
+    "difficulty": 3,
+    "categories":["TV"]
+},
+{
+    "question":"In 2008, Johnathon Ross left the BBC after he and which comedian prank called Andrew Sachs?",
+    "answers":["Russel Brand"],
+    "options":["Frankie Boyle", "Sarah Silverman", "Dave Chappelle", "Louis C.K", "Stephen Colbert", "Joe Rogan"],
+    "difficulty": 3,
+    "categories":["TV"]
+},
+{
+    "question":"Polygamy is having more than one wife or husband at a time?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["misc"]
+},
+{
+    "question":"Monogamy is having more than one wife or husband at a time?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 2,
+    "categories":["misc"]
+},
+{
+    "question":"Who shot and killed Billy the Kid?",
+    "answers":["Sheriff Pat Garrett"],
+    "options":["Sheriff Arlo Mcfarland", "Sheriff Emmett Morgan", "Sheriff William Woodcock", "Sheriff Frankie Turner", "Sheriff Oscar Gilbert"],
+    "difficulty": 5,
+    "categories":["misc"]
+},
+{
+    "question":"What is the name of the piece at the start of an opera or play?",
+    "answers":["Overture"],
+    "options":["Coda", "Opus", "Rhapsody", "Sonata"],
+    "difficulty": 3,
+    "categories":["art"]
+},
+{
+    "question":"Where would you find the city of Sacramento?",
+    "answers":["California"],
+    "options":["Illinois", "Massachusetts", "Washingston", "Pennsylvania", "Michigan", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 4,
+    "categories":["geography"]
 }
-
 
 
 ]
