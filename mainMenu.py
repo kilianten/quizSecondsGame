@@ -60,9 +60,9 @@ class MainMenu():
 
     def createCategoryIcons(self):
         self.newGameMenuCatIcons = []
-        xOffset = TILESIZE * 3
+        xOffset = TILESIZE * 5
         for category in list(self.main.icon_images.keys()):
-            self.newGameMenuCatIcons.append(MenuCategoryIcon(self.main, xOffset, TILESIZE * 3.5, category))
+            self.newGameMenuCatIcons.append(MenuCategoryIcon(self.main, xOffset, TILESIZE * 4, category))
             xOffset += NEWGAME_MENU_CATEGORY_ICON_SIZE + 50
 
     def draw(self):
@@ -131,7 +131,8 @@ class MainMenu():
                     if questionBox.ticked:
                         difficulties.append(questionBox.difficulty)
                 self.main.createGame(self.questions)
-                print("NUM OF QUESTIONS: ", len(self.questions))
+                print("Num of Questions in game", len(self.questions))
+
             elif mouse.rect.colliderect(self.backRect):
                 for sprite in self.main.all_sprites:
                     self.main.all_sprites.remove(sprite)

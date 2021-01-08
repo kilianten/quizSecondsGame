@@ -35,8 +35,8 @@ class Main:
             for category in question["categories"]:
                 if category in list(self.icon_images.keys()):
                     categoryInc = True
-        if not categoryInc:
-            question["categories"] = ["misc"]
+            if not categoryInc:
+                question["categories"] = ["misc"]
 
     def getHighScore(self):
         try:
