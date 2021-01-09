@@ -20,6 +20,9 @@ class MainMenu():
         self.questions = self.main.allQuestions.copy()
         self.disabledCategories = []
         self.disabledDifficulties = []
+        self.main.music_channel.unpause()
+        self.main.music_channel.play(self.main.music_sound, -1)
+        self.main.music_channel.set_volume(.1)
 
     def update(self):
         if self.menu == "newGame":
@@ -28,35 +31,23 @@ class MainMenu():
 
     def filterOutCategory(self, category):
         filtered = self.questions.copy()
-        print(category)
-        print(self.disabledCategories)
         for question in self.questions:
             if category in question['categories']:
                 filtered.remove(question)
         if len(filtered) >= MIN_NUM_OF_QUESTIONS_TO_PLAY:
             self.questions = filtered
             self.disabledCategories.append(category)
-            print(self.disabledCategories)
-            print()
             return True
         return False
 
     def unfilterCategory(self, category):
         filtered = self.questions.copy()
-        print(category)
-        print(self.disabledCategories)
         for question in self.main.allQuestions:
             if category in question['categories'] and question not in self.questions:
-                catDisabled = False
-                for cat in question['categories']:
-                    if cat in self.disabledCategories:
-                        catDiabled = True
-                if not catDisabled:
+                if question['difficulty'] not in self.disabledDifficulties:
                     filtered.append(question)
         self.disabledCategories.remove(category)
         self.questions = filtered
-        print(self.disabledCategories)
-        print()
 
     def filterOutDifficulty(self, difficulty):
         filtered = self.questions.copy()
@@ -73,7 +64,11 @@ class MainMenu():
         filtered = self.questions.copy()
         for question in self.main.allQuestions:
             if difficulty == question["difficulty"] and question not in self.questions:
-                if not question["difficulty"] in self.disabledDifficulties:
+                catDisabled = False
+                for cat in question['categories']:
+                    if cat in self.disabledCategories:
+                        catDisabled = True
+                if not catDisabled:
                     filtered.append(question)
         self.disabledDifficulties.remove(difficulty)
         self.questions = filtered
@@ -150,9 +145,9 @@ class MainMenu():
                 for questionBox in self.questionBoxes:
                     if questionBox.ticked:
                         difficulties.append(questionBox.difficulty)
+                #self.main.music_channel.fadeout(1000)
+                self.main.music_channel.set_volume(.04)
                 self.main.createGame(self.questions)
-                print("Num of Questions in game", len(self.questions))
-
             elif mouse.rect.colliderect(self.backRect):
                 for sprite in self.main.all_sprites:
                     self.main.all_sprites.remove(sprite)

@@ -23,9 +23,10 @@ class Main:
         self.isFullScreen = False
         self.getHighScore()
         self.loadQuestions()
+        self.music_channel = pg.mixer.find_channel()
 
     def loadQuestions(self):
-        self.displayStat = True #print out question stats
+        self.displayStat = False #print out question stats
         self.allQuestions = json.load(open('questions/questions.json'))
         self.numberOfQuestions = len(self.allQuestions)
         if self.displayStat:
@@ -63,13 +64,13 @@ class Main:
         self.img_folder = path.join(self.game_folder, 'images')
         self.panel_star = pg.image.load(path.join(img_folder, PANEL_STAR_IMAGE)).convert_alpha()
         self.panel_q_star = pg.image.load(path.join(img_folder, PANEL_Q_STAR_IMAGE)).convert_alpha()
-        self.light_jar = pg.image.load(path.join(img_folder,
-
-         LIGHT_IMAGE)).convert_alpha()
+        self.light_jar = pg.image.load(path.join(img_folder, LIGHT_IMAGE)).convert_alpha()
         self.correct_text = []
         for image in CORRECT_TEXT_IMAGES:
             self.correct_text.append(pg.image.load(path.join(img_folder, image)).convert_alpha())
         self.correct_sound = pg.mixer.Sound(path.join(snd_folder, CORRECT_SOUND))
+        self.incorrect_sound = pg.mixer.Sound(path.join(snd_folder, INCORRECT_SOUND))
+        self.music_sound = pg.mixer.Sound(path.join(snd_folder, MUSIC_SOUND))
         self.background_image =pg.transform.scale( pg.image.load(path.join(img_folder, BACKGROUND_IMAGE)).convert_alpha(), (WIDTH, HEIGHT))
         self.menu_background_image = pg.transform.scale( pg.image.load(path.join(img_folder, BACKGROUND_IMAGE_MENU)).convert_alpha(), (WIDTH, HEIGHT))
         self.question_box_ticked_image = pg.image.load(path.join(img_folder, QUESTION_BOX_TICKED_IMAGE)).convert_alpha()

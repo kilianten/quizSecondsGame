@@ -47,6 +47,8 @@ DISABLED_ICON_IMAGE = "disabled_icon.png"
 
 #sounds
 CORRECT_SOUND = "correct.wav"
+INCORRECT_SOUND = "incorrect.wav"
+MUSIC_SOUND = "music.wav"
 
 #updateTimes
 CORRECT_TEXT_UPDATE_TIME = 40

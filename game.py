@@ -49,6 +49,7 @@ class Game():
                     for ypanel in self.panels:
                         if ypanel.text in self.question["answers"]:
                             correctPanel = ypanel
+                    self.main.incorrect_sound.play()
                     incorrectAnimation(self.main, 1, 1, panel, correctPanel)
                     panel.colour = RED
                     self.timeRemaining -= NORMAL_PUNISHMENT_TIME
