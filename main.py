@@ -56,7 +56,7 @@ class Main:
         self.baseFont = pg.font.SysFont("Roman", BASE_FONT_SIZE)
         self.baseFontUnderline = pg.font.SysFont("Roman", BASE_FONT_SIZE)
         self.baseFontUnderline.set_underline(True)
-        self.loadImages()
+        self.loadImages( )
 
     def loadImages(self):
         img_folder = path.join(self.game_folder, 'images')

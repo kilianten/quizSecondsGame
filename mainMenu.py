@@ -145,8 +145,8 @@ class MainMenu():
                 for questionBox in self.questionBoxes:
                     if questionBox.ticked:
                         difficulties.append(questionBox.difficulty)
-                #self.main.music_channel.fadeout(1000)
-                self.main.music_channel.set_volume(.04)
+                self.main.music_channel.fadeout(3000)
+                #self.main.music_channel.set_volume(.04)
                 self.main.createGame(self.questions)
             elif mouse.rect.colliderect(self.backRect):
                 for sprite in self.main.all_sprites:

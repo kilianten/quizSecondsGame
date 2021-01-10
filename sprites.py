@@ -118,13 +118,11 @@ class incorrectAnimation(pg.sprite.Sprite):
         panel.colour = RED
         self.correctPanel = correctPanel
         correctPanel.colour = GREEN
-        self.main.music_channel.pause()
 
     def update(self):
         if pg.time.get_ticks() - self.createTime > INCORRECT_ANIMATION_DUTATION:
             self.main.game.isPaused = False
             self.main.game.resetQuestion()
-            self.main.music_channel.unpause()
             self.kill()
         elif pg.time.get_ticks() - self.lastUpdate > INCORRECT_COLOUR_UPDATE_TIME:
             if self.correctPanel.colour == GREEN:
