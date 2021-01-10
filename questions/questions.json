@@ -9470,7 +9470,350 @@
     "options":["Illinois", "Massachusetts", "Washingston", "Pennsylvania", "Michigan", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
     "difficulty": 4,
     "categories":["geography"]
+},
+{
+    "question":"What is the name of the practice in some Hindu/Muslim soceities were a woman is concealed from men usually by curtain?",
+    "answers":["Purdah"],
+    "options":["Kurdah", "Murdah", "Vurdah"],
+    "difficulty": 3,
+    "categories":["religion"]
+},
+{
+    "question":"Bill, Zoey, Francis and Louis are all playable characters in which videogame?",
+    "answers":["Left 4 Dead"],
+    "options":["Halo", "Half-Life 2", "Bioshock", "Uncharted 2", "Assassins Creed"],
+    "difficulty": 4,
+    "categories":["videogames"]
+},
+{
+    "question":"'The King of Limbs', 'In Rainbows' and 'The Bends' are all albums from which alternative rock band?",
+    "answers":["Radiohead"],
+    "options":["The Strokes", "The Pixies", "Pulp", "Blur", "Muse", "Coldplay"],
+    "difficulty": 3,
+    "categories":["music"]
+},
+{
+    "question":"In 2002, which artist received the Artist of the Century award from the American Music Awards?",
+    "answers":["Micheal Jackson"],
+    "options":["David Bowie", "Alicia Keys", "Elvis Presley", "Bob Dylan"],
+    "difficulty": 3,
+    "categories":["music"]
+},
+{
+    "question":"Kurt Cobain fronted which rock band?",
+    "answers":["Nirvana"],
+    "options":["The Police", "R.E.M.", "Black Sabbath", "The Doors"],
+    "difficulty": 1,
+    "categories":["music"]
+},
+{
+    "question":"Which other former U.S. president did Thoedore Roosevelt say 'is bent on peace, I fear'?",
+    "answers":["William McKinley"],
+    "options":["William Howard Taft", "Abraham Lincoln", "Woodrow Wilson", "Grover CLeveland", "Benjamin Harrison"],
+    "difficulty": 5,
+    "categories":["quotes"]
+},
+{
+    "question":"Referring to president William McKinley, which other former president stated 'McKinley is bent on peace, I fear'?",
+    "answers":["Theodore Roosevelt"],
+    "options":["William Howard Taft", "Abraham Lincoln", "Woodrow Wilson", "Grover CLeveland", "Benjamin Harrison"],
+    "difficulty": 4,
+    "categories":["quotes"]
+},
+{
+    "question":"Referring to president William McKinley, Theodore Roosevelt once said 'McKinley is bent on' what ', I fear'?",
+    "answers":["Peace"],
+    "options":["War", "Destruction of the Union", "Tyranny", "Hatred"],
+    "difficulty": 5,
+    "categories":["quotes"]
+},
+{
+    "question":"Which president was Theodore Roosevelt?",
+    "answers":["26th"],
+    "options":["29th", "24th", "20th", "18th", "16th", "14th", "12th"],
+    "difficulty": 5,
+    "categories":["politics", "history"]
+},
+{
+    "question":"Which president was William McKinley?",
+    "answers":["25th"],
+    "options":["29th", "24th", "20th", "18th", "16th", "14th", "12th"],
+    "difficulty": 5,
+    "categories":["politics", "history"]
+},
+{
+    "question":"What was the first name of Fritz Haber's wife?",
+    "answers":["Clara"],
+    "options":["Evelyn", "Shirley", "Kaya", "Janet", "Lizbeth", "Renee", "Londyn"],
+    "difficulty": 5,
+    "categories":["misc"]
+},
+{
+    "question":"In which state is Harvard?",
+    "answers":["Massachusetts"],
+    "options":["Illinois", "California", "Washingston", "Pennsylvania", "Michigan", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"In which state is Princeton?",
+    "answers":["New Jersey"],
+    "options":["Illinois", "California", "Washingston", "Pennsylvania", "Michigan", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What would a knell typically be assosiated with?",
+    "answers":["A bell"],
+    "options":["A bakery", "A tree", "A farm", "A scarecrow", "A camera"],
+    "difficulty": 4,
+    "categories":["language"]
+},
+{
+    "question":"What term refers to the branches, leaves and reproductive structure of a tree?",
+    "answers":["Crown"],
+    "options":["Bush top", "Halo", "Artisa", "Work", "Tongue"],
+    "difficulty": 3,
+    "categories":["trees"]
+},
+{
+    "question":"Which tree sheds its leaves anually?",
+    "answers":["Deciduous"],
+    "options":["Conifer"],
+    "difficulty": 2,
+    "categories":["trees"]
+},
+{
+    "question":"Wine barrels are typically made from which type of wood?",
+    "answers":["Oak"],
+    "options":["Pine", "Cedar", "Fir", "Beech", "Ash"],
+    "difficulty": 3,
+    "categories":["trees", "drinks"]
+},
+{
+    "question":"What is a name for the room in hospitals where dead bodies are stored?",
+    "answers":["Mortuary"],
+    "options":["Mortished", "Mortroom", "Mortification room", "Post Mortem Room"],
+    "difficulty": 1,
+    "categories":["medicine", "language"]
+},
+{
+    "question":"Which of these famous figures' real name is Samuel Clemens?",
+    "answers":["Mark Twain"],
+    "options":["Vincent Van Gough", "David Letterman", "Macaulay Culkin", "Bradley Cooper", "Audrey Hepburn"],
+    "difficulty": 4,
+    "categories":["misc"]
+},
+{
+    "question":"When did the attack on Pearl Harbour take place?",
+    "answers":["December 7th 1941"],
+    "options":["April 3rd 1941", "July 23rd 1942", "August 18th 1942", "September 9th 1939", "May 8th 1939"],
+    "difficulty": 2,
+    "categories":["war", "history"]
+},
+{
+    "question":"Which date did Franklin D. Roosevelt say 'will live in infamy'?",
+    "answers":["December 7th 1941"],
+    "options":["April 3rd 1941", "July 23rd 1942", "August 18th 1942", "September 9th 1939", "May 8th 1939"],
+    "difficulty": 2,
+    "categories":["war", "history"]
+},
+{
+    "question":"The 1953 film 'From Here to Eternity', takes place during which war?",
+    "answers":["World War 2"],
+    "options":["World War 1", "The American Civil War", "Vietnam War", "Northwest Indian War", "American Revolutionary War"],
+    "difficulty": 3,
+    "categories":["film", "war"]
+},
+{
+    "question":"What was the first name of Franklin D. Roosevelt's wife?",
+    "answers":["Eleanor"],
+    "options":["Abagail", "Barbara", "Erica", "Meghan", "Addison", "Anna", "Hilary"],
+    "difficulty": 2,
+    "categories":["politics"]
+},
+{
+    "question":"In 1959 which of these countries was one of the two to became states of the United States?",
+    "answers":["Alaska", "Hawaii"],
+    "options":["Arizona", "New Mexico", "Oklahoma", "Texas"],
+    "difficulty": 4,
+    "categories":["geography", "politics"]
+},
+{
+    "question":"Alaska became a state before Hawaii?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 3,
+    "categories":["geography", "politics"]
+},
+{
+    "question":"Hawaii became a state before Alaska?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 3,
+    "categories":["geography", "politics"]
+},
+{
+    "question":"On July 4, 1946, which country got full independence from the United States?",
+    "answers":["The Philippines"],
+    "options":["Hawaii", "Puerto Rico", "Cuba"],
+    "difficulty": 3,
+    "categories":["geography", "politics"]
+},
+{
+    "question":"On July 4, 1946, The Philippines gained independence from which country?",
+    "answers":["The United States"],
+    "options":["The United Kingdom", "Spain", "Portugal", "France"],
+    "difficulty": 3,
+    "categories":["geography", "politics"]
+},
+{
+    "question":"What is the art style, developed by Seurat, where the painting is composed of tiny dots?",
+    "answers":["Pointillism"],
+    "options":["Dotism", "Minisculism", "Speckism", "Bit pointing"],
+    "difficulty": 4,
+    "categories":["art"]
+},
+{
+    "question":"Thomas Jefferson died on July 4th 1826, which other founding father died on the same day?",
+    "answers":["John Adams"],
+    "options":["George Washington", "Benjamin Franklin", "Samuel Adams", "Alexander Hamilton"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"In 1855, US population surpassed that of Britain for the first time",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 4,
+    "categories":["geography", "history"]
+},
+{
+    "question":"In 1885, US population surpassed that of Britain for the first time",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 4,
+    "categories":["geography", "history"]
+},
+{
+    "question":"When did the Great Chicago Fire take place?",
+    "answers":["1871"],
+    "options":["1851", "1821", "1801", "1891"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"Which U.S. city burned to the ground in 1871?",
+    "answers":["Chicago"],
+    "options":["New York", "San Francisco", "Los Angeles", "Boston", "Seattle", "Detroit"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"Thomas Paine distributed a pamphlet in 1776 to advocate for American Independence, what was the title of it?",
+    "answers":["Common Sense"],
+    "options":["The Way Forward", "Freedom Fighters", "Give Me Freedom, Or Give me Liberty", "Liberty for All", "The End Has No End"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"When did 'The Sopranos' debut?",
+    "answers":["1999"],
+    "options":["2001", "1997", "1995", "1993", "1991"],
+    "difficulty": 3,
+    "categories":["TV"]
+},
+{
+    "question":"Who released 'Great Balls of Fire' in 1957?",
+    "answers":["Jerry Lee Lewis"],
+    "options":["The Beatles", "The Rolling Stones", "The Shirelles", "The Everly Brothers", "The Hollies", "Tommy James & the Shondells"],
+    "difficulty": 4,
+    "categories":["music"]
+},
+{
+    "question":"In which year did Itunes launch?",
+    "answers":["2001"],
+    "options":["2000", "2002", "2003", "2004", "2005", "1999", "1998"],
+    "difficulty": 4,
+    "categories":["music", "technology"]
+},
+{
+    "question":"In 2006 LinkedIn was bought by which company?",
+    "answers":["Microsoft"],
+    "options":["Google", "Facebook", "Apple", "IBM"],
+    "difficulty": 3,
+    "categories":["technology"]
+},
+{
+    "question":"In 2006 LinkedIn was bought by which company?",
+    "answers":["Microsoft"],
+    "options":["Google", "Facebook", "Apple", "IBM"],
+    "difficulty": 3,
+    "categories":["technology"]
+},
+{
+    "question":"In 2014 Minecraft was bought by which company?",
+    "answers":["Microsoft"],
+    "options":["Google", "Facebook", "Apple", "IBM", "Ubisoft", "Bethesda", "EA"],
+    "difficulty": 3,
+    "categories":["videogames", "technology"]
+},
+{
+    "question":"In 2006 Youtube was bought by which company?",
+    "answers":["Google"],
+    "options":["Microsoft", "Facebook", "Apple", "IBM", "EA"],
+    "difficulty": 3,
+    "categories":["technology"]
+},
+{
+    "question":"In 2012 Instagram was bought by which company?",
+    "answers":["Facebook"],
+    "options":["Microsoft", "Google", "Apple", "IBM", "EA"],
+    "difficulty": 3,
+    "categories":["technology"]
+},
+{
+    "question":"In 2013 Nokia was bought by which company?",
+    "answers":["Microsoft"],
+    "options":["Facebook", "Google", "Apple", "IBM", "EA", "Samsung", "Sony"],
+    "difficulty": 3,
+    "categories":["technology"]
+},
+{
+    "question":"The band No Doubt was fronted by which singer?",
+    "answers":["Gwen Stefani"],
+    "options":["Beyonce", "Avril Lavigne", "Kelly Clarkson", "Anastacia", "Carrie Underwood"],
+    "difficulty": 2,
+    "categories":["music"]
+},
+{
+    "question":"How many seasons of 'The Sopranos' were there?",
+    "answers":["6"],
+    "options":["7", "8", "9", "10", "11"],
+    "difficulty": 4,
+    "categories":["TV"]
+},
+{
+    "question":"Who played J.D in 'Scrubs'?",
+    "answers":["Zach Braff"],
+    "options":["Donald Faison", "Matt LeBlanc", "Ed O'Neill", "John Krasinski", "Nick Offerman", "Simon Helberg"],
+    "difficulty": 3,
+    "categories":["TV"]
+},
+{
+    "question":"Who played the janitor in 'Scrubs'?",
+    "answers":["Neil Flynn"],
+    "options":["Donald Faison", "Matt LeBlanc", "Ed O'Neill", "John Krasinski", "Nick Offerman", "Simon Helberg"],
+    "difficulty": 4,
+    "categories":["TV"]
 }
+
+
+
+
+
+
+
 
 
 ]
