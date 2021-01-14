@@ -2136,7 +2136,7 @@
 },
 {
     "question":"The Mesozoic Era is divided into 3 periods, which of these is not one of them?",
-    "answers":["The Curassic Period"],
+    "answers":["The Curassic"],
     "options":["The Triassic", "The Jurassic", "The Cretaceous"],
     "difficulty": 4,
     "categories":["geography"]
@@ -2451,8 +2451,8 @@
 },
 {
     "question":"When did the American Civil War end?",
-    "answers":["1965"],
-    "options":["1961", "1959", "1979", "1983", "1944", "1931"],
+    "answers":["1865"],
+    "options":["1861", "1859", "1879", "1883", "1844", "1831"],
     "difficulty": 3,
     "categories":["history"]
 },
@@ -2703,7 +2703,7 @@
 },
 {
     "question":"Which animal is the symbol of Russia?",
-    "answers":["Bear"],
+    "answers":["A bear"],
     "options":["A wolverine", "A lion", "A wolf", "A fox"],
     "difficulty": 2,
     "categories":["geography"]
@@ -4873,8 +4873,8 @@
 },
 {
     "question":"What does IQ stand for?",
-    "answers":["Intelligence quotient"],
-    "options":["Intelligence qualifier", "Intelligence Query", "Intelligence Query", "Intelligence Quicktime", "Intelligence Quantum", "Intelligence Quest"],
+    "answers":["Intelligence Quotient"],
+    "options":["Intelligence Qualifier", "Intelligence Query", "Intelligence Query", "Intelligence Quicktime", "Intelligence Quantum", "Intelligence Quest"],
     "difficulty": 2,
     "categories":["language"]
 },
@@ -5713,7 +5713,7 @@
     "categories":["food"]
 },
 {
-    "question":"Witing for the Rolling Stone, Matt Taibbi called which organization a 'Great vampire squid wrapped around the face of humanity'?",
+    "question":"Writing for the Rolling Stone, Matt Taibbi called which organization a 'Great vampire squid wrapped around the face of humanity'?",
     "answers":["Goldman Sachs"],
     "options":["Electronic Arts", "Amazon", "Fox Entertainment Group", "NFL", "The Trump Organization", "Uber", "Facebook"],
     "difficulty": 5,
@@ -8674,7 +8674,7 @@
     "categories":["symbols", "flowers"]
 },
 {
-    "question":"During 1455 – 1485, a series of English civil wars between the House of Lancaster and the House of York is known as what?",
+    "question":"During 1455 to 1485, a series of English civil wars between the House of Lancaster and the House of York is known as what?",
     "answers":["The Wars of the Roses"],
     "options":["The Wars of the Buttons", "The Wars of the Worlds", "The Wars of the Buckets"],
     "difficulty": 2,
@@ -8761,6 +8761,13 @@
     "question":"Which of these countries was first to ban slavery?",
     "answers":["Britain"],
     "options":["Brazil", "Portugal", "Cuba"],
+    "difficulty": 4,
+    "categories":["law", "history"]
+},
+{
+    "question":"Which of these countries was last to ban slavery?",
+    "answers":["Brazil"],
+    "options":["Britain", "Portugal", "Cuba"],
     "difficulty": 4,
     "categories":["law", "history"]
 },
@@ -9806,11 +9813,343 @@
     "options":["Donald Faison", "Matt LeBlanc", "Ed O'Neill", "John Krasinski", "Nick Offerman", "Simon Helberg"],
     "difficulty": 4,
     "categories":["TV"]
+},
+{
+    "question":"Which actor released 'Greenlights' in 2020?",
+    "answers":["Matthew McConaughey"],
+    "options":["Daniel Day-Lewis", "Keanu Reeves", "Leonardo DiCaprio", "Jack Nicholson", "Russell Crowe", "Tom Hanks", "William Hurt", "Edward Norton", "William Dafoe"],
+    "difficulty": 4,
+    "categories":["books", "films"]
+},
+{
+    "question":"Who starred in the 1992 film, 'The Last of the Mohicans'?",
+    "answers":["Daniel Day-Lewis"],
+    "options":["Keanu Reeves", "Leonardo DiCaprio", "Jack Nicholson", "Russell Crowe", "Tom Hanks", "William Hurt", "Edward Norton", "William Dafoe"],
+    "difficulty": 4,
+    "categories":["films"]
+},
+{
+    "question":"Which president was Andrew Jackson?",
+    "answers":["7th"],
+    "options":["10th", "12th", "14th", "16th", "15th", "18th", "21st", "20th", "22nd"],
+    "difficulty": 5,
+    "categories":["politics", "history"]
+},
+{
+    "question":"Starting in 1901, which of these was a british holiday that no longer takes place?",
+    "answers":["Empire day"],
+    "options":["Ruler day", "Colony day", "Slavery day", "Kingdom day"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"Hawaii is one of the 50 stars on the U.S. flag",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"How many stars are on the U.S. flag?",
+    "answers":["50"],
+    "options":["52", "48", "46", "44", "42", "54", "40"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Where is Guantanamo Bay?",
+    "answers":["Cuba"],
+    "options":["Brazil", "Vietnam", "Korea", "Russia"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Which of these is not part of the Eightfold Path?",
+    "answers":["Right thoughts", "Right words"],
+    "options":["Right effort", "Right view", "Right resolve", "Right speech", "Right conduct", "Right livelihood", "Right mindfulness"],
+    "difficulty": 4,
+    "categories":["religion"]
+},
+{
+    "question":"La Guerra Chiquita (The Little War), was a war between Spain and which other country?",
+    "answers":["Cuba"],
+    "options":["Chile", "The United States", "Bolivia", "Portugal", "Costa Rica"],
+    "difficulty": 4,
+    "categories":["war", "history"]
+},
+{
+    "question":"When was The Star-Spangled Banner composed?",
+    "answers":["1814"],
+    "options":["1756", "1791", "1778", "1808", "1826", "1829"],
+    "difficulty": 4,
+    "categories":["music", "history"]
+},
+{
+    "question":"How often does a decennial event occur?",
+    "answers":["Every ten years"],
+    "options":["Every ten days", "Every hundred years", "Every hundred days", "Every day", "Ever year"],
+    "difficulty": 1,
+    "categories":["misc"]
+},
+{
+    "question":"What is the biggest island of the Philippines?",
+    "answers":["Luzon"],
+    "options":["Mindanao", "Boracay", "Siargao", "Palawan"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Where is the volcano Bud Dajo?",
+    "answers":["Philippines"],
+    "options":["Ecaudor", "Laos", "Azerbaijan", "Bolivia", "Guyana", "Myanmar"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Is the volcano Bud Dajo active?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 5,
+    "categories":["geography", "nature"]
+},
+{
+    "question":"The U.S. bought, now known as the U.S. Virgin Islands, from which country?",
+    "answers":["Denmark"],
+    "options":["The United Kingdom", "Spain", "Cuba", "Brazil", "Bolivia", "Portugal"],
+    "difficulty": 4,
+    "categories":["geography", "politics"]
+},
+{
+    "question":"U.S. President Woodrow Wilson proposed how many points before Congress in 1918?",
+    "answers":["14"],
+    "options":["21", "8", "18", "26", "29", "32", "35", "39", "46"],
+    "difficulty": 4,
+    "categories":["politics", "history"]
+},
+{
+    "question":"In the Bioschock series, the third installment was called Bioschock what?",
+    "answers":["Infinite"],
+    "options":["Forever", "Night and Day", "Unloaded", "Unlimited"],
+    "difficulty": 4,
+    "categories":["videogames"]
+},
+{
+    "question":"In 1966 Batman released with who playing Batman?",
+    "answers":["Adam West"],
+    "options":["Lewis G. Wilson", "Robert Lowery", "Michael Keaton"],
+    "difficulty": 2,
+    "categories":["TV"]
+},
+{
+    "question":"In 1969, which of these bands released their debut album?",
+    "answers":["Led Zeppelin"],
+    "options":["The Velvet Underground & Nico", "The Beatles", "Pink Flyod"],
+    "difficulty": 4,
+    "categories":["music"]
+},
+{
+    "question":"Where would you find the city of Baguio?",
+    "answers":["Philippines"],
+    "options":["Belize", "Saint Vincent and the Grenadines", "Palau", "Montenegro", "Azerbaijan", "The United States", "Taiwan"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"'Grizzly Man', 'Lo and Behold, Reveries of the Connected World' and 'Encounters at the End of the World' are all documentaries directed by which filmmaker?",
+    "answers":["Werner Herzog"],
+    "options":["Errol Morris", "Michael Moore", "Joshua Oppenhiemer", "Michael Apted"],
+    "difficulty": 5,
+    "categories":["film"]
+},
+{
+    "question":"Which Scottish rock band with the 2005 single 'Take Me Out' got their name from an assassinated historical figure?",
+    "answers":["Franz Ferdinand"],
+    "options":["Abraham Lincoln", "The Gandhi's", "The Luther Kings"],
+    "difficulty": 3,
+    "categories":["music"]
+},
+{
+    "question":"Monetary relates to what?",
+    "answers":["Money"],
+    "options":["Trees", "The surface of the Earth", "Health", "Socialism"],
+    "difficulty": 1,
+    "categories":["language"]
+},
+{
+    "question":"Karoshi in Japanese refers to death by what?",
+    "answers":["Work"],
+    "options":["Car crash", "Overeating", "Fugu (A pufferfish Japanese delicacy)", "Fear"],
+    "difficulty": 4,
+    "categories":["language"]
+},
+{
+    "question":"Karoshi in Japanese refers to death by what?",
+    "answers":["Work"],
+    "options":["Car crash", "Overeating", "Fugu (A pufferfish Japanese delicacy)", "Fear"],
+    "difficulty": 4,
+    "categories":["language"]
+},
+{
+    "question":"A bench in a church is often called a what?",
+    "answers":["Pew"],
+    "options":["Lew", "Mew", "Quew", "Few", "Tew", "Sew", "Wew"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Immutable means unable to what?",
+    "answers":["Change"],
+    "options":["Speak", "Concentrate", "Believe", "Convince someone"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"Julia Louis-Dreyfus is best known for her role as Elaine in which TV show?",
+    "answers":["Seinfeld"],
+    "options":["The Big Bang Theory", "All the Family", "Frasier", "Cheers"],
+    "difficulty": 3,
+    "categories":["TV"]
+},
+{
+    "question":"The Good, the Bad and the Ugly was nominated for how many Oscars?",
+    "answers":["0"],
+    "options":["9", "4", "7", "3"],
+    "difficulty": 5,
+    "categories":["film"]
+},
+{
+    "question":"Fight Club was nominated for how many Oscars?",
+    "answers":["1"],
+    "options":["9", "4", "7", "3", "6", "0"],
+    "difficulty": 5,
+    "categories":["film"]
+},
+{
+    "question":"Complete this quote from 'The Good the Bad and the Ugly', 'In this world there's two kinds of people, my friend: Those with loaded guns and those who' what?",
+    "answers":["Dig"],
+    "options":["Obey", "Belong", "Remain", "Submit"],
+    "difficulty": 4,
+    "categories":["film", "quotes"]
+},
+{
+    "question":"Was the 1999 film 'Fight Club' based on a novel?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Was the 1992 film 'Resevoir Dogs' based on a novel?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"In the film 'Inception', Cobb tries to infiltrate the dreams of Robert Fischer, played by who?",
+    "answers":["Cillian Murphy"],
+    "options":["Tom Hardy", "Joseph Gordon-Levitt", "Tom Berenger", "Lukas Haas"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Indonesia's declared independence in 1945 from which country?",
+    "answers":["Netherlands"],
+    "options":["France", "China", "Japan", "The United States", "The United Kingdom"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"Polytheism is the belief in more than one God?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 1,
+    "categories":["religion"]
+},
+{
+    "question":"Polytheism is the belief in one God?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 1,
+    "categories":["religion"]
+},
+{
+    "question":"A courtesan is a what?",
+    "answers":["A prostitute"],
+    "options":["A warning", "A restaurant", "A trainer", "A law"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"During the Vietnam War, what was 'Agent Orange'?",
+    "answers":["A defoliant"],
+    "options":["A spy", "A military plan", "A weapon", "An airport"],
+    "difficulty": 3,
+    "categories":["war"]
+},
+{
+    "question":"During the Vietnam War, the chemical defoliant sprayed on plants is known as Agent what?",
+    "answers":["Agent orange"],
+    "options":["Agent brown", "Agent black", "Agent gray", "Agent yellow", "Agent green", "Agent white", "Agent blue", "Agent indigo"],
+    "difficulty": 5,
+    "categories":["war"]
+},
+{
+    "question":"The hip hop duo Outkast consists of Big Boi and who?",
+    "answers":["Andre 3000"],
+    "options":["Andre 3001", "Andre 1000", "Andre 4000", "Andre 2001", "Andre 1000", "Andre 4000"],
+    "difficulty": 4,
+    "categories":["music"]
+},
+{
+    "question":"The hip hop duo Outkast consists of Andre 3000 and who?",
+    "answers":["Big Boi"],
+    "options":["Little Boi", "Tiny Boi", "Thin Boi", "Skinny Boi", "Fat Boi"],
+    "difficulty": 4,
+    "categories":["music"]
+},
+{
+    "question":"In Saw 3D, the singer from which band plays Evan in the film?",
+    "answers":["Linkin Park"],
+    "options":["Red Hot Chilli Peppers", "Foo Fighters", "Pearl Jam", "Kings of Leon"],
+    "difficulty": 5,
+    "categories":["film", "music"]
+},
+{
+    "question":"Who plays Bane in 'The Dark Knight Rises'?",
+    "answers":["Tom Hardy"],
+    "options":["Matt Damon", "Jeremy Piven", "Ryan Reynolds", "Joel Edgerton"],
+    "difficulty": 5,
+    "categories":["film", "music"]
+},
+{
+    "question":"Traffic, released in 2000, featured which latino actor in a leading role?",
+    "answers":["Benicio Del Toro"],
+    "options":["Javier Bardem", "Antonio Banderas", "Oscar Isaac", "Michael Peña"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"If you were avuncular, you would be friendly to what kind of person?",
+    "answers":["A younger person"],
+    "options":["A military person", "A more experienced person", "A sick person", "An unholy person"],
+    "difficulty": 5,
+    "categories":["language"]
+},
+{
+    "question":"A plutocrat is someone whose power comes from what?",
+    "answers":["Their wealth"],
+    "options":["Their parent or parents", "Their technical ability", "Their industry connections"],
+    "difficulty": 5,
+    "categories":["language", "politics"]
+},
+{
+    "question":"In an autocracy who holds absolute power?",
+    "answers":["One person"],
+    "options":["Everyone", "A computer", "Nature"],
+    "difficulty": 4,
+    "categories":["language", "politics"]
 }
-
-
-
-
 
 
 
