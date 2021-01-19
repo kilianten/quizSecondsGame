@@ -9819,14 +9819,14 @@
     "answers":["Matthew McConaughey"],
     "options":["Daniel Day-Lewis", "Keanu Reeves", "Leonardo DiCaprio", "Jack Nicholson", "Russell Crowe", "Tom Hanks", "William Hurt", "Edward Norton", "William Dafoe"],
     "difficulty": 4,
-    "categories":["books", "films"]
+    "categories":["books", "film"]
 },
 {
     "question":"Who starred in the 1992 film, 'The Last of the Mohicans'?",
     "answers":["Daniel Day-Lewis"],
     "options":["Keanu Reeves", "Leonardo DiCaprio", "Jack Nicholson", "Russell Crowe", "Tom Hanks", "William Hurt", "Edward Norton", "William Dafoe"],
     "difficulty": 4,
-    "categories":["films"]
+    "categories":["film"]
 },
 {
     "question":"Which president was Andrew Jackson?",
@@ -10149,10 +10149,365 @@
     "options":["Everyone", "A computer", "Nature"],
     "difficulty": 4,
     "categories":["language", "politics"]
+},
+{
+    "question":"Manny Pacquiao built more than 1,000 homes in his home country, which country is that?",
+    "answers":["The Philippines"],
+    "options":["Liechtenstein", "Mexico", "Brazil", "Bhutan", "Pakistan"],
+    "difficulty": 3,
+    "categories":["sports"]
+},
+{
+    "question":"In 1963 Singapore was no longer under rule of which country?",
+    "answers":["Britain"],
+    "options":["The United States", "China", "Japan", "Amstderdam", "Malaysia"],
+    "difficulty": 4,
+    "categories":["history", "politics", "geography"]
+},
+{
+    "question":"In 1965 Singapore became independent by leaving which country?",
+    "answers":["Malaysia"],
+    "options":["The United States", "China", "Japan", "Amstderdam", "Britain"],
+    "difficulty": 5,
+    "categories":["history", "politics", "geography"]
+},
+{
+    "question":"According to the quote attributes to Jon Stewart, 'War is God’s way of teaching Americans' what?",
+    "answers":["Geography"],
+    "options":["History", "Maths", "Foreign policy"],
+    "difficulty": 5,
+
+    "categories":["quotes"]
+},
+{
+    "question":"What is the state capital of Hawaii?",
+    "answers":["Honolulu"],
+    "options":["Kailua-Kona", "Hilo", "Kilua", "Lahaina"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"What was the D. in President Franklin D. Roosevelt's name?",
+    "answers":["Delano"],
+    "options":["Dominic", "Drew", "Dick", "Damon", "Devin", "Declan", "Donahi", "Dondre", "Dennis", "Domek", "Dolan"],
+    "difficulty": 5,
+    "categories":["politics"]
+},
+{
+    "question":"What is the largest ocean in the world?",
+    "answers":["The Pacific Ocean"],
+    "options":["The Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"What is the second largest ocean in the world?",
+    "answers":["The Atlantic Ocean"],
+    "options":["The Pacific Ocean", "Indian Ocean", "Arctic Ocean"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"What is the third largest ocean in the world?",
+    "answers":["The Indian Ocean"],
+    "options":["The Pacific Ocean", "Atlantic Ocean", "Arctic Ocean"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is the fourth largest ocean in the world?",
+    "answers":["The Arctic Ocean"],
+    "options":["The Pacific Ocean", "Atlantic Ocean", "Indian Ocean"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What is bigger, the Arctic Ocean or the Coral Sea?",
+    "answers":["The Arctic Ocean"],
+    "options":["The Coral Sea"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Popularized during WW2, grafitti of a bald man with a large nose peaking over a wall was often accompanied by text saying who 'Was here'?",
+    "answers":["Kilroy"],
+    "options":["Gideon", "Alfonso", "German", "Gaven"],
+    "difficulty": 4,
+    "categories":["war", "art"]
+},
+{
+    "question":"During WW2 on September 1944, 9 American survived their planes being shot down, 8 were caputred by the Japanese, the sole survivor was which future president?",
+    "answers":["George H. W. Bush"],
+    "options":["Jimmy Carter", "Ronald Regan", "Richard Nixon", "Lyndoin B. Johnson", "Gerald Ford"],
+    "difficulty": 5,
+    "categories":["war"]
+},
+{
+    "question":"The Dutch East Indies was a Netherlands, what is it now?",
+    "answers":["Indonesia"],
+    "options":["Lithuania", "Mali", "Bermuda", "Ecuador", "Kiribati"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Is Hawaii a U.S. state?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Is Puerto Rico a U.S. state?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Is Puerto Rico a U.S. state?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Vexillology is the study of what?",
+    "answers":["Flags"],
+    "options":["Witchcraft", "Airplanes", "Videogames", "Emotions"],
+    "difficulty": 4,
+    "categories":["language"]
+},
+{
+    "question":"Who played the role of Rusty in 'They Were Expendable'?",
+    "answers":["John Wayne"],
+    "options":["Clint Eastwood", "Randolph Scott", "Gary Cooper", "James Stewart"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Manuel L. Quezon was the president from 1935-1944 of which country?",
+    "answers":["Philippines"],
+    "options":["Costa Rica", "India", "Hawaii", "Puerto Rico", "Indonesia", "Sri Lanka"],
+    "difficulty": 5,
+    "categories":["politics"]
+},
+{
+    "question":"Etymology is the study of what?",
+    "answers":["Words"],
+    "options":["Airplanes", "Teeth", "Birds", "Pollution"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"A perfect diamond of 100 carats or more is known as a what?",
+    "answers":["Paragon"],
+    "options":["Cataract", "Spectre", "Cordon", "Vagary"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"What is the word for a trail or scent of a wild animal?",
+    "answers":["Spoor"],
+    "options":["Boor", "Moor", "Scour", "Vorn"],
+    "difficulty": 4,
+    "categories":["language"]
+},
+{
+    "question":"What is the name of the model that places the sun at the center of the solar system?",
+    "answers":["Heliocentric"],
+    "options":["Sinncentric", "Suncentric", "Solcentric", "Haulcentric"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"In Hawaiin culture, the wreath of flowers often presented when arriving on the island is known as a what?",
+    "answers":["Lei"],
+    "options":["Aha", "Fen", "Biz", "Aya", "Noe", "Wye", "Fye"],
+    "difficulty": 4,
+    "categories":["fashion"]
+},
+{
+    "question":"In 'West Side Story' the Puerto Rican gang is called what?",
+    "answers":["The Sharks"],
+    "options":["The Eels", "The Mules", "The Lions", "The Rats", "The Rams", "The Chameleons"],
+    "difficulty": 4,
+    "categories":["TV", "film"]
+},
+{
+    "question":"Which of these would be considered a malapropism?",
+    "answers":["Dance the flamingo"],
+    "options":["Spend some yen", "Destroy Danny's Den", "To shop around", "Depart together", "To witness the living dead"],
+    "difficulty": 4,
+    "categories":["language"]
+},
+{
+    "question":"An act that justifies war can be known as a what?",
+    "answers":["Casus belli"],
+    "options":["Absente reo", "Acta est fabula", "Festina lente", "In illo ordine", "Pari ratione", "Prima facie", "Solidus nummus", "Viva voce", "Doce ut discas"],
+    "difficulty": 4,
+    "categories":["language"]
+},
+{
+    "question":"Mothership Connection is an album by which funk band?",
+    "answers":["Parliament"],
+    "options":["War", "Isley Brothers", "Zapp", "Tower of Power"],
+    "difficulty": 4,
+    "categories":["music"]
+},
+{
+    "question":"Tom Ford became a film director directing 'A Single Man' and 'Nocturnal Animals', what was his previous job?",
+    "answers":["A fashion designer"],
+    "options":["A stuntman", "A surgeon", "A singer", "An optician"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Which of these films was directed by Tom Ford?",
+    "answers":["A Single Man", "Nocturnal Animals"],
+    "options":["Crimson Tide", "The Hangover", "The Book Thief", "Rocketman", "Forest Gump"],
+    "difficulty": 5,
+    "categories":["film"]
+},
+{
+    "question":"What was the first official telegram message?",
+    "answers":["What hath God wrought?"],
+    "options":["The LORD bless you and keep you", "Neither curse them at all nor bless them at all", "Do not let me face my own ruin", "I have found favor in your eyes", "Include one male goat to make atonement for you"],
+    "difficulty": 4,
+    "categories":["technology", "quotes"]
+},
+{
+    "question":"The Zimmermann Telegram was sent from Germany to which country?",
+    "answers":["Mexico"],
+    "options":["Britain", "The United States", "France", "Russia", "India"],
+    "difficulty": 4,
+    "categories":["war", "history"]
+},
+{
+    "question":"Which president was in office during the 1929 Wall Street Crash?",
+    "answers":["Herbert Hoover"],
+    "options":["Franklin D. Roosevelt", "Harry S. Truman", "Dwight D. Eisenhower", "Calvin Coolidge"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"As of 2019, which language has the most native speakers?",
+    "answers":["Mandarin"],
+    "options":["Bengali", "Spanish", "English"],
+    "difficulty": 3,
+    "categories":["language"]
+},
+{
+    "question":"What was the name of the island from 'King Kong'?",
+    "answers":["Skull Island"],
+    "options":["Ape Island", "Angel Island", "The Black Island", "Cinnabar Island", "Dazhi Island", "Danger Island", "Fearing Island", "Krawk Island", "Maple Island", "Wanhu Island", "Tingle Island"],
+    "difficulty": 2,
+    "categories":["books", "film"]
+},
+{
+    "question":"In 1896 H. G. Wells published a novel, 'The Island of Doctor' who?",
+    "answers":["Doctor Moreau"],
+    "options":["Doctor No", "Doctor Shepherd", "Doctor Hadley", "Doctor Quinn", "Doctor McCoy"],
+    "difficulty": 4,
+    "categories":["books"]
+},
+{
+    "question":"Ian Fleming is best known for what series of novels?",
+    "answers":["James Bond"],
+    "options":["The Hunger Games", "Twilight", "Mr. Men", "Narnia"],
+    "difficulty": 4,
+    "categories":["authors", "books"]
+},
+{
+    "question":"Ian Fleming, the creator of the James Bond series, owned an estate on the northern coastline of Jamaica, what did he call it?",
+    "answers":["Goldeneye"],
+    "options":["Bond", "007", "Skyfall", "Nightfire", "Goldfinger"],
+    "difficulty": 5,
+    "categories":["authors"]
+},
+{
+    "question":"From them James Bond series, what was Dr. No's full name?",
+    "answers":["Dr. Julius No"],
+    "options":["Dr. Xander No", "Dr. Cesar No", "Dr. Kaden No", "Dr. Allen No", "Dr. Harry No"],
+    "difficulty": 5,
+    "categories":["books", "films"]
+},
+{
+    "question":"The Bay of Pigs Invasion was a failed landing operation on the coast of which country?",
+    "answers":["Cuba"],
+    "options":["Vietnam", "Philippines", "Korea", "Australia", "Germany"],
+    "difficulty": 4,
+    "categories":["history", "geography"]
+},
+{
+    "question":"What was the original Japanese name of Godzilla?",
+    "answers":["Gojira"],
+    "options":["Gorzila", "Gozira", "Gozuru", "Gotzila"],
+    "difficulty": 4,
+    "categories":["films"]
+},
+{
+    "question":"Who is said to have coined the term 'Cold War'?",
+    "answers":["George Orwell"],
+    "options":["Dwight D. Eisenhower", "John F. Kennedy", "Douglas MacArthur", "Ernest Hemingway", "Pablo Picasso"],
+    "difficulty": 4,
+    "categories":["language", "war"]
+},
+{
+    "question":"The Peace Symbol was created by Gerald Holtom to protest what?",
+    "answers":["Nuclear Wepaons"],
+    "options":["The Vietnam War", "The Korean War", "Institutional Racism"],
+    "difficulty": 4,
+    "categories":["symbols"]
+},
+{
+    "question":"Where is Trafalgar Square?",
+    "answers":["England"],
+    "options":["The Netherlands", "The United States", "France", "Moscow"],
+    "difficulty": 1,
+    "categories":["geography"]
+},
+{
+    "question":"In 2013 which sportsman confessed they had been doping in all seven of his Tour de France victories?",
+    "answers":["Lance Armtsrong"],
+    "options":["Sean Kelly", "Dave Mirra", "Chris Froome", "Peter Sagan"],
+    "difficulty": 1,
+    "categories":["sports"]
+},
+{
+    "question":"Which artist featured on Taylor Swift's tracks 'Exile' and 'Evermore'?",
+    "answers":["Bon Ivor"],
+    "options":["Haim", "Billie Eilish", "Lizzo", "Elvis Costello", "Anderson .Paak"],
+    "difficulty": 4,
+    "categories":["music"]
+},
+{
+    "question":"Which artist released albums 'Stones', 'Beautiful Noise' and 'Serenade'?",
+    "answers":["Neil Diamond"],
+    "options":["The Rolling Stones", "Pearl Jam", "David Bowie", "Simon & Garfunkel", "R.E.M."],
+    "difficulty": 3,
+    "categories":["music"]
+},
+{
+    "question":"Donnie Darko starred which young actor?",
+    "answers":["Jake Gyllenhaal"],
+    "options":["Leonardo Di Caprio", "Ryan Gosling", "Stephen Amell", "Robert Pattinson", "George Clooney"],
+    "difficulty": 2,
+    "categories":["film"]
+},
+{
+    "question":"The Prestige is a film about two competing what?",
+    "answers":["Magicians"],
+    "options":["Car Salesman", "Anthropologists", "Physicians", "Event Planner"],
+    "difficulty": 2,
+    "categories":["film"]
+},
+{
+    "question":"What was the title of the 1987 film about a young group saving their town from Count Dracula and other monsters?",
+    "answers":["The Monster Squad"],
+    "options":["The Monster Hunters", "The Monster Gang", "The Monster Division", "The Monster Chronicles"],
+    "difficulty": 4,
+    "categories":["film"]
 }
-
-
-
 
 
 ]
