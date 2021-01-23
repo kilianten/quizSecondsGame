@@ -233,6 +233,9 @@ class MenuCategoryIcon(CategoryIcon):
         self.image = pg.transform.scale(main.icon_images[category], (NEWGAME_MENU_CATEGORY_ICON_SIZE, NEWGAME_MENU_CATEGORY_ICON_SIZE))
         self.clicked = False
         self.disabled = False
+        self.rect = self.image.get_rect()
+        self.rect.x = self.x
+        self.rect.y = self.y
 
     def update(self):
         if self.clicked == True:
