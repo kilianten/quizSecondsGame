@@ -26,7 +26,7 @@ class Main:
         self.music_channel = pg.mixer.find_channel()
 
     def loadQuestions(self):
-        self.displayStat = False #print out question stats
+        self.displayStat = True #print out question stats
         self.allQuestions = json.load(open('questions/questions.json'))
         self.numberOfQuestions = len(self.allQuestions)
         if self.displayStat:
@@ -82,7 +82,7 @@ class Main:
             self.numbers_images.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (27, 53)))#
         self.icon_images = {}
         for icon_image in ICON_IMAGES:
-            self.icon_images[icon_image] = pg.transform.scale(pg.image.load(path.join(img_folder, ICON_IMAGES[icon_image])).convert_alpha(), (175, 175))
+            self.icon_images[icon_image] = pg.transform.scale(pg.image.load(path.join(img_folder, ICON_IMAGES[icon_image])).convert_alpha(), (230, 230))
         self.incorrect_image = pg.image.load(path.join(img_folder, INCORRECT_IMAGE)).convert_alpha()
         self.tint_image = pg.transform.scale( pg.image.load(path.join(img_folder, TINT_IMAGE)).convert_alpha(), (WIDTH, HEIGHT))
         self.disabled_icon_image = pg.transform.scale( pg.image.load(path.join(img_folder, DISABLED_ICON_IMAGE)).convert_alpha(), (NEWGAME_MENU_CATEGORY_ICON_SIZE + 26, NEWGAME_MENU_CATEGORY_ICON_SIZE + 26))
@@ -205,6 +205,7 @@ class Main:
             for category in question['categories']:
                 if category not in categoriesCounts.keys():
                     categoriesCounts[category] = 1
+
                 else:
                     categoriesCounts[category] = categoriesCounts[category] + 1
 
@@ -214,7 +215,8 @@ class Main:
         for category in categoriesCounts.keys():
             if category not in self.icon_images.keys():
                 categoriesWithoutIcons.append(category)
-        #categoriesWithoutIcons.sort()
+        #category
+        categoriesWithoutIcons.sort()
         print("Categories without Icons: ", categoriesWithoutIcons)
         categoriesWithoutIconsOrdered = {}
 

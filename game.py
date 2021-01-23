@@ -15,7 +15,7 @@ class Game():
         self.panels = []
         self.question = ""
         self.colour = self.colour_scheme[0]
-        self.categoryIcon = CategoryIcon(main, 2.5 * TILESIZE, 6.5 * TILESIZE)
+        self.categoryIcon = CategoryIcon(main, 2 * TILESIZE, 6 * TILESIZE)
         self.startGame()
         self.createLights()
         self.startTime = NORMAL_START_TIME
