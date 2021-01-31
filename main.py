@@ -12,6 +12,7 @@ from sprites import *
 from mainMenu import *
 
 class Main:
+
     def __init__(self):
         pg.init()
         pg.font.init()
@@ -28,6 +29,11 @@ class Main:
     def loadQuestions(self):
         self.displayStat = True #print out question stats
         self.allQuestions = json.load(open('questions/questions.json'))
+        for questionList in listdir(path='custom'):
+            try:
+                self.allQuestions += json.load(open('custom/' + questionList))
+            except:
+                print('Error loading custom file')
         self.numberOfQuestions = len(self.allQuestions)
         if self.displayStat:
             self.displayStats()
@@ -86,7 +92,8 @@ class Main:
         self.incorrect_image = pg.image.load(path.join(img_folder, INCORRECT_IMAGE)).convert_alpha()
         self.tint_image = pg.transform.scale( pg.image.load(path.join(img_folder, TINT_IMAGE)).convert_alpha(), (WIDTH, HEIGHT))
         self.disabled_icon_image = pg.transform.scale( pg.image.load(path.join(img_folder, DISABLED_ICON_IMAGE)).convert_alpha(), (NEWGAME_MENU_CATEGORY_ICON_SIZE + 26, NEWGAME_MENU_CATEGORY_ICON_SIZE + 26))
-
+        self.arrow_left_image = pg.image.load(path.join(img_folder, ARROW_LEFT_IMAGE)).convert_alpha()
+        self.arrow_right_image = pg.image.load(path.join(img_folder, ARROW_RIGHT_IMAGE)).convert_alpha()
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)
@@ -161,6 +168,10 @@ class Main:
                         self.goToMainMenu()
                     else:
                         self.quit()
+                if event.key == pg.K_F2:
+                    self.baseFont = pg.font.Font("standardFont.ttf", BASE_FONT_SIZE)
+                    self.baseFontUnderline = pg.font.Font("standardFont.ttf", BASE_FONT_SIZE)
+                    self.baseFontUnderline.set_underline(True)
                 if event.key == pg.K_F1:
                     if (self.isFullScreen):
                         #if fullscreen set to window

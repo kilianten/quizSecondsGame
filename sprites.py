@@ -178,9 +178,10 @@ class CategoryIcon(pg.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.rect.x = self.x
         self.rect.y = self.y
+        self.isBeingDisplayed = True
 
     def draw(self):
-        if self.isHoveredOn:
+        if self.isHoveredOn and self.isBeingDisplayed:
             category = self.category.capitalize()
             categoryText = self.main.baseFont.render(category, True, WHITE)
             pg.draw.rect(self.main.screen, (BLACK), (self.main.mouse.x -1, self.main.mouse.y - 40, self.main.baseFont.size(category)[0] + HOVER_CATEGORY_PADDING, self.main.baseFont.size(category)[1] + HOVER_CATEGORY_PADDING))
@@ -227,8 +228,8 @@ class MainMenuBackgroundIcon(pg.sprite.Sprite):
             del self
 
 class MenuCategoryIcon(CategoryIcon):
-    def __init__(self, main, x, y, category="misc"):
-        super().__init__(main, x, y, category)
+    def __init__(self, main, y, category="misc"):
+        super().__init__(main, 0, TILESIZE * 5, category)
         self.main.all_sprites.remove(self)
         self.image = pg.transform.scale(main.icon_images[category], (NEWGAME_MENU_CATEGORY_ICON_SIZE, NEWGAME_MENU_CATEGORY_ICON_SIZE))
         self.clicked = False
@@ -236,6 +237,7 @@ class MenuCategoryIcon(CategoryIcon):
         self.rect = self.image.get_rect()
         self.rect.x = self.x
         self.rect.y = self.y
+        self.isBeingDisplayed = False
 
     def update(self):
         if self.clicked == True:
@@ -246,8 +248,37 @@ class MenuCategoryIcon(CategoryIcon):
             else:
                 self.main.game.unfilterCategory(self.category)
                 self.disabled = False
+
     def draw(self):
         super().draw()
 
     def drawCircle(self):
         pg.draw.circle(self.main.screen, PALETTE_1[2], (self.x + self.image.get_width() / 2, self.y + self.image.get_height() / 2),  self.image.get_width() / 2 + 10)
+
+class Arrow(pg.sprite.Sprite):
+    def __init__(self, main, x, y, image, direction):
+        self.main = main
+        self.groups = self.main.collidables
+        pg.sprite.Sprite.__init__(self, self.groups)
+        self.x = x
+        self.y = y
+        self.image = image
+        self.clicked = False
+        self.disabled = False
+        self.rect = self.image.get_rect()
+        self.rect.x = self.x
+        self.rect.y = self.y
+        self.direction = direction
+
+    def update(self):
+        if self.clicked == True:
+            self.clicked = False
+            if self.direction == "left":
+                if self.main.game.currentCategoryStart == 0:
+                    self.main.game.currentCategoryStart = len(self.main.game.newGameMenuCatIcons) - 1
+                else:
+                    self.main.game.currentCategoryStart -= 1
+            else:
+                self.main.game.currentCategoryStart += 1
+                self.main.game.currentCategoryStart %= len(self.main.game.newGameMenuCatIcons)
+            self.main.game.setDisplayedIcons()

@@ -25,6 +25,7 @@ BASE_FONT_SIZE = 28
 BASE_FONT_HEIGHT = 27
 MENU_FONT_SIZE = 60
 MENU_SMALLER_FONT_SIZE = 35
+NUM_OF_MENU_ICONS_TO_DRAW = 6
 
 #Images
 PANEL_STAR_IMAGE =  "panelStar.png"
@@ -43,7 +44,8 @@ ICON_IMAGES = {"science": "icon_science_blur.png", "misc": "icon_misc_blur.png",
 INCORRECT_IMAGE = "1pixel.png"
 TINT_IMAGE = "tintBackground.png"
 DISABLED_ICON_IMAGE = "disabled_icon.png"
-
+ARROW_RIGHT_IMAGE = "arrow_right.png"
+ARROW_LEFT_IMAGE = "arrow_left.png"
 
 #sounds
 CORRECT_SOUND = "correct.wav"

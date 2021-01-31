@@ -1,7 +1,7 @@
 import pygame as pg
 from settings import *
 import sys
-from sprites import Panel, QuestionBox, MainMenuBackgroundIcon, MenuCategoryIcon
+from sprites import Panel, QuestionBox, MainMenuBackgroundIcon, MenuCategoryIcon, Arrow
 from random import randint
 
 class MainMenu():
@@ -23,11 +23,16 @@ class MainMenu():
         self.main.music_channel.unpause()
         self.main.music_channel.play(self.main.music_sound, -1)
         self.main.music_channel.set_volume(.1)
+        self.arrow_left = Arrow(main, TILESIZE * 3,  TILESIZE * 5.2, self.main.arrow_left_image, "left")
+        self.arrow_right = Arrow(main, TILESIZE * 24,  TILESIZE * 5.2, self.main.arrow_right_image, "right")
+        self.currentCategoryStart = 0
 
     def update(self):
         if self.menu == "newGame":
             for sprite in self.newGameMenuCatIcons:
                 sprite.update()
+            self.arrow_left.update()
+            self.arrow_right.update()
 
     def filterOutCategory(self, category):
         filtered = self.questions.copy()
@@ -75,10 +80,8 @@ class MainMenu():
 
     def createCategoryIcons(self):
         self.newGameMenuCatIcons = []
-        xOffset = TILESIZE * 5
         for category in list(self.main.icon_images.keys()):
-            self.newGameMenuCatIcons.append(MenuCategoryIcon(self.main, xOffset, TILESIZE * 4, category))
-            xOffset += NEWGAME_MENU_CATEGORY_ICON_SIZE + 50
+            self.newGameMenuCatIcons.append(MenuCategoryIcon(self.main, TILESIZE * 4, category))
 
     def draw(self):
         if self.menu == "main":
@@ -105,13 +108,32 @@ class MainMenu():
         backText = self.font.render("BACK", True, WHITE)
         self.main.screen.blit(backText, (self.backRect.x + TILESIZE * 3.5, self.backRect.y + 0.5 * TILESIZE))
         self.drawCategoryIcons()
+        self.main.screen.blit(self.arrow_left.image, (self.arrow_left.x, self.arrow_left.y))
+        self.main.screen.blit(self.arrow_right.image, (self.arrow_right.x, self.arrow_right.y))
+
+    def setDisplayedIcons(self):
+        for sprite in self.newGameMenuCatIcons:
+            sprite.isBeingDisplayed = False
+        for spriteIndex in range(0, NUM_OF_MENU_ICONS_TO_DRAW):
+            spriteIndex += self.currentCategoryStart
+            spriteIndex %= len(self.newGameMenuCatIcons)
+            sprite = self.newGameMenuCatIcons[spriteIndex]
+            sprite.isBeingDisplayed = True
 
     def drawCategoryIcons(self):
-        for sprite in self.newGameMenuCatIcons:
+        #for sprite in self.newGameMenuCatIcons:
+        xOffset = TILESIZE * 5
+        for spriteIndex in range(0, NUM_OF_MENU_ICONS_TO_DRAW):
+            spriteIndex += self.currentCategoryStart
+            spriteIndex %= len(self.newGameMenuCatIcons)
+            sprite = self.newGameMenuCatIcons[spriteIndex]
+            sprite.x = xOffset
+            sprite.rect.x = xOffset
             sprite.drawCircle()
-            self.main.screen.blit(sprite.image, (sprite.x, sprite.y))
+            self.main.screen.blit(sprite.image, (xOffset, sprite.y))
             if sprite.disabled:
-                self.main.screen.blit(self.main.disabled_icon_image, (sprite.x - 13, sprite.y - 13))
+                self.main.screen.blit(self.main.disabled_icon_image, (xOffset - 13, sprite.y - 13))
+            xOffset += NEWGAME_MENU_CATEGORY_ICON_SIZE + 50
         for sprite in self.newGameMenuCatIcons:
             sprite.draw()
 
