@@ -455,7 +455,7 @@
     "categories":["history"]
 },
 {
-    "question":"When did Aldolf Hitler killed himself by gunshot?",
+    "question":"When did Aldolf Hitler kill himself by gunshot?",
     "answers":["30 April 1945"],
     "options":["30 April 1944", "30 April 1943", "30 April 1946", "30 August 1944", "30 August 1943", "30 August 1946", "30 August 1945", "30 May 1944", "30 May 1943", "30 May 1946", "30 May 1945"],
     "difficulty": 2,
@@ -1022,7 +1022,7 @@
     "categories":["misc"]
 },
 {
-    "question":"Joseph Mohr, the write of 'Silent Night' was originally from which country?",
+    "question":"Joseph Mohr, the writer of 'Silent Night' was originally from which country?",
     "answers":["Austria"],
     "options":["Germany", "Great Britain", "Ireland", "Australia", "The United States", "Amsterdam"],
     "difficulty": 4,
@@ -1134,7 +1134,7 @@
     "categories":["geography"]
 },
 {
-    "question":"Tulips in Holland were originally imported from which present day contry?",
+    "question":"Tulips in Holland were originally imported from which present day country?",
     "answers":["Turkey"],
     "options":["Brussels", "Cambodia", "Luxembourg", "Laos", "Turkmenistan", "Slovakia", "Guyana"],
     "difficulty": 3,
@@ -1386,7 +1386,7 @@
     "categories":["history"]
 },
 {
-    "question":"Giovanni Gentile is sometimes called the philosopher of what?",
+    "question":"Giovanni Gentile is sometimes called the father of what?",
     "answers":["Fascism"],
     "options":["The old world", "The new world", "Stoicism", "Italian cuisine", "The youth", "Medicine"],
     "difficulty":4,
@@ -8835,7 +8835,7 @@
     "categories":["quotes"]
 },
 {
-    "question":"According to Heraclitus, what 'Change 'Is the only constant'?",
+    "question":"According to Heraclitus, what 'Is the only constant'?",
     "answers":["Change"],
     "options":["Love", "Time", "Friendship", "Humanity", "Nothing"],
     "difficulty": 1,
@@ -10083,7 +10083,7 @@
 {
     "question":"During the Vietnam War, what was 'Agent Orange'?",
     "answers":["A defoliant"],
-    "options":["A spy", "A military plan", "A weapon", "An airport"],
+    "options":["A spy", "A military plan", "A weapon", "An airport", "A nickname for Sgt. Norage"],
     "difficulty": 3,
     "categories":["war"]
 },
@@ -10429,7 +10429,7 @@
     "answers":["Dr. Julius No"],
     "options":["Dr. Xander No", "Dr. Cesar No", "Dr. Kaden No", "Dr. Allen No", "Dr. Harry No"],
     "difficulty": 5,
-    "categories":["books", "films"]
+    "categories":["books", "film"]
 },
 {
     "question":"The Bay of Pigs Invasion was a failed landing operation on the coast of which country?",
@@ -10443,7 +10443,7 @@
     "answers":["Gojira"],
     "options":["Gorzila", "Gozira", "Gozuru", "Gotzila"],
     "difficulty": 4,
-    "categories":["films"]
+    "categories":["film"]
 },
 {
     "question":"Who is said to have coined the term 'Cold War'?",
@@ -10507,7 +10507,387 @@
     "options":["The Monster Hunters", "The Monster Gang", "The Monster Division", "The Monster Chronicles"],
     "difficulty": 4,
     "categories":["film"]
+},
+{
+    "question":"When did the Korean War start?",
+    "answers":["1950"],
+    "options":["1952", "1961", "1953", "1954", "1965", "1956", "1957", "1968", "1959", "1962", "1963", "1972"],
+    "difficulty": 4,
+    "categories":["war", "history"]
+},
+{
+    "question":"When did the Korean War end?",
+    "answers":["1953"],
+    "options":["1952", "1948", "1956", "1957", "1960", "1963", "1962", "1968", "1972"],
+    "difficulty": 4,
+    "categories":["war", "history"]
+},
+{
+    "question":"From which country does Kirin beer come from?",
+    "answers":["Japan"],
+    "options":["China", "Taiwan", "Philippines", "Loas", "Vietnam", "Indonesia", "The United States"],
+    "difficulty": 4,
+    "categories":["drinks"]
+},
+{
+    "question":"From which country does Toyota come from?",
+    "answers":["Japan"],
+    "options":["China", "Taiwan", "Philippines", "Loas", "Vietnam", "Indonesia", "The United States"],
+    "difficulty": 2,
+    "categories":["transport"]
+},
+{
+    "question":"From which country does Honda come from?",
+    "answers":["Japan"],
+    "options":["China", "Taiwan", "Philippines", "Loas", "Vietnam", "Indonesia", "The United States"],
+    "difficulty": 3,
+    "categories":["transport"]
+},
+{
+    "question":"From which country does the company Nikon come from?",
+    "answers":["Japan"],
+    "options":["China", "Taiwan", "Philippines", "Loas", "Vietnam", "Indonesia", "The United States"],
+    "difficulty": 3,
+    "categories":["technology"]
+},
+{
+    "question":"Okinawa island is part of which country?",
+    "answers":["Japan"],
+    "options":["China", "Taiwan", "Philippines", "Loas", "Vietnam", "Indonesia", "The United States"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"What type of fish, often called suckerfish, attatches inself to the skin of larger marine mamals?",
+    "answers":["Remora"],
+    "options":["Cherubfish", "Quillfish", "Pilchard", "Paddlefish", "Oarfish", "Lenok"],
+    "difficulty": 4,
+    "categories":["nature"]
+},
+{
+    "question":"In 1968 which female artist released the album 'Lady Soul'?",
+    "answers":["Barbra Streisand"],
+    "options":["Dusty Springfield", "Barbra Streisand", "Tina Turner", "Diana Ross"],
+    "difficulty": 3,
+    "categories":["music"]
+},
+{
+    "question":"2013 action film '2 Guns' starred Denzel Washington with which other actor?",
+    "answers":["Mark Wahlberg"],
+    "options":["Bruce Willis", "Dwayne Johnson", "Ben Affleck", "Liam Hemsworth"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Billy Elliot released in 2000 is a film about a boy who wants to learn what?",
+    "answers":["Ballet"],
+    "options":["Spanish", "Who his real father is", "To play chess", "Karate"],
+    "difficulty": 2,
+    "categories":["film"]
+},
+{
+    "question":"Which of these films released first?",
+    "answers":["The Simpsons Movie"],
+    "options":["WALL-E", "Mary and Max", "Fantastic Mr. Fox", "Avatar"],
+    "difficulty": 3,
+    "categories":["film"]
+},
+{
+    "question":"Which Beatles album did 'A Day In The Life' feature in?",
+    "answers":["Sgt Pepper’s Lonely Hearts Club Band"],
+    "options":["Beatles For Sale", "Abbey Road", "Yellow Submarine", "Let It Be"],
+    "difficulty": 4,
+    "categories":["music"]
+},
+{
+    "question":"Launched in 2008, what search engine created by Gabriel Winberg was launched?",
+    "answers":["DuckDuckGo"],
+    "options":["OinkOinkGo", "MeowMeowGo", "QuackAndGo", "MooMooGo"],
+    "difficulty": 3,
+    "categories":["technology"]
+},
+{
+    "question":"From which book did the term 'Doublethink' originate from?",
+    "answers":["1984"],
+    "options":["Brave New World", "American War", "Divergent", "A Clockwork Orange"],
+    "difficulty": 3,
+    "categories":["books"]
+},
+{
+    "question":"Who wrote 'Brave New World'?",
+    "answers":["Aldous Huxley"],
+    "options":["Leni Zumas", "George Orwell", "Omar El Akkad", "Philip K. Dick"],
+    "difficulty": 4,
+    "categories":["authors", "books"]
+},
+{
+    "question":"A person who is inexperienced could be called, what?",
+    "answers":["Callow"],
+    "options":["Fallow", "Mallow", "Ballow", "Pallow"],
+    "difficulty": 5,
+    "categories":["language"]
+},
+{
+    "question":"Which celebrity received backlash at a Dallas Cowboys game in 2019 for speaking to George W. Bush?",
+    "answers":["Ellen DeGeneres"],
+    "options":["Kevin Hart", "Adele", "Bradley Cooper", "Lady Gaga", "Liam Neeson"],
+    "difficulty": 4,
+    "categories":["politics", "misc"]
+},
+{
+    "question":"Who became the first nation in the world to ban aerosol sprays in 1978?",
+    "answers":["Sweden"],
+    "options":["France", "Ireland", "Germany", "Netherlands", "Canada", "Ukraine"],
+    "difficulty": 5,
+    "categories":["law"]
+},
+{
+    "question":"If an object is emitting light after being heated it is?",
+    "answers":["Incandescent"],
+    "options":["Convalescent", "Iridescent", "Effervescent", "Evanescent"],
+    "difficulty": 4,
+    "categories":["language"]
+},
+{
+    "question":"Someone recovering from illness or a medical treatment could be called what?",
+    "answers":["Convalescent"],
+    "options":["Incandescent", "Iridescent", "Effervescent", "Evanescent"],
+    "difficulty": 2,
+    "categories":["language"]
+},
+{
+    "question":"What is another word for fizzy?",
+    "answers":["Effervescent"],
+    "options":["Incandescent", "Iridescent", "Convalescent", "Evanescent"],
+    "difficulty": 3,
+    "categories":["drinks", "language"]
+},
+{
+    "question":"Ralph Ellison published which novel in 1953?",
+    "answers":["Invisible Man"],
+    "options":["The Catcher in the Rye", "Fahrenheit 451", "On the Road", "The Crucible", "Horton Hears a Who!", "The Quiet American", "Charlotte's Web"],
+    "difficulty": 5,
+    "categories":["books"]
+},
+{
+    "question":"In ballet, which of these terms describes a duet dance typically a male and a female?",
+    "answers":["Pas de deux"],
+    "options":["Dans en duex", "Les au duex", "Mans tres duex"],
+    "difficulty": 3,
+    "categories":["art"]
+},
+{
+    "question":"In 1894, two brothers accidentally created which cereal?",
+    "answers":["Corn flakes"],
+    "options":["Granola", "Shredded Wheat", "Cheerios"],
+    "difficulty": 2,
+    "categories":["food"]
+},
+{
+    "question":"Which of these mineral's is often called 'Fool's gold'?",
+    "answers":["Pyrite"],
+    "options":["Sepiolite", "Tephroite", "Vaesite", "Nelenite"],
+    "difficulty": 5,
+    "categories":["science"]
+},
+{
+    "question":"Which of these is a condition marked by severe pain in the chest?",
+    "answers":["Angina"],
+    "options":["Anavena", "Aravina", "Anathema", "Anleta"],
+    "difficulty": 5,
+    "categories":["medical", "science"]
+},
+{
+    "question":"Natto is a traditional dish from what country?",
+    "answers":["Japan"],
+    "options":["Syria", "India", "China", "Pakistan", "Malaysia"],
+    "difficulty": 4,
+    "categories":["food"]
+},
+{
+    "question":"Hilton Valentine was a guitarist in which band?",
+    "answers":["The Animals"],
+    "options":["The Beach Boys", "The Who", "The Kinks", "The Byrds", "The Yarbirds"],
+    "difficulty": 5,
+    "categories":["music"]
+},
+{
+    "question":"In January 2021, protestors took to the street after a ban on what?",
+    "answers":["Abortion"],
+    "options":["Alcohol", "Covid vaccinations", "Cigarettes", "German music and film"],
+    "difficulty": 5,
+    "categories":["law"]
+},
+{
+    "question":"What is the term for freedom to do as one wishes?",
+    "answers":["Carte blanche"],
+    "options":["Carte noire", "Maigre rouge", "Maigre blanche", "Maigre noire"],
+    "difficulty": 5,
+    "categories":["language"]
+},
+{
+    "question":"In 2018, costing $60,000 Acqua di Cristallo Tributo a Modigliani got in the Guiness Book of World Records, for being the most expensive what?",
+    "answers":["Bottle of water"],
+    "options":["Perfume", "Outdoor Jacuzzi", "Vodka"],
+    "difficulty": 5,
+    "categories":["misc"]
+},
+{
+    "question":"Galileo famously dropped two spheres of different masses from where?",
+    "answers":["The Leaning Tower of Pisa"],
+    "options":["Colosseum", "St. Peter's Basilica", "Giotto's Bell Tower", "His house"],
+    "difficulty": 2,
+    "categories":["science"]
+},
+{
+    "question":"Who famously dropped two spheres of different masses from the Leaning Tower of Pisa?",
+    "answers":["Galileo Galilei"],
+    "options":["Hippocrates", "Leonardo da Vinci", "Isaac Newton"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Where is the city of Luxor?",
+    "answers":["Egypt"],
+    "options":["Morocco", "Romania", "Latvia", "Turkmenistan", "Swaziland", "Greece"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the capital of Morocco?",
+    "answers":["Rabat"],
+    "options":["Fes", "Marrakesh", "Meknes", "Casablanca", "Tangier"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Which musician was dropped from their label in 2021 due to abuse allegations by actress Evan Rachel Wood?",
+    "answers":["Marilyn Manson"],
+    "options":["Eric Clapton", "Sean Combs", "Justin Timberlake", "Mick Jagger", "Gene Simmons"],
+    "difficulty": 4,
+    "categories":["music"]
+},
+{
+    "question":"Which rapper's real name is Sean Combs?",
+    "answers":["Lil' Wayne"],
+    "options":["Busta Rhymes", "Kendrick Lamar", "Nas", "Chance The Rapper", "2 Chainz", "Ice-T"],
+    "difficulty": 4,
+    "categories":["music"]
+},
+{
+    "question":"Carved into mammoth tusk 13,000 years ago and discovered in France, what is the name given to the sculpture of two animals swimming?",
+    "answers":["The Swimming Reindeer"],
+    "options":["The Swimming Fish", "The Swimming Bobcats", "The Swimming Seals"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"The Bering Strait seperates which two countries?",
+    "answers":["Russia and the United States"],
+    "options":["Iran and Oman", "India and Sri Lanka", "Spain and Morocco"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Where was the singer Rihanna born?",
+    "answers":["Barbados"],
+    "options":["The United States", "Sri Lanka", "Hawaii", "The Philippines", "Canada", "Colombia"],
+    "difficulty": 4,
+    "categories":["music"]
+},
+{
+    "question":"What is the name of the item used with a mortar for crushing food?",
+    "answers":["Pestle"],
+    "options":["Chork", "Lame", "Lélé", "Reamer", "Baller", "Tamis"],
+    "difficulty": 4,
+    "categories":["food"]
+},
+{
+    "question":"The Kiss is a sculptor by which artist?",
+    "answers":["Auguste Rodin"],
+    "options":["Michelangelo", "Louise Bourgeois", "Henry Moore", "Leonardo Da Vinci", "Gianlorenzo Bernini"],
+    "difficulty": 5,
+    "categories":["art"]
+},
+{
+    "question":"In Hinduism, Annapurna is the God of what?",
+    "answers":["Food"],
+    "options":["Water", "Metal", "Thunder", "The heart", "Beer"],
+    "difficulty": 5,
+    "categories":["religion"]
+},
+{
+    "question":"Scrubs actor, Donald Faison was pissed that which game 'stole' his dance 'poison'?",
+    "answers":["Fortnite"],
+    "options":["Call of Duty: Modern Warfare", "Just Dance 3", "Minecraft", "Dead by Daylight"],
+    "difficulty": 4,
+    "categories":["videogames"]
+},
+{
+    "question":"Jomon pottery comes from a period of which country's ancient history?",
+    "answers":["Japan"],
+    "options":["India", "China", "Bhutan", "Turkey", "Syria", "Russia"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"What is the name of the king featured in an epic poem written in Akkadian?",
+    "answers":["Giglamesh"],
+    "options":["Suglamesh", "Deiflamesh", "Coilamesh", "Macnamesh"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"The Cenotaph is a war memorial located in which English city?",
+    "answers":["London"],
+    "options":["Manchester", "Birmingham", "Bristol", "York", "Nottingham"],
+    "difficulty": 3,
+    "categories":["war", "history"]
+},
+{
+    "question":"If you were eating foei gras, you could be eating the liver of which of these animals?",
+    "answers":["Goose", "Duck"],
+    "options":["Fox", "Bull", "Rabbit", "Fish"],
+    "difficulty": 3,
+    "categories":["food"]
+},
+{
+    "question":"When abducting Europa, Zues turned himself into what animal?",
+    "answers":["A bull"],
+    "options":["A fox", "A rhino", "A rabbit", "A waterbuck", "A panther"],
+    "difficulty": 5,
+    "categories":["mythology"]
+},
+{
+    "question":"Bronze is typically composed of copper and what?",
+    "answers":["Tin"],
+    "options":["Iron", "Silver", "Lead", "Nickel", "Zinc"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Bronze is typically composed of copper and what?",
+    "answers":["Tin"],
+    "options":["Iron", "Silver", "Lead", "Nickel", "Zinc"],
+    "difficulty": 3,
+    "categories":["science"]
+},
+{
+    "question":"Crete is an island of which country?",
+    "answers":["Greece"],
+    "options":["Italy", "Britain", "Croatia", "Turkey"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Monsul is a city in which of these countries?",
+    "answers":["Iraq"],
+    "options":["Syria", "Turkey", "France", "Germany"],
+    "difficulty": 4,
+    "categories":["geography"]
 }
+
+
 
 
 ]
