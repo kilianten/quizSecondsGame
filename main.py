@@ -30,10 +30,11 @@ class Main:
         self.displayStat = True #print out question stats
         self.allQuestions = json.load(open('questions/questions.json'))
         for questionList in listdir(path='custom'):
-            try:
-                self.allQuestions += json.load(open('custom/' + questionList))
-            except:
-                print('Error loading custom file')
+            if not questionList == "HowToAddQuestions":
+                try:
+                    self.allQuestions += json.load(open('custom/' + questionList))
+                except:
+                    print('Error loading custom file')
         self.numberOfQuestions = len(self.allQuestions)
         if self.displayStat:
             self.displayStats()
@@ -202,7 +203,7 @@ class Main:
 
     def createGame(self, difficulties):
         menu = self.game
-        self.game = StandardGame(self, difficulties)
+        self.game = Game(self, difficulties)
         self.game.isPaused = False
         self.all_sprites = pg.sprite.LayeredUpdates()
 

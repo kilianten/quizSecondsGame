@@ -17,9 +17,6 @@ class Game():
         self.colour = self.colour_scheme[0]
         self.categoryIcon = CategoryIcon(main, 2 * TILESIZE, 6 * TILESIZE)
         self.startGame()
-        self.createLights()
-        self.startTime = NORMAL_START_TIME
-        self.timeRemaining = NORMAL_START_TIME
         self.lastUpdate = pg.time.get_ticks()
         self.isPaused = False
         self.score = 0
@@ -28,36 +25,36 @@ class Game():
 
     def update(self):
         if self.isPaused == False:
-            if self.timeRemaining < 0:
-                self.endGame()
-            if pg.time.get_ticks() - self.lastUpdate > 1000:
-                self.timeRemaining -= 1
-                self.dimLights()
-                self.lastUpdate = pg.time.get_ticks()
+            self.updateTimer()
             for panel in self.panels:
                 if panel.clicked == True and panel.text in self.question["answers"]:
                     self.score += self.question["difficulty"] * self.difficulty
                     self.correctQuestions += 1
                     panel.clicked = False
-                    self.timeRemaining += NORMAL_CORRECT_BONUS
-                    if self.timeRemaining > NORMAL_START_TIME:
-                        self.timeRemaining = NORMAL_START_TIME
+                    self.correctAnswerConsequence()
                     correctAnimation(self.main, 1, 1)
                     self.main.correct_sound.play()
                     panel.colour = GREEN
                 elif panel.clicked == True and not panel.text in self.question["answers"]:
+                    self.incorrectAnswerConsequence()
+                    self.main.incorrect_sound.play()
+                    panel.colour = RED
                     for ypanel in self.panels:
                         if ypanel.text in self.question["answers"]:
                             correctPanel = ypanel
-                    self.main.incorrect_sound.play()
                     incorrectAnimation(self.main, 1, 1, panel, correctPanel)
-                    panel.colour = RED
-                    self.timeRemaining -= NORMAL_PUNISHMENT_TIME
+
+    def updateTimer(self):
+        if pg.time.get_ticks() - self.lastUpdate > 1000:
+            self.lastUpdate = pg.time.get_ticks()
+
+    def correctAnswerConsequence(self):
+        pass
+
+    def incorrectAnswerConsequence(self):
+        pass
 
     def endGame(self):
-        if self.main.highScore < self.score:
-            self.main.writeHighScore(self.score)
-        ## TODO BUTTON TO RETURN TO MENU:
         self.main.newMenu()
 
     def resetQuestion(self):
@@ -112,10 +109,6 @@ class Game():
             panel.drawText()
         self.draw_categry_icon()
         self.drawQuestionPanel()
-        for light in self.lights:
-            if light.isOn:
-                light.drawRect()
-            self.main.screen.blit(light.image, (light.x, light.y))
         self.drawScores()
         self.categoryIcon.draw()
 
@@ -136,12 +129,53 @@ class Game():
         pg.draw.rect(self.main.screen, PALETTE_1[0], (21 * TILESIZE - SCORE_BOX_PADDING, 4 * TILESIZE - (SCORE_BOX_PADDING / 2), (self.main.baseFont.size(text)[0]) + 2 * SCORE_BOX_PADDING, (self.main.baseFont.size(text)[1]) + 2 * (SCORE_BOX_PADDING / 2)))
         self.main.screen.blit(questionsCorrect, (21 * TILESIZE, 4 * TILESIZE))
 
+    def checkCollision(self, mouse):
+        pass
+
+class TimedGame(Game):
+    def __init__(self, main, difficulties):
+        super().__init__(main, difficulties)
+        self.timeRemaining = NORMAL_START_TIME
+        self.startTime = NORMAL_START_TIME
+        self.createLights()
+
     def createLights(self):
         index = 0
         self.lights = []
         while index < WIDTH:
             self.lights.append(LightJar(self.main, index, 0, self.colour))
             index += TILESIZE
+
+    def incorrectAnswerConsequence(self):
+        super().incorrectAnswerConsequence()
+        self.timeRemaining -= NORMAL_PUNISHMENT_TIME
+
+    def correctAnswerConsequence(self):
+        super().correctAnswerConsequence()
+        self.timeRemaining += NORMAL_CORRECT_BONUS
+        if self.timeRemaining > NORMAL_START_TIME:
+            self.timeRemaining = NORMAL_START_TIME
+
+    def updateTimer(self):
+        if self.timeRemaining < 0:
+            self.endGame()
+        if pg.time.get_ticks() - self.lastUpdate > 1000:
+            self.timeRemaining -= 1
+            self.dimLights()
+        super().updateTimer()
+
+    def endGame(self):
+        if self.main.highScore < self.score:
+            self.main.writeHighScore(self.score)
+        ## TODO BUTTON TO RETURN TO MENU:
+        super().endGame()
+
+    def draw(self):
+        super().draw()
+        for light in self.lights:
+            if light.isOn:
+                light.drawRect()
+            self.main.screen.blit(light.image, (light.x, light.y))
 
     def dimLights(self):
         percentageTimeRemain = self.timeRemaining / NORMAL_START_TIME
@@ -165,9 +199,6 @@ class Game():
         for light in self.lights:
             light.colour = colour
 
-    def checkCollision(self, mouse):
-        pass
-
-class StandardGame(Game):
+class LivesGame(Game):
     def __init__(self, main, difficulties):
         super().__init__(main, difficulties)
