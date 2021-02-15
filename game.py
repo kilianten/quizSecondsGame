@@ -200,5 +200,22 @@ class TimedGame(Game):
             light.colour = colour
 
 class LivesGame(Game):
-    def __init__(self, main, difficulties):
+    def __init__(self, main, difficulties, numOfLives):
         super().__init__(main, difficulties)
+        self.livesRemaing = numOfLives
+
+    def incorrectAnswerConsequence(self):
+        super().incorrectAnswerConsequence()
+        self.livesRemaing -= 1
+
+    def update(self):
+        if self.livesRemaing <= 0:
+            self.endGame()
+        else:
+            super().update()
+
+    def endGame(self):
+        if self.main.highScore < self.score:
+            self.main.writeHighScore(self.score)
+        ## TODO BUTTON TO RETURN TO MENU:
+        super().endGame()

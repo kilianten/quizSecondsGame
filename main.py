@@ -123,6 +123,7 @@ class Main:
             sprite.update()
 
     def newMenu(self):
+        self.clearAllSprites()
         self.game = MainMenu(self)
 
     def draw_grid(self):
@@ -203,7 +204,7 @@ class Main:
 
     def createGame(self, difficulties):
         menu = self.game
-        self.game = Game(self, difficulties)
+        self.game = LivesGame(self, difficulties, 3)
         self.game.isPaused = False
         self.all_sprites = pg.sprite.LayeredUpdates()
 

@@ -884,7 +884,7 @@
 {
     "question":"What was the code name for the Axis invasion of the Soviet Union, during which World War 2?",
     "answers":["Operation Barbarossa"],
-    "options":["Operation Yellow Snow", "Operation Thunder", "Operation Chimera", "Operation Anosmia"],
+    "options":["Operation Yellow Snow", "Operation Thunder", "Operation Chimaera", "Operation Anosmia"],
     "difficulty": 2,
     "categories":["history"]
 },
@@ -3143,13 +3143,6 @@
     "categories":["quotes", "books"]
 },
 {
-    "question":"'War is peace, Freedom is slavery, Ignorance is strength' is a quote from which George Orwell novel?",
-    "answers":["1984"],
-    "options":["Animal Farm", "Homage to Catalonia", "Burmese Days"],
-    "difficulty": 2,
-    "categories":["quotes", "books"]
-},
-{
     "question":"Launched in 1980, what does CNN stand for?",
     "answers":["Cable News Network"],
     "options":["Controlled News Notifications", "Constant Neverending News", "Corroborated Nuetral News"],
@@ -3686,28 +3679,28 @@
     "answers":["Dubai"],
     "options":["Shanghai", "Tokyo", "Al Haram", "Shenzhen"],
     "difficulty": 2,
-    "categories":["geography", "architecture"]
+    "categories":["architecture", "geography"]
 },
 {
     "question":"What is the tallest building in the world?",
     "answers":["Burj Khalifa"],
     "options":["Shanghai Tower", "Makkah Clock Tower", "Lotte World Tower", "Empire State Building"],
     "difficulty": 1,
-    "categories":["misc", "architecture"]
+    "categories":["architecture", "misc"]
 },
 {
     "question":"How tall is the Burj Khalifa?",
     "answers":["828m"],
     "options":["878m", "1028m", "1078m", "626m", "678m", "1228m", "1278m"],
     "difficulty": 3,
-    "categories":["misc", "architecture"]
+    "categories":["architecture", "misc"]
 },
 {
     "question":"When was the Burj Khalifa built?",
     "answers":["2009"],
     "options":["2004", "2000", "2012", "2016", "1997", "1991", "1993", "1897"],
     "difficulty": 3,
-    "categories":["misc", "architecture"]
+    "categories":["architecture", "misc"]
 },
 {
     "question":"What did Anne Frank name her diary?",
@@ -6602,7 +6595,7 @@
     "categories":["quotes", "books"]
 },
 {
-    "question":"Jeff Bezos is the CEO of which company?",
+    "question":"Jeff Bezos was the CEO of which company?",
     "answers":["Amazon"],
     "options":["Ebay", "Apple", "Google", "Tiktok", "Tesla", "Sony", "Samsung", "LG"],
     "difficulty": 1,
@@ -7969,7 +7962,7 @@
 {
     "question":"Hepatica, due to its resemblance to an organ can be called what?",
     "answers":["Liverleaf"],
-    "options":["Heartleaf", "Lungeaf", "Brainleaf", "Kidneyleaf", "Intestineleaf"],
+    "options":["Heartleaf", "Lungleaf", "Brainleaf", "Kidneyleaf", "Intestineleaf"],
     "difficulty": 4,
     "categories":["flowers", "nature"]
 },
@@ -10885,8 +10878,252 @@
     "options":["Syria", "Turkey", "France", "Germany"],
     "difficulty": 4,
     "categories":["geography"]
+},
+{
+    "question":"Of the top 10 countries in the world, how many are African countries?",
+    "answers":["1"],
+    "options":["2", "0", "3", "4"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What is the largest country in Africa?",
+    "answers":["Algeria"],
+    "options":["Sudan", "Libya", "Chad", "Niger", "Angola"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"The Paracas Peninsula is along the coast of which South American country?",
+    "answers":["Peru"],
+    "options":["Venezuela", "Brazil", "Colombia", "Chile", "Ecuador", "Bolivia"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"What was the first Chinses dynasty?",
+    "answers":["Shang Dynasty"],
+    "options":["Zhou Dynasty", "Qin Dynasty", "Han Dynasty", "Qing Dynasty"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"What followed the Shang dynasty?",
+    "answers":["The Zhou Dynasty"],
+    "options":["The Shang Dynasty", "The Qin Dynasty", "The Han Dynasty", "The Qing Dynasty"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"Where would you find The Parthenon?",
+    "answers":["Greece"],
+    "options":["Italy", "France", "Amsterdam", "Belgium", "Macedonia"],
+    "difficulty": 2,
+    "categories":["architecture", "geography", "history"]
+},
+{
+    "question":"A centaur has the upper body of a man and the lower body of what?",
+    "answers":["A horse"],
+    "options":["A spider", "A bull", "A scorpion", "A fish"],
+    "difficulty": 2,
+    "categories":["mythology"]
+},
+{
+    "question":"Confucius was a philosopher from which country?",
+    "answers":["China"],
+    "options":["Greece", "Italy", "France", "Scotland", "Spain"],
+    "difficulty": 3,
+    "categories":["philosophy"]
+},
+{
+    "question":"Who was the first Roman emporer?",
+    "answers":["Augustus"],
+    "options":["Tiberius", "Claudius", "Titus", "Julius Caesar", "Nero"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"Ashoka, also known as Ashoka the Great, was emporer of which country?",
+    "answers":["India"],
+    "options":["Italy", "Greece", "Japan", "France"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"Where would you the Rosetta Stone today?",
+    "answers":["Britain"],
+    "options":["Italy", "Greece", "Japan", "Egypt", "The United States"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Recorded as far back as the Tang dynasty and with a term becoming popular during the Cold War, China is known for sending what as a form of deplomacy?",
+    "answers":["Pandas"],
+    "options":["Tea", "Traditional Chinese textiles", "Anicent Tang coinage", "Paper dragons"],
+    "difficulty": 4,
+    "categories":["politics"]
+},
+{
+    "question":"Which Roman emporer was ruling when Christ was born?",
+    "answers":["Augustus"],
+    "options":["Tiberius", "Claudius", "Titus", "Julius Caesar", "Nero"],
+    "difficulty": 4,
+    "categories":["religion"]
+},
+{
+    "question":"The golden age of peace within Roman Empire is famously known as?",
+    "answers":["Pax Romana"],
+    "options":["Max Romana", "Piz Romana", "Miz Romana", "Luz Romana", "Puz Romana", "Muz Romana"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"In ancienct China, the '3 perfections' typically referred to painting, poetry and what else?",
+    "answers":["Calligraphy"],
+    "options":["Singing", "Drawing", "Sculpture", "Tapestry", "Architecture"],
+    "difficulty": 5,
+    "categories":["art"]
+},
+{
+    "question":"In Greek mythology, a chimera is a monster combining 3 animals. Which of these is not one of those 3?",
+    "answers":["Eel", "Horse", "Bull", "Antelope", "Armadillo"],
+    "options":["Lion", "Snake", "Goat"],
+    "difficulty": 3,
+    "categories":["mythology"]
+},
+{
+    "question":"What is the name of Harry Potter's owl?",
+    "answers":["Hedwig"],
+    "options":["Nagini", "Oliver", "Winky", "Reeves", "Regulus"],
+    "difficulty": 2,
+    "categories":["books", "film"]
+},
+{
+    "question":"Where would you find the Trevi fountain?",
+    "answers":["Italy"],
+    "options":["France", "Brazil", "Spain", "Switzerland", "Slovenia", "Austria"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the island of Java?",
+    "answers":["Indonesia"],
+    "options":["Malaysia", "Japan", "Philippines", "Brunei", "Slovenia", "China", "Papau New Guinea"],
+    "difficulty": 3,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the city of Kyoto?",
+    "answers":["Japan"],
+    "options":["Malaysia", "China", "Philippines", "Brunei", "Vietnam", "Papau New Guinea"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"Where would you find the Buddhist temple Borobudur?",
+    "answers":["Indonesia"],
+    "options":["Malaysia", "China", "Philippines", "Brunei", "India", "Papau New Guinea", "Vietnam"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"Who narrated in Micheal Jackson's music video 'Thriller'?",
+    "answers":["Vincent Price"],
+    "options":["Christopher Lee", "Boris Karloff", "Jeffrey Combs", "Robert Englund", "Peter Cushing", "Donald Pleasence"],
+    "difficulty": 4,
+    "categories":["music"]
+},
+{
+    "question":"In 1972, Bobby Fischer played against Boris Spassky in the World Chess Championship. Where did they play?",
+    "answers":["Iceland"],
+    "options":["Russia", "The United States", "Poland", "The United Kingdom", "Italy"],
+    "difficulty": 5,
+    "categories":["misc"]
+},
+{
+    "question":"In what decade did, American Bobby Fischer beat Boris Spassky in the World Chess Championship in Iceland?",
+    "answers":["70's"],
+    "options":["80's", "90's", "60's", "50's", "40's"],
+    "difficulty": 4,
+    "categories":["misc"]
+},
+{
+    "question":"What was bubblewrap originally invented for?",
+    "answers":["Wallpaper"],
+    "options":["Carpet", "Food storage", "Drug smuggling"],
+    "difficulty": 3,
+    "categories":["misc"]
+},
+{
+    "question":"What is 14 * 13?",
+    "answers":["182"],
+    "options":["176", "156", "164", "162", "172", "152", "192", "186"],
+    "difficulty": 4,
+    "categories":["math"]
+},
+{
+    "question":"What was the name of Genghis Khan's gradnson who founded the Yuan dynasty?",
+    "answers":["Kublai"],
+    "options":["Yushan", "Xandhu", "Genghis", "Tuboi"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"Which of these is not part of the Holy Triad?",
+    "answers":["Ganesha", "Krishna", "Rama"],
+    "options":["Brahma", "Shiva", "Vishnu"],
+    "difficulty": 4,
+    "categories":["religion"]
+},
+{
+    "question":"Which Hindu diety is part of the Holy Triad and represents death and destcruction?",
+    "answers":["Shiva"],
+    "options":["Brahma", "Rama", "Vishnu"],
+    "difficulty": 5,
+    "categories":["religion"]
+},
+{
+    "question":"Which Hindu diety is part of the Holy Triad and is the Preserver?",
+    "answers":["Vishnu"],
+    "options":["Brahma", "Rama", "Shiva"],
+    "difficulty": 5,
+    "categories":["religion"]
+},
+{
+    "question":"Which Hindu diety is part of the Holy Triad and is the Creator?",
+    "answers":["Brahma"],
+    "options":["Vishnu", "Rama", "Shiva"],
+    "difficulty": 5,
+    "categories":["religion"]
+},
+{
+    "question":"Which Hindu diety is part of the Holy Triad and carries a trident?",
+    "answers":["Shiva"],
+    "options":["Brahma", "Rama", "Vishnu"],
+    "difficulty": 5,
+    "categories":["religion"]
+},
+{
+    "question":"Of mythology and used in reference to a weakness, what part of Achilles body was unprotected in battle?",
+    "answers":["His heel"],
+    "options":["His face", "His throat", "His heart", "His Adam's apple", "His shoulders"],
+    "difficulty": 1,
+    "categories":["mythology", "language"]
+},
+{
+    "question":"The man who created the modern 'Peace Symbol' was from which country?",
+    "answers":["Britain"],
+    "options":["China", "Vietnam", "The United States", "France"],
+    "difficulty": 4,
+    "categories":["symbols"]
+},
+{
+    "question":"The noai monolithic statues of human figures are found on Easter Island off the coast of which country?",
+    "answers":["Chile"],
+    "options":["Peru", "Canada", "Nauru", "Malaysia", "Malawi", "Haiti"],
+    "difficulty": 4,
+    "categories":["geography"]
 }
-
 
 
 
