@@ -1995,13 +1995,6 @@
     "categories":["history"]
 },
 {
-    "question":"Paper money was first used in China during what dynasty?",
-    "answers":["The Tang Dynasty"],
-    "options":["The Xia Dynasty", "The Shang Dynasty", "The Sui Dynasty", "The Han Dynasty"],
-    "difficulty":5,
-    "categories":["history"]
-},
-{
     "question":"What is the capital of Syria?",
     "answers":["Damascus"],
     "options":["Riyadh", "Jeddah", "Aleppo", "Homs", "Latakia"],
@@ -11123,7 +11116,92 @@
     "options":["Peru", "Canada", "Nauru", "Malaysia", "Malawi", "Haiti"],
     "difficulty": 4,
     "categories":["geography"]
+},
+{
+    "question":"'Do you believe in fairies? Say quick that you believe. If you believe, clap your hands!' is quote from which novel?",
+    "answers":["Peter Pan"],
+    "options":["Cinderella", "Pinocchio", "Sleeping Beauty", "The Faraway Tree", "A Midsummer Knight's Dream"],
+    "difficulty": 2,
+    "categories":["books"]
+},
+{
+    "question":"James M. Barrie is best known for creating which of these?",
+    "answers":["Peter Pan"],
+    "options":["James Bond", "Pinocchio", "Tin Tin", "The Jungle Book", "Winnie the Pooh"],
+    "difficulty": 4,
+    "categories":["books"]
+},
+{
+    "question":"Which famous figure was exiled to St. Helena in 1815, and died there in 1821?",
+    "answers":["Napoleon Bonaparte"],
+    "options":["Karl Marx", "Giuseppe Mazzini", "Simon Bolivar", "Lord Alfred Tennyson"],
+    "difficulty": 3,
+    "categories":["history"]
+},
+{
+    "question":"Napoleon Bonaparte was exiled to which island in Europe in 1815, and died there in 1821?",
+    "answers":["Saint Helena"],
+    "options":["Gotland", "Milos", "Elba", "Isle of Mull", "Cres"],
+    "difficulty": 5,
+    "categories":["geography"]
+},
+{
+    "question":"Napoleon Bonaparte was a political leader born in which country?",
+    "answers":["France"],
+    "options":["Germany", "Austria", "Amsterdam", "Brazil"],
+    "difficulty": 2,
+    "categories":["history"]
+},
+{
+    "question":"A useless item that is difficult to maintain or dispose of can be called a what?",
+    "answers":["A white elephant"],
+    "options":["A blue whale", "A grey sheep", "A blue crow", "A red jackal", "A black bear"],
+    "difficulty": 4,
+    "categories":["language"]
+},
+{
+    "question":"According to a 2017 report by the Pew Research Center, which country had the most Muslims?",
+    "answers":["Indonesia"],
+    "options":["Pakistan", "The United Kingdom", "India", "Bangladesh"],
+    "difficulty": 4,
+    "categories":["religion"]
+},
+{
+    "question":"Beginning on 9 September 1739, the slave rebellion in South Carolina is known as what?",
+    "answers":["The Stono Rebellion"],
+    "options":["The Bono Rebellion", "The Misono Rebellion", "The Blind Rebellion", "The Blono Rebellion", "The Quomo Rebellion"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"The Stono Rebellion of 9 September 1739, took place in which American state?",
+    "answers":["South Carolina"],
+    "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Texas", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"The Stono Rebellion of 9 September 1739, took place in which American state?",
+    "answers":["South Carolina"],
+    "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Louisiana", "Colorado", "Oregan", "Texas", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"After the Stono Rebellion of 1739, South Caroline prohibited which instrument by law?",
+    "answers":["The drums"],
+    "options":["The guitar", "The saxophone", "The flute", "The harmonica"],
+    "difficulty": 4,
+    "categories":["music", "history"]
+},
+{
+    "question":"'The College Dropout' was released by which of these artists?",
+    "answers":["Kanye West"],
+    "options":["Ludacris", "Asher Roth", "DJ Khaled", "Rihanna", "Nicki Minaj"],
+    "difficulty": 3,
+    "categories":["music"]
 }
+
 
 
 
