@@ -15,7 +15,9 @@ class MainMenu():
         self.startGameRect = pg.Rect(16 * TILESIZE, 13 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE)
         self.backRect = pg.Rect(4 * TILESIZE, 13 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE)
         self.gamemodeRects = [pg.Rect(4 * TILESIZE, 8 * TILESIZE, 4 * TILESIZE, 1 * TILESIZE), pg.Rect(10 * TILESIZE, 8 * TILESIZE, 4 * TILESIZE, 1 * TILESIZE), pg.Rect(16 * TILESIZE, 8 * TILESIZE, 4 * TILESIZE, 1 * TILESIZE)]
-        self.gamemodes = ["Time Mode", "Lives Mode", "Endless Mode"]
+        self.lifeLineRects = [pg.Rect(7.5 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE, 1 * TILESIZE), pg.Rect(9.5 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE, 1 * TILESIZE)]
+        self.gamemodes = ["Lives Mode", "Time Mode", "Endless Mode"]
+        self.lifeLineOptions = ["On", "Off"]
         self.menu = "main"
         self.main.getHighScore()
         self.createCategoryIcons()
@@ -29,6 +31,7 @@ class MainMenu():
         self.arrow_right = Arrow(main, TILESIZE * 24,  TILESIZE * 4.2, self.main.arrow_right_image, "right")
         self.currentCategoryStart = 0
         self.gamemodeSelected = 0
+        self.lifeLines = 1
 
     def update(self):
         if self.menu == "newGame":
@@ -107,6 +110,19 @@ class MainMenu():
             self.main.screen.blit(gamemodeText, (rect.x + 6, rect.y))
             index += 1
 
+    def drawLifeLineRects(self):
+        index = 0
+        hintsText = self.font.render("HINTS: ", True, WHITE)
+        self.main.screen.blit(hintsText, (TILESIZE * 4, self.lifeLineRects[0].y - 3))
+        for rect in self.lifeLineRects:
+            option = self.font.render(self.lifeLineOptions[index], True, WHITE)
+            width = self.font.size(self.lifeLineOptions[index])[0] + 12
+            rect.width = width
+            if self.lifeLines == index:
+                pg.draw.rect(self.main.screen, BLACK, pg.Rect(rect.x - 5, rect.y - 5, rect.width + 10, rect.height + 10))
+            pg.draw.rect(self.main.screen, PALETTE_1[0], rect)
+            self.main.screen.blit(option, (rect.x + 6, rect.y))
+            index += 1
 
     def drawNewGameMenu(self):
         pg.draw.rect(self.main.screen, PALETTE_1[1], self.newGameMenuRect)
@@ -127,6 +143,7 @@ class MainMenu():
         self.main.screen.blit(self.arrow_left.image, (self.arrow_left.x, self.arrow_left.y))
         self.main.screen.blit(self.arrow_right.image, (self.arrow_right.x, self.arrow_right.y))
         self.drawGamemodeRects()
+        self.drawLifeLineRects()
 
     def setDisplayedIcons(self):
         for sprite in self.newGameMenuCatIcons:
@@ -159,7 +176,6 @@ class MainMenu():
         pg.draw.rect(self.main.screen, PALETTE_1[0], (10 * TILESIZE, 6 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE))
         newGameText = self.font.render("NEW GAME", True, WHITE)
         self.main.screen.blit(newGameText, (10 * TILESIZE * 1.5 - (self.font.size("NEW GAME")[0]) / 2, 7 * TILESIZE - (self.font.size("NEW GAME")[1]) / 2))
-
         pg.draw.rect(self.main.screen, PALETTE_1[1], self.exitRect)
         pg.draw.rect(self.main.screen, PALETTE_1[0], (10 * TILESIZE, 9 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE))
         newGameText = self.font.render("EXIT", True, WHITE)
@@ -186,7 +202,7 @@ class MainMenu():
                         difficulties.append(questionBox.difficulty)
                 self.main.music_channel.fadeout(3000)
                 #self.main.music_channel.set_volume(.04)
-                self.main.createGame(self.questions, self.gamemodes[self.gamemodeSelected])
+                self.main.createGame(self.questions, self.gamemodes[self.gamemodeSelected], self.lifeLines)
             elif mouse.rect.colliderect(self.backRect):
                 for sprite in self.main.all_sprites:
                     self.main.all_sprites.remove(sprite)
@@ -195,6 +211,9 @@ class MainMenu():
             for rect in self.gamemodeRects:
                 if mouse.rect.colliderect(rect):
                     self.gamemodeSelected = self.gamemodeRects.index(rect)
+            for rect in self.lifeLineRects:
+                if mouse.rect.colliderect(rect):
+                    self.lifeLines = self.lifeLineRects.index(rect)
 
     def drawNumberOfQuestions(self):
         numberOfQuestions = self.smallerFont.render("No. Of Questions: ", True, WHITE)

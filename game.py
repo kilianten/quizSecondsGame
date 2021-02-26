@@ -7,7 +7,7 @@ from random import choice
 from random import shuffle
 
 class Game():
-    def __init__(self, main, questions):
+    def __init__(self, main, questions, lifeLines):
         self.main = main
         self.colour_scheme = PALETTE_1
         self.allQuestions = self.main.allQuestions
@@ -22,6 +22,7 @@ class Game():
         self.score = 0
         self.correctQuestions = 0
         self.difficulty = 1
+        self.lifeLines = lifeLines
 
     def update(self):
         if self.isPaused == False:
@@ -133,8 +134,8 @@ class Game():
         pass
 
 class TimedGame(Game):
-    def __init__(self, main, difficulties):
-        super().__init__(main, difficulties)
+    def __init__(self, main, difficulties, lifeLines):
+        super().__init__(main, difficulties, lifeLines)
         self.timeRemaining = NORMAL_START_TIME
         self.startTime = NORMAL_START_TIME
         self.createLights()
@@ -200,8 +201,8 @@ class TimedGame(Game):
             light.colour = colour
 
 class LivesGame(Game):
-    def __init__(self, main, difficulties, numOfLives):
-        super().__init__(main, difficulties)
+    def __init__(self, main, difficulties, numOfLives, lifeLines):
+        super().__init__(main, difficulties, lifeLines)
         self.livesRemaing = numOfLives
 
     def incorrectAnswerConsequence(self):

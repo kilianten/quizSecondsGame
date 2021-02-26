@@ -202,14 +202,14 @@ class Main:
             del sprite
         self.game = MainMenu(self)
 
-    def createGame(self, difficulties, gamemode):
+    def createGame(self, difficulties, gamemode, lifeLines):
         menu = self.game
         if gamemode == "Time Mode":
-            self.game = TimedGame(self, difficulties)
+            self.game = TimedGame(self, difficulties, lifeLines)
         elif gamemode == "Lives Mode":
-            self.game = LivesGame(self, difficulties, 3)
+            self.game = LivesGame(self, difficulties, 3, lifeLines)
         else:
-            self.game = Game(self, difficulties)
+            self.game = Game(self, difficulties, lifeLines)
         self.game.isPaused = False
         self.all_sprites = pg.sprite.LayeredUpdates()
 
