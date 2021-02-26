@@ -202,9 +202,14 @@ class Main:
             del sprite
         self.game = MainMenu(self)
 
-    def createGame(self, difficulties):
+    def createGame(self, difficulties, gamemode):
         menu = self.game
-        self.game = LivesGame(self, difficulties, 3)
+        if gamemode == "Time Mode":
+            self.game = TimedGame(self, difficulties)
+        elif gamemode == "Lives Mode":
+            self.game = LivesGame(self, difficulties, 3)
+        else:
+            self.game = Game(self, difficulties)
         self.game.isPaused = False
         self.all_sprites = pg.sprite.LayeredUpdates()
 
@@ -218,7 +223,6 @@ class Main:
             for category in question['categories']:
                 if category not in categoriesCounts.keys():
                     categoriesCounts[category] = 1
-
                 else:
                     categoriesCounts[category] = categoriesCounts[category] + 1
 

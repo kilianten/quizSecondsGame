@@ -14,6 +14,8 @@ class MainMenu():
         self.newGameMenuRect = pg.Rect(2 * TILESIZE, 1 * TILESIZE, 26 * TILESIZE, 15 * TILESIZE)
         self.startGameRect = pg.Rect(16 * TILESIZE, 13 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE)
         self.backRect = pg.Rect(4 * TILESIZE, 13 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE)
+        self.gamemodeRects = [pg.Rect(4 * TILESIZE, 8 * TILESIZE, 4 * TILESIZE, 1 * TILESIZE), pg.Rect(10 * TILESIZE, 8 * TILESIZE, 4 * TILESIZE, 1 * TILESIZE), pg.Rect(16 * TILESIZE, 8 * TILESIZE, 4 * TILESIZE, 1 * TILESIZE)]
+        self.gamemodes = ["Time Mode", "Lives Mode", "Endless Mode"]
         self.menu = "main"
         self.main.getHighScore()
         self.createCategoryIcons()
@@ -23,9 +25,10 @@ class MainMenu():
         self.main.music_channel.unpause()
         self.main.music_channel.play(self.main.music_sound, -1)
         self.main.music_channel.set_volume(.1)
-        self.arrow_left = Arrow(main, TILESIZE * 3,  TILESIZE * 5.2, self.main.arrow_left_image, "left")
-        self.arrow_right = Arrow(main, TILESIZE * 24,  TILESIZE * 5.2, self.main.arrow_right_image, "right")
+        self.arrow_left = Arrow(main, TILESIZE * 3,  TILESIZE * 4.2, self.main.arrow_left_image, "left")
+        self.arrow_right = Arrow(main, TILESIZE * 24,  TILESIZE * 4.2, self.main.arrow_right_image, "right")
         self.currentCategoryStart = 0
+        self.gamemodeSelected = 0
 
     def update(self):
         if self.menu == "newGame":
@@ -81,7 +84,7 @@ class MainMenu():
     def createCategoryIcons(self):
         self.newGameMenuCatIcons = []
         for category in list(self.main.icon_images.keys()):
-            self.newGameMenuCatIcons.append(MenuCategoryIcon(self.main, TILESIZE * 4, category))
+            self.newGameMenuCatIcons.append(MenuCategoryIcon(self.main, category))
 
     def draw(self):
         if self.menu == "main":
@@ -91,6 +94,19 @@ class MainMenu():
                 MainMenuBackgroundIcon(self.main)
         elif self.menu == "newGame":
             self.drawNewGameMenu()
+
+    def drawGamemodeRects(self):
+        index = 0
+        for rect in self.gamemodeRects:
+            gamemodeText = self.font.render(self.gamemodes[index], True, WHITE)
+            width = self.font.size(self.gamemodes[index])[0] + 12
+            rect.width = width
+            if self.gamemodeSelected == index:
+                pg.draw.rect(self.main.screen, BLACK, pg.Rect(rect.x - 5, rect.y - 5, rect.width + 10, rect.height + 10))
+            pg.draw.rect(self.main.screen, PALETTE_1[0], rect)
+            self.main.screen.blit(gamemodeText, (rect.x + 6, rect.y))
+            index += 1
+
 
     def drawNewGameMenu(self):
         pg.draw.rect(self.main.screen, PALETTE_1[1], self.newGameMenuRect)
@@ -110,6 +126,7 @@ class MainMenu():
         self.drawCategoryIcons()
         self.main.screen.blit(self.arrow_left.image, (self.arrow_left.x, self.arrow_left.y))
         self.main.screen.blit(self.arrow_right.image, (self.arrow_right.x, self.arrow_right.y))
+        self.drawGamemodeRects()
 
     def setDisplayedIcons(self):
         for sprite in self.newGameMenuCatIcons:
@@ -169,12 +186,15 @@ class MainMenu():
                         difficulties.append(questionBox.difficulty)
                 self.main.music_channel.fadeout(3000)
                 #self.main.music_channel.set_volume(.04)
-                self.main.createGame(self.questions)
+                self.main.createGame(self.questions, self.gamemodes[self.gamemodeSelected])
             elif mouse.rect.colliderect(self.backRect):
                 for sprite in self.main.all_sprites:
                     self.main.all_sprites.remove(sprite)
                     del sprite
                 self.main.game = MainMenu(self.main)
+            for rect in self.gamemodeRects:
+                if mouse.rect.colliderect(rect):
+                    self.gamemodeSelected = self.gamemodeRects.index(rect)
 
     def drawNumberOfQuestions(self):
         numberOfQuestions = self.smallerFont.render("No. Of Questions: ", True, WHITE)

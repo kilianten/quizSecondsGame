@@ -228,8 +228,8 @@ class MainMenuBackgroundIcon(pg.sprite.Sprite):
             del self
 
 class MenuCategoryIcon(CategoryIcon):
-    def __init__(self, main, y, category="misc"):
-        super().__init__(main, 0, TILESIZE * 5, category)
+    def __init__(self, main, category="misc"):
+        super().__init__(main, 0, TILESIZE * 4, category)
         self.main.all_sprites.remove(self)
         self.image = pg.transform.scale(main.icon_images[category], (NEWGAME_MENU_CATEGORY_ICON_SIZE, NEWGAME_MENU_CATEGORY_ICON_SIZE))
         self.clicked = False
