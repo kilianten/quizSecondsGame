@@ -60,10 +60,15 @@ class optionPanel(Panel):
     def __init__(self, main, x, y, text):
         super().__init__(main, x, y, text, pg.transform.scale(main.panel_star, (512, 128)))
         self.clicked = False
+        self.disabled = False
+
+    def drawText(self):
+        if not self.disabled:
+            super().drawText()
 
     def drawRect(self):
         super().drawRect()
-        if self.isHoveredOn == True:
+        if self.isHoveredOn == True and not self.disabled:
             pg.draw.rect(self.main.screen, WHITE, (self.x, self.y, self.image.get_width(), self.image.get_height()), PANEL_BORDER_RADIUS)
 
 class LightJar(pg.sprite.Sprite):
@@ -282,3 +287,39 @@ class Arrow(pg.sprite.Sprite):
                 self.main.game.currentCategoryStart += 1
                 self.main.game.currentCategoryStart %= len(self.main.game.newGameMenuCatIcons)
             self.main.game.setDisplayedIcons()
+
+class LifeLine(pg.sprite.Sprite):
+    def __init__(self, main, x, y, images):
+        self.main = main
+        self.groups = self.main.all_sprites, self.main.collidables
+        pg.sprite.Sprite.__init__(self, self.groups)
+        self.images = images
+        self.image = images[0]
+        self.x = x
+        self.y = y
+        self.rect = self.image.get_rect()
+        self.rect.x = self.x
+        self.rect.y = self.y
+        self.isHoveredOn = False
+        self.clicked = False
+        self.used = False
+        self.lastUpdate = 0
+        self.isDead = False
+
+class LifeLife50(LifeLine):
+    def __init__(self, main, x, y):
+        super().__init__(main, x, y, main.lifeline50Images)
+
+    def update(self):
+        if self.clicked and not self.used:
+            self.clicked = False
+            self.used = True
+            self.lastUpdate = pg.time.get_ticks()
+            self.main.game.disableIncorrect(2)
+            self.main.s5050_sound.play()
+        elif self.used and pg.time.get_ticks() - self.lastUpdate > LIFE_LINE_UPDATE_TIME:
+            if self.images.index(self.image) != len(self.images) - 1:
+                self.image = self.images[self.images.index(self.image) + 1]
+                self.lastUpdate =  pg.time.get_ticks()
+            else:
+                self.isDead = True

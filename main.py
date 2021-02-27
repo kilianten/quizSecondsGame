@@ -78,6 +78,7 @@ class Main:
         self.correct_sound = pg.mixer.Sound(path.join(snd_folder, CORRECT_SOUND))
         self.incorrect_sound = pg.mixer.Sound(path.join(snd_folder, INCORRECT_SOUND))
         self.music_sound = pg.mixer.Sound(path.join(snd_folder, MUSIC_SOUND))
+        self.s5050_sound = pg.mixer.Sound(path.join(snd_folder, s5050_SOUND))
         self.background_image =pg.transform.scale( pg.image.load(path.join(img_folder, BACKGROUND_IMAGE)).convert_alpha(), (WIDTH, HEIGHT))
         self.menu_background_image = pg.transform.scale( pg.image.load(path.join(img_folder, BACKGROUND_IMAGE_MENU)).convert_alpha(), (WIDTH, HEIGHT))
         self.question_box_ticked_image = pg.image.load(path.join(img_folder, QUESTION_BOX_TICKED_IMAGE)).convert_alpha()
@@ -86,7 +87,7 @@ class Main:
         self.logo = pg.transform.scale(pg.image.load(path.join(img_folder, LOGO)).convert_alpha(), (460, 350))
         self.numbers_images = []
         for image in NUMBER_IMAGES:
-            self.numbers_images.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (27, 53)))#
+            self.numbers_images.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (27, 53)))
         self.icon_images = {}
         for icon_image in ICON_IMAGES:
             self.icon_images[icon_image] = pg.transform.scale(pg.image.load(path.join(img_folder, ICON_IMAGES[icon_image])).convert_alpha(), (230, 230))
@@ -95,6 +96,9 @@ class Main:
         self.disabled_icon_image = pg.transform.scale( pg.image.load(path.join(img_folder, DISABLED_ICON_IMAGE)).convert_alpha(), (NEWGAME_MENU_CATEGORY_ICON_SIZE + 26, NEWGAME_MENU_CATEGORY_ICON_SIZE + 26))
         self.arrow_left_image = pg.image.load(path.join(img_folder, ARROW_LEFT_IMAGE)).convert_alpha()
         self.arrow_right_image = pg.image.load(path.join(img_folder, ARROW_RIGHT_IMAGE)).convert_alpha()
+        self.lifeline50Images = []
+        for image in LIFE_LINE_50_IMAGES:
+            self.lifeline50Images.append(pg.image.load(path.join(img_folder, image)).convert_alpha())
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)

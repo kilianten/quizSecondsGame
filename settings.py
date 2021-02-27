@@ -46,14 +46,17 @@ TINT_IMAGE = "tintBackground.png"
 DISABLED_ICON_IMAGE = "disabled_icon.png"
 ARROW_RIGHT_IMAGE = "arrow_right.png"
 ARROW_LEFT_IMAGE = "arrow_left.png"
+LIFE_LINE_50_IMAGES = ["lifeLine50.png", "lifeLine501.png", "lifeLine502.png", "lifeLine503.png", "lifeLine504.png", "lifeLine505.png", "lifeLine506.png"]
 
 #sounds
 CORRECT_SOUND = "correct.wav"
 INCORRECT_SOUND = "incorrect.wav"
 MUSIC_SOUND = "music.wav"
+s5050_SOUND = "5050.wav"
 
 #updateTimes
 CORRECT_TEXT_UPDATE_TIME = 40
+LIFE_LINE_UPDATE_TIME = 50
 INCORRECT_COLOUR_UPDATE_TIME = 450
 INCORRECT_ANIMATION_DUTATION = 3000
 CATEGORY_ICON_ROTATE_SPEED = 100

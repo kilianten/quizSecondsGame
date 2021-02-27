@@ -22,7 +22,12 @@ class Game():
         self.score = 0
         self.correctQuestions = 0
         self.difficulty = 1
-        self.lifeLines = lifeLines
+        self.isLifeLinesOn = lifeLines
+        self.createLifeLines()
+
+    def createLifeLines(self):
+        self.lifeLines = []
+        self.lifeLines.append(LifeLife50(self.main, TILESIZE * 24, TILESIZE * 7))
 
     def update(self):
         if self.isPaused == False:
@@ -36,7 +41,7 @@ class Game():
                     correctAnimation(self.main, 1, 1)
                     self.main.correct_sound.play()
                     panel.colour = GREEN
-                elif panel.clicked == True and not panel.text in self.question["answers"]:
+                elif panel.clicked == True and not panel.text in self.question["answers"] and not panel.disabled:
                     self.incorrectAnswerConsequence()
                     self.main.incorrect_sound.play()
                     panel.colour = RED
@@ -44,6 +49,24 @@ class Game():
                         if ypanel.text in self.question["answers"]:
                             correctPanel = ypanel
                     incorrectAnimation(self.main, 1, 1, panel, correctPanel)
+            for lifeLine in self.lifeLines:
+                if not lifeLine.isDead:
+                    lifeLine.update()
+
+    def disableIncorrect(self, numberToDisable):
+        panels = []
+        for int in range(0, len(self.panels)):
+            panels.append(int)
+        for panel in self.panels:
+            if panel.text in self.question["answers"]:
+                index = self.panels.index(panel)
+                panels.remove(index)
+        while numberToDisable > 0 and len(panels) > 0:
+            toDisable = choice(panels)
+            panels.remove(toDisable)
+            self.panels[toDisable].disabled = True
+            numberToDisable -= 1
+
 
     def updateTimer(self):
         if pg.time.get_ticks() - self.lastUpdate > 1000:
@@ -103,6 +126,11 @@ class Game():
         self.main.screen.blit(questionPanel.image, (questionPanel.x, questionPanel.y))
         questionPanel.drawText()
 
+    def drawLifeLines(self):
+        for lifeLine in self.lifeLines:
+            if not lifeLine.isDead:
+                self.main.screen.blit(lifeLine.image, (lifeLine.x, lifeLine.y))
+
     def draw(self):
         for panel in self.panels:
             panel.drawRect()
@@ -112,6 +140,8 @@ class Game():
         self.drawQuestionPanel()
         self.drawScores()
         self.categoryIcon.draw()
+        if self.isLifeLinesOn == 0:
+            self.drawLifeLines()
 
     def draw_categry_icon(self):
         categoryIcon = self.categoryIcon
