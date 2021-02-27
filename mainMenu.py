@@ -15,7 +15,7 @@ class MainMenu():
         self.startGameRect = pg.Rect(16 * TILESIZE, 13 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE)
         self.backRect = pg.Rect(4 * TILESIZE, 13 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE)
         self.gamemodeRects = [pg.Rect(4 * TILESIZE, 8 * TILESIZE, 4 * TILESIZE, 1 * TILESIZE), pg.Rect(10 * TILESIZE, 8 * TILESIZE, 4 * TILESIZE, 1 * TILESIZE), pg.Rect(16 * TILESIZE, 8 * TILESIZE, 4 * TILESIZE, 1 * TILESIZE)]
-        self.lifeLineRects = [pg.Rect(7.5 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE, 1 * TILESIZE), pg.Rect(9.5 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE, 1 * TILESIZE)]
+        self.lifeLineRects = [pg.Rect(9.5 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE, 1 * TILESIZE), pg.Rect(11.5 * TILESIZE, 10 * TILESIZE, 2 * TILESIZE, 1 * TILESIZE)]
         self.gamemodes = ["Lives Mode", "Time Mode", "Endless Mode"]
         self.lifeLineOptions = ["On", "Off"]
         self.menu = "main"
@@ -112,7 +112,7 @@ class MainMenu():
 
     def drawLifeLineRects(self):
         index = 0
-        hintsText = self.font.render("HINTS: ", True, WHITE)
+        hintsText = self.font.render("LIFELINES: ", True, WHITE)
         self.main.screen.blit(hintsText, (TILESIZE * 4, self.lifeLineRects[0].y - 3))
         for rect in self.lifeLineRects:
             option = self.font.render(self.lifeLineOptions[index], True, WHITE)
