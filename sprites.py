@@ -323,3 +323,21 @@ class LifeLife50(LifeLine):
                 self.lastUpdate =  pg.time.get_ticks()
             else:
                 self.isDead = True
+
+class LifeLifeSwap(LifeLine):
+    def __init__(self, main, x, y):
+        super().__init__(main, x, y, main.lifelineSwapImages)
+
+    def update(self):
+        if self.clicked and not self.used:
+            self.clicked = False
+            self.used = True
+            self.lastUpdate = pg.time.get_ticks()
+            self.main.game.resetQuestion()
+            self.main.s5050_sound.play()
+        elif self.used and pg.time.get_ticks() - self.lastUpdate > LIFE_LINE_UPDATE_TIME:
+            if self.images.index(self.image) != len(self.images) - 1:
+                self.image = self.images[self.images.index(self.image) + 1]
+                self.lastUpdate =  pg.time.get_ticks()
+            else:
+                self.isDead = True

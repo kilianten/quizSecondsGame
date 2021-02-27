@@ -99,6 +99,11 @@ class Main:
         self.lifeline50Images = []
         for image in LIFE_LINE_50_IMAGES:
             self.lifeline50Images.append(pg.image.load(path.join(img_folder, image)).convert_alpha())
+        self.lifelineSwapImages = []
+        for image in LIFE_LINE_SWAP_IMAGES:
+            self.lifelineSwapImages.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (TILESIZE, TILESIZE)))
+
+
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)

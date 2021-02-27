@@ -47,6 +47,8 @@ DISABLED_ICON_IMAGE = "disabled_icon.png"
 ARROW_RIGHT_IMAGE = "arrow_right.png"
 ARROW_LEFT_IMAGE = "arrow_left.png"
 LIFE_LINE_50_IMAGES = ["lifeLine50.png", "lifeLine501.png", "lifeLine502.png", "lifeLine503.png", "lifeLine504.png", "lifeLine505.png", "lifeLine506.png"]
+LIFE_LINE_SWAP_IMAGES = ["lifeLineSwap.png", "lifeLineSwap01.png", "lifeLineSwap02.png", "lifeLineSwap03.png", "lifeLineSwap04.png", "lifeLineSwap05.png"]
+
 
 #sounds
 CORRECT_SOUND = "correct.wav"

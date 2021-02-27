@@ -28,6 +28,7 @@ class Game():
     def createLifeLines(self):
         self.lifeLines = []
         self.lifeLines.append(LifeLife50(self.main, TILESIZE * 24, TILESIZE * 7))
+        self.lifeLines.append(LifeLifeSwap(self.main, TILESIZE * 26, TILESIZE * 7))
 
     def update(self):
         if self.isPaused == False:
