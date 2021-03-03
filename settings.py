@@ -29,7 +29,8 @@ NUM_OF_MENU_ICONS_TO_DRAW = 6
 SPACE_BETWEEN_LIFE_DISPLAYS = TILESIZE / 4
 LIFE_DISPLAY_SIZE = TILESIZE * 2
 LIFE_DISPLAY_ROTATE_SPEED = 6
-END_GAME_TIMER = 20000
+END_GAME_TIMER = 7000
+GAME_OVER_UPDATE_TIME = 130
 
 #Images
 PANEL_STAR_IMAGE =  "panelStar.png"
@@ -54,7 +55,7 @@ LIFE_LINE_50_IMAGES = ["lifeLine50.png", "lifeLine501.png", "lifeLine502.png", "
 LIFE_LINE_SWAP_IMAGES = ["lifeLineSwap.png", "lifeLineSwap01.png", "lifeLineSwap02.png", "lifeLineSwap03.png", "lifeLineSwap04.png", "lifeLineSwap05.png"]
 LIFE_ALIVE_IMAGE = "lifeAlive.png"
 LIFE_DEAD_IMAGE = "lifeDead.png"
-
+GAME_OVER_IMAGES = ["gameOver01.png", "gameOver02.png", "gameOver03.png"]
 
 
 

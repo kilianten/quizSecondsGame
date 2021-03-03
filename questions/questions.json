@@ -1,3 +1,5 @@
+
+
 [
 {
     "question":"What is the capital of Ireland?",
@@ -3781,8 +3783,8 @@
 },
 {
     "question":"When was radium discovered?",
-    "answers":["1928"],
-    "options":["1907", "1946", "1894", "1749", "1856", "1822", "1827"],
+    "answers":["1898"],
+    "options":["1907", "1946", "1894", "1749", "1856", "1822", "1827", "1927"],
     "difficulty": 2,
     "categories":["science", "history"]
 },
@@ -5329,7 +5331,7 @@
 },
 {
     "question":"Which would not typically be a feature of a male turtle compared to females",
-    "answers":["Drie skin"],
+    "answers":["Dry skin"],
     "options":["Larger shells", "Wider Tails", "Longer Tails", "Concave plastron (shell on the belly)"],
     "difficulty": 5,
     "categories":["nature", "animals"]
@@ -7339,7 +7341,7 @@
 {
     "question":"Who was assassinated on April 4 1968?",
     "answers":["Martin Luther King Jr."],
-    "options":["Indira Gandhi", "Franz Ferdinand", "Martin Luther King Jr.", "Malcolm X", "Mahatma Gandhi"],
+    "options":["Indira Gandhi", "Franz Ferdinand", "Malcolm X", "Mahatma Gandhi"],
     "difficulty": 2,
     "categories":["history"]
 },
@@ -7995,7 +7997,7 @@
     "categories":["medicine"]
 },
 {
-    "question":"Which of these is not a lobe of the human briain?",
+    "question":"Which of these is not a lobe of the human brain?",
     "answers":["Olfactory lobe", "The Amygdalobe", "The Pruebalobe"],
     "options":["Frontal lobe", "Parietal lobe", "Occipital lobe", "Temporal lobe"],
     "difficulty": 3,
@@ -10105,7 +10107,7 @@
     "question":"Who plays Bane in 'The Dark Knight Rises'?",
     "answers":["Tom Hardy"],
     "options":["Matt Damon", "Jeremy Piven", "Ryan Reynolds", "Joel Edgerton"],
-    "difficulty": 5,
+    "difficulty": 3,
     "categories":["film", "music"]
 },
 {
@@ -11127,7 +11129,7 @@
 {
     "question":"James M. Barrie is best known for creating which of these?",
     "answers":["Peter Pan"],
-    "options":["James Bond", "Pinocchio", "Tin Tin", "The Jungle Book", "Winnie the Pooh"],
+    "options":["James Bond", "Pinocchio", "Tin Tin", "The Jungle Book", "Winnie-the-Pooh"],
     "difficulty": 4,
     "categories":["books"]
 },
@@ -11192,7 +11194,7 @@
     "answers":["The drums"],
     "options":["The guitar", "The saxophone", "The flute", "The harmonica"],
     "difficulty": 4,
-    "categories":["music", "history"]
+    "categories":["law", "music","history"]
 },
 {
     "question":"'The College Dropout' was released by which of these artists?",
@@ -11200,9 +11202,210 @@
     "options":["Ludacris", "Asher Roth", "DJ Khaled", "Rihanna", "Nicki Minaj"],
     "difficulty": 3,
     "categories":["music"]
+},
+{
+    "question":"In 1778, Captain James Cook sailed the Pacific on which ship?",
+    "answers":["HMS Resolution"],
+    "options":["HMS Fear", "HMS Growth", "HMS Respect", "HMS Quill", "HMS Cause", "HMS Merciful", "HMS Unsightly", "HMS Meddle"],
+    "difficulty": 5,
+    "categories":["history"]
+},
+{
+    "question":"Charles Darwin sailed on a ship from 1831 which helped him with his Theory of Evolution, what was the name of the ship?",
+    "answers":["HMS Beagle"],
+    "options":["HMS Fear", "HMS Growth", "HMS Respect", "HMS Quill", "HMS Cause", "HMS Merciful", "HMS Unsightly", "HMS Meddle", "HMS Heavy", "HMS Resolution"],
+    "difficulty": 4,
+    "categories":["history"]
+},
+{
+    "question":"In what year did Britain pass the Equal Franchise Act, allowing all women over 21 to vote?",
+    "answers":["1928"],
+    "options":["1908", "1938", "1948", "1958", "1933", "1923", "1943", "1963"],
+    "difficulty": 4,
+    "categories":["law", "history"]
+},
+{
+    "question":"'Toto, I've a feeling we're no in Kansas anymore' is a quote from which film?",
+    "answers":["The Wizard of Oz"],
+    "options":["Interstellar", "Casablanca", "Harold and Maude", "Edward Scissorhands", "Rear Window", "Twister", "You Only Live Twice"],
+    "difficulty": 3,
+    "categories":["film", "quotes"]
+},
+{
+    "question":"What is the name of the dog from 'The Wizard of Oz'?",
+    "answers":["Toto"],
+    "options":["Dug", "Copper", "Pongo", "Edward Scissorhands", "Dodger", "Nana", "Benji"],
+    "difficulty": 4,
+    "categories":["film", "books"]
+},
+{
+    "question":"'Where do you want to go today' was a former slogan of which company?",
+    "answers":["Microsoft"],
+    "options":["Amazon", "Google", "Uber", "Visa", "Nokia", "CNN", "UPS"],
+    "difficulty": 4,
+    "categories":["bussiness"]
+},
+{
+    "question":"'You're gonna need a bigger boat' is a quote from which film?",
+    "answers":["Jaws"],
+    "options":["Interstellar", "Casablanca", "Harold and Maude", "Edward Scissorhands", "Rear Window", "Twister", "You Only Live Twice", "The Wizard of Oz"],
+    "difficulty": 2,
+    "categories":["film", "quotes"]
+},
+{
+    "question":"According to Emily Dickinson 'Forever is composed of' what?",
+    "answers":["Nows"],
+    "options":["Time", "Nothing", "Memories", "Ourselves", "Stars"],
+    "difficulty": 4,
+    "categories":["poetry", "quotes"]
+},
+{
+    "question":"Who played Rey in 'The Force Awakens'?",
+    "answers":["Daisy Ridley"],
+    "options":["Lucy Hale", "Alexandra Chando", "Kristen Stewart", "Debby Ryan", "Emily Osment", "Lea Michele", "Nina Dobrev", "Lily Collins"],
+    "difficulty": 4,
+    "categories":["film"]
+},
+{
+    "question":"Which president famously said 'The only thing we have to fear is fear itself'?",
+    "answers":["Fraklin  D. Roosevelt"],
+    "options":["Woodrow Wilson", "Harry S. Truman", "Dwight D. Eisenhower", "John F. Kennedy", "Lyndon B. Johnson"],
+    "difficulty": 2,
+    "categories":["quotes", "politics"]
+},
+{
+    "question":"Who wrote 'The Kingdom of God Is Within You' in 1894?",
+    "answers":["Leo Tolstoy"],
+    "options":["William Shakespeare", "Edgar Allan Poe", "Charles Dickens", "Rabindranath Tagore", "Emily Dickinson", "Arthur Miller"],
+    "difficulty": 4,
+    "categories":["books"]
+},
+{
+    "question":"Caipirinha is the national coctail of which country?",
+    "answers":["Brazil"],
+    "options":["Guatemala", "Russia", "Tonga", "Australia", "Colombia", "Gibraltar", "Dominica"],
+    "difficulty": 4,
+    "categories":["drinks"]
+},
+{
+    "question":"Eric Schmidt was until 2011, CEO of which company?",
+    "answers":["Google"],
+    "options":["Ecolab", "Amgen", "Nike", "BMW", "IBM", "McDonalds", "Samsung"],
+    "difficulty": 5,
+    "categories":["bussiness"]
+},
+{
+    "question":"A. A. Milne is famous for creating which characters?",
+    "answers":["Winnie-the-Pooh"],
+    "options":["James Bond", "Pinocchio", "Tin Tin", "The Jungle Book", "Winnie-the-Pooh", "Peter Pan", "WALL·E", "Babe"],
+    "difficulty": 4,
+    "categories":["books"]
+},
+{
+    "question":"Which hormone is often known as the stress hormone?",
+    "answers":["Cortisol"],
+    "options":["Melatonin", "Orexin", "Prostacyclin", "Calcitonin", "Glucagon", "Leptin", "Relaxin"],
+    "difficulty": 4,
+    "categories":["science"]
+},
+{
+    "question":"What fruit is used to make a Caipirinha?",
+    "answers":["Lime"],
+    "options":["Orange", "Lemon", "Strawberry", "Apple", "Raspberry", "Pineapple"],
+    "difficulty": 5,
+    "categories":["drinks"]
+},
+{
+    "question":"Orange is a telecoms company from which country?",
+    "answers":["France"],
+    "options":["Spain", "Belgium", "Amsterdam", "Slovakia", "Jordan", "Italy"],
+    "difficulty": 4,
+    "categories":["bussiness"]
+},
+{
+    "question":"The Yalu River seperates China from which country?",
+    "answers":["North Korea"],
+    "options":["Vietnam", "Laos", "Myanmar", "Bhutan", "Nepal", "India", "Tajikistan", "Kyrgyzstan"],
+    "difficulty": 4,
+    "categories":["geography"]
+},
+{
+    "question":"In 1910, Korea was annexed to which country?",
+    "answers":["Japan"],
+    "options":["Vietnam", "China", "Mongolia"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"In 1910, Korea was annexed to which country?",
+    "answers":["Japan"],
+    "options":["Vietnam", "China", "Mongolia"],
+    "difficulty": 2,
+    "categories":["geography"]
+},
+{
+    "question":"What is typically at the bottom of Maslow’s hierarchy of needs?",
+    "answers":["Physiological needs"],
+    "options":["Safety needs", "Social needs", "Esteem needs", "Self-Actualization Needs"],
+    "difficulty": 2,
+    "categories":["psychology"]
+},
+{
+    "question":"What is the name of the small hammer a judge uses to call for order/attention?",
+    "answers":["Gavel"],
+    "options":["Obelus", "Chevron", "Caret", "Aglet", "Baluster"],
+    "difficulty": 2,
+    "categories":["law"]
+},
+{
+    "question":"Which song did Patrick Bateman of American Psycho refair to as Huey Lewis and the News 'Undisputed masterpiece'?",
+    "answers":["Hip to be Square"],
+    "options":["The Heart of Rock & Roll", "Stuck With You", "I Want a New Drug", "Heart and Soul", "I Know What I Like", "The Power of Love", "Heart and Soul"],
+    "difficulty": 4,
+    "categories":["film", "music", "quote"]
+},
+{
+    "question":"Who wrote the lyrics for 'Amazing Grace'?",
+    "answers":["John Newton"],
+    "options":["Deryck Larry", "Ian Alford", "Rupert Dolan", "Earl Macgregor", "Cormac Forster"],
+    "difficulty": 4,
+    "categories":["film", "music", "quote"]
+},
+{
+    "question":"The 'Radium Girls' were female factory workers who contracted radiation poisoning while producing what?",
+    "answers":["Watches"],
+    "options":["Radios", "Televisions", "Ovens", "Lightbulbs", "Hair Dryers", "Electric shavers", "Toasters"],
+    "difficulty": 4,
+    "categories":["bussiness", "history"]
+},
+{
+    "question":"Which of these is the name of an oath historically taken by physicians?",
+    "answers":["Hippocratic oath"],
+    "options":["Platonoic oath", "Marxist oath", "Socratic oath", "Descartes' oath", "Anzimanderly oath", "Tzuan oath"],
+    "difficulty": 5,
+    "categories":["medicine"]
+},
+{
+    "question":"What is the missing word of Amazing Grace. 'Was ' what ', but now I see'?",
+    "answers":["Blind"],
+    "options":["Young", "Wrong", "Helpless", "Amazing", "Lost", "Dark"],
+    "difficulty": 2,
+    "categories":["music"]
+},
+{
+    "question":"From which country is Volvo from?",
+    "answers":["Sweden"],
+    "options":["France", "Japan", "Italy", "South Korea", "Germany"],
+    "difficulty": 3,
+    "categories":["transport", "bussiness"]
+},
+{
+    "question":"In 1995, the Clean Air Act banned the sale of fuel that contained which chemical?",
+    "answers":["Lead"],
+    "options":["Boron", "Argon", "Mercury", "Phosphorus", "Magnesium"],
+    "difficulty": 2,
+    "categories":["law", "bussiness"]
 }
-
-
 
 
 ]

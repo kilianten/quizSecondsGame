@@ -375,3 +375,25 @@ class LifeDisplay(pg.sprite.Sprite):
             self.x = self.originalX
             self.y = self.originalY
             self.finished = True
+
+class GameOverDisplay(pg.sprite.Sprite):
+    def __init__(self, main):
+        self.main = main
+        self.groups = self.main.all_sprites
+        pg.sprite.Sprite.__init__(self, self.groups)
+        self.originalImage = self.main.gameOverImages[0]
+        self.image = self.main.gameOverImages[0]
+        self.rect = self.image.get_rect()
+        self.x = (WIDTH - self.rect.width)/2
+        self.y = 0
+        self.rect.x = self.x
+        self.rect.y = self.y
+        self.lastUpdate = 0
+
+    def update(self):
+        if pg.time.get_ticks() - self.lastUpdate > GAME_OVER_UPDATE_TIME:
+            currentImage = self.main.gameOverImages.index(self.image)
+            currentImage += 1
+            currentImage %= len(self.main.gameOverImages)
+            self.image = self.main.gameOverImages[currentImage]
+            self.lastUpdate = pg.time.get_ticks()

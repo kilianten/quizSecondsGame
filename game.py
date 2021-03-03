@@ -34,16 +34,14 @@ class Game():
 
     def startEndSequence(self):
         self.endingGame = True
-        print("end sequence")
+        GameOverDisplay(self.main)
         self.endGameTimer = pg.time.get_ticks()
 
     def update(self):
         if self.isPaused == False:
             self.updateTimer()
             if self.endingGame == True:
-                print("ending game")
                 if pg.time.get_ticks() - self.endGameTimer >= END_GAME_TIMER:
-                    print("ending game 2")
                     self.endGame()
             else:
                 for panel in self.panels:
@@ -66,8 +64,6 @@ class Game():
                 for lifeLine in self.lifeLines:
                     if not lifeLine.isDead:
                         lifeLine.update()
-        for lifeDisplay in self.lifeDisplays:
-            lifeDisplay.update()
 
     def disableIncorrect(self, numberToDisable):
         panels = []
@@ -147,10 +143,6 @@ class Game():
             if not lifeLine.isDead:
                 self.main.screen.blit(lifeLine.image, (lifeLine.x, lifeLine.y))
 
-    def drawLifeDisplays(self):
-        for lifeDisplay in self.lifeDisplays:
-            self.main.screen.blit(lifeDisplay.image, (lifeDisplay.x, lifeDisplay.y))
-
     def draw(self):
         for panel in self.panels:
             panel.drawRect()
@@ -162,7 +154,6 @@ class Game():
         self.categoryIcon.draw()
         if self.isLifeLinesOn == 0:
             self.drawLifeLines()
-        self.drawLifeDisplays()
 
     def draw_categry_icon(self):
         categoryIcon = self.categoryIcon
@@ -282,6 +273,16 @@ class LivesGame(Game):
             self.startEndSequence()
         else:
             super().update()
+            for lifeDisplay in self.lifeDisplays:
+                lifeDisplay.update()
+
+    def drawLifeDisplays(self):
+        for lifeDisplay in self.lifeDisplays:
+            self.main.screen.blit(lifeDisplay.image, (lifeDisplay.x, lifeDisplay.y))
+
+    def draw(self):
+        super().draw()
+        self.drawLifeDisplays()
 
     def endGame(self):
         if self.main.highScore < self.score:
