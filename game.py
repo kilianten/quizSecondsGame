@@ -24,35 +24,50 @@ class Game():
         self.difficulty = 1
         self.isLifeLinesOn = lifeLines
         self.createLifeLines()
+        self.endingGame = False
+        self.endGameTimer = 0
 
     def createLifeLines(self):
         self.lifeLines = []
         self.lifeLines.append(LifeLife50(self.main, TILESIZE * 24, TILESIZE * 7))
         self.lifeLines.append(LifeLifeSwap(self.main, TILESIZE * 26, TILESIZE * 7))
 
+    def startEndSequence(self):
+        self.endingGame = True
+        print("end sequence")
+        self.endGameTimer = pg.time.get_ticks()
+
     def update(self):
         if self.isPaused == False:
             self.updateTimer()
-            for panel in self.panels:
-                if panel.clicked == True and panel.text in self.question["answers"]:
-                    self.score += self.question["difficulty"] * self.difficulty
-                    self.correctQuestions += 1
-                    panel.clicked = False
-                    self.correctAnswerConsequence()
-                    correctAnimation(self.main, 1, 1)
-                    self.main.correct_sound.play()
-                    panel.colour = GREEN
-                elif panel.clicked == True and not panel.text in self.question["answers"] and not panel.disabled:
-                    self.incorrectAnswerConsequence()
-                    self.main.incorrect_sound.play()
-                    panel.colour = RED
-                    for ypanel in self.panels:
-                        if ypanel.text in self.question["answers"]:
-                            correctPanel = ypanel
-                    incorrectAnimation(self.main, 1, 1, panel, correctPanel)
-            for lifeLine in self.lifeLines:
-                if not lifeLine.isDead:
-                    lifeLine.update()
+            if self.endingGame == True:
+                print("ending game")
+                if pg.time.get_ticks() - self.endGameTimer >= END_GAME_TIMER:
+                    print("ending game 2")
+                    self.endGame()
+            else:
+                for panel in self.panels:
+                    if panel.clicked == True and panel.text in self.question["answers"]:
+                        self.score += self.question["difficulty"] * self.difficulty
+                        self.correctQuestions += 1
+                        panel.clicked = False
+                        self.correctAnswerConsequence()
+                        correctAnimation(self.main, 1, 1)
+                        self.main.correct_sound.play()
+                        panel.colour = GREEN
+                    elif panel.clicked == True and not panel.text in self.question["answers"] and not panel.disabled:
+                        self.incorrectAnswerConsequence()
+                        self.main.incorrect_sound.play()
+                        panel.colour = RED
+                        for ypanel in self.panels:
+                            if ypanel.text in self.question["answers"]:
+                                correctPanel = ypanel
+                        incorrectAnimation(self.main, 1, 1, panel, correctPanel)
+                for lifeLine in self.lifeLines:
+                    if not lifeLine.isDead:
+                        lifeLine.update()
+        for lifeDisplay in self.lifeDisplays:
+            lifeDisplay.update()
 
     def disableIncorrect(self, numberToDisable):
         panels = []
@@ -132,6 +147,10 @@ class Game():
             if not lifeLine.isDead:
                 self.main.screen.blit(lifeLine.image, (lifeLine.x, lifeLine.y))
 
+    def drawLifeDisplays(self):
+        for lifeDisplay in self.lifeDisplays:
+            self.main.screen.blit(lifeDisplay.image, (lifeDisplay.x, lifeDisplay.y))
+
     def draw(self):
         for panel in self.panels:
             panel.drawRect()
@@ -143,6 +162,7 @@ class Game():
         self.categoryIcon.draw()
         if self.isLifeLinesOn == 0:
             self.drawLifeLines()
+        self.drawLifeDisplays()
 
     def draw_categry_icon(self):
         categoryIcon = self.categoryIcon
@@ -189,8 +209,8 @@ class TimedGame(Game):
             self.timeRemaining = NORMAL_START_TIME
 
     def updateTimer(self):
-        if self.timeRemaining < 0:
-            self.endGame()
+        if self.timeRemaining < 0 and not self.endingGame:
+            self.startEndSequence()
         if pg.time.get_ticks() - self.lastUpdate > 1000:
             self.timeRemaining -= 1
             self.dimLights()
@@ -235,14 +255,31 @@ class LivesGame(Game):
     def __init__(self, main, difficulties, numOfLives, lifeLines):
         super().__init__(main, difficulties, lifeLines)
         self.livesRemaing = numOfLives
+        self.lifeDisplays = []
+        self.createLivesDisplay(numOfLives)
+
+    def moveLifes(self):
+        for lifeDisplay in self.lifeDisplays:
+            lifeDisplay.x = lifeDisplay.originalX
+
+    def createLivesDisplay(self, numOfLives):
+        spacing = SPACE_BETWEEN_LIFE_DISPLAYS * (numOfLives - 1)
+        widthOfLives = numOfLives * LIFE_DISPLAY_SIZE + spacing
+        remainingSpace = WIDTH - widthOfLives
+        xOffset = remainingSpace / 2 - (TILESIZE * 2.4)
+        for life in range(0, numOfLives):
+            self.lifeDisplays.append(LifeDisplay(self.main, xOffset, 20))
+            xOffset += TILESIZE * 3 + SPACE_BETWEEN_LIFE_DISPLAYS
 
     def incorrectAnswerConsequence(self):
         super().incorrectAnswerConsequence()
         self.livesRemaing -= 1
+        if self.livesRemaing > 0:
+            self.lifeDisplays[self.livesRemaing].isDead = True
 
     def update(self):
-        if self.livesRemaing <= 0:
-            self.endGame()
+        if self.livesRemaing <= 0 and not self.endingGame:
+            self.startEndSequence()
         else:
             super().update()
 

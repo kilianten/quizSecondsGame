@@ -98,12 +98,12 @@ class Main:
         self.arrow_right_image = pg.image.load(path.join(img_folder, ARROW_RIGHT_IMAGE)).convert_alpha()
         self.lifeline50Images = []
         for image in LIFE_LINE_50_IMAGES:
-            self.lifeline50Images.append(pg.image.load(path.join(img_folder, image)).convert_alpha())
+            self.lifeline50Images.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (int(TILESIZE * 1.5), int(TILESIZE * 1.5))))
         self.lifelineSwapImages = []
         for image in LIFE_LINE_SWAP_IMAGES:
-            self.lifelineSwapImages.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (TILESIZE, TILESIZE)))
-
-
+            self.lifelineSwapImages.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (int(TILESIZE * 1.5), int(TILESIZE * 1.5))))
+        self.lifeAliveImage =  pg.transform.scale(pg.image.load(path.join(img_folder, LIFE_ALIVE_IMAGE)).convert_alpha(), (LIFE_DISPLAY_SIZE, LIFE_DISPLAY_SIZE))
+        self.lifeDeadImage = pg.transform.scale(pg.image.load(path.join(img_folder, LIFE_DEAD_IMAGE)).convert_alpha(), (LIFE_DISPLAY_SIZE, LIFE_DISPLAY_SIZE))
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)

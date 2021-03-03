@@ -341,3 +341,37 @@ class LifeLifeSwap(LifeLine):
                 self.lastUpdate =  pg.time.get_ticks()
             else:
                 self.isDead = True
+
+class LifeDisplay(pg.sprite.Sprite):
+    def __init__(self, main, x, y):
+        self.main = main
+        self.groups = self.main.all_sprites
+        pg.sprite.Sprite.__init__(self, self.groups)
+        self.originalImage = self.main.lifeAliveImage
+        self.image = self.main.lifeAliveImage
+        self.originalX = x
+        self.originalY = y
+        self.x = x
+        self.y = y
+        self.rect = self.image.get_rect()
+        self.rect.x = self.x
+        self.rect.y = self.y
+        self.lastUpdate = 0
+        self.isDead = False
+        self.rotation = 0
+        self.finished = False
+
+    def update(self):
+        if self.isDead and self.rotation < 360:
+            self.image =  pg.transform.rotate(self.main.lifeAliveImage, self.rotation)
+            self.rect = self.image.get_rect()
+            self.x = self.originalX
+            self.x -= self.rect.center[0] - self.originalImage.get_rect().center[0]
+            self.y = self.originalY
+            self.y -= self.rect.center[1] - self.originalImage.get_rect().center[1]
+            self.rotation += LIFE_DISPLAY_ROTATE_SPEED
+        elif not self.finished and self.rotation >= 360 and self.isDead:
+            self.image = self.main.lifeDeadImage
+            self.x = self.originalX
+            self.y = self.originalY
+            self.finished = True

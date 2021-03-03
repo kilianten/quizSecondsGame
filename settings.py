@@ -26,6 +26,10 @@ BASE_FONT_HEIGHT = 27
 MENU_FONT_SIZE = 60
 MENU_SMALLER_FONT_SIZE = 35
 NUM_OF_MENU_ICONS_TO_DRAW = 6
+SPACE_BETWEEN_LIFE_DISPLAYS = TILESIZE / 4
+LIFE_DISPLAY_SIZE = TILESIZE * 2
+LIFE_DISPLAY_ROTATE_SPEED = 6
+END_GAME_TIMER = 20000
 
 #Images
 PANEL_STAR_IMAGE =  "panelStar.png"
@@ -48,6 +52,10 @@ ARROW_RIGHT_IMAGE = "arrow_right.png"
 ARROW_LEFT_IMAGE = "arrow_left.png"
 LIFE_LINE_50_IMAGES = ["lifeLine50.png", "lifeLine501.png", "lifeLine502.png", "lifeLine503.png", "lifeLine504.png", "lifeLine505.png", "lifeLine506.png"]
 LIFE_LINE_SWAP_IMAGES = ["lifeLineSwap.png", "lifeLineSwap01.png", "lifeLineSwap02.png", "lifeLineSwap03.png", "lifeLineSwap04.png", "lifeLineSwap05.png"]
+LIFE_ALIVE_IMAGE = "lifeAlive.png"
+LIFE_DEAD_IMAGE = "lifeDead.png"
+
+
 
 
 #sounds
