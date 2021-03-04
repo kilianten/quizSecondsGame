@@ -81,7 +81,7 @@
 {
     "question":"'No one is fool enough to choose war instead of peace - in peace sons bury fathers, but in war fathers bury sons' is a quote from whom?",
     "answers":["Herodotus"],
-    "options":["Ronald Regan", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "options":["Ronald Regan", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty":4,
     "categories":["quotes"]
 },
@@ -109,14 +109,14 @@
 {
     "question":"'Stay away from negative people. They have a problem for every solution' is a quote from whom?",
     "answers":["Albert Einstein"],
-    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "René Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Lao Tzu"],
+    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "Rene Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Lao Tzu"],
     "difficulty":2,
     "categories":["quotes"]
 },
 {
     "question":"'Everyone is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid' is a quote from whom?",
     "answers":["Albert Einstein"],
-    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "René Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Lao Tzu"],
+    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "Rene Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Lao Tzu"],
     "difficulty":2,
     "categories":["quotes"]
 },
@@ -179,7 +179,7 @@
 {
     "question":"'If you are depressed you are living in the past. If you are anxious you are living in the future. If you are at peace you are living in the present?', is a quote from whom?",
     "answers":["Lao Tzu"],
-    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "René Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Albert Einstein"],
+    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "Rene Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Albert Einstein"],
     "difficulty":2,
     "categories":["quotes"]
 },
@@ -1194,7 +1194,7 @@
 {
     "question":"'He whose life has a why can bear almost any how?' is a quote from whom?",
     "answers":["Friedrich Niezsche"],
-    "options":["Ronald Regan", "Plato", "Karl Marx", "Socrates", "Confucius", "René Descartes", "Epictetus", "Lao Tzu", "Abhraham Lincoln", "C. S. Lewis"],
+    "options":["Ronald Regan", "Plato", "Karl Marx", "Socrates", "Confucius", "Rene Descartes", "Epictetus", "Lao Tzu", "Abhraham Lincoln", "C. S. Lewis"],
     "difficulty":3,
     "categories":["quotes"]
 },
@@ -1248,7 +1248,7 @@
     "categories":["quotes"]
 },
 {
-    "question":"René Descartes was a philosopher from where?",
+    "question":"Rene Descartes was a philosopher from where?",
     "answers":["France"],
     "options":["Italy", "Greece", "Spain", "Belgium", "Finland"],
     "difficulty":2,
@@ -1297,14 +1297,14 @@
     "categories":["poetry", "misc"]
 },
 {
-    "question":"Who created the Renaissance piece, Pietá?",
+    "question":"Who created the Renaissance piece, Pieta?",
     "answers":["Michelangelo"],
     "options":["Raphael", "Donatello", "Titian", "Alberto Giacometti"],
     "difficulty":2,
     "categories":["art"]
 },
 {
-    "question":"Who created the Renaissance piece, Pietá?",
+    "question":"Who created the Renaissance piece, Pieta?",
     "answers":["Michelangelo"],
     "options":["Raphael", "Donatello", "Titian", "Alberto Giacometti"],
     "difficulty":2,
@@ -1502,7 +1502,7 @@
 {
     "question":"Who famously said 'There is no great genious without a touch of madness'?",
     "answers":["Aristotle"],
-    "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty":4,
     "categories":["quotes"]
 },
@@ -1516,7 +1516,7 @@
 {
     "question":"Who famously said 'Men are disturbed not by things, but by the views which they take of things'?",
     "answers":["Epictetus"],
-    "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Aristotle", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Aristotle", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty":4,
     "categories":["quotes"]
 },
@@ -1530,7 +1530,7 @@
 {
     "question":"Who famously said 'Men are disturbed not by things, but by the views which they take of things'?",
     "answers":["Hippocrates"],
-    "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Aristotle", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu", "Epictetus"],
+    "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Aristotle", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu", "Epictetus"],
     "difficulty":4,
     "categories":["quotes"]
 },
@@ -1712,7 +1712,7 @@
 {
     "question":"Who wrote Don Quixote?",
     "answers":["Miguel de Cervantes"],
-    "options":["Carlos Ruiz Zafón", "Javier Marías", "Camilo José Cela", "Mario Vargas Llosa"],
+    "options":["Carlos Ruiz Zafon", "Javier Marías", "Camilo Jose Cela", "Mario Vargas Llosa"],
     "difficulty": 3,
     "categories":["books"]
 },
@@ -1857,21 +1857,21 @@
     "categories":["quotes"]
 },
 {
-    "question":"In 1519, Hernando Cortés landed in which modern country?",
+    "question":"In 1519, Hernando Cortes landed in which modern country?",
     "answers":["Mexico"],
     "options":["Bahamas", "Peru", "Chile", "Panama"],
     "difficulty": 3,
     "categories":["geography", "history"]
 },
 {
-    "question":"In 1519, Hernando Cortés landed in Mexico and discovered which civilization?",
+    "question":"In 1519, Hernando Cortes landed in Mexico and discovered which civilization?",
     "answers":["Aztec"],
     "options":["Inca"],
     "difficulty": 2,
     "categories":["history"]
 },
 {
-    "question":"When did Hernando Cortés land in Mexico for the first time?",
+    "question":"When did Hernando Cortes land in Mexico for the first time?",
     "answers":["1519"],
     "options":["1492", "1522", "1452", "1561", "1421", "1498"],
     "difficulty": 3,
@@ -1879,7 +1879,7 @@
 },
 {
     "question":"Who, in 1519, landed in Mexico to discover the Aztec civilization?",
-    "answers":["Hernando Cortés"],
+    "answers":["Hernando Cortes"],
     "options":["Christopher Columbus", "Francisco Pizarro", "Amerigo Vespucci", "Marco Polo", "John Cabot"],
     "difficulty": 3,
     "categories":["history"]
@@ -1887,7 +1887,7 @@
 {
     "question":"Who, in 1522, landed in Peru to discover the Inca civilization?",
     "answers":["Francisco Pizarro"],
-    "options":["Christopher Columbus", "Hernando Cortés", "Amerigo Vespucci", "Marco Polo", "John Cabot"],
+    "options":["Christopher Columbus", "Hernando Cortes", "Amerigo Vespucci", "Marco Polo", "John Cabot"],
     "difficulty": 3,
     "categories":["history"]
 },
@@ -1915,7 +1915,7 @@
 {
     "question":"'All that I feel to be good is good; all that I feel to be bad is bad' is a quote from whom?",
     "answers":["Jean-Jacques Rousseau"],
-    "options":["Ronald Regan", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu", "Herodotus"],
+    "options":["Ronald Regan", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu", "Herodotus"],
     "difficulty":4,
     "categories":["quotes"]
 },
@@ -2027,7 +2027,7 @@
 {
     "question":"'First they ignore you, then they laugh at you, then they fight you, then you win?', is a quote from whom?",
     "answers":["Mahatma Gandhi"],
-    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "René Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Albert Einstein", "Lao Tzu", "Mother Teresa", "Martin Luther King Jr."],
+    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "Rene Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Albert Einstein", "Lao Tzu", "Mother Teresa", "Martin Luther King Jr."],
     "difficulty":2,
     "categories":["quotes"]
 },
@@ -2040,7 +2040,7 @@
 },
 {
     "question":"What is the capital of Paraguay?",
-    "answers":["Asunción"],
+    "answers":["Asuncion"],
     "options":["Montevideo", "Tehran", "Bogota", "San Lorenzo", "Ciudad de Este", "Paraguay city", "Encarnacion"],
     "difficulty": 3,
     "categories":["geography"]
@@ -2068,7 +2068,7 @@
 },
 {
     "question":"The Chicxulub crater, which is believed to be left by the asteriod that killed the dinosaurs, is located where?",
-    "answers":["Yucatán, Mexico"],
+    "answers":["Yucatan, Mexico"],
     "options":["Sao Paulo, Brazil", "Medeillín, Colombia", "Salvador, Brazil"],
     "difficulty": 3,
     "categories":["geography"]
@@ -2223,7 +2223,7 @@
 {
     "question":"'The distinction between past, present and future is only an illusion, however tenacious this illusion may be' is a quote from whom?",
     "answers":["Albert Einstein"],
-    "options":["Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marie Curie", "George Orwell"],
+    "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marie Curie", "George Orwell"],
     "difficulty": 3,
     "categories":["quotes"]
 },
@@ -2237,7 +2237,7 @@
 {
     "question":"'In times of universal deceit, telling the truth is a revolutionary act' is a quote from whom?",
     "answers":["George Orwell"],
-    "options":["Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan"],
+    "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan"],
     "difficulty": 2,
     "categories":["quotes"]
 },
@@ -2251,7 +2251,7 @@
 {
     "question":"'The man who views the world at 50 the same as he did at 20 has wasted 30 years of his life' is a quote from whom?",
     "answers":["Muhammad Ali"],
-    "options":["Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu"],
+    "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu"],
     "difficulty": 3,
     "categories":["quotes"]
 },
@@ -2293,7 +2293,7 @@
 {
     "question":"'Time and space are modes by which we think and not conditions in which we live' is a quote from whom?",
     "answers":["Albert Einstein"],
-    "options":["Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marie Curie", "George Orwell"],
+    "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marie Curie", "George Orwell"],
     "difficulty": 3,
     "categories":["quotes"]
 },
@@ -2321,7 +2321,7 @@
 {
     "question":"What is the capital of The Bahamas",
     "answers":["Nassau"],
-    "options":["Bogotá", "Paramaribo", "Freeport", "West End", "Marsh Harbour", "Alice Town"],
+    "options":["Bogota", "Paramaribo", "Freeport", "West End", "Marsh Harbour", "Alice Town"],
     "difficulty": 3,
     "categories":["geography"]
 },
@@ -2405,21 +2405,21 @@
 {
     "question":"'You can fool all the people some of the time, and some of the people all the time, but you cannot fool all the people all the time' is a quote from whom?",
     "answers":["Abraham Lincoln"],
-    "options":["Charles Darwin", "René Descartes", "Isaac Newton", "Marie Curie", "George Orwell", "Albert Einstein", "George Washington", "Winston Churchill"],
+    "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Marie Curie", "George Orwell", "Albert Einstein", "George Washington", "Winston Churchill"],
     "difficulty": 3,
     "categories":["quotes"]
 },
 {
     "question":"'Democracy is the worst form of goverment, except for all the others' is a quote from whom?",
     "answers":["Winston Churchill"],
-    "options":["Charles Darwin", "René Descartes", "Isaac Newton", "Marie Curie", "George Orwell", "Albert Einstein", "George Washington", "Abraham Lincoln"],
+    "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Marie Curie", "George Orwell", "Albert Einstein", "George Washington", "Abraham Lincoln"],
     "difficulty": 3,
     "categories":["quotes"]
 },
 {
     "question":"Which of these singers were born in 1982?",
     "answers":["Nicki Minaj"],
-    "options":["Britney Spears", "Beyoncé", "Rihanna", "Katy Perry"],
+    "options":["Britney Spears", "Beyonce", "Rihanna", "Katy Perry"],
     "difficulty": 3,
     "categories":["music"]
 },
@@ -2650,7 +2650,7 @@
 {
     "question":"'The important thing is not to stop questioning' is a quote from whom?",
     "answers":["Albert Einstein"],
-    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "René Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Lao Tzu"],
+    "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Operah", "Rene Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Lao Tzu"],
     "difficulty":3,
     "categories":["quotes"]
 },
@@ -2802,7 +2802,7 @@
     "categories":["books"]
 },
 {
-    "question":"Bogotá is the capital of which South American country?",
+    "question":"Bogota is the capital of which South American country?",
     "answers":["Columbia"],
     "options":["Venezuela", "Chile", "Ecuador", "Bolivia", "Guyana", "Suriname", "Paraguay"],
     "difficulty": 3,
@@ -2811,7 +2811,7 @@
 {
     "question":"What is the capital of Puerto Rico?",
     "answers":["San Juan"],
-    "options":["Palau", "San José", "Santo Domingo", "Ponce", "Culebra", "Fajardo", "Puerto Rico City"],
+    "options":["Palau", "San Jose", "Santo Domingo", "Ponce", "Culebra", "Fajardo", "Puerto Rico City"],
     "difficulty": 3,
     "categories":["geography"]
 },
@@ -2832,7 +2832,7 @@
 {
     "question":"'It always seems impossible until it's done' is a quote from whom?",
     "answers":["Nelson Mandela"],
-    "options":["Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 3,
     "categories":["quotes"]
 },
@@ -3208,21 +3208,21 @@
     "categories":["history", "science"]
 },
 {
-    "question":"Simón Bolívar was a political leader during the independence wars from the Spanish empire, where was he from?",
+    "question":"Simon Bolívar was a political leader during the independence wars from the Spanish empire, where was he from?",
     "answers":["Venezuela"],
     "options":["Columbia", "Panama", "Ecaudor", "Peru", "Chile", "Peru", "Brazil"],
     "difficulty": 2,
     "categories":["geography"]
 },
 {
-    "question":"Simón Bolívar was a political leader who led countries to independence from which empire?",
+    "question":"Simon Bolívar was a political leader who led countries to independence from which empire?",
     "answers":["The Spanish Empire"],
     "options":["The British Empire", "The Portuguese Empire", "The Roman Empire"],
     "difficulty": 1,
     "categories":["history"]
 },
 {
-    "question":"Simón Bolívar was a political leader who led countries to independence from which empire?",
+    "question":"Simon Bolívar was a political leader who led countries to independence from which empire?",
     "answers":["The Spanish Empire"],
     "options":["The British Empire", "The Portuguese Empire", "The Roman Empire"],
     "difficulty": 1,
@@ -3231,7 +3231,7 @@
 {
     "question":"'Laugh and the whole world laughs with you, weep and you weep alone' is a quote from whom?",
     "answers":["Ella Wheller Wilcox"],
-    "options":["Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -3252,7 +3252,7 @@
 {
     "question":"'To light a candle is to cast a shadow' is a quote from whom?",
     "answers":["Ursula Le Guin"],
-    "options":["Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -3665,7 +3665,7 @@
 {
     "question":"'The weak can never forgive. Forgiveness is an attribute of the strong' is a quote from whom?",
     "answers":["Mohandas Gandhi"],
-    "options":["Ursula Le Guin", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Ursula Le Guin", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 3,
     "categories":["quotes"]
 },
@@ -3728,7 +3728,7 @@
 {
     "question":"'Any sufficiently advanced technology is indistinguishable from magic' is a quote from whom?",
     "answers":["Arthur C. Clarke"],
-    "options":["Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 3,
     "categories":["quotes"]
 },
@@ -3994,14 +3994,14 @@
 {
     "question":"'Rough diamonds may sometimes be mistaken for worthless pebbles' is a quote from whom?",
     "answers":["Thomas Browne"],
-    "options":["Ursula Le Guin", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Ursula Le Guin", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
     "question":"'Trouble shared is trouble halved' is a quote from whom?",
     "answers":["Lee Lacocca"],
-    "options":["Ursula Le Guin", "Thomas Browne", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Ursula Le Guin", "Thomas Browne", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -4274,7 +4274,7 @@
 {
     "question":"'You can't shake hands with a clenched fist' is a quote from whom?",
     "answers":["Indira Gandi"],
-    "options":["Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 3,
     "categories":["quotes"]
 },
@@ -4309,28 +4309,28 @@
 {
     "question":"'Man - A being in search of meaning' is a quote from whom?",
     "answers":["Plato"],
-    "options":["Ronald Regan", "Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "options":["Ronald Regan", "Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
     "question":"'Many a trip continues long after movement in time and space have ceased' is a quote from whom?",
     "answers":["John Steinbeck"],
-    "options":["Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
     "question":"'That which does not kill us makes us stronger' is a quote from whom?",
     "answers":["Freidrich Nietzche"],
-    "options":["Plato", "Ronald Regan", "Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "options":["Plato", "Ronald Regan", "Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
     "question":"'You must be the change you wish to see in the world' is a quote from whom?",
     "answers":["Mohandas Gandhi"],
-    "options":["Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "John Steinbeck", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "John Steinbeck", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -4350,27 +4350,27 @@
 },
 {
     "question":"'Wars begin when you will, but they do not end when you please' is a quote from whom?",
-    "answers":["Nicoló Machiavelli"],
-    "options":["Plato", "Ronald Regan", "Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "answers":["Nicolo Machiavelli"],
+    "options":["Plato", "Ronald Regan", "Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
-    "question":"Nicoló Machiavelli is from which country?",
+    "question":"Nicolo Machiavelli is from which country?",
     "answers":["Italy"],
     "options":["Greece", "France", "Austria", "Amsterdam"],
     "difficulty": 2,
     "categories":["geography"]
 },
 {
-    "question":"When was Nicoló Machiavelli born?",
+    "question":"When was Nicolo Machiavelli born?",
     "answers":["1469"],
     "options":["1569", "1669", "1369", "1269", "1479"],
     "difficulty": 4,
     "categories":["history"]
 },
 {
-    "question":"When was Nicoló Machiavelli born?",
+    "question":"When was Nicolo Machiavelli born?",
     "answers":["1527"],
     "options":["1427", "1627", "1327", "1227", "1427"],
     "difficulty": 4,
@@ -4827,7 +4827,7 @@
 {
     "question":"'He is happiest, be king or peasant, who finds peace at home' is a quote from whom?",
     "answers":["Johann Wolfgang von Goethe"],
-    "options":["John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -4904,7 +4904,7 @@
 {
     "question":"'The growth of wisdom can be accurately measured by the decline of ill-temper' is a quote from whom?",
     "answers":["Friedrich Nietzche"],
-    "options":["Johann Wolfgang von Goethe", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Johann Wolfgang von Goethe", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -4946,7 +4946,7 @@
 {
     "question":"'Its not the fall that kills you, its the sudden stop at the end' is a quote from whom?",
     "answers":["Douglas Adams"],
-    "options":["Johann Wolfgang von Goethe", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Johann Wolfgang von Goethe", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -5030,7 +5030,7 @@
 {
     "question":"'Great things are done by a series of small things brought together' is a quote from whom?",
     "answers":["Vincent Van Gough"],
-    "options":["Johann Wolfgang von Goethe", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Johann Wolfgang von Goethe", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -5065,7 +5065,7 @@
 {
     "question":"'The reward of suffering is experience' is a quote from whom?",
     "answers":["Harry S. Truman"],
-    "options":["Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -5107,7 +5107,7 @@
 {
     "question":"Who wrote 'Beyond Good and Evil'?",
     "answers":["Friedrich Nietzche"],
-    "options":["René Descartes", "Immanuel Kant", "Karl Marx", "John Locke"],
+    "options":["Rene Descartes", "Immanuel Kant", "Karl Marx", "John Locke"],
     "difficulty": 3,
     "categories":["philosophy", "books"]
 },
@@ -5192,7 +5192,7 @@
 {
     "question":"'It is the mark of an educated mind to entertain a thought without accepting it' is a quote from whom?",
     "answers":["Aristotle"],
-    "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty":4,
     "categories":["quotes"]
 },
@@ -5255,7 +5255,7 @@
 {
     "question":"'The journey of a thousand miles begins with one step' is a quote from whom?",
     "answers":["Lao Tzu"],
-    "options":["Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -5395,7 +5395,7 @@
 {
     "question":"'I would rather be hated for who I am, than loved for who I am not' is a quote from whom?",
     "answers":["Kurt Kobain"],
-    "options":["Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -5409,7 +5409,7 @@
 {
     "question":"'A winner is a dreamer who never gives up' is a quote from whom?",
     "answers":["Nelson Mandela"],
-    "options":["Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -5436,13 +5436,13 @@
 },
 {
     "question":"Which of these Venezuelan presidents was impeached?",
-    "answers":["Carlos Andrés Pérez"],
-    "options":["Nicolás Maduro", "Hugo Chavez", "Luis Herrera Campins"],
+    "answers":["Carlos Andres Perez"],
+    "options":["Nicolas Maduro", "Hugo Chavez", "Luis Herrera Campins"],
     "difficulty": 4,
     "categories":["politics", "history"]
 },
 {
-    "question":"Juan Pablo Pérez Alfonzo, a Venezuelan politician referred to what, as 'The Devils excrement'?",
+    "question":"Juan Pablo Perez Alfonzo, a Venezuelan politician referred to what, as 'The Devils excrement'?",
     "answers":["Oil"],
     "options":["Rum", "Heroine", "Corn", "Icecream"],
     "difficulty": 3,
@@ -5633,7 +5633,7 @@
 {
     "question":"'Life is what happens when you are busy making other plans' is a quote from whom?",
     "answers":["John Lennon"],
-    "options":["Nelson Mandela", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Nelson Mandela", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -5654,7 +5654,7 @@
 {
     "question":"'It is during our darkest moments that we must focus to see the light' is a quote from whom?",
     "answers":["Plato"],
-    "options":["Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "options":["Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty":4,
     "categories":["quotes"]
 },
@@ -5668,7 +5668,7 @@
 {
     "question":"What is the capital of Cambodia?",
     "answers":["Phnom Penh"],
-    "options":["Kron Siem Reap", "Preah Sihanouk", "Krong Battambang", "Kratié Province", "Krong Poi Pet"],
+    "options":["Kron Siem Reap", "Preah Sihanouk", "Krong Battambang", "Kratie Province", "Krong Poi Pet"],
     "difficulty": 4,
     "categories":["geography"]
 },
@@ -5829,7 +5829,7 @@
 {
     "question":"'The only true wisdom is in knowing that you know nothing' is a quote from whom?",
     "answers":["Socrates"],
-    "options":["Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+    "options":["Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty":4,
     "categories":["quotes"]
 },
@@ -5857,7 +5857,7 @@
 {
     "question":"'History repeats itself, first as tragedy, second as farce' is a quote from whom?",
     "answers":["Karl Marx"],
-    "options":["Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
+    "options":["Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -6143,7 +6143,7 @@
 },
 {
     "question":"What is the capital of the Togo?",
-    "answers":["Lomé"],
+    "answers":["Lome"],
     "options":["Tsevie", "Atakpame", "Sokode", "Kpalime", "Dapaong"],
     "difficulty": 5,
     "categories":["geography"]
@@ -6361,7 +6361,7 @@
 {
     "question":"What is the capital of Nicaragua",
     "answers":["Managua"],
-    "options":["León", "Granada", "Masaya", "Esteli"],
+    "options":["Leon", "Granada", "Masaya", "Esteli"],
     "difficulty": 4,
     "categories":["geography"]
 },
@@ -6570,7 +6570,7 @@
 },
 {
     "question":"What is the capital of Maldives",
-    "answers":["Malé"],
+    "answers":["Male"],
     "options":["Addu City", "Maroshi", "Funadhoo", "Gan", "Veymandhoo", "Gan", "Hithadhoo"],
     "difficulty": 5,
     "categories":["geography"]
@@ -7145,7 +7145,7 @@
 {
     "question":"Which film won the 2012 (85th) Oscar for 'Best Picture'",
     "answers":["Argo"],
-    "options":["Amour", "Django Unchained", "Les Misérables", "Life of Pi", "Lincoln", "Zero Dark Thirty"],
+    "options":["Amour", "Django Unchained", "Les Miserables", "Life of Pi", "Lincoln", "Zero Dark Thirty"],
     "difficulty": 3,
     "categories":["film"]
 },
@@ -7577,7 +7577,7 @@
     "categories":["war", "history"]
 },
 {
-    "question":"Tét is the New Year of which country?",
+    "question":"Tet is the New Year of which country?",
     "answers":["Vietnam"],
     "options":["Taiwan", "Angola", "Yemen", "Brunei", "Bhutan", "Brussles", "Finlald", "Denmark", "Austria", "Norway", "China"],
     "difficulty": 3,
@@ -8167,7 +8167,7 @@
 {
     "question":"'God does not play dice' is a quote from whom?",
     "answers":["Albert Einstein"],
-    "options":["Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Karl Marx", "Stephen Jobs", "Bill Gates"],
+    "options":["Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Karl Marx", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -8811,14 +8811,14 @@
 {
     "question":"'Man often becomes what he believes himself to be' is a quote from whom?",
     "answers":["Mohandas Gandhi"],
-    "options":["Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Albert Einstein", "Ella Wheller Wilcox", "Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Karl Marx", "Stephen Jobs", "Bill Gates"],
+    "options":["Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Albert Einstein", "Ella Wheller Wilcox", "Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Karl Marx", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
     "question":"'Change is the only constant' is a quote from whom?",
     "answers":["Heraclitus"],
-    "options":["Shakespeare", "Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
+    "options":["Shakespeare", "Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -8993,14 +8993,14 @@
 {
     "question":"The Family is an unfinished 1918 painting by who?",
     "answers":["Egon Schiele"],
-    "options":["David Smith", "Paul Cézanne", "Alberto Giacometti", "Henry Moore"],
+    "options":["David Smith", "Paul Cezanne", "Alberto Giacometti", "Henry Moore"],
     "difficulty": 5,
     "categories":["art"]
 },
 {
     "question":"Who painted 'The Scream' in 1893?",
     "answers":["Edward Munch"],
-    "options":["David Smith", "Paul Cézanne", "Alberto Giacometti", "Henry Moore", "Charles C. Ingham"],
+    "options":["David Smith", "Paul Cezanne", "Alberto Giacometti", "Henry Moore", "Charles C. Ingham"],
     "difficulty": 4,
     "categories":["art"]
 },
@@ -9140,7 +9140,7 @@
 {
     "question":"'There is nothing either good or bad, but thinking makes it so' is a quote from whom?",
     "answers":["Shakespeere"],
-    "options":["Heraclitus", "Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
+    "options":["Heraclitus", "Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -9168,7 +9168,7 @@
 {
     "question":"'Things won are done; joy's soul lies in the doing' is a quote from whom?",
     "answers":["Shakespeere"],
-    "options":["Heraclitus", "Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "René Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
+    "options":["Heraclitus", "Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -9187,7 +9187,7 @@
     "categories":["books"]
 },
 {
-    "question":"In January 2020, Netflix released a controversial film by Maïmouna Doucouré, called what?",
+    "question":"In January 2020, Netflix released a controversial film by Maïmouna Doucoure, called what?",
     "answers":["Cuties"],
     "options":["Babes", "Chics", "Dolls", "Honies", "Little angels"],
     "difficulty": 4,
@@ -9196,7 +9196,7 @@
 {
     "question":"'A lie gets halfway around the world before the truth has a chance to get its pants on' is a quote from whom?",
     "answers":["Winston Churchill"],
-    "options":["Mohandas Gandhi", "Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Albert Einstein", "Ella Wheller Wilcox", "Charles Darwin", "René Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Karl Marx", "Stephen Jobs", "Bill Gates"],
+    "options":["Mohandas Gandhi", "Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Albert Einstein", "Ella Wheller Wilcox", "Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Karl Marx", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
@@ -9224,7 +9224,7 @@
 {
     "question":"Who became president of Venezuela in 1998?",
     "answers":["Hugo Chavez"],
-    "options":["Nicolás Maduro", "Rafael Caldera", "Carlos Andrés Pérez"],
+    "options":["Nicolas Maduro", "Rafael Caldera", "Carlos Andres Perez"],
     "difficulty": 3,
     "categories":["politics"]
 },
@@ -10786,7 +10786,7 @@
 {
     "question":"What is the name of the item used with a mortar for crushing food?",
     "answers":["Pestle"],
-    "options":["Chork", "Lame", "Lélé", "Reamer", "Baller", "Tamis"],
+    "options":["Chork", "Lame", "Lele", "Reamer", "Baller", "Tamis"],
     "difficulty": 4,
     "categories":["food"]
 },
