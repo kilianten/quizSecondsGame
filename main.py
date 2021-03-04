@@ -10,7 +10,6 @@ from game import *
 import pickle
 from sprites import *
 from mainMenu import *
-from steamworks import STEAMWORKS
 
 def resource_path(relative_path):
     try:
@@ -29,8 +28,6 @@ class Main:
         pg.display.set_icon(pg.image.load(resource_path('images/lifeAlive.png')).convert_alpha())
         self.clock = pg.time.Clock()
         pg.key.set_repeat(500, 100)
-        steamworks = STEAMWORKS()
-        steamworks.initialize() 
         self.load_data()
         self.isFullScreen = False
         self.getHighScore()
