@@ -3,13 +3,21 @@ import pygame as pg
 import sys
 from os import path
 from os import listdir
+import os
 from game import *
 from settings import *
 from game import *
 import pickle
-
 from sprites import *
 from mainMenu import *
+
+def resource_path(relative_path):
+    try:
+    # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = path.abspath(".")
+    return os.path.join(base_path, relative_path)
 
 class Main:
 
@@ -17,6 +25,7 @@ class Main:
         pg.init()
         pg.font.init()
         self.screen = pg.display.set_mode((WIDTH, HEIGHT))
+        pg.display.set_icon(pg.image.load(resource_path('images/lifeAlive.png')).convert_alpha())
         pg.display.set_caption(TITLE)
         self.clock = pg.time.Clock()
         pg.key.set_repeat(500, 100)
@@ -27,12 +36,13 @@ class Main:
         self.music_channel = pg.mixer.find_channel()
 
     def loadQuestions(self):
-        self.displayStat = True #print out question stats
-        self.allQuestions = json.load(open('questions/questions.json'))
+        self.displayStat = False #print out question stats
+        self.allQuestions = json.load(open(resource_path('questions/questions.json')))
         for questionList in listdir(path='custom'):
             if not questionList == "HowToAddQuestions":
                 try:
                     self.allQuestions += json.load(open('custom/' + questionList))
+                    print("loaded custom")
                 except:
                     print('Error loading custom file')
         self.numberOfQuestions = len(self.allQuestions)
@@ -69,44 +79,44 @@ class Main:
         img_folder = path.join(self.game_folder, 'images')
         snd_folder = path.join(self.game_folder, 'sounds')
         self.img_folder = path.join(self.game_folder, 'images')
-        self.panel_star = pg.image.load(path.join(img_folder, PANEL_STAR_IMAGE)).convert_alpha()
-        self.panel_q_star = pg.image.load(path.join(img_folder, PANEL_Q_STAR_IMAGE)).convert_alpha()
-        self.light_jar = pg.image.load(path.join(img_folder, LIGHT_IMAGE)).convert_alpha()
+        self.panel_star = pg.image.load(resource_path('images/panelStar.png')).convert_alpha()
+        self.panel_q_star = pg.image.load(resource_path(path.join(img_folder, PANEL_Q_STAR_IMAGE))).convert_alpha()
+        self.light_jar = pg.image.load(resource_path(path.join(img_folder, LIGHT_IMAGE))).convert_alpha()
         self.correct_text = []
         for image in CORRECT_TEXT_IMAGES:
-            self.correct_text.append(pg.image.load(path.join(img_folder, image)).convert_alpha())
-        self.correct_sound = pg.mixer.Sound(path.join(snd_folder, CORRECT_SOUND))
-        self.incorrect_sound = pg.mixer.Sound(path.join(snd_folder, INCORRECT_SOUND))
-        self.music_sound = pg.mixer.Sound(path.join(snd_folder, MUSIC_SOUND))
-        self.s5050_sound = pg.mixer.Sound(path.join(snd_folder, s5050_SOUND))
-        self.background_image =pg.transform.scale( pg.image.load(path.join(img_folder, BACKGROUND_IMAGE)).convert_alpha(), (WIDTH, HEIGHT))
-        self.menu_background_image = pg.transform.scale( pg.image.load(path.join(img_folder, BACKGROUND_IMAGE_MENU)).convert_alpha(), (WIDTH, HEIGHT))
-        self.question_box_ticked_image = pg.image.load(path.join(img_folder, QUESTION_BOX_TICKED_IMAGE)).convert_alpha()
-        self.question_box_hover_image = pg.image.load(path.join(img_folder, QUESTION_BOX_HOVER_IMAGE)).convert_alpha()
-        self.question_box_image = pg.image.load(path.join(img_folder, QUESTION_BOX_IMAGE)).convert_alpha()
-        self.logo = pg.transform.scale(pg.image.load(path.join(img_folder, LOGO)).convert_alpha(), (460, 350))
+            self.correct_text.append(pg.image.load(resource_path(path.join(img_folder, image))).convert_alpha())
+        self.correct_sound = pg.mixer.Sound(resource_path(path.join(snd_folder, CORRECT_SOUND)))
+        self.incorrect_sound = pg.mixer.Sound(resource_path(path.join(snd_folder, INCORRECT_SOUND)))
+        self.music_sound = pg.mixer.Sound(resource_path(path.join(snd_folder, MUSIC_SOUND)))
+        self.s5050_sound = pg.mixer.Sound(resource_path(path.join(snd_folder, s5050_SOUND)))
+        self.background_image =pg.transform.scale(pg.image.load(resource_path(path.join(img_folder, BACKGROUND_IMAGE))).convert_alpha(), (WIDTH, HEIGHT))
+        self.menu_background_image = pg.transform.scale(pg.image.load(resource_path(path.join(img_folder, BACKGROUND_IMAGE_MENU))).convert_alpha(), (WIDTH, HEIGHT))
+        self.question_box_ticked_image = pg.image.load(resource_path(path.join(img_folder, QUESTION_BOX_TICKED_IMAGE))).convert_alpha()
+        self.question_box_hover_image = pg.image.load(resource_path(path.join(img_folder, QUESTION_BOX_HOVER_IMAGE))).convert_alpha()
+        self.question_box_image = pg.image.load(resource_path(path.join(img_folder, QUESTION_BOX_IMAGE))).convert_alpha()
+        self.logo = pg.transform.scale(pg.image.load(resource_path(path.join(img_folder, LOGO))).convert_alpha(), (460, 350))
         self.numbers_images = []
         for image in NUMBER_IMAGES:
-            self.numbers_images.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (27, 53)))
+            self.numbers_images.append(pg.transform.scale(pg.image.load(resource_path(path.join(img_folder, image))).convert_alpha(), (27, 53)))
         self.icon_images = {}
         for icon_image in ICON_IMAGES:
-            self.icon_images[icon_image] = pg.transform.scale(pg.image.load(path.join(img_folder, ICON_IMAGES[icon_image])).convert_alpha(), (230, 230))
-        self.incorrect_image = pg.image.load(path.join(img_folder, INCORRECT_IMAGE)).convert_alpha()
-        self.tint_image = pg.transform.scale( pg.image.load(path.join(img_folder, TINT_IMAGE)).convert_alpha(), (WIDTH, HEIGHT))
-        self.disabled_icon_image = pg.transform.scale( pg.image.load(path.join(img_folder, DISABLED_ICON_IMAGE)).convert_alpha(), (NEWGAME_MENU_CATEGORY_ICON_SIZE + 26, NEWGAME_MENU_CATEGORY_ICON_SIZE + 26))
-        self.arrow_left_image = pg.image.load(path.join(img_folder, ARROW_LEFT_IMAGE)).convert_alpha()
-        self.arrow_right_image = pg.image.load(path.join(img_folder, ARROW_RIGHT_IMAGE)).convert_alpha()
+            self.icon_images[icon_image] = pg.transform.scale(pg.image.load(resource_path(path.join(img_folder, ICON_IMAGES[icon_image]))).convert_alpha(), (230, 230))
+        self.incorrect_image = pg.image.load(resource_path(path.join(img_folder, INCORRECT_IMAGE))).convert_alpha()
+        self.tint_image = pg.transform.scale(pg.image.load(resource_path(path.join(img_folder, TINT_IMAGE))).convert_alpha(), (WIDTH, HEIGHT))
+        self.disabled_icon_image = pg.transform.scale( pg.image.load(resource_path(path.join(img_folder, DISABLED_ICON_IMAGE))).convert_alpha(), (NEWGAME_MENU_CATEGORY_ICON_SIZE + 26, NEWGAME_MENU_CATEGORY_ICON_SIZE + 26))
+        self.arrow_left_image = pg.image.load(resource_path(path.join(img_folder, ARROW_LEFT_IMAGE))).convert_alpha()
+        self.arrow_right_image = pg.image.load(resource_path(path.join(img_folder, ARROW_RIGHT_IMAGE))).convert_alpha()
         self.lifeline50Images = []
         for image in LIFE_LINE_50_IMAGES:
-            self.lifeline50Images.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (int(TILESIZE * 1.5), int(TILESIZE * 1.5))))
+            self.lifeline50Images.append(pg.transform.scale(pg.image.load(resource_path(path.join(img_folder, image))).convert_alpha(), (int(TILESIZE * 1.5), int(TILESIZE * 1.5))))
         self.lifelineSwapImages = []
         for image in LIFE_LINE_SWAP_IMAGES:
-            self.lifelineSwapImages.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (int(TILESIZE * 1.5), int(TILESIZE * 1.5))))
-        self.lifeAliveImage =  pg.transform.scale(pg.image.load(path.join(img_folder, LIFE_ALIVE_IMAGE)).convert_alpha(), (LIFE_DISPLAY_SIZE, LIFE_DISPLAY_SIZE))
-        self.lifeDeadImage = pg.transform.scale(pg.image.load(path.join(img_folder, LIFE_DEAD_IMAGE)).convert_alpha(), (LIFE_DISPLAY_SIZE, LIFE_DISPLAY_SIZE))
+            self.lifelineSwapImages.append(pg.transform.scale(pg.image.load(resource_path(path.join(img_folder, image))).convert_alpha(), (int(TILESIZE * 1.5), int(TILESIZE * 1.5))))
+        self.lifeAliveImage =  pg.transform.scale(pg.image.load(resource_path(path.join(img_folder, LIFE_ALIVE_IMAGE))).convert_alpha(), (LIFE_DISPLAY_SIZE, LIFE_DISPLAY_SIZE))
+        self.lifeDeadImage = pg.transform.scale(pg.image.load(resource_path(path.join(img_folder, LIFE_DEAD_IMAGE))).convert_alpha(), (LIFE_DISPLAY_SIZE, LIFE_DISPLAY_SIZE))
         self.gameOverImages = []
         for image in GAME_OVER_IMAGES:
-            self.gameOverImages.append(pg.transform.scale(pg.image.load(path.join(img_folder, image)).convert_alpha(), (1100, 1100)))
+            self.gameOverImages.append(pg.transform.scale(pg.image.load(resource_path(path.join(img_folder, image))).convert_alpha(), (1100, 1100)))
 
     def new(self):
         self.mouse = Sprite_Mouse_Location(0, 0, self)
@@ -182,10 +192,6 @@ class Main:
                         self.goToMainMenu()
                     else:
                         self.quit()
-                if event.key == pg.K_F2:
-                    self.baseFont = pg.font.Font("standardFont.ttf", BASE_FONT_SIZE)
-                    self.baseFontUnderline = pg.font.Font("standardFont.ttf", BASE_FONT_SIZE)
-                    self.baseFontUnderline.set_underline(True)
                 if event.key == pg.K_F1:
                     if (self.isFullScreen):
                         #if fullscreen set to window
